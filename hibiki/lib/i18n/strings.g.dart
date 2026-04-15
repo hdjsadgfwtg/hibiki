@@ -550,6 +550,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get audiobook_import_success => 'Audiobook imported';
 	String get audiobook_import_error => 'Import failed';
 	String get audiobook_remove_confirm => 'Remove the attached audiobook?';
+	String get srt_import => 'Import SRT Book';
+	String get srt_import_pick_srt => 'Pick SRT File';
+	String get srt_import_pick_audio_dir => 'Pick Audio Directory';
+	String get srt_import_title_hint => 'Book title';
+	String get srt_import_author_hint => 'Author (optional)';
+	String get srt_import_success => 'SRT book imported';
+	String get srt_import_error => 'Import failed';
 }
 
 // Path: retrying_in
@@ -994,6 +1001,13 @@ extension on _StringsEn {
 			case 'audiobook_import_success': return 'Audiobook imported';
 			case 'audiobook_import_error': return 'Import failed';
 			case 'audiobook_remove_confirm': return 'Remove the attached audiobook?';
+			case 'srt_import': return 'Import SRT Book';
+			case 'srt_import_pick_srt': return 'Pick SRT File';
+			case 'srt_import_pick_audio_dir': return 'Pick Audio Directory';
+			case 'srt_import_title_hint': return 'Book title';
+			case 'srt_import_author_hint': return 'Author (optional)';
+			case 'srt_import_success': return 'SRT book imported';
+			case 'srt_import_error': return 'Import failed';
 			default: return null;
 		}
 	}
