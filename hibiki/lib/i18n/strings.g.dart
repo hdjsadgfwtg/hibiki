@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 1
-/// Strings: 397
+/// Strings: 406
 ///
-/// Built on 2023-09-30 at 09:59 UTC
+/// Built on 2026-04-15 at 07:19 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -541,6 +541,15 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get video_unavailable_content => 'Cannot fetch streams. There may be restrictions in place that prevent watching this video.';
 	String get video_file_error => 'Cannot Load File';
 	String get video_file_error_content => 'Unable to load the video file. Please ensure this file exists and is located in a directory accessible by the application.';
+	String get audiobook_import => 'Import Audiobook';
+	String get audiobook_remove => 'Remove Audiobook';
+	String get audiobook_pick_audio_dir => 'Pick Audio Directory';
+	String get audiobook_pick_alignment => 'Pick Alignment File';
+	String get audiobook_attached => 'Audiobook attached';
+	String get audiobook_not_attached => 'No audiobook';
+	String get audiobook_import_success => 'Audiobook imported';
+	String get audiobook_import_error => 'Import failed';
+	String get audiobook_remove_confirm => 'Remove the attached audiobook?';
 }
 
 // Path: retrying_in
@@ -976,6 +985,15 @@ extension on _StringsEn {
 			case 'video_unavailable_content': return 'Cannot fetch streams. There may be restrictions in place that prevent watching this video.';
 			case 'video_file_error': return 'Cannot Load File';
 			case 'video_file_error_content': return 'Unable to load the video file. Please ensure this file exists and is located in a directory accessible by the application.';
+			case 'audiobook_import': return 'Import Audiobook';
+			case 'audiobook_remove': return 'Remove Audiobook';
+			case 'audiobook_pick_audio_dir': return 'Pick Audio Directory';
+			case 'audiobook_pick_alignment': return 'Pick Alignment File';
+			case 'audiobook_attached': return 'Audiobook attached';
+			case 'audiobook_not_attached': return 'No audiobook';
+			case 'audiobook_import_success': return 'Audiobook imported';
+			case 'audiobook_import_error': return 'Import failed';
+			case 'audiobook_remove_confirm': return 'Remove the attached audiobook?';
 			default: return null;
 		}
 	}
