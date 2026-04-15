@@ -552,6 +552,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get audiobook_remove_confirm => 'Remove the attached audiobook?';
 	String get srt_import => 'Import Subtitle Book';
 	String get srt_import_pick_srt => 'Pick Subtitle File';
+	String get srt_import_pick_srt_dir => 'Pick Subtitle Directory';
+	String get srt_no_subtitle_files => 'No subtitle files found in selected directory';
+	String get srt_pick_subtitle_file => 'Select Subtitle File';
 	String get srt_import_pick_audio_dir => 'Pick Audio Directory';
 	String get srt_import_pick_audio_files => 'Pick Audio Files';
 	String srt_import_files_selected({required Object n}) => '${n} files selected';
@@ -1013,6 +1016,9 @@ extension on _StringsEn {
 			case 'audiobook_remove_confirm': return 'Remove the attached audiobook?';
 			case 'srt_import': return 'Import Subtitle Book';
 			case 'srt_import_pick_srt': return 'Pick Subtitle File';
+			case 'srt_import_pick_srt_dir': return 'Pick Subtitle Directory';
+			case 'srt_no_subtitle_files': return 'No subtitle files found in selected directory';
+			case 'srt_pick_subtitle_file': return 'Select Subtitle File';
 			case 'srt_import_pick_audio_dir': return 'Pick Audio Directory';
 			case 'srt_import_pick_audio_files': return 'Pick Audio Files';
 			case 'srt_import_title_hint': return 'Book title';
