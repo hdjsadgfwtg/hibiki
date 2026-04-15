@@ -559,6 +559,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get srt_import_error => 'Import failed';
 	String get srt_no_cues => 'No subtitles found';
 	String get srt_no_audio_files => 'No audio files in selected directory';
+	String get srt_books_section => 'SRT Audiobooks';
+	String get srt_delete_title => 'Delete SRT Book';
+	String srt_delete_confirm({required Object title}) => 'Delete \u300e${title}\u300f? This cannot be undone.';
 }
 
 // Path: retrying_in
@@ -1012,6 +1015,8 @@ extension on _StringsEn {
 			case 'srt_import_error': return 'Import failed';
 			case 'srt_no_cues': return 'No subtitles found';
 			case 'srt_no_audio_files': return 'No audio files in selected directory';
+			case 'srt_books_section': return 'SRT Audiobooks';
+			case 'srt_delete_title': return 'Delete SRT Book';
 			default: return null;
 		}
 	}
