@@ -254,7 +254,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get dialog_content_dictionary_delete => 'Deleting a single dictionary may take longer than clearing the entire dictionary database. This will also clear all search results in history.';
 	String get delete_dictionary_data => 'Clearing all dictionary data...';
 	String dictionary_tag({required Object name}) => 'Imported from ${name}';
-	String get legalese => 'A full-featured immersion language learning suite for mobile.\n\nOriginally built for the Japanese language learning community by Arianne Orpilla. Logo by suzy and Aaron Marbella.\n\njidoujisho is free and open source software. See the project repository for a comprehensive list of other licenses and attribution notices. Enjoying the application? Help out by providing feedback, making a donation, reporting issues or contributing improvements on GitHub.';
+	String get legalese => 'A focused Japanese EPUB reader for Android.\n\nBased on jidoujisho, originally built by Arianne Orpilla. Logo by suzy and Aaron Marbella.\n\nhibiki is free and open source software. See the project repository for a comprehensive list of other licenses and attribution notices.';
 	String get same_name_dictionary_found => 'Dictionary with same name found.';
 	String import_file_extension_invalid({required Object extensions}) => 'This format expects files with the following extensions: ${extensions}';
 	String get field_label_empty => 'Empty';
@@ -268,7 +268,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get error_ankidroid_api => 'AnkiDroid error';
 	String get error_ankidroid_api_content => 'There was an issue communicating with AnkiDroid.\n\nEnsure that the AnkiDroid background service is active and all relevant app permissions are granted in order to continue.';
 	String get info_standard_model => 'Standard card type added';
-	String get info_standard_model_content => '『jidoujisho Kinomoto』 has been added to AnkiDroid as a new card type.\n\nSetups making use of a different card type or field order may be used by adding a new export profile.';
+	String get info_standard_model_content => '『hibiki Kinomoto』 has been added to AnkiDroid as a new card type.\n\nSetups making use of a different card type or field order may be used by adding a new export profile.';
 	String get error_model_missing => 'Missing card type';
 	String get error_model_missing_content => 'The corresponding card type of the currently selected profile is missing.\n\nThe profile will be deleted, and the standard profile has now been selected in its place.';
 	String get error_model_changed => 'Card type changed';
@@ -447,7 +447,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get error_export_media_ankidroid => 'There was an error in exporting media to AnkiDroid.';
 	String get error_add_note => 'There was an error in adding a note to AnkiDroid.';
 	String get first_time_setup => 'First-Time Setup';
-	String get first_time_setup_description => 'Welcome to jidoujisho! Set your target language and a default profile will be tailored for you. You can change this later at anytime.';
+	String get first_time_setup_description => 'Welcome to hibiki! Set your target language and a default profile will be tailored for you. You can change this later at anytime.';
 	String get maximum_entries => 'Maximum dictionary entry query limit';
 	String get maximum_terms => 'Maximum dictionary headwords in result';
 	String get use_br_tags => 'Use line break tag instead of newline on export';
@@ -513,7 +513,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get display_settings => 'Display Settings';
 	String get cloze => 'Cloze';
 	String get info_standard_update => 'New standard profile card type';
-	String get info_standard_update_content => 'The standard profile now uses the『jidoujisho Kinomoto』 card type.\n\nYour legacy standard profile remains available for backwards compatibility.';
+	String get info_standard_update_content => 'The standard profile now uses the『hibiki Kinomoto』 card type.\n\nYour legacy standard profile remains available for backwards compatibility.';
 	late final _StringsRetryingInEn retrying_in = _StringsRetryingInEn._(_root);
 	late final _StringsViewRepliesEn view_replies = _StringsViewRepliesEn._(_root);
 	String get manage_duplicate_checks => 'Manage Duplicate Checks';
@@ -683,7 +683,7 @@ extension on _StringsEn {
 			case 'dialog_content_dictionary_delete': return 'Deleting a single dictionary may take longer than clearing the entire dictionary database. This will also clear all search results in history.';
 			case 'delete_dictionary_data': return 'Clearing all dictionary data...';
 			case 'dictionary_tag': return ({required Object name}) => 'Imported from ${name}';
-			case 'legalese': return 'A full-featured immersion language learning suite for mobile.\n\nOriginally built for the Japanese language learning community by Arianne Orpilla. Logo by suzy and Aaron Marbella.\n\njidoujisho is free and open source software. See the project repository for a comprehensive list of other licenses and attribution notices. Enjoying the application? Help out by providing feedback, making a donation, reporting issues or contributing improvements on GitHub.';
+			case 'legalese': return 'A focused Japanese EPUB reader for Android.\n\nBased on jidoujisho, originally built by Arianne Orpilla. Logo by suzy and Aaron Marbella.\n\nhibiki is free and open source software. See the project repository for a comprehensive list of other licenses and attribution notices.';
 			case 'same_name_dictionary_found': return 'Dictionary with same name found.';
 			case 'import_file_extension_invalid': return ({required Object extensions}) => 'This format expects files with the following extensions: ${extensions}';
 			case 'field_label_empty': return 'Empty';
@@ -697,7 +697,7 @@ extension on _StringsEn {
 			case 'error_ankidroid_api': return 'AnkiDroid error';
 			case 'error_ankidroid_api_content': return 'There was an issue communicating with AnkiDroid.\n\nEnsure that the AnkiDroid background service is active and all relevant app permissions are granted in order to continue.';
 			case 'info_standard_model': return 'Standard card type added';
-			case 'info_standard_model_content': return '『jidoujisho Kinomoto』 has been added to AnkiDroid as a new card type.\n\nSetups making use of a different card type or field order may be used by adding a new export profile.';
+			case 'info_standard_model_content': return '『hibiki Kinomoto』 has been added to AnkiDroid as a new card type.\n\nSetups making use of a different card type or field order may be used by adding a new export profile.';
 			case 'error_model_missing': return 'Missing card type';
 			case 'error_model_missing_content': return 'The corresponding card type of the currently selected profile is missing.\n\nThe profile will be deleted, and the standard profile has now been selected in its place.';
 			case 'error_model_changed': return 'Card type changed';
@@ -876,7 +876,7 @@ extension on _StringsEn {
 			case 'error_export_media_ankidroid': return 'There was an error in exporting media to AnkiDroid.';
 			case 'error_add_note': return 'There was an error in adding a note to AnkiDroid.';
 			case 'first_time_setup': return 'First-Time Setup';
-			case 'first_time_setup_description': return 'Welcome to jidoujisho! Set your target language and a default profile will be tailored for you. You can change this later at anytime.';
+			case 'first_time_setup_description': return 'Welcome to hibiki! Set your target language and a default profile will be tailored for you. You can change this later at anytime.';
 			case 'maximum_entries': return 'Maximum dictionary entry query limit';
 			case 'maximum_terms': return 'Maximum dictionary headwords in result';
 			case 'use_br_tags': return 'Use line break tag instead of newline on export';
@@ -942,7 +942,7 @@ extension on _StringsEn {
 			case 'display_settings': return 'Display Settings';
 			case 'cloze': return 'Cloze';
 			case 'info_standard_update': return 'New standard profile card type';
-			case 'info_standard_update_content': return 'The standard profile now uses the『jidoujisho Kinomoto』 card type.\n\nYour legacy standard profile remains available for backwards compatibility.';
+			case 'info_standard_update_content': return 'The standard profile now uses the『hibiki Kinomoto』 card type.\n\nYour legacy standard profile remains available for backwards compatibility.';
 			case 'retrying_in.seconds': return ({required num n}) => (_root.$meta.cardinalResolver ?? PluralResolvers.cardinal('en'))(n,
 				one: 'Retrying in ${n} second...',
 				other: 'Retrying in ${n} seconds...',
