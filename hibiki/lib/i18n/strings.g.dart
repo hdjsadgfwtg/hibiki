@@ -432,6 +432,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get invert_volume_buttons => 'Invert volume buttons';
 	String get volume_button_turning_speed => 'Continuous scrolling speed';
 	String get extend_page_beyond_navbar => 'Extend page beyond navigation bar';
+	String get keep_screen_awake => 'Keep screen awake';
 	String get tweaks => 'Tweaks';
 	String get increase => 'Increase';
 	String get decrease => 'Decrease';
@@ -571,8 +572,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get srt_import_error => 'Import failed';
 	String get srt_no_cues => 'No subtitles found';
 	String get srt_no_audio_files => 'No audio files in selected directory';
-	String get srt_books_section => 'SRT Audiobooks';
-	String get srt_delete_title => 'Delete SRT Book';
+	String get srt_books_section => 'Subtitle Audiobooks';
+	String get srt_delete_title => 'Delete Subtitle Book';
 	String srt_delete_confirm({required Object title}) => 'Delete 『${title}』? This cannot be undone.';
 	String get epub_delete_title => 'Delete Book';
 	String get epub_delete_error => 'Failed to delete book';
@@ -917,6 +918,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get invert_volume_buttons => '反转音量键方向';
 	@override String get volume_button_turning_speed => '连续滚动速度';
 	@override String get extend_page_beyond_navbar => '页面延伸至导航栏之外';
+	@override String get keep_screen_awake => '阅读时防止息屏';
 	@override String get tweaks => '调整';
 	@override String get increase => '增加';
 	@override String get decrease => '减少';
@@ -1056,8 +1058,8 @@ class _StringsZhCn implements _StringsEn {
 	@override String get srt_import_error => '导入失败';
 	@override String get srt_no_cues => '未找到字幕';
 	@override String get srt_no_audio_files => '所选目录中没有音频文件';
-	@override String get srt_books_section => 'SRT 有声书';
-	@override String get srt_delete_title => '删除 SRT 书籍';
+	@override String get srt_books_section => '字幕有声书';
+	@override String get srt_delete_title => '删除字幕书籍';
 	@override String srt_delete_confirm({required Object title}) => '删除 『${title}』？此操作无法撤销。';
 	@override String get epub_delete_title => '删除书籍';
 	@override String get epub_delete_error => '删除书籍失败';
@@ -1383,6 +1385,7 @@ extension on _StringsEn {
 			case 'invert_volume_buttons': return 'Invert volume buttons';
 			case 'volume_button_turning_speed': return 'Continuous scrolling speed';
 			case 'extend_page_beyond_navbar': return 'Extend page beyond navigation bar';
+			case 'keep_screen_awake': return 'Keep screen awake';
 			case 'tweaks': return 'Tweaks';
 			case 'increase': return 'Increase';
 			case 'decrease': return 'Decrease';
@@ -1528,8 +1531,8 @@ extension on _StringsEn {
 			case 'srt_import_error': return 'Import failed';
 			case 'srt_no_cues': return 'No subtitles found';
 			case 'srt_no_audio_files': return 'No audio files in selected directory';
-			case 'srt_books_section': return 'SRT Audiobooks';
-			case 'srt_delete_title': return 'Delete SRT Book';
+			case 'srt_books_section': return 'Subtitle Audiobooks';
+			case 'srt_delete_title': return 'Delete Subtitle Book';
 			case 'srt_delete_confirm': return ({required Object title}) => 'Delete 『${title}』? This cannot be undone.';
 			case 'epub_delete_title': return 'Delete Book';
 			case 'epub_delete_error': return 'Failed to delete book';
@@ -1829,6 +1832,7 @@ extension on _StringsZhCn {
 			case 'invert_volume_buttons': return '反转音量键方向';
 			case 'volume_button_turning_speed': return '连续滚动速度';
 			case 'extend_page_beyond_navbar': return '页面延伸至导航栏之外';
+			case 'keep_screen_awake': return '阅读时防止息屏';
 			case 'tweaks': return '调整';
 			case 'increase': return '增加';
 			case 'decrease': return '减少';
@@ -1974,8 +1978,8 @@ extension on _StringsZhCn {
 			case 'srt_import_error': return '导入失败';
 			case 'srt_no_cues': return '未找到字幕';
 			case 'srt_no_audio_files': return '所选目录中没有音频文件';
-			case 'srt_books_section': return 'SRT 有声书';
-			case 'srt_delete_title': return '删除 SRT 书籍';
+			case 'srt_books_section': return '字幕有声书';
+			case 'srt_delete_title': return '删除字幕书籍';
 			case 'srt_delete_confirm': return ({required Object title}) => '删除 『${title}』？此操作无法撤销。';
 			case 'epub_delete_title': return '删除书籍';
 			case 'epub_delete_error': return '删除书籍失败';
