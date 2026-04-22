@@ -179,6 +179,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get dialog_edit => 'EDIT';
 	String get dialog_export => 'EXPORT';
 	String get dialog_import => 'IMPORT';
+	String get dialog_import_folder => 'FOLDER';
 	String get dialog_close => 'CLOSE';
 	String get dialog_clear => 'CLEAR';
 	String get dialog_create => 'CREATE';
@@ -672,6 +673,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get dialog_edit => '编辑';
 	@override String get dialog_export => '导出';
 	@override String get dialog_import => '导入';
+	@override String get dialog_import_folder => '文件夹';
 	@override String get dialog_close => '关闭';
 	@override String get dialog_clear => '清除';
 	@override String get dialog_create => '新建';
@@ -1146,6 +1148,7 @@ extension on _StringsEn {
 			case 'dialog_edit': return 'EDIT';
 			case 'dialog_export': return 'EXPORT';
 			case 'dialog_import': return 'IMPORT';
+			case 'dialog_import_folder': return 'FOLDER';
 			case 'dialog_close': return 'CLOSE';
 			case 'dialog_clear': return 'CLEAR';
 			case 'dialog_create': return 'CREATE';
@@ -1600,6 +1603,7 @@ extension on _StringsZhCn {
 			case 'dialog_edit': return '编辑';
 			case 'dialog_export': return '导出';
 			case 'dialog_import': return '导入';
+			case 'dialog_import_folder': return '文件夹';
 			case 'dialog_close': return '关闭';
 			case 'dialog_clear': return '清除';
 			case 'dialog_create': return '新建';
