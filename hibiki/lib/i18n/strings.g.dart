@@ -628,6 +628,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Chapter ${idx} / ${total}${suffix} · ${pct}%';
 	String page_progress({required Object current, required Object total}) => 'Page ${current} / ${total}';
 	String cue_progress({required Object current, required Object total}) => 'Sentence ${current} / ${total}';
+	String get cue_navigation => 'Sentence Navigation';
+	String get jump_to_cue => 'Jump to';
+	String get cue_unit => ' sent.';
 	String toc_section({required Object n}) => 'Table of Contents (${n})';
 	String get untitled_chapter => '(Untitled)';
 	String get playback_speed => 'Speed';
@@ -1211,6 +1214,9 @@ class _StringsAr implements _StringsEn {
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'الفصل ${idx} / ${total}${suffix} · ${pct}%';
 	@override String page_progress({required Object current, required Object total}) => 'صفحة ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'جملة ${current} / ${total}';
+	@override String get cue_navigation => 'Sentence Navigation';
+	@override String get jump_to_cue => 'Jump to';
+	@override String get cue_unit => ' sent.';
 	@override String toc_section({required Object n}) => 'جدول المحتويات (${n})';
 	@override String get untitled_chapter => '(بدون عنوان)';
 	@override String get playback_speed => 'السرعة';
@@ -1794,6 +1800,9 @@ class _StringsDe implements _StringsEn {
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Kapitel ${idx} / ${total}${suffix} · ${pct}%';
 	@override String page_progress({required Object current, required Object total}) => 'Seite ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'Satz ${current} / ${total}';
+	@override String get cue_navigation => 'Sentence Navigation';
+	@override String get jump_to_cue => 'Jump to';
+	@override String get cue_unit => ' sent.';
 	@override String toc_section({required Object n}) => 'Inhaltsverzeichnis (${n})';
 	@override String get untitled_chapter => '(Ohne Titel)';
 	@override String get playback_speed => 'Geschwindigkeit';
@@ -2377,6 +2386,9 @@ class _StringsEs implements _StringsEn {
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Capítulo ${idx} / ${total}${suffix} · ${pct}%';
 	@override String page_progress({required Object current, required Object total}) => 'Página ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'Oración ${current} / ${total}';
+	@override String get cue_navigation => 'Sentence Navigation';
+	@override String get jump_to_cue => 'Jump to';
+	@override String get cue_unit => ' sent.';
 	@override String toc_section({required Object n}) => 'Índice (${n})';
 	@override String get untitled_chapter => '(Sin título)';
 	@override String get playback_speed => 'Velocidad';
@@ -2960,6 +2972,9 @@ class _StringsFr implements _StringsEn {
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Chapitre ${idx} / ${total}${suffix} · ${pct}%';
 	@override String page_progress({required Object current, required Object total}) => 'Page ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'Phrase ${current} / ${total}';
+	@override String get cue_navigation => 'Sentence Navigation';
+	@override String get jump_to_cue => 'Jump to';
+	@override String get cue_unit => ' sent.';
 	@override String toc_section({required Object n}) => 'Table des matières (${n})';
 	@override String get untitled_chapter => '(Sans titre)';
 	@override String get playback_speed => 'Vitesse';
@@ -3543,6 +3558,9 @@ class _StringsId implements _StringsEn {
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Bab ${idx} / ${total}${suffix} · ${pct}%';
 	@override String page_progress({required Object current, required Object total}) => 'Halaman ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'Kalimat ${current} / ${total}';
+	@override String get cue_navigation => 'Sentence Navigation';
+	@override String get jump_to_cue => 'Jump to';
+	@override String get cue_unit => ' sent.';
 	@override String toc_section({required Object n}) => 'Daftar Isi (${n})';
 	@override String get untitled_chapter => '(Tanpa Judul)';
 	@override String get playback_speed => 'Kecepatan';
@@ -4126,6 +4144,9 @@ class _StringsJa implements _StringsEn {
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'チャプター ${idx} / ${total}${suffix} · ${pct}%';
 	@override String page_progress({required Object current, required Object total}) => 'ページ ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => '文 ${current} / ${total}';
+	@override String get cue_navigation => 'Sentence Navigation';
+	@override String get jump_to_cue => 'Jump to';
+	@override String get cue_unit => ' sent.';
 	@override String toc_section({required Object n}) => '目次 (${n})';
 	@override String get untitled_chapter => '（無題）';
 	@override String get playback_speed => '速度';
@@ -4709,6 +4730,9 @@ class _StringsKo implements _StringsEn {
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => '챕터 ${idx} / ${total}${suffix} · ${pct}%';
 	@override String page_progress({required Object current, required Object total}) => '페이지 ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => '문장 ${current} / ${total}';
+	@override String get cue_navigation => 'Sentence Navigation';
+	@override String get jump_to_cue => 'Jump to';
+	@override String get cue_unit => ' sent.';
 	@override String toc_section({required Object n}) => '목차 (${n})';
 	@override String get untitled_chapter => '(제목 없음)';
 	@override String get playback_speed => '속도';
@@ -5292,6 +5316,9 @@ class _StringsPtBr implements _StringsEn {
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Capítulo ${idx} / ${total}${suffix} · ${pct}%';
 	@override String page_progress({required Object current, required Object total}) => 'Página ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'Frase ${current} / ${total}';
+	@override String get cue_navigation => 'Sentence Navigation';
+	@override String get jump_to_cue => 'Jump to';
+	@override String get cue_unit => ' sent.';
 	@override String toc_section({required Object n}) => 'Sumário (${n})';
 	@override String get untitled_chapter => '(Sem título)';
 	@override String get playback_speed => 'Velocidade';
@@ -5875,6 +5902,9 @@ class _StringsRu implements _StringsEn {
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Глава ${idx} / ${total}${suffix} · ${pct}%';
 	@override String page_progress({required Object current, required Object total}) => 'Страница ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'Предложение ${current} / ${total}';
+	@override String get cue_navigation => 'Sentence Navigation';
+	@override String get jump_to_cue => 'Jump to';
+	@override String get cue_unit => ' sent.';
 	@override String toc_section({required Object n}) => 'Оглавление (${n})';
 	@override String get untitled_chapter => '(Без названия)';
 	@override String get playback_speed => 'Скорость';
@@ -6458,6 +6488,9 @@ class _StringsTh implements _StringsEn {
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'บทที่ ${idx} / ${total}${suffix} · ${pct}%';
 	@override String page_progress({required Object current, required Object total}) => 'หน้า ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'ประโยค ${current} / ${total}';
+	@override String get cue_navigation => 'Sentence Navigation';
+	@override String get jump_to_cue => 'Jump to';
+	@override String get cue_unit => ' sent.';
 	@override String toc_section({required Object n}) => 'สารบัญ (${n})';
 	@override String get untitled_chapter => '(ไม่มีชื่อ)';
 	@override String get playback_speed => 'ความเร็ว';
@@ -7041,6 +7074,9 @@ class _StringsVi implements _StringsEn {
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Chương ${idx} / ${total}${suffix} · ${pct}%';
 	@override String page_progress({required Object current, required Object total}) => 'Trang ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'Câu ${current} / ${total}';
+	@override String get cue_navigation => 'Sentence Navigation';
+	@override String get jump_to_cue => 'Jump to';
+	@override String get cue_unit => ' sent.';
 	@override String toc_section({required Object n}) => 'Mục lục (${n})';
 	@override String get untitled_chapter => '(Không có tiêu đề)';
 	@override String get playback_speed => 'Tốc độ';
@@ -7624,6 +7660,9 @@ class _StringsZhCn implements _StringsEn {
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => '第 ${idx} / ${total} 章${suffix} · ${pct}%';
 	@override String page_progress({required Object current, required Object total}) => '第 ${current} / ${total} 页';
 	@override String cue_progress({required Object current, required Object total}) => '第 ${current} / ${total} 句';
+	@override String get cue_navigation => '字幕跳转';
+	@override String get jump_to_cue => '跳转到第';
+	@override String get cue_unit => '句';
 	@override String toc_section({required Object n}) => '章节列表（${n}）';
 	@override String get untitled_chapter => '（无标题）';
 	@override String get playback_speed => '倍速';
@@ -8207,6 +8246,9 @@ class _StringsZhHk implements _StringsEn {
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => '第 ${idx} / ${total} 章${suffix} · ${pct}%';
 	@override String page_progress({required Object current, required Object total}) => '第 ${current} / ${total} 頁';
 	@override String cue_progress({required Object current, required Object total}) => '第 ${current} / ${total} 句';
+	@override String get cue_navigation => '字幕跳轉';
+	@override String get jump_to_cue => '跳轉到第';
+	@override String get cue_unit => '句';
 	@override String toc_section({required Object n}) => '章節列表（${n}）';
 	@override String get untitled_chapter => '（無標題）';
 	@override String get playback_speed => '倍速';
@@ -8777,6 +8819,9 @@ extension on _StringsEn {
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Chapter ${idx} / ${total}${suffix} · ${pct}%';
 			case 'page_progress': return ({required Object current, required Object total}) => 'Page ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Sentence ${current} / ${total}';
+			case 'cue_navigation': return 'Sentence Navigation';
+			case 'jump_to_cue': return 'Jump to';
+			case 'cue_unit': return ' sent.';
 			case 'toc_section': return ({required Object n}) => 'Table of Contents (${n})';
 			case 'untitled_chapter': return '(Untitled)';
 			case 'playback_speed': return 'Speed';
@@ -9321,6 +9366,9 @@ extension on _StringsAr {
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'الفصل ${idx} / ${total}${suffix} · ${pct}%';
 			case 'page_progress': return ({required Object current, required Object total}) => 'صفحة ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'جملة ${current} / ${total}';
+			case 'cue_navigation': return 'Sentence Navigation';
+			case 'jump_to_cue': return 'Jump to';
+			case 'cue_unit': return ' sent.';
 			case 'toc_section': return ({required Object n}) => 'جدول المحتويات (${n})';
 			case 'untitled_chapter': return '(بدون عنوان)';
 			case 'playback_speed': return 'السرعة';
@@ -9865,6 +9913,9 @@ extension on _StringsDe {
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Kapitel ${idx} / ${total}${suffix} · ${pct}%';
 			case 'page_progress': return ({required Object current, required Object total}) => 'Seite ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Satz ${current} / ${total}';
+			case 'cue_navigation': return 'Sentence Navigation';
+			case 'jump_to_cue': return 'Jump to';
+			case 'cue_unit': return ' sent.';
 			case 'toc_section': return ({required Object n}) => 'Inhaltsverzeichnis (${n})';
 			case 'untitled_chapter': return '(Ohne Titel)';
 			case 'playback_speed': return 'Geschwindigkeit';
@@ -10409,6 +10460,9 @@ extension on _StringsEs {
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Capítulo ${idx} / ${total}${suffix} · ${pct}%';
 			case 'page_progress': return ({required Object current, required Object total}) => 'Página ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Oración ${current} / ${total}';
+			case 'cue_navigation': return 'Sentence Navigation';
+			case 'jump_to_cue': return 'Jump to';
+			case 'cue_unit': return ' sent.';
 			case 'toc_section': return ({required Object n}) => 'Índice (${n})';
 			case 'untitled_chapter': return '(Sin título)';
 			case 'playback_speed': return 'Velocidad';
@@ -10953,6 +11007,9 @@ extension on _StringsFr {
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Chapitre ${idx} / ${total}${suffix} · ${pct}%';
 			case 'page_progress': return ({required Object current, required Object total}) => 'Page ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Phrase ${current} / ${total}';
+			case 'cue_navigation': return 'Sentence Navigation';
+			case 'jump_to_cue': return 'Jump to';
+			case 'cue_unit': return ' sent.';
 			case 'toc_section': return ({required Object n}) => 'Table des matières (${n})';
 			case 'untitled_chapter': return '(Sans titre)';
 			case 'playback_speed': return 'Vitesse';
@@ -11497,6 +11554,9 @@ extension on _StringsId {
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Bab ${idx} / ${total}${suffix} · ${pct}%';
 			case 'page_progress': return ({required Object current, required Object total}) => 'Halaman ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Kalimat ${current} / ${total}';
+			case 'cue_navigation': return 'Sentence Navigation';
+			case 'jump_to_cue': return 'Jump to';
+			case 'cue_unit': return ' sent.';
 			case 'toc_section': return ({required Object n}) => 'Daftar Isi (${n})';
 			case 'untitled_chapter': return '(Tanpa Judul)';
 			case 'playback_speed': return 'Kecepatan';
@@ -12041,6 +12101,9 @@ extension on _StringsJa {
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'チャプター ${idx} / ${total}${suffix} · ${pct}%';
 			case 'page_progress': return ({required Object current, required Object total}) => 'ページ ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => '文 ${current} / ${total}';
+			case 'cue_navigation': return 'Sentence Navigation';
+			case 'jump_to_cue': return 'Jump to';
+			case 'cue_unit': return ' sent.';
 			case 'toc_section': return ({required Object n}) => '目次 (${n})';
 			case 'untitled_chapter': return '（無題）';
 			case 'playback_speed': return '速度';
@@ -12585,6 +12648,9 @@ extension on _StringsKo {
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => '챕터 ${idx} / ${total}${suffix} · ${pct}%';
 			case 'page_progress': return ({required Object current, required Object total}) => '페이지 ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => '문장 ${current} / ${total}';
+			case 'cue_navigation': return 'Sentence Navigation';
+			case 'jump_to_cue': return 'Jump to';
+			case 'cue_unit': return ' sent.';
 			case 'toc_section': return ({required Object n}) => '목차 (${n})';
 			case 'untitled_chapter': return '(제목 없음)';
 			case 'playback_speed': return '속도';
@@ -13129,6 +13195,9 @@ extension on _StringsPtBr {
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Capítulo ${idx} / ${total}${suffix} · ${pct}%';
 			case 'page_progress': return ({required Object current, required Object total}) => 'Página ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Frase ${current} / ${total}';
+			case 'cue_navigation': return 'Sentence Navigation';
+			case 'jump_to_cue': return 'Jump to';
+			case 'cue_unit': return ' sent.';
 			case 'toc_section': return ({required Object n}) => 'Sumário (${n})';
 			case 'untitled_chapter': return '(Sem título)';
 			case 'playback_speed': return 'Velocidade';
@@ -13673,6 +13742,9 @@ extension on _StringsRu {
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Глава ${idx} / ${total}${suffix} · ${pct}%';
 			case 'page_progress': return ({required Object current, required Object total}) => 'Страница ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Предложение ${current} / ${total}';
+			case 'cue_navigation': return 'Sentence Navigation';
+			case 'jump_to_cue': return 'Jump to';
+			case 'cue_unit': return ' sent.';
 			case 'toc_section': return ({required Object n}) => 'Оглавление (${n})';
 			case 'untitled_chapter': return '(Без названия)';
 			case 'playback_speed': return 'Скорость';
@@ -14217,6 +14289,9 @@ extension on _StringsTh {
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'บทที่ ${idx} / ${total}${suffix} · ${pct}%';
 			case 'page_progress': return ({required Object current, required Object total}) => 'หน้า ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'ประโยค ${current} / ${total}';
+			case 'cue_navigation': return 'Sentence Navigation';
+			case 'jump_to_cue': return 'Jump to';
+			case 'cue_unit': return ' sent.';
 			case 'toc_section': return ({required Object n}) => 'สารบัญ (${n})';
 			case 'untitled_chapter': return '(ไม่มีชื่อ)';
 			case 'playback_speed': return 'ความเร็ว';
@@ -14761,6 +14836,9 @@ extension on _StringsVi {
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Chương ${idx} / ${total}${suffix} · ${pct}%';
 			case 'page_progress': return ({required Object current, required Object total}) => 'Trang ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Câu ${current} / ${total}';
+			case 'cue_navigation': return 'Sentence Navigation';
+			case 'jump_to_cue': return 'Jump to';
+			case 'cue_unit': return ' sent.';
 			case 'toc_section': return ({required Object n}) => 'Mục lục (${n})';
 			case 'untitled_chapter': return '(Không có tiêu đề)';
 			case 'playback_speed': return 'Tốc độ';
@@ -15305,6 +15383,9 @@ extension on _StringsZhCn {
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => '第 ${idx} / ${total} 章${suffix} · ${pct}%';
 			case 'page_progress': return ({required Object current, required Object total}) => '第 ${current} / ${total} 页';
 			case 'cue_progress': return ({required Object current, required Object total}) => '第 ${current} / ${total} 句';
+			case 'cue_navigation': return '字幕跳转';
+			case 'jump_to_cue': return '跳转到第';
+			case 'cue_unit': return '句';
 			case 'toc_section': return ({required Object n}) => '章节列表（${n}）';
 			case 'untitled_chapter': return '（无标题）';
 			case 'playback_speed': return '倍速';
@@ -15849,6 +15930,9 @@ extension on _StringsZhHk {
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => '第 ${idx} / ${total} 章${suffix} · ${pct}%';
 			case 'page_progress': return ({required Object current, required Object total}) => '第 ${current} / ${total} 頁';
 			case 'cue_progress': return ({required Object current, required Object total}) => '第 ${current} / ${total} 句';
+			case 'cue_navigation': return '字幕跳轉';
+			case 'jump_to_cue': return '跳轉到第';
+			case 'cue_unit': return '句';
 			case 'toc_section': return ({required Object n}) => '章節列表（${n}）';
 			case 'untitled_chapter': return '（無標題）';
 			case 'playback_speed': return '倍速';
