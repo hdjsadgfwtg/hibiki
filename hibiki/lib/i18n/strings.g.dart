@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 2
-/// Strings: 1012 (506 per locale)
+/// Strings: 1026 (513 per locale)
 ///
-/// Built on 2026-04-24 at 08:46 UTC
+/// Built on 2026-04-24 at 08:59 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -435,6 +435,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get volume_button_turning_speed => 'Continuous scrolling speed';
 	String get extend_page_beyond_navbar => 'Extend page beyond navigation bar';
 	String get keep_screen_awake => 'Keep screen awake';
+	String get auto_read_on_lookup => 'Auto read word on lookup';
+	String get dismiss_swipe_sensitivity => 'Swipe dismiss sensitivity';
 	String get tweaks => 'Tweaks';
 	String get increase => 'Increase';
 	String get decrease => 'Decrease';
@@ -613,6 +615,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get reading_progress => 'Reading Progress';
 	String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Chapter ${idx} / ${total}${suffix} · ${pct}%';
 	String page_progress({required Object current, required Object total}) => 'Page ${current} / ${total}';
+	String cue_progress({required Object current, required Object total}) => 'Sentence ${current} / ${total}';
 	String toc_section({required Object n}) => 'Table of Contents (${n})';
 	String get untitled_chapter => '(Untitled)';
 	String get playback_speed => 'Speed';
@@ -651,6 +654,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get seed_color => 'Seed Color';
 	String get apply_theme => 'Apply Theme';
 	String get preview => 'Preview';
+	String get auto_add_book_name_to_tags => 'Auto-add book title to tags';
+	String get use_recommended_template => 'Recommended';
+	String get recommended_template_exists => 'The standard profile already exists.';
+	String get recommended_template_created => 'Recommended profile has been created.';
 }
 
 // Path: retrying_in
@@ -992,6 +999,8 @@ class _StringsZhCn implements _StringsEn {
 	@override String get volume_button_turning_speed => '连续滚动速度';
 	@override String get extend_page_beyond_navbar => '页面延伸至导航栏之外';
 	@override String get keep_screen_awake => '阅读时防止息屏';
+	@override String get auto_read_on_lookup => '查词时自动朗读';
+	@override String get dismiss_swipe_sensitivity => '滑动关闭灵敏度';
 	@override String get tweaks => '调整';
 	@override String get increase => '增加';
 	@override String get decrease => '减少';
@@ -1170,6 +1179,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get reading_progress => '阅读进度';
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => '第 ${idx} / ${total} 章${suffix} · ${pct}%';
 	@override String page_progress({required Object current, required Object total}) => '第 ${current} / ${total} 页';
+	@override String cue_progress({required Object current, required Object total}) => '第 ${current} / ${total} 句';
 	@override String toc_section({required Object n}) => '章节列表（${n}）';
 	@override String get untitled_chapter => '（无标题）';
 	@override String get playback_speed => '倍速';
@@ -1208,6 +1218,10 @@ class _StringsZhCn implements _StringsEn {
 	@override String get seed_color => '种子色';
 	@override String get apply_theme => '应用主题';
 	@override String get preview => '预览';
+	@override String get auto_add_book_name_to_tags => '自动添加书名到标签';
+	@override String get use_recommended_template => '推荐模板';
+	@override String get recommended_template_exists => '标准配置已存在。';
+	@override String get recommended_template_created => '已创建推荐配置。';
 }
 
 // Path: retrying_in
@@ -1530,6 +1544,8 @@ extension on _StringsEn {
 			case 'volume_button_turning_speed': return 'Continuous scrolling speed';
 			case 'extend_page_beyond_navbar': return 'Extend page beyond navigation bar';
 			case 'keep_screen_awake': return 'Keep screen awake';
+			case 'auto_read_on_lookup': return 'Auto read word on lookup';
+			case 'dismiss_swipe_sensitivity': return 'Swipe dismiss sensitivity';
 			case 'tweaks': return 'Tweaks';
 			case 'increase': return 'Increase';
 			case 'decrease': return 'Decrease';
@@ -1714,6 +1730,7 @@ extension on _StringsEn {
 			case 'reading_progress': return 'Reading Progress';
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Chapter ${idx} / ${total}${suffix} · ${pct}%';
 			case 'page_progress': return ({required Object current, required Object total}) => 'Page ${current} / ${total}';
+			case 'cue_progress': return ({required Object current, required Object total}) => 'Sentence ${current} / ${total}';
 			case 'toc_section': return ({required Object n}) => 'Table of Contents (${n})';
 			case 'untitled_chapter': return '(Untitled)';
 			case 'playback_speed': return 'Speed';
@@ -1752,6 +1769,10 @@ extension on _StringsEn {
 			case 'seed_color': return 'Seed Color';
 			case 'apply_theme': return 'Apply Theme';
 			case 'preview': return 'Preview';
+			case 'auto_add_book_name_to_tags': return 'Auto-add book title to tags';
+			case 'use_recommended_template': return 'Recommended';
+			case 'recommended_template_exists': return 'The standard profile already exists.';
+			case 'recommended_template_created': return 'Recommended profile has been created.';
 			default: return null;
 		}
 	}
@@ -2048,6 +2069,8 @@ extension on _StringsZhCn {
 			case 'volume_button_turning_speed': return '连续滚动速度';
 			case 'extend_page_beyond_navbar': return '页面延伸至导航栏之外';
 			case 'keep_screen_awake': return '阅读时防止息屏';
+			case 'auto_read_on_lookup': return '查词时自动朗读';
+			case 'dismiss_swipe_sensitivity': return '滑动灵敏度';
 			case 'tweaks': return '调整';
 			case 'increase': return '增加';
 			case 'decrease': return '减少';
@@ -2232,6 +2255,7 @@ extension on _StringsZhCn {
 			case 'reading_progress': return '阅读进度';
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => '第 ${idx} / ${total} 章${suffix} · ${pct}%';
 			case 'page_progress': return ({required Object current, required Object total}) => '第 ${current} / ${total} 页';
+			case 'cue_progress': return ({required Object current, required Object total}) => '第 ${current} / ${total} 句';
 			case 'toc_section': return ({required Object n}) => '章节列表（${n}）';
 			case 'untitled_chapter': return '（无标题）';
 			case 'playback_speed': return '倍速';
@@ -2270,6 +2294,10 @@ extension on _StringsZhCn {
 			case 'seed_color': return '种子色';
 			case 'apply_theme': return '应用主题';
 			case 'preview': return '预览';
+			case 'auto_add_book_name_to_tags': return '自动添加书名到标签';
+			case 'use_recommended_template': return '推荐模板';
+			case 'recommended_template_exists': return '标准配置已存在。';
+			case 'recommended_template_created': return '已创建推荐配置。';
 			default: return null;
 		}
 	}
