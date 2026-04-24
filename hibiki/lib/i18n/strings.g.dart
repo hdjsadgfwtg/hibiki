@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 14
-/// Strings: 7770 (555 per locale)
+/// Strings: 7799 (557 per locale)
 ///
-/// Built on 2026-04-24 at 14:54 UTC
+/// Built on 2026-04-24 at 15:49 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -593,6 +593,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String srt_delete_confirm({required Object title}) => 'Delete 『${title}』? This cannot be undone.';
 	String get epub_delete_title => 'Delete Book';
 	String get epub_delete_error => 'Failed to delete book';
+	String get view_illustrations => 'Illustrations';
+	String get no_illustrations_found => 'No illustrations found';
+	String get loading_illustrations => 'Loading illustrations…';
+	String get image_pause => 'Pause on Image';
+	String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	String get image_pause_off => 'Off';
 	String get srt_epub_not_ready => 'Book not ready — please re-import';
 	String get srt_audio_unresolved => 'Audio file not found — please re-attach';
 	String get srt_audio_load_error => 'Failed to load audio';
@@ -1200,6 +1206,12 @@ class _StringsAr implements _StringsEn {
 	@override String srt_delete_confirm({required Object title}) => 'حذف『${title}』؟ لا يمكن التراجع عن هذا.';
 	@override String get epub_delete_title => 'حذف الكتاب';
 	@override String get epub_delete_error => 'فشل حذف الكتاب';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get srt_epub_not_ready => 'الكتاب غير جاهز — يرجى إعادة الاستيراد';
 	@override String get srt_audio_unresolved => 'لم يتم العثور على ملف الصوت — يرجى إعادة الإرفاق';
 	@override String get srt_audio_load_error => 'فشل تحميل الصوت';
@@ -1807,6 +1819,12 @@ class _StringsDe implements _StringsEn {
 	@override String srt_delete_confirm({required Object title}) => '『${title}』löschen? Dies kann nicht rückgängig gemacht werden.';
 	@override String get epub_delete_title => 'Buch löschen';
 	@override String get epub_delete_error => 'Buch konnte nicht gelöscht werden';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get srt_epub_not_ready => 'Buch nicht bereit — bitte erneut importieren';
 	@override String get srt_audio_unresolved => 'Audiodatei nicht gefunden — bitte erneut anhängen';
 	@override String get srt_audio_load_error => 'Audio konnte nicht geladen werden';
@@ -2414,6 +2432,12 @@ class _StringsEs implements _StringsEn {
 	@override String srt_delete_confirm({required Object title}) => '¿Eliminar 『${title}』? Esta acción no se puede deshacer.';
 	@override String get epub_delete_title => 'Eliminar libro';
 	@override String get epub_delete_error => 'Error al eliminar el libro';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get srt_epub_not_ready => 'Libro no preparado — por favor reimporta';
 	@override String get srt_audio_unresolved => 'Archivo de audio no encontrado — por favor vuelve a adjuntarlo';
 	@override String get srt_audio_load_error => 'Error al cargar el audio';
@@ -2534,6 +2558,12 @@ class _StringsEs implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} caracteres';
 	@override String stat_format_chars_wan({required Object n}) => '${n} caracteres';
 	@override String get error_log_share_subject => 'Registro de errores de hibiki';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 }
 
 // Path: retrying_in
@@ -3021,6 +3051,12 @@ class _StringsFr implements _StringsEn {
 	@override String srt_delete_confirm({required Object title}) => 'Supprimer 『${title}』 ? Cette action est irréversible.';
 	@override String get epub_delete_title => 'Supprimer le livre';
 	@override String get epub_delete_error => 'Échec de la suppression du livre';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get srt_epub_not_ready => 'Livre non prêt — veuillez le réimporter';
 	@override String get srt_audio_unresolved => 'Fichier audio introuvable — veuillez le rattacher';
 	@override String get srt_audio_load_error => 'Échec du chargement de l\'audio';
@@ -3141,6 +3177,12 @@ class _StringsFr implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} caractères';
 	@override String stat_format_chars_wan({required Object n}) => '${n} caractères';
 	@override String get error_log_share_subject => 'Journal d\'erreurs hibiki';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 }
 
 // Path: retrying_in
@@ -3628,6 +3670,12 @@ class _StringsId implements _StringsEn {
 	@override String srt_delete_confirm({required Object title}) => 'Hapus『${title}』? Tindakan ini tidak dapat dibatalkan.';
 	@override String get epub_delete_title => 'Hapus Buku';
 	@override String get epub_delete_error => 'Gagal menghapus buku';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get srt_epub_not_ready => 'Buku belum siap — silakan impor ulang';
 	@override String get srt_audio_unresolved => 'File audio tidak ditemukan — silakan lampirkan ulang';
 	@override String get srt_audio_load_error => 'Gagal memuat audio';
@@ -3748,6 +3796,12 @@ class _StringsId implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} karakter';
 	@override String stat_format_chars_wan({required Object n}) => '${n} karakter';
 	@override String get error_log_share_subject => 'Log Error hibiki';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 }
 
 // Path: retrying_in
@@ -4235,6 +4289,9 @@ class _StringsJa implements _StringsEn {
 	@override String srt_delete_confirm({required Object title}) => '『${title}』を削除しますか？この操作は元に戻せません。';
 	@override String get epub_delete_title => '本を削除';
 	@override String get epub_delete_error => '本の削除に失敗しました';
+	@override String get view_illustrations => 'イラスト';
+	@override String get no_illustrations_found => 'イラストが見つかりません';
+	@override String get loading_illustrations => 'イラストを読み込み中…';
 	@override String get srt_epub_not_ready => '本の準備ができていません。再インポートしてください';
 	@override String get srt_audio_unresolved => '音声ファイルが見つかりません。再紐付けしてください';
 	@override String get srt_audio_load_error => '音声の読み込みに失敗しました';
@@ -4300,6 +4357,9 @@ class _StringsJa implements _StringsEn {
 	@override String get av_sync => '音声/テキスト同期';
 	@override String get av_sync_reset => 'リセット';
 	@override String get av_sync_hint => '正の値 = 音声がテキストより先行（キューを前にずらす）、負の値 = 音声がテキストより遅延';
+	@override String get image_pause => '画像で一時停止';
+	@override String get image_pause_hint => '再生中に画像が表示されたら自動で一時停止します。';
+	@override String get image_pause_off => 'オフ';
 	@override String get reader_settings_section => 'リーダー設定';
 	@override String get action_bookmark => 'ブックマーク';
 	@override String get action_fullscreen_toggle => '全画面表示の切替';
@@ -4355,6 +4415,9 @@ class _StringsJa implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} 文字';
 	@override String stat_format_chars_wan({required Object n}) => '${n} 万字';
 	@override String get error_log_share_subject => 'hibiki エラーログ';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
 }
 
 // Path: retrying_in
@@ -4842,6 +4905,12 @@ class _StringsKo implements _StringsEn {
 	@override String srt_delete_confirm({required Object title}) => '『${title}』을(를) 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.';
 	@override String get epub_delete_title => '책 삭제';
 	@override String get epub_delete_error => '책 삭제에 실패했습니다';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get srt_epub_not_ready => '책이 준비되지 않았습니다 — 다시 가져와 주세요';
 	@override String get srt_audio_unresolved => '오디오 파일을 찾을 수 없습니다 — 다시 연결해 주세요';
 	@override String get srt_audio_load_error => '오디오 로드에 실패했습니다';
@@ -4962,6 +5031,12 @@ class _StringsKo implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n}자';
 	@override String stat_format_chars_wan({required Object n}) => '${n}만자';
 	@override String get error_log_share_subject => 'hibiki 오류 로그';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 }
 
 // Path: retrying_in
@@ -5449,6 +5524,12 @@ class _StringsPtBr implements _StringsEn {
 	@override String srt_delete_confirm({required Object title}) => 'Excluir 『${title}』? Esta ação não pode ser desfeita.';
 	@override String get epub_delete_title => 'Excluir Livro';
 	@override String get epub_delete_error => 'Falha ao excluir o livro';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get srt_epub_not_ready => 'Livro não está pronto — reimporte-o';
 	@override String get srt_audio_unresolved => 'Arquivo de áudio não encontrado — reanexe-o';
 	@override String get srt_audio_load_error => 'Falha ao carregar o áudio';
@@ -5569,6 +5650,12 @@ class _StringsPtBr implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} caracteres';
 	@override String stat_format_chars_wan({required Object n}) => '${n} caracteres';
 	@override String get error_log_share_subject => 'Log de Erros do hibiki';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 }
 
 // Path: retrying_in
@@ -6056,6 +6143,12 @@ class _StringsRu implements _StringsEn {
 	@override String srt_delete_confirm({required Object title}) => 'Удалить『${title}』? Это действие нельзя отменить.';
 	@override String get epub_delete_title => 'Удалить книгу';
 	@override String get epub_delete_error => 'Не удалось удалить книгу';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get srt_epub_not_ready => 'Книга не готова — импортируйте заново';
 	@override String get srt_audio_unresolved => 'Аудиофайл не найден — привяжите заново';
 	@override String get srt_audio_load_error => 'Не удалось загрузить аудио';
@@ -6176,6 +6269,12 @@ class _StringsRu implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} символов';
 	@override String stat_format_chars_wan({required Object n}) => '${n} символов';
 	@override String get error_log_share_subject => 'Журнал ошибок hibiki';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 }
 
 // Path: retrying_in
@@ -6663,6 +6762,12 @@ class _StringsTh implements _StringsEn {
 	@override String srt_delete_confirm({required Object title}) => 'ลบ『${title}』? ไม่สามารถเลิกทำได้';
 	@override String get epub_delete_title => 'ลบหนังสือ';
 	@override String get epub_delete_error => 'ไม่สามารถลบหนังสือได้';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get srt_epub_not_ready => 'หนังสือยังไม่พร้อม กรุณานำเข้าใหม่';
 	@override String get srt_audio_unresolved => 'ไม่พบไฟล์เสียง กรุณาแนบใหม่';
 	@override String get srt_audio_load_error => 'ไม่สามารถโหลดเสียงได้';
@@ -6783,6 +6888,12 @@ class _StringsTh implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} ตัวอักษร';
 	@override String stat_format_chars_wan({required Object n}) => '${n} ตัวอักษร';
 	@override String get error_log_share_subject => 'บันทึกข้อผิดพลาด hibiki';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 }
 
 // Path: retrying_in
@@ -7390,6 +7501,12 @@ class _StringsVi implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} ký tự';
 	@override String stat_format_chars_wan({required Object n}) => '${n} ký tự';
 	@override String get error_log_share_subject => 'Nhật ký lỗi hibiki';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 }
 
 // Path: retrying_in
@@ -7877,6 +7994,12 @@ class _StringsZhCn implements _StringsEn {
 	@override String srt_delete_confirm({required Object title}) => '删除 『${title}』？此操作无法撤销。';
 	@override String get epub_delete_title => '删除书籍';
 	@override String get epub_delete_error => '删除书籍失败';
+	@override String get view_illustrations => '查看插画';
+	@override String get no_illustrations_found => '未找到插画';
+	@override String get loading_illustrations => '正在加载插画…';
+	@override String get image_pause => '图片暂停';
+	@override String get image_pause_hint => '播放时遇到图片自动暂停。';
+	@override String get image_pause_off => '关闭';
 	@override String get srt_epub_not_ready => '书籍尚未就绪 — 请重新导入';
 	@override String get srt_audio_unresolved => '未找到音频文件 — 请重新附加';
 	@override String get srt_audio_load_error => '加载音频失败';
@@ -8604,6 +8727,12 @@ class _StringsZhHk implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} 字';
 	@override String stat_format_chars_wan({required Object n}) => '${n} 萬字';
 	@override String get error_log_share_subject => 'hibiki 錯誤記錄';
+	@override String get view_illustrations => '查看插畫';
+	@override String get no_illustrations_found => '未找到插畫';
+	@override String get loading_illustrations => '正在載入插畫…';
+	@override String get image_pause => '圖片暫停';
+	@override String get image_pause_hint => '播放時遇到圖片自動暫停。';
+	@override String get image_pause_off => '關閉';
 }
 
 // Path: retrying_in
@@ -9078,6 +9207,12 @@ extension on _StringsEn {
 			case 'srt_delete_confirm': return ({required Object title}) => 'Delete 『${title}』? This cannot be undone.';
 			case 'epub_delete_title': return 'Delete Book';
 			case 'epub_delete_error': return 'Failed to delete book';
+			case 'view_illustrations': return 'Illustrations';
+			case 'no_illustrations_found': return 'No illustrations found';
+			case 'loading_illustrations': return 'Loading illustrations…';
+			case 'image_pause': return 'Pause on Image';
+			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
+			case 'image_pause_off': return 'Off';
 			case 'srt_epub_not_ready': return 'Book not ready — please re-import';
 			case 'srt_audio_unresolved': return 'Audio file not found — please re-attach';
 			case 'srt_audio_load_error': return 'Failed to load audio';
@@ -9657,7 +9792,7 @@ extension on _StringsAr {
 			case 'update_downloading': return 'جارٍ تنزيل التحديث…';
 			case 'update_installing': return 'جارٍ التثبيت…';
 			case 'update_download_failed': return 'فشل التنزيل';
-			case 'update_hide': return 'Hide';
+			case 'update_hide': return 'إخفاء';
 			case 'ttu_font_size': return 'حجم الخط';
 			case 'ttu_line_height': return 'ارتفاع السطر';
 			case 'ttu_writing_direction': return 'اتجاه الكتابة';
@@ -10225,7 +10360,7 @@ extension on _StringsDe {
 			case 'update_downloading': return 'Update wird heruntergeladen…';
 			case 'update_installing': return 'Wird installiert…';
 			case 'update_download_failed': return 'Download fehlgeschlagen';
-			case 'update_hide': return 'Hide';
+			case 'update_hide': return 'Ausblenden';
 			case 'ttu_font_size': return 'Schriftgröße';
 			case 'ttu_line_height': return 'Zeilenhöhe';
 			case 'ttu_writing_direction': return 'Schreibrichtung';
@@ -10793,7 +10928,7 @@ extension on _StringsEs {
 			case 'update_downloading': return 'Descargando actualización…';
 			case 'update_installing': return 'Instalando…';
 			case 'update_download_failed': return 'Error al descargar';
-			case 'update_hide': return 'Hide';
+			case 'update_hide': return 'Ocultar';
 			case 'ttu_font_size': return 'Tamaño de fuente';
 			case 'ttu_line_height': return 'Altura de línea';
 			case 'ttu_writing_direction': return 'Dirección de escritura';
@@ -11361,7 +11496,7 @@ extension on _StringsFr {
 			case 'update_downloading': return 'Téléchargement de la mise à jour…';
 			case 'update_installing': return 'Installation…';
 			case 'update_download_failed': return 'Échec du téléchargement';
-			case 'update_hide': return 'Hide';
+			case 'update_hide': return 'Masquer';
 			case 'ttu_font_size': return 'Taille de police';
 			case 'ttu_line_height': return 'Hauteur de ligne';
 			case 'ttu_writing_direction': return 'Direction d\'écriture';
@@ -11929,7 +12064,7 @@ extension on _StringsId {
 			case 'update_downloading': return 'Mengunduh pembaruan…';
 			case 'update_installing': return 'Memasang…';
 			case 'update_download_failed': return 'Unduhan gagal';
-			case 'update_hide': return 'Hide';
+			case 'update_hide': return 'Sembunyikan';
 			case 'ttu_font_size': return 'Ukuran Font';
 			case 'ttu_line_height': return 'Tinggi Baris';
 			case 'ttu_writing_direction': return 'Arah Penulisan';
@@ -12497,7 +12632,7 @@ extension on _StringsJa {
 			case 'update_downloading': return 'アップデートをダウンロード中…';
 			case 'update_installing': return 'インストール中…';
 			case 'update_download_failed': return 'ダウンロードに失敗しました';
-			case 'update_hide': return 'Hide';
+			case 'update_hide': return '非表示';
 			case 'ttu_font_size': return 'フォントサイズ';
 			case 'ttu_line_height': return '行の高さ';
 			case 'ttu_writing_direction': return '組方向';
@@ -12551,6 +12686,9 @@ extension on _StringsJa {
 			case 'av_sync': return '音声/テキスト同期';
 			case 'av_sync_reset': return 'リセット';
 			case 'av_sync_hint': return '正の値 = 音声がテキストより先行（キューを前にずらす）、負の値 = 音声がテキストより遅延';
+			case 'image_pause': return '画像で一時停止';
+			case 'image_pause_hint': return '再生中に画像が表示されたら自動で一時停止します。';
+			case 'image_pause_off': return 'オフ';
 			case 'reader_settings_section': return 'リーダー設定';
 			case 'action_bookmark': return 'ブックマーク';
 			case 'action_fullscreen_toggle': return '全画面表示の切替';
@@ -13065,7 +13203,7 @@ extension on _StringsKo {
 			case 'update_downloading': return '업데이트 다운로드 중…';
 			case 'update_installing': return '설치 중…';
 			case 'update_download_failed': return '다운로드 실패';
-			case 'update_hide': return 'Hide';
+			case 'update_hide': return '숨기기';
 			case 'ttu_font_size': return '글꼴 크기';
 			case 'ttu_line_height': return '줄 높이';
 			case 'ttu_writing_direction': return '글쓰기 방향';
@@ -13633,7 +13771,7 @@ extension on _StringsPtBr {
 			case 'update_downloading': return 'Baixando atualização…';
 			case 'update_installing': return 'Instalando…';
 			case 'update_download_failed': return 'Falha no download';
-			case 'update_hide': return 'Hide';
+			case 'update_hide': return 'Ocultar';
 			case 'ttu_font_size': return 'Tamanho da Fonte';
 			case 'ttu_line_height': return 'Altura da Linha';
 			case 'ttu_writing_direction': return 'Direção da Escrita';
@@ -14201,7 +14339,7 @@ extension on _StringsRu {
 			case 'update_downloading': return 'Загрузка обновления…';
 			case 'update_installing': return 'Установка…';
 			case 'update_download_failed': return 'Ошибка загрузки';
-			case 'update_hide': return 'Hide';
+			case 'update_hide': return 'Скрыть';
 			case 'ttu_font_size': return 'Размер шрифта';
 			case 'ttu_line_height': return 'Высота строки';
 			case 'ttu_writing_direction': return 'Направление письма';
@@ -14769,7 +14907,7 @@ extension on _StringsTh {
 			case 'update_downloading': return 'กำลังดาวน์โหลดอัปเดต…';
 			case 'update_installing': return 'กำลังติดตั้ง…';
 			case 'update_download_failed': return 'ดาวน์โหลดล้มเหลว';
-			case 'update_hide': return 'Hide';
+			case 'update_hide': return 'ซ่อน';
 			case 'ttu_font_size': return 'ขนาดฟอนต์';
 			case 'ttu_line_height': return 'ความสูงบรรทัด';
 			case 'ttu_writing_direction': return 'ทิศทางการเขียน';
@@ -15337,7 +15475,7 @@ extension on _StringsVi {
 			case 'update_downloading': return 'Đang tải bản cập nhật…';
 			case 'update_installing': return 'Đang cài đặt…';
 			case 'update_download_failed': return 'Tải xuống thất bại';
-			case 'update_hide': return 'Hide';
+			case 'update_hide': return 'Ẩn';
 			case 'ttu_font_size': return 'Cỡ chữ';
 			case 'ttu_line_height': return 'Chiều cao dòng';
 			case 'ttu_writing_direction': return 'Hướng viết';
@@ -15894,6 +16032,12 @@ extension on _StringsZhCn {
 			case 'srt_delete_confirm': return ({required Object title}) => '删除 『${title}』？此操作无法撤销。';
 			case 'epub_delete_title': return '删除书籍';
 			case 'epub_delete_error': return '删除书籍失败';
+			case 'view_illustrations': return '查看插画';
+			case 'no_illustrations_found': return '未找到插画';
+			case 'loading_illustrations': return '正在加载插画…';
+			case 'image_pause': return '图片暂停';
+			case 'image_pause_hint': return '播放时遇到图片自动暂停。';
+			case 'image_pause_off': return '关闭';
 			case 'srt_epub_not_ready': return '书籍尚未就绪 — 请重新导入';
 			case 'srt_audio_unresolved': return '未找到音频文件 — 请重新附加';
 			case 'srt_audio_load_error': return '加载音频失败';
@@ -15905,7 +16049,7 @@ extension on _StringsZhCn {
 			case 'update_downloading': return '正在下载更新…';
 			case 'update_installing': return '正在安装…';
 			case 'update_download_failed': return '下载失败';
-			case 'update_hide': return 'Hide';
+			case 'update_hide': return '隐藏';
 			case 'ttu_font_size': return '字体大小';
 			case 'ttu_line_height': return '行高';
 			case 'ttu_writing_direction': return '排版方向';
@@ -16473,7 +16617,7 @@ extension on _StringsZhHk {
 			case 'update_downloading': return '正在下載更新…';
 			case 'update_installing': return '正在安裝…';
 			case 'update_download_failed': return '下載失敗';
-			case 'update_hide': return 'Hide';
+			case 'update_hide': return '隱藏';
 			case 'ttu_font_size': return '字型大小';
 			case 'ttu_line_height': return '行高';
 			case 'ttu_writing_direction': return '排版方向';
