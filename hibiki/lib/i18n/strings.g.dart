@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 14
-/// Strings: 8022 (573 per locale)
+/// Strings: 8036 (574 per locale)
 ///
-/// Built on 2026-04-24 at 17:01 UTC
+/// Built on 2026-04-24 at 17:19 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -698,6 +698,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get custom_fonts_add_system => 'Add System Font';
 	String get custom_fonts_import_file => 'Import Font File';
 	String get custom_fonts_system_hint => 'Enter system font name';
+	String get custom_fonts_search_hint => 'Search fonts';
 	String get custom_fonts_name_empty => 'Font name cannot be empty';
 	String custom_fonts_imported({required Object name}) => 'Font imported: ${name}';
 	String get custom_fonts_removed => 'Font removed';
@@ -1322,6 +1323,7 @@ class _StringsAr implements _StringsEn {
 	@override String get custom_fonts_add_system => 'Add System Font';
 	@override String get custom_fonts_import_file => 'Import Font File';
 	@override String get custom_fonts_system_hint => 'Enter system font name';
+	@override String get custom_fonts_search_hint => 'Search fonts';
 	@override String get custom_fonts_name_empty => 'Font name cannot be empty';
 	@override String custom_fonts_imported({required Object name}) => 'Font imported: ${name}';
 	@override String get custom_fonts_removed => 'Font removed';
@@ -1946,6 +1948,7 @@ class _StringsDe implements _StringsEn {
 	@override String get custom_fonts_add_system => 'Add System Font';
 	@override String get custom_fonts_import_file => 'Import Font File';
 	@override String get custom_fonts_system_hint => 'Enter system font name';
+	@override String get custom_fonts_search_hint => 'Search fonts';
 	@override String get custom_fonts_name_empty => 'Font name cannot be empty';
 	@override String custom_fonts_imported({required Object name}) => 'Font imported: ${name}';
 	@override String get custom_fonts_removed => 'Font removed';
@@ -2570,6 +2573,7 @@ class _StringsEs implements _StringsEn {
 	@override String get custom_fonts_add_system => 'Add System Font';
 	@override String get custom_fonts_import_file => 'Import Font File';
 	@override String get custom_fonts_system_hint => 'Enter system font name';
+	@override String get custom_fonts_search_hint => 'Search fonts';
 	@override String get custom_fonts_name_empty => 'Font name cannot be empty';
 	@override String custom_fonts_imported({required Object name}) => 'Font imported: ${name}';
 	@override String get custom_fonts_removed => 'Font removed';
@@ -3194,6 +3198,7 @@ class _StringsFr implements _StringsEn {
 	@override String get custom_fonts_add_system => 'Add System Font';
 	@override String get custom_fonts_import_file => 'Import Font File';
 	@override String get custom_fonts_system_hint => 'Enter system font name';
+	@override String get custom_fonts_search_hint => 'Search fonts';
 	@override String get custom_fonts_name_empty => 'Font name cannot be empty';
 	@override String custom_fonts_imported({required Object name}) => 'Font imported: ${name}';
 	@override String get custom_fonts_removed => 'Font removed';
@@ -3818,6 +3823,7 @@ class _StringsId implements _StringsEn {
 	@override String get custom_fonts_add_system => 'Add System Font';
 	@override String get custom_fonts_import_file => 'Import Font File';
 	@override String get custom_fonts_system_hint => 'Enter system font name';
+	@override String get custom_fonts_search_hint => 'Search fonts';
 	@override String get custom_fonts_name_empty => 'Font name cannot be empty';
 	@override String custom_fonts_imported({required Object name}) => 'Font imported: ${name}';
 	@override String get custom_fonts_removed => 'Font removed';
@@ -4442,6 +4448,7 @@ class _StringsJa implements _StringsEn {
 	@override String get custom_fonts_add_system => 'Add System Font';
 	@override String get custom_fonts_import_file => 'Import Font File';
 	@override String get custom_fonts_system_hint => 'Enter system font name';
+	@override String get custom_fonts_search_hint => 'Search fonts';
 	@override String get custom_fonts_name_empty => 'Font name cannot be empty';
 	@override String custom_fonts_imported({required Object name}) => 'Font imported: ${name}';
 	@override String get custom_fonts_removed => 'Font removed';
@@ -5066,6 +5073,7 @@ class _StringsKo implements _StringsEn {
 	@override String get custom_fonts_add_system => 'Add System Font';
 	@override String get custom_fonts_import_file => 'Import Font File';
 	@override String get custom_fonts_system_hint => 'Enter system font name';
+	@override String get custom_fonts_search_hint => 'Search fonts';
 	@override String get custom_fonts_name_empty => 'Font name cannot be empty';
 	@override String custom_fonts_imported({required Object name}) => 'Font imported: ${name}';
 	@override String get custom_fonts_removed => 'Font removed';
@@ -5690,6 +5698,7 @@ class _StringsPtBr implements _StringsEn {
 	@override String get custom_fonts_add_system => 'Add System Font';
 	@override String get custom_fonts_import_file => 'Import Font File';
 	@override String get custom_fonts_system_hint => 'Enter system font name';
+	@override String get custom_fonts_search_hint => 'Search fonts';
 	@override String get custom_fonts_name_empty => 'Font name cannot be empty';
 	@override String custom_fonts_imported({required Object name}) => 'Font imported: ${name}';
 	@override String get custom_fonts_removed => 'Font removed';
@@ -6314,6 +6323,7 @@ class _StringsRu implements _StringsEn {
 	@override String get custom_fonts_add_system => 'Add System Font';
 	@override String get custom_fonts_import_file => 'Import Font File';
 	@override String get custom_fonts_system_hint => 'Enter system font name';
+	@override String get custom_fonts_search_hint => 'Search fonts';
 	@override String get custom_fonts_name_empty => 'Font name cannot be empty';
 	@override String custom_fonts_imported({required Object name}) => 'Font imported: ${name}';
 	@override String get custom_fonts_removed => 'Font removed';
@@ -6938,6 +6948,7 @@ class _StringsTh implements _StringsEn {
 	@override String get custom_fonts_add_system => 'Add System Font';
 	@override String get custom_fonts_import_file => 'Import Font File';
 	@override String get custom_fonts_system_hint => 'Enter system font name';
+	@override String get custom_fonts_search_hint => 'Search fonts';
 	@override String get custom_fonts_name_empty => 'Font name cannot be empty';
 	@override String custom_fonts_imported({required Object name}) => 'Font imported: ${name}';
 	@override String get custom_fonts_removed => 'Font removed';
@@ -7562,6 +7573,7 @@ class _StringsVi implements _StringsEn {
 	@override String get custom_fonts_add_system => 'Add System Font';
 	@override String get custom_fonts_import_file => 'Import Font File';
 	@override String get custom_fonts_system_hint => 'Enter system font name';
+	@override String get custom_fonts_search_hint => 'Search fonts';
 	@override String get custom_fonts_name_empty => 'Font name cannot be empty';
 	@override String custom_fonts_imported({required Object name}) => 'Font imported: ${name}';
 	@override String get custom_fonts_removed => 'Font removed';
@@ -8186,6 +8198,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get custom_fonts_add_system => '添加系统字体';
 	@override String get custom_fonts_import_file => '导入字体文件';
 	@override String get custom_fonts_system_hint => '输入系统字体名称';
+	@override String get custom_fonts_search_hint => '搜索字体';
 	@override String get custom_fonts_name_empty => '字体名称不能为空';
 	@override String custom_fonts_imported({required Object name}) => '已导入字体：${name}';
 	@override String get custom_fonts_removed => '已移除字体';
@@ -8810,6 +8823,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String get custom_fonts_add_system => 'Add System Font';
 	@override String get custom_fonts_import_file => 'Import Font File';
 	@override String get custom_fonts_system_hint => 'Enter system font name';
+	@override String get custom_fonts_search_hint => 'Search fonts';
 	@override String get custom_fonts_name_empty => 'Font name cannot be empty';
 	@override String custom_fonts_imported({required Object name}) => 'Font imported: ${name}';
 	@override String get custom_fonts_removed => 'Font removed';
@@ -9421,6 +9435,7 @@ extension on _StringsEn {
 			case 'custom_fonts_add_system': return 'Add System Font';
 			case 'custom_fonts_import_file': return 'Import Font File';
 			case 'custom_fonts_system_hint': return 'Enter system font name';
+			case 'custom_fonts_search_hint': return 'Search fonts';
 			case 'custom_fonts_name_empty': return 'Font name cannot be empty';
 			case 'custom_fonts_imported': return ({required Object name}) => 'Font imported: ${name}';
 			case 'custom_fonts_removed': return 'Font removed';
@@ -10006,6 +10021,7 @@ extension on _StringsAr {
 			case 'custom_fonts_add_system': return 'Add System Font';
 			case 'custom_fonts_import_file': return 'Import Font File';
 			case 'custom_fonts_system_hint': return 'Enter system font name';
+			case 'custom_fonts_search_hint': return 'Search fonts';
 			case 'custom_fonts_name_empty': return 'Font name cannot be empty';
 			case 'custom_fonts_imported': return ({required Object name}) => 'Font imported: ${name}';
 			case 'custom_fonts_removed': return 'Font removed';
@@ -10591,6 +10607,7 @@ extension on _StringsDe {
 			case 'custom_fonts_add_system': return 'Add System Font';
 			case 'custom_fonts_import_file': return 'Import Font File';
 			case 'custom_fonts_system_hint': return 'Enter system font name';
+			case 'custom_fonts_search_hint': return 'Search fonts';
 			case 'custom_fonts_name_empty': return 'Font name cannot be empty';
 			case 'custom_fonts_imported': return ({required Object name}) => 'Font imported: ${name}';
 			case 'custom_fonts_removed': return 'Font removed';
@@ -11176,6 +11193,7 @@ extension on _StringsEs {
 			case 'custom_fonts_add_system': return 'Add System Font';
 			case 'custom_fonts_import_file': return 'Import Font File';
 			case 'custom_fonts_system_hint': return 'Enter system font name';
+			case 'custom_fonts_search_hint': return 'Search fonts';
 			case 'custom_fonts_name_empty': return 'Font name cannot be empty';
 			case 'custom_fonts_imported': return ({required Object name}) => 'Font imported: ${name}';
 			case 'custom_fonts_removed': return 'Font removed';
@@ -11761,6 +11779,7 @@ extension on _StringsFr {
 			case 'custom_fonts_add_system': return 'Add System Font';
 			case 'custom_fonts_import_file': return 'Import Font File';
 			case 'custom_fonts_system_hint': return 'Enter system font name';
+			case 'custom_fonts_search_hint': return 'Search fonts';
 			case 'custom_fonts_name_empty': return 'Font name cannot be empty';
 			case 'custom_fonts_imported': return ({required Object name}) => 'Font imported: ${name}';
 			case 'custom_fonts_removed': return 'Font removed';
@@ -12346,6 +12365,7 @@ extension on _StringsId {
 			case 'custom_fonts_add_system': return 'Add System Font';
 			case 'custom_fonts_import_file': return 'Import Font File';
 			case 'custom_fonts_system_hint': return 'Enter system font name';
+			case 'custom_fonts_search_hint': return 'Search fonts';
 			case 'custom_fonts_name_empty': return 'Font name cannot be empty';
 			case 'custom_fonts_imported': return ({required Object name}) => 'Font imported: ${name}';
 			case 'custom_fonts_removed': return 'Font removed';
@@ -12931,6 +12951,7 @@ extension on _StringsJa {
 			case 'custom_fonts_add_system': return 'Add System Font';
 			case 'custom_fonts_import_file': return 'Import Font File';
 			case 'custom_fonts_system_hint': return 'Enter system font name';
+			case 'custom_fonts_search_hint': return 'Search fonts';
 			case 'custom_fonts_name_empty': return 'Font name cannot be empty';
 			case 'custom_fonts_imported': return ({required Object name}) => 'Font imported: ${name}';
 			case 'custom_fonts_removed': return 'Font removed';
@@ -13516,6 +13537,7 @@ extension on _StringsKo {
 			case 'custom_fonts_add_system': return 'Add System Font';
 			case 'custom_fonts_import_file': return 'Import Font File';
 			case 'custom_fonts_system_hint': return 'Enter system font name';
+			case 'custom_fonts_search_hint': return 'Search fonts';
 			case 'custom_fonts_name_empty': return 'Font name cannot be empty';
 			case 'custom_fonts_imported': return ({required Object name}) => 'Font imported: ${name}';
 			case 'custom_fonts_removed': return 'Font removed';
@@ -14101,6 +14123,7 @@ extension on _StringsPtBr {
 			case 'custom_fonts_add_system': return 'Add System Font';
 			case 'custom_fonts_import_file': return 'Import Font File';
 			case 'custom_fonts_system_hint': return 'Enter system font name';
+			case 'custom_fonts_search_hint': return 'Search fonts';
 			case 'custom_fonts_name_empty': return 'Font name cannot be empty';
 			case 'custom_fonts_imported': return ({required Object name}) => 'Font imported: ${name}';
 			case 'custom_fonts_removed': return 'Font removed';
@@ -14686,6 +14709,7 @@ extension on _StringsRu {
 			case 'custom_fonts_add_system': return 'Add System Font';
 			case 'custom_fonts_import_file': return 'Import Font File';
 			case 'custom_fonts_system_hint': return 'Enter system font name';
+			case 'custom_fonts_search_hint': return 'Search fonts';
 			case 'custom_fonts_name_empty': return 'Font name cannot be empty';
 			case 'custom_fonts_imported': return ({required Object name}) => 'Font imported: ${name}';
 			case 'custom_fonts_removed': return 'Font removed';
@@ -15271,6 +15295,7 @@ extension on _StringsTh {
 			case 'custom_fonts_add_system': return 'Add System Font';
 			case 'custom_fonts_import_file': return 'Import Font File';
 			case 'custom_fonts_system_hint': return 'Enter system font name';
+			case 'custom_fonts_search_hint': return 'Search fonts';
 			case 'custom_fonts_name_empty': return 'Font name cannot be empty';
 			case 'custom_fonts_imported': return ({required Object name}) => 'Font imported: ${name}';
 			case 'custom_fonts_removed': return 'Font removed';
@@ -15856,6 +15881,7 @@ extension on _StringsVi {
 			case 'custom_fonts_add_system': return 'Add System Font';
 			case 'custom_fonts_import_file': return 'Import Font File';
 			case 'custom_fonts_system_hint': return 'Enter system font name';
+			case 'custom_fonts_search_hint': return 'Search fonts';
 			case 'custom_fonts_name_empty': return 'Font name cannot be empty';
 			case 'custom_fonts_imported': return ({required Object name}) => 'Font imported: ${name}';
 			case 'custom_fonts_removed': return 'Font removed';
@@ -16441,6 +16467,7 @@ extension on _StringsZhCn {
 			case 'custom_fonts_add_system': return '添加系统字体';
 			case 'custom_fonts_import_file': return '导入字体文件';
 			case 'custom_fonts_system_hint': return '输入系统字体名称';
+			case 'custom_fonts_search_hint': return '搜索字体';
 			case 'custom_fonts_name_empty': return '字体名称不能为空';
 			case 'custom_fonts_imported': return ({required Object name}) => '已导入字体：${name}';
 			case 'custom_fonts_removed': return '已移除字体';
@@ -17026,6 +17053,7 @@ extension on _StringsZhHk {
 			case 'custom_fonts_add_system': return 'Add System Font';
 			case 'custom_fonts_import_file': return 'Import Font File';
 			case 'custom_fonts_system_hint': return 'Enter system font name';
+			case 'custom_fonts_search_hint': return 'Search fonts';
 			case 'custom_fonts_name_empty': return 'Font name cannot be empty';
 			case 'custom_fonts_imported': return ({required Object name}) => 'Font imported: ${name}';
 			case 'custom_fonts_removed': return 'Font removed';
