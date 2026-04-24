@@ -649,6 +649,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String cue_progress({required Object current, required Object total}) => 'Sentence ${current} / ${total}';
 	String get cue_navigation => 'Sentence Navigation';
 	String get jump_to_cue => 'Jump to';
+	String get jump_to_current_page => 'Current page';
 	String get cue_unit => ' sent.';
 	String toc_section({required Object n}) => 'Table of Contents (${n})';
 	String get untitled_chapter => '(Untitled)';
@@ -1254,6 +1255,7 @@ class _StringsAr implements _StringsEn {
 	@override String cue_progress({required Object current, required Object total}) => 'جملة ${current} / ${total}';
 	@override String get cue_navigation => 'التنقل بين الجمل';
 	@override String get jump_to_cue => 'انتقل إلى';
+	@override String get jump_to_current_page => 'الصفحة الحالية';
 	@override String get cue_unit => ' جملة';
 	@override String toc_section({required Object n}) => 'جدول المحتويات (${n})';
 	@override String get untitled_chapter => '(بدون عنوان)';
@@ -1859,6 +1861,7 @@ class _StringsDe implements _StringsEn {
 	@override String cue_progress({required Object current, required Object total}) => 'Satz ${current} / ${total}';
 	@override String get cue_navigation => 'Satznavigation';
 	@override String get jump_to_cue => 'Springe zu';
+	@override String get jump_to_current_page => 'Aktuelle Seite';
 	@override String get cue_unit => ' Satz';
 	@override String toc_section({required Object n}) => 'Inhaltsverzeichnis (${n})';
 	@override String get untitled_chapter => '(Ohne Titel)';
@@ -2464,6 +2467,7 @@ class _StringsEs implements _StringsEn {
 	@override String cue_progress({required Object current, required Object total}) => 'Oración ${current} / ${total}';
 	@override String get cue_navigation => 'Navegación de oraciones';
 	@override String get jump_to_cue => 'Ir a';
+	@override String get jump_to_current_page => 'Página actual';
 	@override String get cue_unit => ' frase';
 	@override String toc_section({required Object n}) => 'Índice (${n})';
 	@override String get untitled_chapter => '(Sin título)';
@@ -3069,6 +3073,7 @@ class _StringsFr implements _StringsEn {
 	@override String cue_progress({required Object current, required Object total}) => 'Phrase ${current} / ${total}';
 	@override String get cue_navigation => 'Navigation par phrase';
 	@override String get jump_to_cue => 'Aller à';
+	@override String get jump_to_current_page => 'Page actuelle';
 	@override String get cue_unit => ' phrase';
 	@override String toc_section({required Object n}) => 'Table des matières (${n})';
 	@override String get untitled_chapter => '(Sans titre)';
@@ -3674,6 +3679,7 @@ class _StringsId implements _StringsEn {
 	@override String cue_progress({required Object current, required Object total}) => 'Kalimat ${current} / ${total}';
 	@override String get cue_navigation => 'Navigasi Kalimat';
 	@override String get jump_to_cue => 'Lompat ke';
+	@override String get jump_to_current_page => 'Halaman saat ini';
 	@override String get cue_unit => ' kalimat';
 	@override String toc_section({required Object n}) => 'Daftar Isi (${n})';
 	@override String get untitled_chapter => '(Tanpa Judul)';
@@ -4279,6 +4285,7 @@ class _StringsJa implements _StringsEn {
 	@override String cue_progress({required Object current, required Object total}) => '文 ${current} / ${total}';
 	@override String get cue_navigation => '文ナビゲーション';
 	@override String get jump_to_cue => 'ジャンプ先';
+	@override String get jump_to_current_page => '現在のページ';
 	@override String get cue_unit => '文目';
 	@override String toc_section({required Object n}) => '目次 (${n})';
 	@override String get untitled_chapter => '（無題）';
@@ -4884,6 +4891,7 @@ class _StringsKo implements _StringsEn {
 	@override String cue_progress({required Object current, required Object total}) => '문장 ${current} / ${total}';
 	@override String get cue_navigation => '문장 탐색';
 	@override String get jump_to_cue => '이동';
+	@override String get jump_to_current_page => '현재 페이지';
 	@override String get cue_unit => '번째 문장';
 	@override String toc_section({required Object n}) => '목차 (${n})';
 	@override String get untitled_chapter => '(제목 없음)';
@@ -5489,6 +5497,7 @@ class _StringsPtBr implements _StringsEn {
 	@override String cue_progress({required Object current, required Object total}) => 'Frase ${current} / ${total}';
 	@override String get cue_navigation => 'Navegação de frases';
 	@override String get jump_to_cue => 'Ir para';
+	@override String get jump_to_current_page => 'Página atual';
 	@override String get cue_unit => ' frase';
 	@override String toc_section({required Object n}) => 'Sumário (${n})';
 	@override String get untitled_chapter => '(Sem título)';
@@ -6094,6 +6103,7 @@ class _StringsRu implements _StringsEn {
 	@override String cue_progress({required Object current, required Object total}) => 'Предложение ${current} / ${total}';
 	@override String get cue_navigation => 'Навигация по предложениям';
 	@override String get jump_to_cue => 'Перейти к';
+	@override String get jump_to_current_page => 'Текущая страница';
 	@override String get cue_unit => ' предл.';
 	@override String toc_section({required Object n}) => 'Оглавление (${n})';
 	@override String get untitled_chapter => '(Без названия)';
@@ -6699,6 +6709,7 @@ class _StringsTh implements _StringsEn {
 	@override String cue_progress({required Object current, required Object total}) => 'ประโยค ${current} / ${total}';
 	@override String get cue_navigation => 'นำทางประโยค';
 	@override String get jump_to_cue => 'ข้ามไปที่';
+	@override String get jump_to_current_page => 'หน้าปัจจุบัน';
 	@override String get cue_unit => ' ประโยค';
 	@override String toc_section({required Object n}) => 'สารบัญ (${n})';
 	@override String get untitled_chapter => '(ไม่มีชื่อ)';
@@ -7304,6 +7315,7 @@ class _StringsVi implements _StringsEn {
 	@override String cue_progress({required Object current, required Object total}) => 'Câu ${current} / ${total}';
 	@override String get cue_navigation => 'Điều hướng câu';
 	@override String get jump_to_cue => 'Nhảy đến';
+	@override String get jump_to_current_page => 'Trang hiện tại';
 	@override String get cue_unit => ' câu';
 	@override String toc_section({required Object n}) => 'Mục lục (${n})';
 	@override String get untitled_chapter => '(Không có tiêu đề)';
@@ -7909,6 +7921,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String cue_progress({required Object current, required Object total}) => '第 ${current} / ${total} 句';
 	@override String get cue_navigation => '字幕跳转';
 	@override String get jump_to_cue => '跳转到第';
+	@override String get jump_to_current_page => '当前页';
 	@override String get cue_unit => '句';
 	@override String toc_section({required Object n}) => '章节列表（${n}）';
 	@override String get untitled_chapter => '（无标题）';
@@ -8514,6 +8527,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String cue_progress({required Object current, required Object total}) => '第 ${current} / ${total} 句';
 	@override String get cue_navigation => '字幕跳轉';
 	@override String get jump_to_cue => '跳轉到第';
+	@override String get jump_to_current_page => '當前頁';
 	@override String get cue_unit => '句';
 	@override String toc_section({required Object n}) => '章節列表（${n}）';
 	@override String get untitled_chapter => '（無標題）';
@@ -9106,6 +9120,7 @@ extension on _StringsEn {
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Sentence ${current} / ${total}';
 			case 'cue_navigation': return 'Sentence Navigation';
 			case 'jump_to_cue': return 'Jump to';
+			case 'jump_to_current_page': return 'Current page';
 			case 'cue_unit': return ' sent.';
 			case 'toc_section': return ({required Object n}) => 'Table of Contents (${n})';
 			case 'untitled_chapter': return '(Untitled)';
@@ -9672,6 +9687,7 @@ extension on _StringsAr {
 			case 'cue_progress': return ({required Object current, required Object total}) => 'جملة ${current} / ${total}';
 			case 'cue_navigation': return 'التنقل بين الجمل';
 			case 'jump_to_cue': return 'انتقل إلى';
+			case 'jump_to_current_page': return 'الصفحة الحالية';
 			case 'cue_unit': return ' جملة';
 			case 'toc_section': return ({required Object n}) => 'جدول المحتويات (${n})';
 			case 'untitled_chapter': return '(بدون عنوان)';
@@ -10238,6 +10254,7 @@ extension on _StringsDe {
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Satz ${current} / ${total}';
 			case 'cue_navigation': return 'Satznavigation';
 			case 'jump_to_cue': return 'Springe zu';
+			case 'jump_to_current_page': return 'Aktuelle Seite';
 			case 'cue_unit': return ' Satz';
 			case 'toc_section': return ({required Object n}) => 'Inhaltsverzeichnis (${n})';
 			case 'untitled_chapter': return '(Ohne Titel)';
@@ -10804,6 +10821,7 @@ extension on _StringsEs {
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Oración ${current} / ${total}';
 			case 'cue_navigation': return 'Navegación de oraciones';
 			case 'jump_to_cue': return 'Ir a';
+			case 'jump_to_current_page': return 'Página actual';
 			case 'cue_unit': return ' frase';
 			case 'toc_section': return ({required Object n}) => 'Índice (${n})';
 			case 'untitled_chapter': return '(Sin título)';
@@ -11370,6 +11388,7 @@ extension on _StringsFr {
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Phrase ${current} / ${total}';
 			case 'cue_navigation': return 'Navigation par phrase';
 			case 'jump_to_cue': return 'Aller à';
+			case 'jump_to_current_page': return 'Page actuelle';
 			case 'cue_unit': return ' phrase';
 			case 'toc_section': return ({required Object n}) => 'Table des matières (${n})';
 			case 'untitled_chapter': return '(Sans titre)';
@@ -11936,6 +11955,7 @@ extension on _StringsId {
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Kalimat ${current} / ${total}';
 			case 'cue_navigation': return 'Navigasi Kalimat';
 			case 'jump_to_cue': return 'Lompat ke';
+			case 'jump_to_current_page': return 'Halaman saat ini';
 			case 'cue_unit': return ' kalimat';
 			case 'toc_section': return ({required Object n}) => 'Daftar Isi (${n})';
 			case 'untitled_chapter': return '(Tanpa Judul)';
@@ -12502,6 +12522,7 @@ extension on _StringsJa {
 			case 'cue_progress': return ({required Object current, required Object total}) => '文 ${current} / ${total}';
 			case 'cue_navigation': return '文ナビゲーション';
 			case 'jump_to_cue': return 'ジャンプ先';
+			case 'jump_to_current_page': return '現在のページ';
 			case 'cue_unit': return '文目';
 			case 'toc_section': return ({required Object n}) => '目次 (${n})';
 			case 'untitled_chapter': return '（無題）';
@@ -13068,6 +13089,7 @@ extension on _StringsKo {
 			case 'cue_progress': return ({required Object current, required Object total}) => '문장 ${current} / ${total}';
 			case 'cue_navigation': return '문장 탐색';
 			case 'jump_to_cue': return '이동';
+			case 'jump_to_current_page': return '현재 페이지';
 			case 'cue_unit': return '번째 문장';
 			case 'toc_section': return ({required Object n}) => '목차 (${n})';
 			case 'untitled_chapter': return '(제목 없음)';
@@ -13634,6 +13656,7 @@ extension on _StringsPtBr {
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Frase ${current} / ${total}';
 			case 'cue_navigation': return 'Navegação de frases';
 			case 'jump_to_cue': return 'Ir para';
+			case 'jump_to_current_page': return 'Página atual';
 			case 'cue_unit': return ' frase';
 			case 'toc_section': return ({required Object n}) => 'Sumário (${n})';
 			case 'untitled_chapter': return '(Sem título)';
@@ -14200,6 +14223,7 @@ extension on _StringsRu {
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Предложение ${current} / ${total}';
 			case 'cue_navigation': return 'Навигация по предложениям';
 			case 'jump_to_cue': return 'Перейти к';
+			case 'jump_to_current_page': return 'Текущая страница';
 			case 'cue_unit': return ' предл.';
 			case 'toc_section': return ({required Object n}) => 'Оглавление (${n})';
 			case 'untitled_chapter': return '(Без названия)';
@@ -14766,6 +14790,7 @@ extension on _StringsTh {
 			case 'cue_progress': return ({required Object current, required Object total}) => 'ประโยค ${current} / ${total}';
 			case 'cue_navigation': return 'นำทางประโยค';
 			case 'jump_to_cue': return 'ข้ามไปที่';
+			case 'jump_to_current_page': return 'หน้าปัจจุบัน';
 			case 'cue_unit': return ' ประโยค';
 			case 'toc_section': return ({required Object n}) => 'สารบัญ (${n})';
 			case 'untitled_chapter': return '(ไม่มีชื่อ)';
@@ -15332,6 +15357,7 @@ extension on _StringsVi {
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Câu ${current} / ${total}';
 			case 'cue_navigation': return 'Điều hướng câu';
 			case 'jump_to_cue': return 'Nhảy đến';
+			case 'jump_to_current_page': return 'Trang hiện tại';
 			case 'cue_unit': return ' câu';
 			case 'toc_section': return ({required Object n}) => 'Mục lục (${n})';
 			case 'untitled_chapter': return '(Không có tiêu đề)';
@@ -15898,6 +15924,7 @@ extension on _StringsZhCn {
 			case 'cue_progress': return ({required Object current, required Object total}) => '第 ${current} / ${total} 句';
 			case 'cue_navigation': return '字幕跳转';
 			case 'jump_to_cue': return '跳转到第';
+			case 'jump_to_current_page': return '当前页';
 			case 'cue_unit': return '句';
 			case 'toc_section': return ({required Object n}) => '章节列表（${n}）';
 			case 'untitled_chapter': return '（无标题）';
@@ -16464,6 +16491,7 @@ extension on _StringsZhHk {
 			case 'cue_progress': return ({required Object current, required Object total}) => '第 ${current} / ${total} 句';
 			case 'cue_navigation': return '字幕跳轉';
 			case 'jump_to_cue': return '跳轉到第';
+			case 'jump_to_current_page': return '當前頁';
 			case 'cue_unit': return '句';
 			case 'toc_section': return ({required Object n}) => '章節列表（${n}）';
 			case 'untitled_chapter': return '（無標題）';
