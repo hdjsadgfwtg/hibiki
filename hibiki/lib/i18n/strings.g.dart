@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 14
-/// Strings: 7799 (557 per locale)
+/// Strings: 7868 (562 per locale)
 ///
-/// Built on 2026-04-24 at 15:49 UTC
+/// Built on 2026-04-24 at 15:58 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1209,9 +1209,6 @@ class _StringsAr implements _StringsEn {
 	@override String get view_illustrations => 'Illustrations';
 	@override String get no_illustrations_found => 'No illustrations found';
 	@override String get loading_illustrations => 'Loading illustrations…';
-	@override String get image_pause => 'Pause on Image';
-	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
-	@override String get image_pause_off => 'Off';
 	@override String get srt_epub_not_ready => 'الكتاب غير جاهز — يرجى إعادة الاستيراد';
 	@override String get srt_audio_unresolved => 'لم يتم العثور على ملف الصوت — يرجى إعادة الإرفاق';
 	@override String get srt_audio_load_error => 'فشل تحميل الصوت';
@@ -1277,6 +1274,9 @@ class _StringsAr implements _StringsEn {
 	@override String get av_sync => 'مزامنة الصوت/الصورة';
 	@override String get av_sync_reset => 'إعادة تعيين';
 	@override String get av_sync_hint => 'موجب = الصوت يسبق النص، يرجع الإشارة؛ سالب = الصوت متأخر.';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get reader_settings_section => 'إعدادات القارئ';
 	@override String get action_bookmark => 'إشارة مرجعية';
 	@override String get action_fullscreen_toggle => 'تبديل ملء الشاشة';
@@ -1822,9 +1822,6 @@ class _StringsDe implements _StringsEn {
 	@override String get view_illustrations => 'Illustrations';
 	@override String get no_illustrations_found => 'No illustrations found';
 	@override String get loading_illustrations => 'Loading illustrations…';
-	@override String get image_pause => 'Pause on Image';
-	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
-	@override String get image_pause_off => 'Off';
 	@override String get srt_epub_not_ready => 'Buch nicht bereit — bitte erneut importieren';
 	@override String get srt_audio_unresolved => 'Audiodatei nicht gefunden — bitte erneut anhängen';
 	@override String get srt_audio_load_error => 'Audio konnte nicht geladen werden';
@@ -1890,6 +1887,9 @@ class _StringsDe implements _StringsEn {
 	@override String get av_sync => 'A/V-Sync';
 	@override String get av_sync_reset => 'Zurücksetzen';
 	@override String get av_sync_hint => 'Positiv = Audio vor Text, verschiebt Cue zurück; Negativ = Audio hinter Text.';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get reader_settings_section => 'Reader-Einstellungen';
 	@override String get action_bookmark => 'Lesezeichen';
 	@override String get action_fullscreen_toggle => 'Vollbild umschalten';
@@ -2435,9 +2435,6 @@ class _StringsEs implements _StringsEn {
 	@override String get view_illustrations => 'Illustrations';
 	@override String get no_illustrations_found => 'No illustrations found';
 	@override String get loading_illustrations => 'Loading illustrations…';
-	@override String get image_pause => 'Pause on Image';
-	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
-	@override String get image_pause_off => 'Off';
 	@override String get srt_epub_not_ready => 'Libro no preparado — por favor reimporta';
 	@override String get srt_audio_unresolved => 'Archivo de audio no encontrado — por favor vuelve a adjuntarlo';
 	@override String get srt_audio_load_error => 'Error al cargar el audio';
@@ -2503,6 +2500,9 @@ class _StringsEs implements _StringsEn {
 	@override String get av_sync => 'Sincronización A/V';
 	@override String get av_sync_reset => 'Restablecer';
 	@override String get av_sync_hint => 'Positivo = audio adelantado al texto, retrocede la marca; Negativo = audio retrasado.';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get reader_settings_section => 'Configuración del lector';
 	@override String get action_bookmark => 'Marcador';
 	@override String get action_fullscreen_toggle => 'Alternar pantalla completa';
@@ -2558,12 +2558,6 @@ class _StringsEs implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} caracteres';
 	@override String stat_format_chars_wan({required Object n}) => '${n} caracteres';
 	@override String get error_log_share_subject => 'Registro de errores de hibiki';
-	@override String get view_illustrations => 'Illustrations';
-	@override String get no_illustrations_found => 'No illustrations found';
-	@override String get loading_illustrations => 'Loading illustrations…';
-	@override String get image_pause => 'Pause on Image';
-	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
-	@override String get image_pause_off => 'Off';
 }
 
 // Path: retrying_in
@@ -3054,9 +3048,6 @@ class _StringsFr implements _StringsEn {
 	@override String get view_illustrations => 'Illustrations';
 	@override String get no_illustrations_found => 'No illustrations found';
 	@override String get loading_illustrations => 'Loading illustrations…';
-	@override String get image_pause => 'Pause on Image';
-	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
-	@override String get image_pause_off => 'Off';
 	@override String get srt_epub_not_ready => 'Livre non prêt — veuillez le réimporter';
 	@override String get srt_audio_unresolved => 'Fichier audio introuvable — veuillez le rattacher';
 	@override String get srt_audio_load_error => 'Échec du chargement de l\'audio';
@@ -3122,6 +3113,9 @@ class _StringsFr implements _StringsEn {
 	@override String get av_sync => 'Synchro A/V';
 	@override String get av_sync_reset => 'Réinitialiser';
 	@override String get av_sync_hint => 'Positif = audio en avance sur le texte, recule le repère ; Négatif = audio en retard.';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get reader_settings_section => 'Paramètres du lecteur';
 	@override String get action_bookmark => 'Signet';
 	@override String get action_fullscreen_toggle => 'Plein écran';
@@ -3177,12 +3171,6 @@ class _StringsFr implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} caractères';
 	@override String stat_format_chars_wan({required Object n}) => '${n} caractères';
 	@override String get error_log_share_subject => 'Journal d\'erreurs hibiki';
-	@override String get view_illustrations => 'Illustrations';
-	@override String get no_illustrations_found => 'No illustrations found';
-	@override String get loading_illustrations => 'Loading illustrations…';
-	@override String get image_pause => 'Pause on Image';
-	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
-	@override String get image_pause_off => 'Off';
 }
 
 // Path: retrying_in
@@ -3673,9 +3661,6 @@ class _StringsId implements _StringsEn {
 	@override String get view_illustrations => 'Illustrations';
 	@override String get no_illustrations_found => 'No illustrations found';
 	@override String get loading_illustrations => 'Loading illustrations…';
-	@override String get image_pause => 'Pause on Image';
-	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
-	@override String get image_pause_off => 'Off';
 	@override String get srt_epub_not_ready => 'Buku belum siap — silakan impor ulang';
 	@override String get srt_audio_unresolved => 'File audio tidak ditemukan — silakan lampirkan ulang';
 	@override String get srt_audio_load_error => 'Gagal memuat audio';
@@ -3741,6 +3726,9 @@ class _StringsId implements _StringsEn {
 	@override String get av_sync => 'Sinkronisasi A/V';
 	@override String get av_sync_reset => 'Reset';
 	@override String get av_sync_hint => 'Positif = audio mendahului teks, geser cue mundur; Negatif = audio tertinggal.';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get reader_settings_section => 'Pengaturan Pembaca';
 	@override String get action_bookmark => 'Bookmark';
 	@override String get action_fullscreen_toggle => 'Alihkan Layar Penuh';
@@ -3796,12 +3784,6 @@ class _StringsId implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} karakter';
 	@override String stat_format_chars_wan({required Object n}) => '${n} karakter';
 	@override String get error_log_share_subject => 'Log Error hibiki';
-	@override String get view_illustrations => 'Illustrations';
-	@override String get no_illustrations_found => 'No illustrations found';
-	@override String get loading_illustrations => 'Loading illustrations…';
-	@override String get image_pause => 'Pause on Image';
-	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
-	@override String get image_pause_off => 'Off';
 }
 
 // Path: retrying_in
@@ -4415,9 +4397,6 @@ class _StringsJa implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} 文字';
 	@override String stat_format_chars_wan({required Object n}) => '${n} 万字';
 	@override String get error_log_share_subject => 'hibiki エラーログ';
-	@override String get view_illustrations => 'Illustrations';
-	@override String get no_illustrations_found => 'No illustrations found';
-	@override String get loading_illustrations => 'Loading illustrations…';
 }
 
 // Path: retrying_in
@@ -4908,9 +4887,6 @@ class _StringsKo implements _StringsEn {
 	@override String get view_illustrations => 'Illustrations';
 	@override String get no_illustrations_found => 'No illustrations found';
 	@override String get loading_illustrations => 'Loading illustrations…';
-	@override String get image_pause => 'Pause on Image';
-	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
-	@override String get image_pause_off => 'Off';
 	@override String get srt_epub_not_ready => '책이 준비되지 않았습니다 — 다시 가져와 주세요';
 	@override String get srt_audio_unresolved => '오디오 파일을 찾을 수 없습니다 — 다시 연결해 주세요';
 	@override String get srt_audio_load_error => '오디오 로드에 실패했습니다';
@@ -4976,6 +4952,9 @@ class _StringsKo implements _StringsEn {
 	@override String get av_sync => 'A/V 동기화';
 	@override String get av_sync_reset => '초기화';
 	@override String get av_sync_hint => '양수 = 오디오가 텍스트보다 앞서며, 큐를 뒤로 이동; 음수 = 오디오가 뒤처짐.';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get reader_settings_section => '리더 설정';
 	@override String get action_bookmark => '북마크';
 	@override String get action_fullscreen_toggle => '전체 화면 전환';
@@ -5031,12 +5010,6 @@ class _StringsKo implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n}자';
 	@override String stat_format_chars_wan({required Object n}) => '${n}만자';
 	@override String get error_log_share_subject => 'hibiki 오류 로그';
-	@override String get view_illustrations => 'Illustrations';
-	@override String get no_illustrations_found => 'No illustrations found';
-	@override String get loading_illustrations => 'Loading illustrations…';
-	@override String get image_pause => 'Pause on Image';
-	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
-	@override String get image_pause_off => 'Off';
 }
 
 // Path: retrying_in
@@ -5527,9 +5500,6 @@ class _StringsPtBr implements _StringsEn {
 	@override String get view_illustrations => 'Illustrations';
 	@override String get no_illustrations_found => 'No illustrations found';
 	@override String get loading_illustrations => 'Loading illustrations…';
-	@override String get image_pause => 'Pause on Image';
-	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
-	@override String get image_pause_off => 'Off';
 	@override String get srt_epub_not_ready => 'Livro não está pronto — reimporte-o';
 	@override String get srt_audio_unresolved => 'Arquivo de áudio não encontrado — reanexe-o';
 	@override String get srt_audio_load_error => 'Falha ao carregar o áudio';
@@ -5595,6 +5565,9 @@ class _StringsPtBr implements _StringsEn {
 	@override String get av_sync => 'Sincronia A/V';
 	@override String get av_sync_reset => 'Redefinir';
 	@override String get av_sync_hint => 'Positivo = áudio adiantado em relação ao texto, desloca a frase para trás; Negativo = áudio atrasado.';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get reader_settings_section => 'Configurações do Leitor';
 	@override String get action_bookmark => 'Marcador';
 	@override String get action_fullscreen_toggle => 'Alternar Tela Cheia';
@@ -5650,12 +5623,6 @@ class _StringsPtBr implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} caracteres';
 	@override String stat_format_chars_wan({required Object n}) => '${n} caracteres';
 	@override String get error_log_share_subject => 'Log de Erros do hibiki';
-	@override String get view_illustrations => 'Illustrations';
-	@override String get no_illustrations_found => 'No illustrations found';
-	@override String get loading_illustrations => 'Loading illustrations…';
-	@override String get image_pause => 'Pause on Image';
-	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
-	@override String get image_pause_off => 'Off';
 }
 
 // Path: retrying_in
@@ -6146,9 +6113,6 @@ class _StringsRu implements _StringsEn {
 	@override String get view_illustrations => 'Illustrations';
 	@override String get no_illustrations_found => 'No illustrations found';
 	@override String get loading_illustrations => 'Loading illustrations…';
-	@override String get image_pause => 'Pause on Image';
-	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
-	@override String get image_pause_off => 'Off';
 	@override String get srt_epub_not_ready => 'Книга не готова — импортируйте заново';
 	@override String get srt_audio_unresolved => 'Аудиофайл не найден — привяжите заново';
 	@override String get srt_audio_load_error => 'Не удалось загрузить аудио';
@@ -6214,6 +6178,9 @@ class _StringsRu implements _StringsEn {
 	@override String get av_sync => 'A/V синхр.';
 	@override String get av_sync_reset => 'Сброс';
 	@override String get av_sync_hint => 'Положительное = аудио опережает текст, сдвиг назад; Отрицательное = аудио отстаёт.';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get reader_settings_section => 'Настройки читалки';
 	@override String get action_bookmark => 'Закладка';
 	@override String get action_fullscreen_toggle => 'Полноэкранный режим';
@@ -6269,12 +6236,6 @@ class _StringsRu implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} символов';
 	@override String stat_format_chars_wan({required Object n}) => '${n} символов';
 	@override String get error_log_share_subject => 'Журнал ошибок hibiki';
-	@override String get view_illustrations => 'Illustrations';
-	@override String get no_illustrations_found => 'No illustrations found';
-	@override String get loading_illustrations => 'Loading illustrations…';
-	@override String get image_pause => 'Pause on Image';
-	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
-	@override String get image_pause_off => 'Off';
 }
 
 // Path: retrying_in
@@ -6765,9 +6726,6 @@ class _StringsTh implements _StringsEn {
 	@override String get view_illustrations => 'Illustrations';
 	@override String get no_illustrations_found => 'No illustrations found';
 	@override String get loading_illustrations => 'Loading illustrations…';
-	@override String get image_pause => 'Pause on Image';
-	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
-	@override String get image_pause_off => 'Off';
 	@override String get srt_epub_not_ready => 'หนังสือยังไม่พร้อม กรุณานำเข้าใหม่';
 	@override String get srt_audio_unresolved => 'ไม่พบไฟล์เสียง กรุณาแนบใหม่';
 	@override String get srt_audio_load_error => 'ไม่สามารถโหลดเสียงได้';
@@ -6833,6 +6791,9 @@ class _StringsTh implements _StringsEn {
 	@override String get av_sync => 'ซิงค์เสียง/ภาพ';
 	@override String get av_sync_reset => 'รีเซ็ต';
 	@override String get av_sync_hint => 'ค่าบวก = เสียงนำหน้าข้อความ, เลื่อนคิวกลับ; ค่าลบ = เสียงตามหลัง';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get reader_settings_section => 'ตั้งค่าตัวอ่าน';
 	@override String get action_bookmark => 'บุ๊กมาร์ก';
 	@override String get action_fullscreen_toggle => 'สลับเต็มจอ';
@@ -6888,12 +6849,6 @@ class _StringsTh implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} ตัวอักษร';
 	@override String stat_format_chars_wan({required Object n}) => '${n} ตัวอักษร';
 	@override String get error_log_share_subject => 'บันทึกข้อผิดพลาด hibiki';
-	@override String get view_illustrations => 'Illustrations';
-	@override String get no_illustrations_found => 'No illustrations found';
-	@override String get loading_illustrations => 'Loading illustrations…';
-	@override String get image_pause => 'Pause on Image';
-	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
-	@override String get image_pause_off => 'Off';
 }
 
 // Path: retrying_in
@@ -7381,6 +7336,9 @@ class _StringsVi implements _StringsEn {
 	@override String srt_delete_confirm({required Object title}) => 'Xóa 『${title}』? Không thể hoàn tác.';
 	@override String get epub_delete_title => 'Xóa sách';
 	@override String get epub_delete_error => 'Xóa sách thất bại';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
 	@override String get srt_epub_not_ready => 'Sách chưa sẵn sàng — vui lòng nhập lại';
 	@override String get srt_audio_unresolved => 'Không tìm thấy tệp âm thanh — vui lòng gắn lại';
 	@override String get srt_audio_load_error => 'Tải âm thanh thất bại';
@@ -7446,6 +7404,9 @@ class _StringsVi implements _StringsEn {
 	@override String get av_sync => 'Đồng bộ A/V';
 	@override String get av_sync_reset => 'Đặt lại';
 	@override String get av_sync_hint => 'Dương = âm thanh nhanh hơn văn bản, dịch cue về trước; Âm = âm thanh chậm hơn.';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get reader_settings_section => 'Cài đặt trình đọc';
 	@override String get action_bookmark => 'Đánh dấu';
 	@override String get action_fullscreen_toggle => 'Bật/tắt toàn màn hình';
@@ -7501,12 +7462,6 @@ class _StringsVi implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} ký tự';
 	@override String stat_format_chars_wan({required Object n}) => '${n} ký tự';
 	@override String get error_log_share_subject => 'Nhật ký lỗi hibiki';
-	@override String get view_illustrations => 'Illustrations';
-	@override String get no_illustrations_found => 'No illustrations found';
-	@override String get loading_illustrations => 'Loading illustrations…';
-	@override String get image_pause => 'Pause on Image';
-	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
-	@override String get image_pause_off => 'Off';
 }
 
 // Path: retrying_in
@@ -8607,6 +8562,9 @@ class _StringsZhHk implements _StringsEn {
 	@override String srt_delete_confirm({required Object title}) => '刪除『${title}』？此操作無法復原。';
 	@override String get epub_delete_title => '刪除書籍';
 	@override String get epub_delete_error => '刪除書籍失敗';
+	@override String get view_illustrations => 'Illustrations';
+	@override String get no_illustrations_found => 'No illustrations found';
+	@override String get loading_illustrations => 'Loading illustrations…';
 	@override String get srt_epub_not_ready => '書籍尚未就緒 — 請重新匯入';
 	@override String get srt_audio_unresolved => '未找到音訊檔案 — 請重新附加';
 	@override String get srt_audio_load_error => '載入音訊失敗';
@@ -8672,6 +8630,9 @@ class _StringsZhHk implements _StringsEn {
 	@override String get av_sync => '影音同步';
 	@override String get av_sync_reset => '歸零';
 	@override String get av_sync_hint => '正數 = 音訊先於文字，往回撥字幕條目；負數 = 音訊延遲。';
+	@override String get image_pause => 'Pause on Image';
+	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
+	@override String get image_pause_off => 'Off';
 	@override String get reader_settings_section => '閱讀設定';
 	@override String get action_bookmark => '書籤';
 	@override String get action_fullscreen_toggle => '全螢幕切換';
@@ -8727,12 +8688,6 @@ class _StringsZhHk implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} 字';
 	@override String stat_format_chars_wan({required Object n}) => '${n} 萬字';
 	@override String get error_log_share_subject => 'hibiki 錯誤記錄';
-	@override String get view_illustrations => '查看插畫';
-	@override String get no_illustrations_found => '未找到插畫';
-	@override String get loading_illustrations => '正在載入插畫…';
-	@override String get image_pause => '圖片暫停';
-	@override String get image_pause_hint => '播放時遇到圖片自動暫停。';
-	@override String get image_pause_off => '關閉';
 }
 
 // Path: retrying_in
@@ -9781,6 +9736,9 @@ extension on _StringsAr {
 			case 'srt_delete_confirm': return ({required Object title}) => 'حذف『${title}』؟ لا يمكن التراجع عن هذا.';
 			case 'epub_delete_title': return 'حذف الكتاب';
 			case 'epub_delete_error': return 'فشل حذف الكتاب';
+			case 'view_illustrations': return 'Illustrations';
+			case 'no_illustrations_found': return 'No illustrations found';
+			case 'loading_illustrations': return 'Loading illustrations…';
 			case 'srt_epub_not_ready': return 'الكتاب غير جاهز — يرجى إعادة الاستيراد';
 			case 'srt_audio_unresolved': return 'لم يتم العثور على ملف الصوت — يرجى إعادة الإرفاق';
 			case 'srt_audio_load_error': return 'فشل تحميل الصوت';
@@ -9846,6 +9804,9 @@ extension on _StringsAr {
 			case 'av_sync': return 'مزامنة الصوت/الصورة';
 			case 'av_sync_reset': return 'إعادة تعيين';
 			case 'av_sync_hint': return 'موجب = الصوت يسبق النص، يرجع الإشارة؛ سالب = الصوت متأخر.';
+			case 'image_pause': return 'Pause on Image';
+			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
+			case 'image_pause_off': return 'Off';
 			case 'reader_settings_section': return 'إعدادات القارئ';
 			case 'action_bookmark': return 'إشارة مرجعية';
 			case 'action_fullscreen_toggle': return 'تبديل ملء الشاشة';
@@ -10349,6 +10310,9 @@ extension on _StringsDe {
 			case 'srt_delete_confirm': return ({required Object title}) => '『${title}』löschen? Dies kann nicht rückgängig gemacht werden.';
 			case 'epub_delete_title': return 'Buch löschen';
 			case 'epub_delete_error': return 'Buch konnte nicht gelöscht werden';
+			case 'view_illustrations': return 'Illustrations';
+			case 'no_illustrations_found': return 'No illustrations found';
+			case 'loading_illustrations': return 'Loading illustrations…';
 			case 'srt_epub_not_ready': return 'Buch nicht bereit — bitte erneut importieren';
 			case 'srt_audio_unresolved': return 'Audiodatei nicht gefunden — bitte erneut anhängen';
 			case 'srt_audio_load_error': return 'Audio konnte nicht geladen werden';
@@ -10414,6 +10378,9 @@ extension on _StringsDe {
 			case 'av_sync': return 'A/V-Sync';
 			case 'av_sync_reset': return 'Zurücksetzen';
 			case 'av_sync_hint': return 'Positiv = Audio vor Text, verschiebt Cue zurück; Negativ = Audio hinter Text.';
+			case 'image_pause': return 'Pause on Image';
+			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
+			case 'image_pause_off': return 'Off';
 			case 'reader_settings_section': return 'Reader-Einstellungen';
 			case 'action_bookmark': return 'Lesezeichen';
 			case 'action_fullscreen_toggle': return 'Vollbild umschalten';
@@ -10917,6 +10884,9 @@ extension on _StringsEs {
 			case 'srt_delete_confirm': return ({required Object title}) => '¿Eliminar 『${title}』? Esta acción no se puede deshacer.';
 			case 'epub_delete_title': return 'Eliminar libro';
 			case 'epub_delete_error': return 'Error al eliminar el libro';
+			case 'view_illustrations': return 'Illustrations';
+			case 'no_illustrations_found': return 'No illustrations found';
+			case 'loading_illustrations': return 'Loading illustrations…';
 			case 'srt_epub_not_ready': return 'Libro no preparado — por favor reimporta';
 			case 'srt_audio_unresolved': return 'Archivo de audio no encontrado — por favor vuelve a adjuntarlo';
 			case 'srt_audio_load_error': return 'Error al cargar el audio';
@@ -10982,6 +10952,9 @@ extension on _StringsEs {
 			case 'av_sync': return 'Sincronización A/V';
 			case 'av_sync_reset': return 'Restablecer';
 			case 'av_sync_hint': return 'Positivo = audio adelantado al texto, retrocede la marca; Negativo = audio retrasado.';
+			case 'image_pause': return 'Pause on Image';
+			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
+			case 'image_pause_off': return 'Off';
 			case 'reader_settings_section': return 'Configuración del lector';
 			case 'action_bookmark': return 'Marcador';
 			case 'action_fullscreen_toggle': return 'Alternar pantalla completa';
@@ -11485,6 +11458,9 @@ extension on _StringsFr {
 			case 'srt_delete_confirm': return ({required Object title}) => 'Supprimer 『${title}』 ? Cette action est irréversible.';
 			case 'epub_delete_title': return 'Supprimer le livre';
 			case 'epub_delete_error': return 'Échec de la suppression du livre';
+			case 'view_illustrations': return 'Illustrations';
+			case 'no_illustrations_found': return 'No illustrations found';
+			case 'loading_illustrations': return 'Loading illustrations…';
 			case 'srt_epub_not_ready': return 'Livre non prêt — veuillez le réimporter';
 			case 'srt_audio_unresolved': return 'Fichier audio introuvable — veuillez le rattacher';
 			case 'srt_audio_load_error': return 'Échec du chargement de l\'audio';
@@ -11550,6 +11526,9 @@ extension on _StringsFr {
 			case 'av_sync': return 'Synchro A/V';
 			case 'av_sync_reset': return 'Réinitialiser';
 			case 'av_sync_hint': return 'Positif = audio en avance sur le texte, recule le repère ; Négatif = audio en retard.';
+			case 'image_pause': return 'Pause on Image';
+			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
+			case 'image_pause_off': return 'Off';
 			case 'reader_settings_section': return 'Paramètres du lecteur';
 			case 'action_bookmark': return 'Signet';
 			case 'action_fullscreen_toggle': return 'Plein écran';
@@ -12053,6 +12032,9 @@ extension on _StringsId {
 			case 'srt_delete_confirm': return ({required Object title}) => 'Hapus『${title}』? Tindakan ini tidak dapat dibatalkan.';
 			case 'epub_delete_title': return 'Hapus Buku';
 			case 'epub_delete_error': return 'Gagal menghapus buku';
+			case 'view_illustrations': return 'Illustrations';
+			case 'no_illustrations_found': return 'No illustrations found';
+			case 'loading_illustrations': return 'Loading illustrations…';
 			case 'srt_epub_not_ready': return 'Buku belum siap — silakan impor ulang';
 			case 'srt_audio_unresolved': return 'File audio tidak ditemukan — silakan lampirkan ulang';
 			case 'srt_audio_load_error': return 'Gagal memuat audio';
@@ -12118,6 +12100,9 @@ extension on _StringsId {
 			case 'av_sync': return 'Sinkronisasi A/V';
 			case 'av_sync_reset': return 'Reset';
 			case 'av_sync_hint': return 'Positif = audio mendahului teks, geser cue mundur; Negatif = audio tertinggal.';
+			case 'image_pause': return 'Pause on Image';
+			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
+			case 'image_pause_off': return 'Off';
 			case 'reader_settings_section': return 'Pengaturan Pembaca';
 			case 'action_bookmark': return 'Bookmark';
 			case 'action_fullscreen_toggle': return 'Alihkan Layar Penuh';
@@ -12621,6 +12606,9 @@ extension on _StringsJa {
 			case 'srt_delete_confirm': return ({required Object title}) => '『${title}』を削除しますか？この操作は元に戻せません。';
 			case 'epub_delete_title': return '本を削除';
 			case 'epub_delete_error': return '本の削除に失敗しました';
+			case 'view_illustrations': return 'イラスト';
+			case 'no_illustrations_found': return 'イラストが見つかりません';
+			case 'loading_illustrations': return 'イラストを読み込み中…';
 			case 'srt_epub_not_ready': return '本の準備ができていません。再インポートしてください';
 			case 'srt_audio_unresolved': return '音声ファイルが見つかりません。再紐付けしてください';
 			case 'srt_audio_load_error': return '音声の読み込みに失敗しました';
@@ -13192,6 +13180,9 @@ extension on _StringsKo {
 			case 'srt_delete_confirm': return ({required Object title}) => '『${title}』을(를) 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.';
 			case 'epub_delete_title': return '책 삭제';
 			case 'epub_delete_error': return '책 삭제에 실패했습니다';
+			case 'view_illustrations': return 'Illustrations';
+			case 'no_illustrations_found': return 'No illustrations found';
+			case 'loading_illustrations': return 'Loading illustrations…';
 			case 'srt_epub_not_ready': return '책이 준비되지 않았습니다 — 다시 가져와 주세요';
 			case 'srt_audio_unresolved': return '오디오 파일을 찾을 수 없습니다 — 다시 연결해 주세요';
 			case 'srt_audio_load_error': return '오디오 로드에 실패했습니다';
@@ -13257,6 +13248,9 @@ extension on _StringsKo {
 			case 'av_sync': return 'A/V 동기화';
 			case 'av_sync_reset': return '초기화';
 			case 'av_sync_hint': return '양수 = 오디오가 텍스트보다 앞서며, 큐를 뒤로 이동; 음수 = 오디오가 뒤처짐.';
+			case 'image_pause': return 'Pause on Image';
+			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
+			case 'image_pause_off': return 'Off';
 			case 'reader_settings_section': return '리더 설정';
 			case 'action_bookmark': return '북마크';
 			case 'action_fullscreen_toggle': return '전체 화면 전환';
@@ -13760,6 +13754,9 @@ extension on _StringsPtBr {
 			case 'srt_delete_confirm': return ({required Object title}) => 'Excluir 『${title}』? Esta ação não pode ser desfeita.';
 			case 'epub_delete_title': return 'Excluir Livro';
 			case 'epub_delete_error': return 'Falha ao excluir o livro';
+			case 'view_illustrations': return 'Illustrations';
+			case 'no_illustrations_found': return 'No illustrations found';
+			case 'loading_illustrations': return 'Loading illustrations…';
 			case 'srt_epub_not_ready': return 'Livro não está pronto — reimporte-o';
 			case 'srt_audio_unresolved': return 'Arquivo de áudio não encontrado — reanexe-o';
 			case 'srt_audio_load_error': return 'Falha ao carregar o áudio';
@@ -13825,6 +13822,9 @@ extension on _StringsPtBr {
 			case 'av_sync': return 'Sincronia A/V';
 			case 'av_sync_reset': return 'Redefinir';
 			case 'av_sync_hint': return 'Positivo = áudio adiantado em relação ao texto, desloca a frase para trás; Negativo = áudio atrasado.';
+			case 'image_pause': return 'Pause on Image';
+			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
+			case 'image_pause_off': return 'Off';
 			case 'reader_settings_section': return 'Configurações do Leitor';
 			case 'action_bookmark': return 'Marcador';
 			case 'action_fullscreen_toggle': return 'Alternar Tela Cheia';
@@ -14328,6 +14328,9 @@ extension on _StringsRu {
 			case 'srt_delete_confirm': return ({required Object title}) => 'Удалить『${title}』? Это действие нельзя отменить.';
 			case 'epub_delete_title': return 'Удалить книгу';
 			case 'epub_delete_error': return 'Не удалось удалить книгу';
+			case 'view_illustrations': return 'Illustrations';
+			case 'no_illustrations_found': return 'No illustrations found';
+			case 'loading_illustrations': return 'Loading illustrations…';
 			case 'srt_epub_not_ready': return 'Книга не готова — импортируйте заново';
 			case 'srt_audio_unresolved': return 'Аудиофайл не найден — привяжите заново';
 			case 'srt_audio_load_error': return 'Не удалось загрузить аудио';
@@ -14393,6 +14396,9 @@ extension on _StringsRu {
 			case 'av_sync': return 'A/V синхр.';
 			case 'av_sync_reset': return 'Сброс';
 			case 'av_sync_hint': return 'Положительное = аудио опережает текст, сдвиг назад; Отрицательное = аудио отстаёт.';
+			case 'image_pause': return 'Pause on Image';
+			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
+			case 'image_pause_off': return 'Off';
 			case 'reader_settings_section': return 'Настройки читалки';
 			case 'action_bookmark': return 'Закладка';
 			case 'action_fullscreen_toggle': return 'Полноэкранный режим';
@@ -14896,6 +14902,9 @@ extension on _StringsTh {
 			case 'srt_delete_confirm': return ({required Object title}) => 'ลบ『${title}』? ไม่สามารถเลิกทำได้';
 			case 'epub_delete_title': return 'ลบหนังสือ';
 			case 'epub_delete_error': return 'ไม่สามารถลบหนังสือได้';
+			case 'view_illustrations': return 'Illustrations';
+			case 'no_illustrations_found': return 'No illustrations found';
+			case 'loading_illustrations': return 'Loading illustrations…';
 			case 'srt_epub_not_ready': return 'หนังสือยังไม่พร้อม กรุณานำเข้าใหม่';
 			case 'srt_audio_unresolved': return 'ไม่พบไฟล์เสียง กรุณาแนบใหม่';
 			case 'srt_audio_load_error': return 'ไม่สามารถโหลดเสียงได้';
@@ -14961,6 +14970,9 @@ extension on _StringsTh {
 			case 'av_sync': return 'ซิงค์เสียง/ภาพ';
 			case 'av_sync_reset': return 'รีเซ็ต';
 			case 'av_sync_hint': return 'ค่าบวก = เสียงนำหน้าข้อความ, เลื่อนคิวกลับ; ค่าลบ = เสียงตามหลัง';
+			case 'image_pause': return 'Pause on Image';
+			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
+			case 'image_pause_off': return 'Off';
 			case 'reader_settings_section': return 'ตั้งค่าตัวอ่าน';
 			case 'action_bookmark': return 'บุ๊กมาร์ก';
 			case 'action_fullscreen_toggle': return 'สลับเต็มจอ';
@@ -15464,6 +15476,9 @@ extension on _StringsVi {
 			case 'srt_delete_confirm': return ({required Object title}) => 'Xóa 『${title}』? Không thể hoàn tác.';
 			case 'epub_delete_title': return 'Xóa sách';
 			case 'epub_delete_error': return 'Xóa sách thất bại';
+			case 'view_illustrations': return 'Illustrations';
+			case 'no_illustrations_found': return 'No illustrations found';
+			case 'loading_illustrations': return 'Loading illustrations…';
 			case 'srt_epub_not_ready': return 'Sách chưa sẵn sàng — vui lòng nhập lại';
 			case 'srt_audio_unresolved': return 'Không tìm thấy tệp âm thanh — vui lòng gắn lại';
 			case 'srt_audio_load_error': return 'Tải âm thanh thất bại';
@@ -15529,6 +15544,9 @@ extension on _StringsVi {
 			case 'av_sync': return 'Đồng bộ A/V';
 			case 'av_sync_reset': return 'Đặt lại';
 			case 'av_sync_hint': return 'Dương = âm thanh nhanh hơn văn bản, dịch cue về trước; Âm = âm thanh chậm hơn.';
+			case 'image_pause': return 'Pause on Image';
+			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
+			case 'image_pause_off': return 'Off';
 			case 'reader_settings_section': return 'Cài đặt trình đọc';
 			case 'action_bookmark': return 'Đánh dấu';
 			case 'action_fullscreen_toggle': return 'Bật/tắt toàn màn hình';
@@ -16606,6 +16624,9 @@ extension on _StringsZhHk {
 			case 'srt_delete_confirm': return ({required Object title}) => '刪除『${title}』？此操作無法復原。';
 			case 'epub_delete_title': return '刪除書籍';
 			case 'epub_delete_error': return '刪除書籍失敗';
+			case 'view_illustrations': return 'Illustrations';
+			case 'no_illustrations_found': return 'No illustrations found';
+			case 'loading_illustrations': return 'Loading illustrations…';
 			case 'srt_epub_not_ready': return '書籍尚未就緒 — 請重新匯入';
 			case 'srt_audio_unresolved': return '未找到音訊檔案 — 請重新附加';
 			case 'srt_audio_load_error': return '載入音訊失敗';
@@ -16671,6 +16692,9 @@ extension on _StringsZhHk {
 			case 'av_sync': return '影音同步';
 			case 'av_sync_reset': return '歸零';
 			case 'av_sync_hint': return '正數 = 音訊先於文字，往回撥字幕條目；負數 = 音訊延遲。';
+			case 'image_pause': return 'Pause on Image';
+			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
+			case 'image_pause_off': return 'Off';
 			case 'reader_settings_section': return '閱讀設定';
 			case 'action_bookmark': return '書籤';
 			case 'action_fullscreen_toggle': return '全螢幕切換';
