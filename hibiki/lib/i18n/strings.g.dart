@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 14
-/// Strings: 8372 (598 per locale)
+/// Strings: 8386 (599 per locale)
 ///
-/// Built on 2026-04-25 at 08:26 UTC
+/// Built on 2026-04-25 at 09:53 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -665,6 +665,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get av_sync => 'A/V Sync';
 	String get av_sync_reset => 'Reset';
 	String get av_sync_hint => 'Positive = audio ahead of text, shifts cue back; Negative = audio behind.';
+	String get audio_volume => 'Volume';
 	String get reader_settings_section => 'Reader Settings';
 	String get action_bookmark => 'Bookmark';
 	String get action_fullscreen_toggle => 'Toggle Fullscreen';
@@ -1314,6 +1315,7 @@ class _StringsAr implements _StringsEn {
 	@override String get image_pause => 'Pause on Image';
 	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
 	@override String get image_pause_off => 'Off';
+	@override String get audio_volume => 'Volume';
 	@override String get reader_settings_section => 'إعدادات القارئ';
 	@override String get action_bookmark => 'إشارة مرجعية';
 	@override String get action_fullscreen_toggle => 'تبديل ملء الشاشة';
@@ -1963,6 +1965,7 @@ class _StringsDe implements _StringsEn {
 	@override String get image_pause => 'Pause on Image';
 	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
 	@override String get image_pause_off => 'Off';
+	@override String get audio_volume => 'Volume';
 	@override String get reader_settings_section => 'Reader-Einstellungen';
 	@override String get action_bookmark => 'Lesezeichen';
 	@override String get action_fullscreen_toggle => 'Vollbild umschalten';
@@ -2612,6 +2615,7 @@ class _StringsEs implements _StringsEn {
 	@override String get image_pause => 'Pause on Image';
 	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
 	@override String get image_pause_off => 'Off';
+	@override String get audio_volume => 'Volume';
 	@override String get reader_settings_section => 'Configuración del lector';
 	@override String get action_bookmark => 'Marcador';
 	@override String get action_fullscreen_toggle => 'Alternar pantalla completa';
@@ -3261,6 +3265,7 @@ class _StringsFr implements _StringsEn {
 	@override String get image_pause => 'Pause on Image';
 	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
 	@override String get image_pause_off => 'Off';
+	@override String get audio_volume => 'Volume';
 	@override String get reader_settings_section => 'Paramètres du lecteur';
 	@override String get action_bookmark => 'Signet';
 	@override String get action_fullscreen_toggle => 'Plein écran';
@@ -3910,6 +3915,7 @@ class _StringsId implements _StringsEn {
 	@override String get image_pause => 'Pause on Image';
 	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
 	@override String get image_pause_off => 'Off';
+	@override String get audio_volume => 'Volume';
 	@override String get reader_settings_section => 'Pengaturan Pembaca';
 	@override String get action_bookmark => 'Bookmark';
 	@override String get action_fullscreen_toggle => 'Alihkan Layar Penuh';
@@ -4559,6 +4565,7 @@ class _StringsJa implements _StringsEn {
 	@override String get image_pause => '画像で一時停止';
 	@override String get image_pause_hint => '再生中に画像が表示されたら自動で一時停止します。';
 	@override String get image_pause_off => 'オフ';
+	@override String get audio_volume => '音量';
 	@override String get reader_settings_section => 'リーダー設定';
 	@override String get action_bookmark => 'ブックマーク';
 	@override String get action_fullscreen_toggle => '全画面表示の切替';
@@ -5208,6 +5215,7 @@ class _StringsKo implements _StringsEn {
 	@override String get image_pause => 'Pause on Image';
 	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
 	@override String get image_pause_off => 'Off';
+	@override String get audio_volume => 'Volume';
 	@override String get reader_settings_section => '리더 설정';
 	@override String get action_bookmark => '북마크';
 	@override String get action_fullscreen_toggle => '전체 화면 전환';
@@ -5857,6 +5865,7 @@ class _StringsPtBr implements _StringsEn {
 	@override String get image_pause => 'Pause on Image';
 	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
 	@override String get image_pause_off => 'Off';
+	@override String get audio_volume => 'Volume';
 	@override String get reader_settings_section => 'Configurações do Leitor';
 	@override String get action_bookmark => 'Marcador';
 	@override String get action_fullscreen_toggle => 'Alternar Tela Cheia';
@@ -6506,6 +6515,7 @@ class _StringsRu implements _StringsEn {
 	@override String get image_pause => 'Pause on Image';
 	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
 	@override String get image_pause_off => 'Off';
+	@override String get audio_volume => 'Volume';
 	@override String get reader_settings_section => 'Настройки читалки';
 	@override String get action_bookmark => 'Закладка';
 	@override String get action_fullscreen_toggle => 'Полноэкранный режим';
@@ -7155,6 +7165,7 @@ class _StringsTh implements _StringsEn {
 	@override String get image_pause => 'Pause on Image';
 	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
 	@override String get image_pause_off => 'Off';
+	@override String get audio_volume => 'Volume';
 	@override String get reader_settings_section => 'ตั้งค่าตัวอ่าน';
 	@override String get action_bookmark => 'บุ๊กมาร์ก';
 	@override String get action_fullscreen_toggle => 'สลับเต็มจอ';
@@ -7804,6 +7815,7 @@ class _StringsVi implements _StringsEn {
 	@override String get image_pause => 'Pause on Image';
 	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
 	@override String get image_pause_off => 'Off';
+	@override String get audio_volume => 'Volume';
 	@override String get reader_settings_section => 'Cài đặt trình đọc';
 	@override String get action_bookmark => 'Đánh dấu';
 	@override String get action_fullscreen_toggle => 'Bật/tắt toàn màn hình';
@@ -8453,6 +8465,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get av_sync => '音画同步';
 	@override String get av_sync_reset => '归零';
 	@override String get av_sync_hint => '正数 = 音频先于文字，向回拨字幕条目；负数 = 音频滞后。';
+	@override String get audio_volume => '音量';
 	@override String get reader_settings_section => '阅读设置';
 	@override String get action_bookmark => '书签';
 	@override String get action_fullscreen_toggle => '全屏切换';
@@ -9102,6 +9115,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String get image_pause => 'Pause on Image';
 	@override String get image_pause_hint => 'Auto-pause when an image appears during playback.';
 	@override String get image_pause_off => 'Off';
+	@override String get audio_volume => '音量';
 	@override String get reader_settings_section => '閱讀設定';
 	@override String get action_bookmark => '書籤';
 	@override String get action_fullscreen_toggle => '全螢幕切換';
@@ -9738,6 +9752,7 @@ extension on _StringsEn {
 			case 'av_sync': return 'A/V Sync';
 			case 'av_sync_reset': return 'Reset';
 			case 'av_sync_hint': return 'Positive = audio ahead of text, shifts cue back; Negative = audio behind.';
+			case 'audio_volume': return 'Volume';
 			case 'reader_settings_section': return 'Reader Settings';
 			case 'action_bookmark': return 'Bookmark';
 			case 'action_fullscreen_toggle': return 'Toggle Fullscreen';
@@ -10348,6 +10363,7 @@ extension on _StringsAr {
 			case 'image_pause': return 'Pause on Image';
 			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
 			case 'image_pause_off': return 'Off';
+			case 'audio_volume': return 'Volume';
 			case 'reader_settings_section': return 'إعدادات القارئ';
 			case 'action_bookmark': return 'إشارة مرجعية';
 			case 'action_fullscreen_toggle': return 'تبديل ملء الشاشة';
@@ -10958,6 +10974,7 @@ extension on _StringsDe {
 			case 'image_pause': return 'Pause on Image';
 			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
 			case 'image_pause_off': return 'Off';
+			case 'audio_volume': return 'Volume';
 			case 'reader_settings_section': return 'Reader-Einstellungen';
 			case 'action_bookmark': return 'Lesezeichen';
 			case 'action_fullscreen_toggle': return 'Vollbild umschalten';
@@ -11568,6 +11585,7 @@ extension on _StringsEs {
 			case 'image_pause': return 'Pause on Image';
 			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
 			case 'image_pause_off': return 'Off';
+			case 'audio_volume': return 'Volume';
 			case 'reader_settings_section': return 'Configuración del lector';
 			case 'action_bookmark': return 'Marcador';
 			case 'action_fullscreen_toggle': return 'Alternar pantalla completa';
@@ -12178,6 +12196,7 @@ extension on _StringsFr {
 			case 'image_pause': return 'Pause on Image';
 			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
 			case 'image_pause_off': return 'Off';
+			case 'audio_volume': return 'Volume';
 			case 'reader_settings_section': return 'Paramètres du lecteur';
 			case 'action_bookmark': return 'Signet';
 			case 'action_fullscreen_toggle': return 'Plein écran';
@@ -12788,6 +12807,7 @@ extension on _StringsId {
 			case 'image_pause': return 'Pause on Image';
 			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
 			case 'image_pause_off': return 'Off';
+			case 'audio_volume': return 'Volume';
 			case 'reader_settings_section': return 'Pengaturan Pembaca';
 			case 'action_bookmark': return 'Bookmark';
 			case 'action_fullscreen_toggle': return 'Alihkan Layar Penuh';
@@ -13398,6 +13418,7 @@ extension on _StringsJa {
 			case 'image_pause': return '画像で一時停止';
 			case 'image_pause_hint': return '再生中に画像が表示されたら自動で一時停止します。';
 			case 'image_pause_off': return 'オフ';
+			case 'audio_volume': return '音量';
 			case 'reader_settings_section': return 'リーダー設定';
 			case 'action_bookmark': return 'ブックマーク';
 			case 'action_fullscreen_toggle': return '全画面表示の切替';
@@ -14008,6 +14029,7 @@ extension on _StringsKo {
 			case 'image_pause': return 'Pause on Image';
 			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
 			case 'image_pause_off': return 'Off';
+			case 'audio_volume': return 'Volume';
 			case 'reader_settings_section': return '리더 설정';
 			case 'action_bookmark': return '북마크';
 			case 'action_fullscreen_toggle': return '전체 화면 전환';
@@ -14618,6 +14640,7 @@ extension on _StringsPtBr {
 			case 'image_pause': return 'Pause on Image';
 			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
 			case 'image_pause_off': return 'Off';
+			case 'audio_volume': return 'Volume';
 			case 'reader_settings_section': return 'Configurações do Leitor';
 			case 'action_bookmark': return 'Marcador';
 			case 'action_fullscreen_toggle': return 'Alternar Tela Cheia';
@@ -15228,6 +15251,7 @@ extension on _StringsRu {
 			case 'image_pause': return 'Pause on Image';
 			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
 			case 'image_pause_off': return 'Off';
+			case 'audio_volume': return 'Volume';
 			case 'reader_settings_section': return 'Настройки читалки';
 			case 'action_bookmark': return 'Закладка';
 			case 'action_fullscreen_toggle': return 'Полноэкранный режим';
@@ -15838,6 +15862,7 @@ extension on _StringsTh {
 			case 'image_pause': return 'Pause on Image';
 			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
 			case 'image_pause_off': return 'Off';
+			case 'audio_volume': return 'Volume';
 			case 'reader_settings_section': return 'ตั้งค่าตัวอ่าน';
 			case 'action_bookmark': return 'บุ๊กมาร์ก';
 			case 'action_fullscreen_toggle': return 'สลับเต็มจอ';
@@ -16448,6 +16473,7 @@ extension on _StringsVi {
 			case 'image_pause': return 'Pause on Image';
 			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
 			case 'image_pause_off': return 'Off';
+			case 'audio_volume': return 'Volume';
 			case 'reader_settings_section': return 'Cài đặt trình đọc';
 			case 'action_bookmark': return 'Đánh dấu';
 			case 'action_fullscreen_toggle': return 'Bật/tắt toàn màn hình';
@@ -17058,6 +17084,7 @@ extension on _StringsZhCn {
 			case 'av_sync': return '音画同步';
 			case 'av_sync_reset': return '归零';
 			case 'av_sync_hint': return '正数 = 音频先于文字，向回拨字幕条目；负数 = 音频滞后。';
+			case 'audio_volume': return '音量';
 			case 'reader_settings_section': return '阅读设置';
 			case 'action_bookmark': return '书签';
 			case 'action_fullscreen_toggle': return '全屏切换';
@@ -17668,6 +17695,7 @@ extension on _StringsZhHk {
 			case 'image_pause': return 'Pause on Image';
 			case 'image_pause_hint': return 'Auto-pause when an image appears during playback.';
 			case 'image_pause_off': return 'Off';
+			case 'audio_volume': return '音量';
 			case 'reader_settings_section': return '閱讀設定';
 			case 'action_bookmark': return '書籤';
 			case 'action_fullscreen_toggle': return '全螢幕切換';
