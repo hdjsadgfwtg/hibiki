@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 14
-/// Strings: 8344 (596 per locale)
+/// Strings: 8372 (598 per locale)
 ///
-/// Built on 2026-04-25 at 08:08 UTC
+/// Built on 2026-04-25 at 08:26 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -753,6 +753,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 	String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 	String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+	String get anki_manage_profiles => 'Manage Export Profiles';
+	String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 }
 
 // Path: retrying_in
@@ -1400,6 +1402,8 @@ class _StringsAr implements _StringsEn {
 	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+	@override String get anki_manage_profiles => 'Manage Export Profiles';
+	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 }
 
 // Path: retrying_in
@@ -2047,6 +2051,8 @@ class _StringsDe implements _StringsEn {
 	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+	@override String get anki_manage_profiles => 'Manage Export Profiles';
+	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 }
 
 // Path: retrying_in
@@ -2694,6 +2700,8 @@ class _StringsEs implements _StringsEn {
 	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+	@override String get anki_manage_profiles => 'Manage Export Profiles';
+	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 }
 
 // Path: retrying_in
@@ -3341,6 +3349,8 @@ class _StringsFr implements _StringsEn {
 	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+	@override String get anki_manage_profiles => 'Manage Export Profiles';
+	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 }
 
 // Path: retrying_in
@@ -3988,6 +3998,8 @@ class _StringsId implements _StringsEn {
 	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+	@override String get anki_manage_profiles => 'Manage Export Profiles';
+	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 }
 
 // Path: retrying_in
@@ -4635,6 +4647,8 @@ class _StringsJa implements _StringsEn {
 	@override String get hint_writing_direction => '横書き：左から右へ。縦書き：伝統的な日本語の上から下、右から左への配置。';
 	@override String get hint_view_mode => 'ページめくり：本のようにページをめくります。連続スクロール：ページ区切りなしでスクロールして読みます。';
 	@override String get hint_vert_text_orient => '混合：数字とラテン文字は横向きに回転。正立：すべての文字が直立のまま。';
+	@override String get anki_manage_profiles => 'エクスポートプロファイル管理';
+	@override String get anki_manage_profiles_hint => 'AnkiDroidへのエクスポート時のフィールドマッピングを設定します。各プロファイルはAnkiのノートタイプに紐づき、hibikiのフィールドがAnkiのどのフィールドに入るかを定義します。';
 }
 
 // Path: retrying_in
@@ -5282,6 +5296,8 @@ class _StringsKo implements _StringsEn {
 	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+	@override String get anki_manage_profiles => 'Manage Export Profiles';
+	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 }
 
 // Path: retrying_in
@@ -5929,6 +5945,8 @@ class _StringsPtBr implements _StringsEn {
 	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+	@override String get anki_manage_profiles => 'Manage Export Profiles';
+	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 }
 
 // Path: retrying_in
@@ -6576,6 +6594,8 @@ class _StringsRu implements _StringsEn {
 	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+	@override String get anki_manage_profiles => 'Manage Export Profiles';
+	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 }
 
 // Path: retrying_in
@@ -7223,6 +7243,8 @@ class _StringsTh implements _StringsEn {
 	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+	@override String get anki_manage_profiles => 'Manage Export Profiles';
+	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 }
 
 // Path: retrying_in
@@ -7870,6 +7892,8 @@ class _StringsVi implements _StringsEn {
 	@override String get hint_writing_direction => 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 	@override String get hint_view_mode => 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 	@override String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+	@override String get anki_manage_profiles => 'Manage Export Profiles';
+	@override String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 }
 
 // Path: retrying_in
@@ -8517,6 +8541,8 @@ class _StringsZhCn implements _StringsEn {
 	@override String get hint_writing_direction => '横排：从左到右。竖排：传统日文从上到下、从右到左排列。';
 	@override String get hint_view_mode => '翻页模式：像书一样翻页。连续滚动：无分页，自由滚动阅读。';
 	@override String get hint_vert_text_orient => '混合：数字和西文字母旋转为横向。直立：所有字符保持直立。';
+	@override String get anki_manage_profiles => '管理导出配置';
+	@override String get anki_manage_profiles_hint => '配置导出到 AnkiDroid 时各字段的映射方式。每个配置绑定一个 Anki 笔记类型，定义 hibiki 的哪个字段填充 Anki 的哪个字段。';
 }
 
 // Path: retrying_in
@@ -9164,6 +9190,8 @@ class _StringsZhHk implements _StringsEn {
 	@override String get hint_writing_direction => '横排：从左到右。竖排：传统日文从上到下、从右到左排列。';
 	@override String get hint_view_mode => '翻页模式：像书一样翻页。连续滚动：无分页，自由滚动阅读。';
 	@override String get hint_vert_text_orient => '混合：数字和西文字母旋转为横向。直立：所有字符保持直立。';
+	@override String get anki_manage_profiles => '管理导出配置';
+	@override String get anki_manage_profiles_hint => '配置导出到 AnkiDroid 时各字段的映射方式。每个配置绑定一个 Anki 笔记类型，定义 hibiki 的哪个字段填充 Anki 的哪个字段。';
 }
 
 // Path: retrying_in
@@ -9798,6 +9826,8 @@ extension on _StringsEn {
 			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+			case 'anki_manage_profiles': return 'Manage Export Profiles';
+			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 			default: return null;
 		}
 	}
@@ -10406,6 +10436,8 @@ extension on _StringsAr {
 			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+			case 'anki_manage_profiles': return 'Manage Export Profiles';
+			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 			default: return null;
 		}
 	}
@@ -11014,6 +11046,8 @@ extension on _StringsDe {
 			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+			case 'anki_manage_profiles': return 'Manage Export Profiles';
+			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 			default: return null;
 		}
 	}
@@ -11622,6 +11656,8 @@ extension on _StringsEs {
 			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+			case 'anki_manage_profiles': return 'Manage Export Profiles';
+			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 			default: return null;
 		}
 	}
@@ -12230,6 +12266,8 @@ extension on _StringsFr {
 			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+			case 'anki_manage_profiles': return 'Manage Export Profiles';
+			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 			default: return null;
 		}
 	}
@@ -12838,6 +12876,8 @@ extension on _StringsId {
 			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+			case 'anki_manage_profiles': return 'Manage Export Profiles';
+			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 			default: return null;
 		}
 	}
@@ -13446,6 +13486,8 @@ extension on _StringsJa {
 			case 'hint_writing_direction': return '横書き：左から右へ。縦書き：伝統的な日本語の上から下、右から左への配置。';
 			case 'hint_view_mode': return 'ページめくり：本のようにページをめくります。連続スクロール：ページ区切りなしでスクロールして読みます。';
 			case 'hint_vert_text_orient': return '混合：数字とラテン文字は横向きに回転。正立：すべての文字が直立のまま。';
+			case 'anki_manage_profiles': return 'エクスポートプロファイル管理';
+			case 'anki_manage_profiles_hint': return 'AnkiDroidへのエクスポート時のフィールドマッピングを設定します。各プロファイルはAnkiのノートタイプに紐づき、hibikiのフィールドがAnkiのどのフィールドに入るかを定義します。';
 			default: return null;
 		}
 	}
@@ -14054,6 +14096,8 @@ extension on _StringsKo {
 			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+			case 'anki_manage_profiles': return 'Manage Export Profiles';
+			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 			default: return null;
 		}
 	}
@@ -14662,6 +14706,8 @@ extension on _StringsPtBr {
 			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+			case 'anki_manage_profiles': return 'Manage Export Profiles';
+			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 			default: return null;
 		}
 	}
@@ -15270,6 +15316,8 @@ extension on _StringsRu {
 			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+			case 'anki_manage_profiles': return 'Manage Export Profiles';
+			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 			default: return null;
 		}
 	}
@@ -15878,6 +15926,8 @@ extension on _StringsTh {
 			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+			case 'anki_manage_profiles': return 'Manage Export Profiles';
+			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 			default: return null;
 		}
 	}
@@ -16486,6 +16536,8 @@ extension on _StringsVi {
 			case 'hint_writing_direction': return 'Horizontal: left-to-right text flow. Vertical: traditional top-to-bottom, right-to-left Japanese text.';
 			case 'hint_view_mode': return 'Paginated: flip pages like a book. Continuous scroll: scroll through text without page breaks.';
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
+			case 'anki_manage_profiles': return 'Manage Export Profiles';
+			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 			default: return null;
 		}
 	}
@@ -17094,6 +17146,8 @@ extension on _StringsZhCn {
 			case 'hint_writing_direction': return '横排：从左到右。竖排：传统日文从上到下、从右到左排列。';
 			case 'hint_view_mode': return '翻页模式：像书一样翻页。连续滚动：无分页，自由滚动阅读。';
 			case 'hint_vert_text_orient': return '混合：数字和西文字母旋转为横向。直立：所有字符保持直立。';
+			case 'anki_manage_profiles': return '管理导出配置';
+			case 'anki_manage_profiles_hint': return '配置导出到 AnkiDroid 时各字段的映射方式。每个配置绑定一个 Anki 笔记类型，定义 hibiki 的哪个字段填充 Anki 的哪个字段。';
 			default: return null;
 		}
 	}
@@ -17702,6 +17756,8 @@ extension on _StringsZhHk {
 			case 'hint_writing_direction': return '横排：从左到右。竖排：传统日文从上到下、从右到左排列。';
 			case 'hint_view_mode': return '翻页模式：像书一样翻页。连续滚动：无分页，自由滚动阅读。';
 			case 'hint_vert_text_orient': return '混合：数字和西文字母旋转为横向。直立：所有字符保持直立。';
+			case 'anki_manage_profiles': return '管理导出配置';
+			case 'anki_manage_profiles_hint': return '配置导出到 AnkiDroid 时各字段的映射方式。每个配置绑定一个 Anki 笔记类型，定义 hibiki 的哪个字段填充 Anki 的哪个字段。';
 			default: return null;
 		}
 	}
