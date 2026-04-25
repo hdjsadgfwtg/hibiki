@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 14
-/// Strings: 8148 (582 per locale)
+/// Strings: 8218 (587 per locale)
 ///
-/// Built on 2026-04-25 at 07:24 UTC
+/// Built on 2026-04-25 at 07:32 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -737,7 +737,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get update_settings => 'Update Settings';
 	String get anki_settings_label => 'Anki Settings';
 	String get anki_default_deck => 'Default Deck';
+	String get anki_default_deck_hint => 'Cards will be added to this deck by default when exporting from the card creator.';
 	String get anki_default_profile => 'Export Profile';
+	String get anki_default_profile_hint => 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+	String get anki_close_on_export_hint => 'Automatically close the card creator after successfully exporting a card.';
+	String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
+	String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	String get anki_retry => 'Retry';
 }
 
@@ -1370,7 +1375,12 @@ class _StringsAr implements _StringsEn {
 	@override String get update_settings => 'Update Settings';
 	@override String get anki_settings_label => 'Anki Settings';
 	@override String get anki_default_deck => 'Default Deck';
+	@override String get anki_default_deck_hint => 'Cards will be added to this deck by default when exporting from the card creator.';
 	@override String get anki_default_profile => 'Export Profile';
+	@override String get anki_default_profile_hint => 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+	@override String get anki_close_on_export_hint => 'Automatically close the card creator after successfully exporting a card.';
+	@override String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
+	@override String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	@override String get anki_retry => 'Retry';
 }
 
@@ -2003,7 +2013,12 @@ class _StringsDe implements _StringsEn {
 	@override String get update_settings => 'Update Settings';
 	@override String get anki_settings_label => 'Anki Settings';
 	@override String get anki_default_deck => 'Default Deck';
+	@override String get anki_default_deck_hint => 'Cards will be added to this deck by default when exporting from the card creator.';
 	@override String get anki_default_profile => 'Export Profile';
+	@override String get anki_default_profile_hint => 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+	@override String get anki_close_on_export_hint => 'Automatically close the card creator after successfully exporting a card.';
+	@override String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
+	@override String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	@override String get anki_retry => 'Retry';
 }
 
@@ -2636,7 +2651,12 @@ class _StringsEs implements _StringsEn {
 	@override String get update_settings => 'Update Settings';
 	@override String get anki_settings_label => 'Anki Settings';
 	@override String get anki_default_deck => 'Default Deck';
+	@override String get anki_default_deck_hint => 'Cards will be added to this deck by default when exporting from the card creator.';
 	@override String get anki_default_profile => 'Export Profile';
+	@override String get anki_default_profile_hint => 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+	@override String get anki_close_on_export_hint => 'Automatically close the card creator after successfully exporting a card.';
+	@override String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
+	@override String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	@override String get anki_retry => 'Retry';
 }
 
@@ -3269,7 +3289,12 @@ class _StringsFr implements _StringsEn {
 	@override String get update_settings => 'Update Settings';
 	@override String get anki_settings_label => 'Anki Settings';
 	@override String get anki_default_deck => 'Default Deck';
+	@override String get anki_default_deck_hint => 'Cards will be added to this deck by default when exporting from the card creator.';
 	@override String get anki_default_profile => 'Export Profile';
+	@override String get anki_default_profile_hint => 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+	@override String get anki_close_on_export_hint => 'Automatically close the card creator after successfully exporting a card.';
+	@override String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
+	@override String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	@override String get anki_retry => 'Retry';
 }
 
@@ -3902,7 +3927,12 @@ class _StringsId implements _StringsEn {
 	@override String get update_settings => 'Update Settings';
 	@override String get anki_settings_label => 'Anki Settings';
 	@override String get anki_default_deck => 'Default Deck';
+	@override String get anki_default_deck_hint => 'Cards will be added to this deck by default when exporting from the card creator.';
 	@override String get anki_default_profile => 'Export Profile';
+	@override String get anki_default_profile_hint => 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+	@override String get anki_close_on_export_hint => 'Automatically close the card creator after successfully exporting a card.';
+	@override String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
+	@override String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	@override String get anki_retry => 'Retry';
 }
 
@@ -4535,7 +4565,12 @@ class _StringsJa implements _StringsEn {
 	@override String get update_settings => 'アップデート設定';
 	@override String get anki_settings_label => 'Anki 設定';
 	@override String get anki_default_deck => 'デフォルトデッキ';
+	@override String get anki_default_deck_hint => 'カード作成時、デフォルトでこのデッキに追加されます。';
 	@override String get anki_default_profile => 'エクスポートプロファイル';
+	@override String get anki_default_profile_hint => 'カードをエクスポートする際に使用するカードタイプとフィールドマッピングを決定します。';
+	@override String get anki_close_on_export_hint => 'カードのエクスポート成功後、カード作成画面を自動的に閉じます。';
+	@override String get anki_auto_tag_hint => 'カード作成時、現在の書籍タイトルをタグとして自動追加します。';
+	@override String get anki_duplicate_check_hint => '新しいカードを追加する前に、どのカードタイプで重複をチェックするか選択します。';
 	@override String get anki_retry => '再試行';
 }
 
@@ -5168,7 +5203,12 @@ class _StringsKo implements _StringsEn {
 	@override String get update_settings => '업데이트 설정';
 	@override String get anki_settings_label => 'Anki 설정';
 	@override String get anki_default_deck => '기본 덱';
+	@override String get anki_default_deck_hint => '카드 생성 시 기본적으로 이 덱에 추가됩니다.';
 	@override String get anki_default_profile => '내보내기 프로필';
+	@override String get anki_default_profile_hint => '카드를 내보낼 때 사용할 카드 유형과 필드 매핑을 결정합니다.';
+	@override String get anki_close_on_export_hint => '카드 내보내기 성공 후 카드 생성기를 자동으로 닫습니다.';
+	@override String get anki_auto_tag_hint => '카드 생성 시 현재 책 제목을 태그로 자동 추가합니다.';
+	@override String get anki_duplicate_check_hint => '새 카드를 추가하기 전에 어떤 카드 유형에서 중복을 확인할지 선택합니다.';
 	@override String get anki_retry => '다시 시도';
 }
 
@@ -5801,7 +5841,12 @@ class _StringsPtBr implements _StringsEn {
 	@override String get update_settings => 'Update Settings';
 	@override String get anki_settings_label => 'Anki Settings';
 	@override String get anki_default_deck => 'Default Deck';
+	@override String get anki_default_deck_hint => 'Cards will be added to this deck by default when exporting from the card creator.';
 	@override String get anki_default_profile => 'Export Profile';
+	@override String get anki_default_profile_hint => 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+	@override String get anki_close_on_export_hint => 'Automatically close the card creator after successfully exporting a card.';
+	@override String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
+	@override String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	@override String get anki_retry => 'Retry';
 }
 
@@ -6434,7 +6479,12 @@ class _StringsRu implements _StringsEn {
 	@override String get update_settings => 'Update Settings';
 	@override String get anki_settings_label => 'Anki Settings';
 	@override String get anki_default_deck => 'Default Deck';
+	@override String get anki_default_deck_hint => 'Cards will be added to this deck by default when exporting from the card creator.';
 	@override String get anki_default_profile => 'Export Profile';
+	@override String get anki_default_profile_hint => 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+	@override String get anki_close_on_export_hint => 'Automatically close the card creator after successfully exporting a card.';
+	@override String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
+	@override String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	@override String get anki_retry => 'Retry';
 }
 
@@ -7067,7 +7117,12 @@ class _StringsTh implements _StringsEn {
 	@override String get update_settings => 'Update Settings';
 	@override String get anki_settings_label => 'Anki Settings';
 	@override String get anki_default_deck => 'Default Deck';
+	@override String get anki_default_deck_hint => 'Cards will be added to this deck by default when exporting from the card creator.';
 	@override String get anki_default_profile => 'Export Profile';
+	@override String get anki_default_profile_hint => 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+	@override String get anki_close_on_export_hint => 'Automatically close the card creator after successfully exporting a card.';
+	@override String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
+	@override String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	@override String get anki_retry => 'Retry';
 }
 
@@ -7700,7 +7755,12 @@ class _StringsVi implements _StringsEn {
 	@override String get update_settings => 'Update Settings';
 	@override String get anki_settings_label => 'Anki Settings';
 	@override String get anki_default_deck => 'Default Deck';
+	@override String get anki_default_deck_hint => 'Cards will be added to this deck by default when exporting from the card creator.';
 	@override String get anki_default_profile => 'Export Profile';
+	@override String get anki_default_profile_hint => 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+	@override String get anki_close_on_export_hint => 'Automatically close the card creator after successfully exporting a card.';
+	@override String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
+	@override String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	@override String get anki_retry => 'Retry';
 }
 
@@ -8333,7 +8393,12 @@ class _StringsZhCn implements _StringsEn {
 	@override String get update_settings => '更新设置';
 	@override String get anki_settings_label => 'Anki 设置';
 	@override String get anki_default_deck => '默认牌组';
+	@override String get anki_default_deck_hint => '制卡时默认将卡片添加到此牌组。';
 	@override String get anki_default_profile => '导出配置';
+	@override String get anki_default_profile_hint => '决定导出卡片时使用的卡片类型和字段映射。';
+	@override String get anki_close_on_export_hint => '成功导出卡片后自动关闭制卡工具。';
+	@override String get anki_auto_tag_hint => '制卡时自动将当前书名添加为标签。';
+	@override String get anki_duplicate_check_hint => '选择导出前检查哪些卡片类型中是否已有重复。';
 	@override String get anki_retry => '重试';
 }
 
@@ -8966,7 +9031,12 @@ class _StringsZhHk implements _StringsEn {
 	@override String get update_settings => '更新設定';
 	@override String get anki_settings_label => 'Anki 設定';
 	@override String get anki_default_deck => '預設牌組';
+	@override String get anki_default_deck_hint => '製卡時預設將卡片加入此牌組。';
 	@override String get anki_default_profile => '匯出設定';
+	@override String get anki_default_profile_hint => '決定匯出卡片時使用的卡片類型和欄位對應。';
+	@override String get anki_close_on_export_hint => '成功匯出卡片後自動關閉製卡工具。';
+	@override String get anki_auto_tag_hint => '製卡時自動將目前書名加入為標籤。';
+	@override String get anki_duplicate_check_hint => '選擇匯出前檢查哪些卡片類型中是否已有重複。';
 	@override String get anki_retry => '重試';
 }
 
@@ -9586,7 +9656,12 @@ extension on _StringsEn {
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
 			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_deck_hint': return 'Cards will be added to this deck by default when exporting from the card creator.';
 			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_default_profile_hint': return 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+			case 'anki_close_on_export_hint': return 'Automatically close the card creator after successfully exporting a card.';
+			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
+			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
@@ -10180,7 +10255,12 @@ extension on _StringsAr {
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
 			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_deck_hint': return 'Cards will be added to this deck by default when exporting from the card creator.';
 			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_default_profile_hint': return 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+			case 'anki_close_on_export_hint': return 'Automatically close the card creator after successfully exporting a card.';
+			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
+			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
@@ -10774,7 +10854,12 @@ extension on _StringsDe {
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
 			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_deck_hint': return 'Cards will be added to this deck by default when exporting from the card creator.';
 			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_default_profile_hint': return 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+			case 'anki_close_on_export_hint': return 'Automatically close the card creator after successfully exporting a card.';
+			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
+			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
@@ -11368,7 +11453,12 @@ extension on _StringsEs {
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
 			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_deck_hint': return 'Cards will be added to this deck by default when exporting from the card creator.';
 			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_default_profile_hint': return 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+			case 'anki_close_on_export_hint': return 'Automatically close the card creator after successfully exporting a card.';
+			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
+			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
@@ -11962,7 +12052,12 @@ extension on _StringsFr {
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
 			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_deck_hint': return 'Cards will be added to this deck by default when exporting from the card creator.';
 			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_default_profile_hint': return 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+			case 'anki_close_on_export_hint': return 'Automatically close the card creator after successfully exporting a card.';
+			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
+			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
@@ -12556,7 +12651,12 @@ extension on _StringsId {
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
 			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_deck_hint': return 'Cards will be added to this deck by default when exporting from the card creator.';
 			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_default_profile_hint': return 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+			case 'anki_close_on_export_hint': return 'Automatically close the card creator after successfully exporting a card.';
+			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
+			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
@@ -13150,7 +13250,12 @@ extension on _StringsJa {
 			case 'update_settings': return 'アップデート設定';
 			case 'anki_settings_label': return 'Anki 設定';
 			case 'anki_default_deck': return 'デフォルトデッキ';
+			case 'anki_default_deck_hint': return 'カード作成時、デフォルトでこのデッキに追加されます。';
 			case 'anki_default_profile': return 'エクスポートプロファイル';
+			case 'anki_default_profile_hint': return 'カードをエクスポートする際に使用するカードタイプとフィールドマッピングを決定します。';
+			case 'anki_close_on_export_hint': return 'カードのエクスポート成功後、カード作成画面を自動的に閉じます。';
+			case 'anki_auto_tag_hint': return 'カード作成時、現在の書籍タイトルをタグとして自動追加します。';
+			case 'anki_duplicate_check_hint': return '新しいカードを追加する前に、どのカードタイプで重複をチェックするか選択します。';
 			case 'anki_retry': return '再試行';
 			default: return null;
 		}
@@ -13744,7 +13849,12 @@ extension on _StringsKo {
 			case 'update_settings': return '업데이트 설정';
 			case 'anki_settings_label': return 'Anki 설정';
 			case 'anki_default_deck': return '기본 덱';
+			case 'anki_default_deck_hint': return '카드 생성 시 기본적으로 이 덱에 추가됩니다.';
 			case 'anki_default_profile': return '내보내기 프로필';
+			case 'anki_default_profile_hint': return '카드를 내보낼 때 사용할 카드 유형과 필드 매핑을 결정합니다.';
+			case 'anki_close_on_export_hint': return '카드 내보내기 성공 후 카드 생성기를 자동으로 닫습니다.';
+			case 'anki_auto_tag_hint': return '카드 생성 시 현재 책 제목을 태그로 자동 추가합니다.';
+			case 'anki_duplicate_check_hint': return '새 카드를 추가하기 전에 어떤 카드 유형에서 중복을 확인할지 선택합니다.';
 			case 'anki_retry': return '다시 시도';
 			default: return null;
 		}
@@ -14338,7 +14448,12 @@ extension on _StringsPtBr {
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
 			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_deck_hint': return 'Cards will be added to this deck by default when exporting from the card creator.';
 			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_default_profile_hint': return 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+			case 'anki_close_on_export_hint': return 'Automatically close the card creator after successfully exporting a card.';
+			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
+			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
@@ -14932,7 +15047,12 @@ extension on _StringsRu {
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
 			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_deck_hint': return 'Cards will be added to this deck by default when exporting from the card creator.';
 			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_default_profile_hint': return 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+			case 'anki_close_on_export_hint': return 'Automatically close the card creator after successfully exporting a card.';
+			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
+			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
@@ -15526,7 +15646,12 @@ extension on _StringsTh {
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
 			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_deck_hint': return 'Cards will be added to this deck by default when exporting from the card creator.';
 			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_default_profile_hint': return 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+			case 'anki_close_on_export_hint': return 'Automatically close the card creator after successfully exporting a card.';
+			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
+			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
@@ -16120,7 +16245,12 @@ extension on _StringsVi {
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
 			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_deck_hint': return 'Cards will be added to this deck by default when exporting from the card creator.';
 			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_default_profile_hint': return 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.';
+			case 'anki_close_on_export_hint': return 'Automatically close the card creator after successfully exporting a card.';
+			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
+			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
@@ -16714,7 +16844,12 @@ extension on _StringsZhCn {
 			case 'update_settings': return '更新设置';
 			case 'anki_settings_label': return 'Anki 设置';
 			case 'anki_default_deck': return '默认牌组';
+			case 'anki_default_deck_hint': return '制卡时默认将卡片添加到此牌组。';
 			case 'anki_default_profile': return '导出配置';
+			case 'anki_default_profile_hint': return '决定导出卡片时使用的卡片类型和字段映射。';
+			case 'anki_close_on_export_hint': return '成功导出卡片后自动关闭制卡工具。';
+			case 'anki_auto_tag_hint': return '制卡时自动将当前书名添加为标签。';
+			case 'anki_duplicate_check_hint': return '选择导出前检查哪些卡片类型中是否已有重复。';
 			case 'anki_retry': return '重试';
 			default: return null;
 		}
@@ -17308,7 +17443,12 @@ extension on _StringsZhHk {
 			case 'update_settings': return '更新設定';
 			case 'anki_settings_label': return 'Anki 設定';
 			case 'anki_default_deck': return '預設牌組';
+			case 'anki_default_deck_hint': return '製卡時預設將卡片加入此牌組。';
 			case 'anki_default_profile': return '匯出設定';
+			case 'anki_default_profile_hint': return '決定匯出卡片時使用的卡片類型和欄位對應。';
+			case 'anki_close_on_export_hint': return '成功匯出卡片後自動關閉製卡工具。';
+			case 'anki_auto_tag_hint': return '製卡時自動將目前書名加入為標籤。';
+			case 'anki_duplicate_check_hint': return '選擇匯出前檢查哪些卡片類型中是否已有重複。';
 			case 'anki_retry': return '重試';
 			default: return null;
 		}
