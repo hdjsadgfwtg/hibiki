@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 14
-/// Strings: 8386 (599 per locale)
+/// Strings: 8414 (601 per locale)
 ///
-/// Built on 2026-04-25 at 09:53 UTC
+/// Built on 2026-04-25 at 11:39 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -717,6 +717,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get import_theme_invalid => 'Invalid theme code';
 	String get import_theme_success => 'Theme imported';
 	String get auto_add_book_name_to_tags => 'Auto-add book title to tags';
+	String get deduplicate_pitch_accents => 'Deduplicate pitch accents';
+	String get harmonic_frequency => 'Aggregate word frequencies';
+	String get manage_audio_sources => 'Manage audio sources';
 	String get use_recommended_template => 'Recommended';
 	String get recommended_template_exists => 'The standard profile already exists.';
 	String get recommended_template_created => 'Recommended profile has been created.';
@@ -1367,6 +1370,9 @@ class _StringsAr implements _StringsEn {
 	@override String get import_theme_invalid => 'رمز سمة غير صالح';
 	@override String get import_theme_success => 'تم استيراد السمة';
 	@override String get auto_add_book_name_to_tags => 'إضافة عنوان الكتاب تلقائيًا للوسوم';
+	@override String get deduplicate_pitch_accents => 'إزالة تكرار لهجات النطق';
+	@override String get harmonic_frequency => 'تجميع ترددات الكلمات';
+	@override String get manage_audio_sources => 'إدارة مصادر الصوت';
 	@override String get use_recommended_template => 'موصى به';
 	@override String get recommended_template_exists => 'الملف الشخصي القياسي موجود بالفعل.';
 	@override String get recommended_template_created => 'تم إنشاء الملف الشخصي الموصى به.';
@@ -2017,6 +2023,9 @@ class _StringsDe implements _StringsEn {
 	@override String get import_theme_invalid => 'Ungültiger Theme-Code';
 	@override String get import_theme_success => 'Theme importiert';
 	@override String get auto_add_book_name_to_tags => 'Buchtitel automatisch zu Tags hinzufügen';
+	@override String get deduplicate_pitch_accents => 'Tonhöhenakzente deduplizieren';
+	@override String get harmonic_frequency => 'Wortfrequenzen aggregieren';
+	@override String get manage_audio_sources => 'Audioquellen verwalten';
 	@override String get use_recommended_template => 'Empfohlen';
 	@override String get recommended_template_exists => 'Das Standardprofil existiert bereits.';
 	@override String get recommended_template_created => 'Empfohlenes Profil wurde erstellt.';
@@ -2667,6 +2676,9 @@ class _StringsEs implements _StringsEn {
 	@override String get import_theme_invalid => 'Código de tema no válido';
 	@override String get import_theme_success => 'Tema importado';
 	@override String get auto_add_book_name_to_tags => 'Añadir título del libro a las etiquetas automáticamente';
+	@override String get deduplicate_pitch_accents => 'Deduplicar acentos tonales';
+	@override String get harmonic_frequency => 'Agregar frecuencias de palabras';
+	@override String get manage_audio_sources => 'Gestionar fuentes de audio';
 	@override String get use_recommended_template => 'Recomendado';
 	@override String get recommended_template_exists => 'El perfil estándar ya existe.';
 	@override String get recommended_template_created => 'Se ha creado el perfil recomendado.';
@@ -3317,6 +3329,9 @@ class _StringsFr implements _StringsEn {
 	@override String get import_theme_invalid => 'Code de thème invalide';
 	@override String get import_theme_success => 'Thème importé';
 	@override String get auto_add_book_name_to_tags => 'Ajouter automatiquement le titre du livre aux étiquettes';
+	@override String get deduplicate_pitch_accents => 'Dédupliquer les accents tonaux';
+	@override String get harmonic_frequency => 'Agréger les fréquences';
+	@override String get manage_audio_sources => 'Gérer les sources audio';
 	@override String get use_recommended_template => 'Recommandé';
 	@override String get recommended_template_exists => 'Le profil standard existe déjà.';
 	@override String get recommended_template_created => 'Le profil recommandé a été créé.';
@@ -3967,6 +3982,9 @@ class _StringsId implements _StringsEn {
 	@override String get import_theme_invalid => 'Kode tema tidak valid';
 	@override String get import_theme_success => 'Tema berhasil diimpor';
 	@override String get auto_add_book_name_to_tags => 'Tambahkan judul buku ke tag secara otomatis';
+	@override String get deduplicate_pitch_accents => 'Deduplikasi aksen nada';
+	@override String get harmonic_frequency => 'Agregasi frekuensi kata';
+	@override String get manage_audio_sources => 'Kelola sumber audio';
 	@override String get use_recommended_template => 'Rekomendasi';
 	@override String get recommended_template_exists => 'Profil standar sudah ada.';
 	@override String get recommended_template_created => 'Profil rekomendasi telah dibuat.';
@@ -4617,6 +4635,9 @@ class _StringsJa implements _StringsEn {
 	@override String get import_theme_invalid => '無効なテーマコード';
 	@override String get import_theme_success => 'テーマをインポートしました';
 	@override String get auto_add_book_name_to_tags => 'タグに本のタイトルを自動追加';
+	@override String get deduplicate_pitch_accents => 'アクセント重複除外';
+	@override String get harmonic_frequency => '語彙頻度集約';
+	@override String get manage_audio_sources => '音声ソースの管理';
 	@override String get use_recommended_template => '推奨';
 	@override String get recommended_template_exists => '標準プロファイルは既に存在します。';
 	@override String get recommended_template_created => '推奨プロファイルを作成しました。';
@@ -5267,6 +5288,9 @@ class _StringsKo implements _StringsEn {
 	@override String get import_theme_invalid => '잘못된 테마 코드';
 	@override String get import_theme_success => '테마를 가져왔습니다';
 	@override String get auto_add_book_name_to_tags => '태그에 책 제목 자동 추가';
+	@override String get deduplicate_pitch_accents => '피치 액센트 중복 제거';
+	@override String get harmonic_frequency => '단어 빈도 집계';
+	@override String get manage_audio_sources => '오디오 소스 관리';
 	@override String get use_recommended_template => '추천';
 	@override String get recommended_template_exists => '기본 프로필이 이미 존재합니다.';
 	@override String get recommended_template_created => '추천 프로필이 생성되었습니다.';
@@ -5917,6 +5941,9 @@ class _StringsPtBr implements _StringsEn {
 	@override String get import_theme_invalid => 'Código de tema inválido';
 	@override String get import_theme_success => 'Tema importado';
 	@override String get auto_add_book_name_to_tags => 'Adicionar título do livro às tags automaticamente';
+	@override String get deduplicate_pitch_accents => 'Deduplicar acentos tonais';
+	@override String get harmonic_frequency => 'Agregar frequências de palavras';
+	@override String get manage_audio_sources => 'Gerenciar fontes de áudio';
 	@override String get use_recommended_template => 'Recomendado';
 	@override String get recommended_template_exists => 'O perfil padrão já existe.';
 	@override String get recommended_template_created => 'O perfil recomendado foi criado.';
@@ -6567,6 +6594,9 @@ class _StringsRu implements _StringsEn {
 	@override String get import_theme_invalid => 'Недействительный код темы';
 	@override String get import_theme_success => 'Тема импортирована';
 	@override String get auto_add_book_name_to_tags => 'Автодобавление названия книги в теги';
+	@override String get deduplicate_pitch_accents => 'Дедупликация тональных акцентов';
+	@override String get harmonic_frequency => 'Агрегация частот слов';
+	@override String get manage_audio_sources => 'Управление аудиоисточниками';
 	@override String get use_recommended_template => 'Рекомендуемый';
 	@override String get recommended_template_exists => 'Стандартный профиль уже существует.';
 	@override String get recommended_template_created => 'Рекомендуемый профиль создан.';
@@ -7217,6 +7247,9 @@ class _StringsTh implements _StringsEn {
 	@override String get import_theme_invalid => 'โค้ดธีมไม่ถูกต้อง';
 	@override String get import_theme_success => 'นำเข้าธีมแล้ว';
 	@override String get auto_add_book_name_to_tags => 'เพิ่มชื่อหนังสือในแท็กอัตโนมัติ';
+	@override String get deduplicate_pitch_accents => 'ลบซ้ำสำเนียง';
+	@override String get harmonic_frequency => 'รวมความถี่คำ';
+	@override String get manage_audio_sources => 'จัดการแหล่งเสียง';
 	@override String get use_recommended_template => 'แนะนำ';
 	@override String get recommended_template_exists => 'โปรไฟล์มาตรฐานมีอยู่แล้ว';
 	@override String get recommended_template_created => 'สร้างโปรไฟล์ที่แนะนำแล้ว';
@@ -7867,6 +7900,9 @@ class _StringsVi implements _StringsEn {
 	@override String get import_theme_invalid => 'Mã giao diện không hợp lệ';
 	@override String get import_theme_success => 'Đã nhập giao diện';
 	@override String get auto_add_book_name_to_tags => 'Tự thêm tên sách vào tag';
+	@override String get deduplicate_pitch_accents => 'Loại trùng thanh điệu';
+	@override String get harmonic_frequency => 'Tổng hợp tần suất từ';
+	@override String get manage_audio_sources => 'Quản lý nguồn âm thanh';
 	@override String get use_recommended_template => 'Được đề xuất';
 	@override String get recommended_template_exists => 'Hồ sơ mặc định đã tồn tại.';
 	@override String get recommended_template_created => 'Đã tạo hồ sơ được đề xuất.';
@@ -8517,6 +8553,9 @@ class _StringsZhCn implements _StringsEn {
 	@override String get import_theme_invalid => '无效的主题代码';
 	@override String get import_theme_success => '主题已导入';
 	@override String get auto_add_book_name_to_tags => '自动添加书名到标签';
+	@override String get deduplicate_pitch_accents => '音调去重';
+	@override String get harmonic_frequency => '词频聚合';
+	@override String get manage_audio_sources => '管理音频源';
 	@override String get use_recommended_template => '推荐模板';
 	@override String get recommended_template_exists => '标准配置已存在。';
 	@override String get recommended_template_created => '已创建推荐配置。';
@@ -9167,6 +9206,9 @@ class _StringsZhHk implements _StringsEn {
 	@override String get import_theme_invalid => '無效的主題代碼';
 	@override String get import_theme_success => '主題已匯入';
 	@override String get auto_add_book_name_to_tags => '自動將書名加入標籤';
+	@override String get deduplicate_pitch_accents => '音調去重';
+	@override String get harmonic_frequency => '詞頻聚合';
+	@override String get manage_audio_sources => '管理音頻源';
 	@override String get use_recommended_template => '推薦範本';
 	@override String get recommended_template_exists => '標準設定檔已存在。';
 	@override String get recommended_template_created => '已建立推薦設定檔。';
@@ -9804,6 +9846,9 @@ extension on _StringsEn {
 			case 'import_theme_invalid': return 'Invalid theme code';
 			case 'import_theme_success': return 'Theme imported';
 			case 'auto_add_book_name_to_tags': return 'Auto-add book title to tags';
+			case 'deduplicate_pitch_accents': return 'Deduplicate pitch accents';
+			case 'harmonic_frequency': return 'Aggregate word frequencies';
+			case 'manage_audio_sources': return 'Manage audio sources';
 			case 'use_recommended_template': return 'Recommended';
 			case 'recommended_template_exists': return 'The standard profile already exists.';
 			case 'recommended_template_created': return 'Recommended profile has been created.';
@@ -10415,6 +10460,9 @@ extension on _StringsAr {
 			case 'import_theme_invalid': return 'رمز سمة غير صالح';
 			case 'import_theme_success': return 'تم استيراد السمة';
 			case 'auto_add_book_name_to_tags': return 'إضافة عنوان الكتاب تلقائيًا للوسوم';
+			case 'deduplicate_pitch_accents': return 'إزالة تكرار لهجات النطق';
+			case 'harmonic_frequency': return 'تجميع ترددات الكلمات';
+			case 'manage_audio_sources': return 'إدارة مصادر الصوت';
 			case 'use_recommended_template': return 'موصى به';
 			case 'recommended_template_exists': return 'الملف الشخصي القياسي موجود بالفعل.';
 			case 'recommended_template_created': return 'تم إنشاء الملف الشخصي الموصى به.';
@@ -11026,6 +11074,9 @@ extension on _StringsDe {
 			case 'import_theme_invalid': return 'Ungültiger Theme-Code';
 			case 'import_theme_success': return 'Theme importiert';
 			case 'auto_add_book_name_to_tags': return 'Buchtitel automatisch zu Tags hinzufügen';
+			case 'deduplicate_pitch_accents': return 'Tonhöhenakzente deduplizieren';
+			case 'harmonic_frequency': return 'Wortfrequenzen aggregieren';
+			case 'manage_audio_sources': return 'Audioquellen verwalten';
 			case 'use_recommended_template': return 'Empfohlen';
 			case 'recommended_template_exists': return 'Das Standardprofil existiert bereits.';
 			case 'recommended_template_created': return 'Empfohlenes Profil wurde erstellt.';
@@ -11637,6 +11688,9 @@ extension on _StringsEs {
 			case 'import_theme_invalid': return 'Código de tema no válido';
 			case 'import_theme_success': return 'Tema importado';
 			case 'auto_add_book_name_to_tags': return 'Añadir título del libro a las etiquetas automáticamente';
+			case 'deduplicate_pitch_accents': return 'Deduplicar acentos tonales';
+			case 'harmonic_frequency': return 'Agregar frecuencias de palabras';
+			case 'manage_audio_sources': return 'Gestionar fuentes de audio';
 			case 'use_recommended_template': return 'Recomendado';
 			case 'recommended_template_exists': return 'El perfil estándar ya existe.';
 			case 'recommended_template_created': return 'Se ha creado el perfil recomendado.';
@@ -12248,6 +12302,9 @@ extension on _StringsFr {
 			case 'import_theme_invalid': return 'Code de thème invalide';
 			case 'import_theme_success': return 'Thème importé';
 			case 'auto_add_book_name_to_tags': return 'Ajouter automatiquement le titre du livre aux étiquettes';
+			case 'deduplicate_pitch_accents': return 'Dédupliquer les accents tonaux';
+			case 'harmonic_frequency': return 'Agréger les fréquences';
+			case 'manage_audio_sources': return 'Gérer les sources audio';
 			case 'use_recommended_template': return 'Recommandé';
 			case 'recommended_template_exists': return 'Le profil standard existe déjà.';
 			case 'recommended_template_created': return 'Le profil recommandé a été créé.';
@@ -12859,6 +12916,9 @@ extension on _StringsId {
 			case 'import_theme_invalid': return 'Kode tema tidak valid';
 			case 'import_theme_success': return 'Tema berhasil diimpor';
 			case 'auto_add_book_name_to_tags': return 'Tambahkan judul buku ke tag secara otomatis';
+			case 'deduplicate_pitch_accents': return 'Deduplikasi aksen nada';
+			case 'harmonic_frequency': return 'Agregasi frekuensi kata';
+			case 'manage_audio_sources': return 'Kelola sumber audio';
 			case 'use_recommended_template': return 'Rekomendasi';
 			case 'recommended_template_exists': return 'Profil standar sudah ada.';
 			case 'recommended_template_created': return 'Profil rekomendasi telah dibuat.';
@@ -13470,6 +13530,9 @@ extension on _StringsJa {
 			case 'import_theme_invalid': return '無効なテーマコード';
 			case 'import_theme_success': return 'テーマをインポートしました';
 			case 'auto_add_book_name_to_tags': return 'タグに本のタイトルを自動追加';
+			case 'deduplicate_pitch_accents': return 'アクセント重複除外';
+			case 'harmonic_frequency': return '語彙頻度集約';
+			case 'manage_audio_sources': return '音声ソースの管理';
 			case 'use_recommended_template': return '推奨';
 			case 'recommended_template_exists': return '標準プロファイルは既に存在します。';
 			case 'recommended_template_created': return '推奨プロファイルを作成しました。';
@@ -14081,6 +14144,9 @@ extension on _StringsKo {
 			case 'import_theme_invalid': return '잘못된 테마 코드';
 			case 'import_theme_success': return '테마를 가져왔습니다';
 			case 'auto_add_book_name_to_tags': return '태그에 책 제목 자동 추가';
+			case 'deduplicate_pitch_accents': return '피치 액센트 중복 제거';
+			case 'harmonic_frequency': return '단어 빈도 집계';
+			case 'manage_audio_sources': return '오디오 소스 관리';
 			case 'use_recommended_template': return '추천';
 			case 'recommended_template_exists': return '기본 프로필이 이미 존재합니다.';
 			case 'recommended_template_created': return '추천 프로필이 생성되었습니다.';
@@ -14692,6 +14758,9 @@ extension on _StringsPtBr {
 			case 'import_theme_invalid': return 'Código de tema inválido';
 			case 'import_theme_success': return 'Tema importado';
 			case 'auto_add_book_name_to_tags': return 'Adicionar título do livro às tags automaticamente';
+			case 'deduplicate_pitch_accents': return 'Deduplicar acentos tonais';
+			case 'harmonic_frequency': return 'Agregar frequências de palavras';
+			case 'manage_audio_sources': return 'Gerenciar fontes de áudio';
 			case 'use_recommended_template': return 'Recomendado';
 			case 'recommended_template_exists': return 'O perfil padrão já existe.';
 			case 'recommended_template_created': return 'O perfil recomendado foi criado.';
@@ -15303,6 +15372,9 @@ extension on _StringsRu {
 			case 'import_theme_invalid': return 'Недействительный код темы';
 			case 'import_theme_success': return 'Тема импортирована';
 			case 'auto_add_book_name_to_tags': return 'Автодобавление названия книги в теги';
+			case 'deduplicate_pitch_accents': return 'Дедупликация тональных акцентов';
+			case 'harmonic_frequency': return 'Агрегация частот слов';
+			case 'manage_audio_sources': return 'Управление аудиоисточниками';
 			case 'use_recommended_template': return 'Рекомендуемый';
 			case 'recommended_template_exists': return 'Стандартный профиль уже существует.';
 			case 'recommended_template_created': return 'Рекомендуемый профиль создан.';
@@ -15914,6 +15986,9 @@ extension on _StringsTh {
 			case 'import_theme_invalid': return 'โค้ดธีมไม่ถูกต้อง';
 			case 'import_theme_success': return 'นำเข้าธีมแล้ว';
 			case 'auto_add_book_name_to_tags': return 'เพิ่มชื่อหนังสือในแท็กอัตโนมัติ';
+			case 'deduplicate_pitch_accents': return 'ลบซ้ำสำเนียง';
+			case 'harmonic_frequency': return 'รวมความถี่คำ';
+			case 'manage_audio_sources': return 'จัดการแหล่งเสียง';
 			case 'use_recommended_template': return 'แนะนำ';
 			case 'recommended_template_exists': return 'โปรไฟล์มาตรฐานมีอยู่แล้ว';
 			case 'recommended_template_created': return 'สร้างโปรไฟล์ที่แนะนำแล้ว';
@@ -16525,6 +16600,9 @@ extension on _StringsVi {
 			case 'import_theme_invalid': return 'Mã giao diện không hợp lệ';
 			case 'import_theme_success': return 'Đã nhập giao diện';
 			case 'auto_add_book_name_to_tags': return 'Tự thêm tên sách vào tag';
+			case 'deduplicate_pitch_accents': return 'Loại trùng thanh điệu';
+			case 'harmonic_frequency': return 'Tổng hợp tần suất từ';
+			case 'manage_audio_sources': return 'Quản lý nguồn âm thanh';
 			case 'use_recommended_template': return 'Được đề xuất';
 			case 'recommended_template_exists': return 'Hồ sơ mặc định đã tồn tại.';
 			case 'recommended_template_created': return 'Đã tạo hồ sơ được đề xuất.';
@@ -17136,6 +17214,9 @@ extension on _StringsZhCn {
 			case 'import_theme_invalid': return '无效的主题代码';
 			case 'import_theme_success': return '主题已导入';
 			case 'auto_add_book_name_to_tags': return '自动添加书名到标签';
+			case 'deduplicate_pitch_accents': return '音调去重';
+			case 'harmonic_frequency': return '词频聚合';
+			case 'manage_audio_sources': return '管理音频源';
 			case 'use_recommended_template': return '推荐模板';
 			case 'recommended_template_exists': return '标准配置已存在。';
 			case 'recommended_template_created': return '已创建推荐配置。';
@@ -17747,6 +17828,9 @@ extension on _StringsZhHk {
 			case 'import_theme_invalid': return '無效的主題代碼';
 			case 'import_theme_success': return '主題已匯入';
 			case 'auto_add_book_name_to_tags': return '自動將書名加入標籤';
+			case 'deduplicate_pitch_accents': return '音調去重';
+			case 'harmonic_frequency': return '詞頻聚合';
+			case 'manage_audio_sources': return '管理音頻源';
 			case 'use_recommended_template': return '推薦範本';
 			case 'recommended_template_exists': return '標準設定檔已存在。';
 			case 'recommended_template_created': return '已建立推薦設定檔。';
