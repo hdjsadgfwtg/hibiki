@@ -3,7 +3,7 @@
 /// Locales: 14
 /// Strings: 8106 (579 per locale)
 ///
-/// Built on 2026-04-25 at 05:22 UTC
+/// Built on 2026-04-25 at 07:17 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -732,7 +732,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String stat_format_chars({required Object n}) => '${n} characters';
 	String stat_format_chars_wan({required Object n}) => '${n} characters';
 	String get error_log_share_subject => 'hibiki Error Log';
-	String get update_never_remind => 'Don\'t remind again';
+	String get update_never_remind => 'Don\'t remind me about updates';
 	String get update_auto_install => 'Auto-install updates';
 	String get update_settings => 'Update Settings';
 	String get anki_settings_label => 'Anki Settings';
@@ -8292,7 +8292,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String stat_format_chars({required Object n}) => '${n} 字';
 	@override String stat_format_chars_wan({required Object n}) => '${n} 万字';
 	@override String get error_log_share_subject => 'hibiki 错误日志';
-	@override String get update_never_remind => '不再提醒';
+	@override String get update_never_remind => '不再提醒自动更新';
 	@override String get update_auto_install => '自动安装更新';
 	@override String get update_settings => '更新设置';
 	@override String get anki_settings_label => 'Anki 设置';
@@ -9539,7 +9539,7 @@ extension on _StringsEn {
 			case 'stat_format_chars': return ({required Object n}) => '${n} characters';
 			case 'stat_format_chars_wan': return ({required Object n}) => '${n} characters';
 			case 'error_log_share_subject': return 'hibiki Error Log';
-			case 'update_never_remind': return 'Don\'t remind again';
+			case 'update_never_remind': return 'Don\'t remind me about updates';
 			case 'update_auto_install': return 'Auto-install updates';
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
@@ -16631,7 +16631,7 @@ extension on _StringsZhCn {
 			case 'stat_format_chars': return ({required Object n}) => '${n} 字';
 			case 'stat_format_chars_wan': return ({required Object n}) => '${n} 万字';
 			case 'error_log_share_subject': return 'hibiki 错误日志';
-			case 'update_never_remind': return '不再提醒';
+			case 'update_never_remind': return '不再提醒自动更新';
 			case 'update_auto_install': return '自动安装更新';
 			case 'update_settings': return '更新设置';
 			case 'anki_settings_label': return 'Anki 设置';
