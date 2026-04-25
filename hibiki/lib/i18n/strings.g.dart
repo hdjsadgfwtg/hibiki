@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 14
-/// Strings: 8106 (579 per locale)
+/// Strings: 8148 (582 per locale)
 ///
-/// Built on 2026-04-25 at 07:17 UTC
+/// Built on 2026-04-25 at 07:24 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -736,6 +736,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get update_auto_install => 'Auto-install updates';
 	String get update_settings => 'Update Settings';
 	String get anki_settings_label => 'Anki Settings';
+	String get anki_default_deck => 'Default Deck';
+	String get anki_default_profile => 'Export Profile';
+	String get anki_retry => 'Retry';
 }
 
 // Path: retrying_in
@@ -1366,6 +1369,9 @@ class _StringsAr implements _StringsEn {
 	@override String get update_auto_install => 'Auto-install updates';
 	@override String get update_settings => 'Update Settings';
 	@override String get anki_settings_label => 'Anki Settings';
+	@override String get anki_default_deck => 'Default Deck';
+	@override String get anki_default_profile => 'Export Profile';
+	@override String get anki_retry => 'Retry';
 }
 
 // Path: retrying_in
@@ -1996,6 +2002,9 @@ class _StringsDe implements _StringsEn {
 	@override String get update_auto_install => 'Auto-install updates';
 	@override String get update_settings => 'Update Settings';
 	@override String get anki_settings_label => 'Anki Settings';
+	@override String get anki_default_deck => 'Default Deck';
+	@override String get anki_default_profile => 'Export Profile';
+	@override String get anki_retry => 'Retry';
 }
 
 // Path: retrying_in
@@ -2626,6 +2635,9 @@ class _StringsEs implements _StringsEn {
 	@override String get update_auto_install => 'Auto-install updates';
 	@override String get update_settings => 'Update Settings';
 	@override String get anki_settings_label => 'Anki Settings';
+	@override String get anki_default_deck => 'Default Deck';
+	@override String get anki_default_profile => 'Export Profile';
+	@override String get anki_retry => 'Retry';
 }
 
 // Path: retrying_in
@@ -3256,6 +3268,9 @@ class _StringsFr implements _StringsEn {
 	@override String get update_auto_install => 'Auto-install updates';
 	@override String get update_settings => 'Update Settings';
 	@override String get anki_settings_label => 'Anki Settings';
+	@override String get anki_default_deck => 'Default Deck';
+	@override String get anki_default_profile => 'Export Profile';
+	@override String get anki_retry => 'Retry';
 }
 
 // Path: retrying_in
@@ -3886,6 +3901,9 @@ class _StringsId implements _StringsEn {
 	@override String get update_auto_install => 'Auto-install updates';
 	@override String get update_settings => 'Update Settings';
 	@override String get anki_settings_label => 'Anki Settings';
+	@override String get anki_default_deck => 'Default Deck';
+	@override String get anki_default_profile => 'Export Profile';
+	@override String get anki_retry => 'Retry';
 }
 
 // Path: retrying_in
@@ -4516,6 +4534,9 @@ class _StringsJa implements _StringsEn {
 	@override String get update_auto_install => '自動インストール';
 	@override String get update_settings => 'アップデート設定';
 	@override String get anki_settings_label => 'Anki 設定';
+	@override String get anki_default_deck => 'デフォルトデッキ';
+	@override String get anki_default_profile => 'エクスポートプロファイル';
+	@override String get anki_retry => '再試行';
 }
 
 // Path: retrying_in
@@ -5146,6 +5167,9 @@ class _StringsKo implements _StringsEn {
 	@override String get update_auto_install => '자동 설치';
 	@override String get update_settings => '업데이트 설정';
 	@override String get anki_settings_label => 'Anki 설정';
+	@override String get anki_default_deck => '기본 덱';
+	@override String get anki_default_profile => '내보내기 프로필';
+	@override String get anki_retry => '다시 시도';
 }
 
 // Path: retrying_in
@@ -5776,6 +5800,9 @@ class _StringsPtBr implements _StringsEn {
 	@override String get update_auto_install => 'Auto-install updates';
 	@override String get update_settings => 'Update Settings';
 	@override String get anki_settings_label => 'Anki Settings';
+	@override String get anki_default_deck => 'Default Deck';
+	@override String get anki_default_profile => 'Export Profile';
+	@override String get anki_retry => 'Retry';
 }
 
 // Path: retrying_in
@@ -6406,6 +6433,9 @@ class _StringsRu implements _StringsEn {
 	@override String get update_auto_install => 'Auto-install updates';
 	@override String get update_settings => 'Update Settings';
 	@override String get anki_settings_label => 'Anki Settings';
+	@override String get anki_default_deck => 'Default Deck';
+	@override String get anki_default_profile => 'Export Profile';
+	@override String get anki_retry => 'Retry';
 }
 
 // Path: retrying_in
@@ -7036,6 +7066,9 @@ class _StringsTh implements _StringsEn {
 	@override String get update_auto_install => 'Auto-install updates';
 	@override String get update_settings => 'Update Settings';
 	@override String get anki_settings_label => 'Anki Settings';
+	@override String get anki_default_deck => 'Default Deck';
+	@override String get anki_default_profile => 'Export Profile';
+	@override String get anki_retry => 'Retry';
 }
 
 // Path: retrying_in
@@ -7666,6 +7699,9 @@ class _StringsVi implements _StringsEn {
 	@override String get update_auto_install => 'Auto-install updates';
 	@override String get update_settings => 'Update Settings';
 	@override String get anki_settings_label => 'Anki Settings';
+	@override String get anki_default_deck => 'Default Deck';
+	@override String get anki_default_profile => 'Export Profile';
+	@override String get anki_retry => 'Retry';
 }
 
 // Path: retrying_in
@@ -8296,6 +8332,9 @@ class _StringsZhCn implements _StringsEn {
 	@override String get update_auto_install => '自动安装更新';
 	@override String get update_settings => '更新设置';
 	@override String get anki_settings_label => 'Anki 设置';
+	@override String get anki_default_deck => '默认牌组';
+	@override String get anki_default_profile => '导出配置';
+	@override String get anki_retry => '重试';
 }
 
 // Path: retrying_in
@@ -8926,6 +8965,9 @@ class _StringsZhHk implements _StringsEn {
 	@override String get update_auto_install => '自動安裝更新';
 	@override String get update_settings => '更新設定';
 	@override String get anki_settings_label => 'Anki 設定';
+	@override String get anki_default_deck => '預設牌組';
+	@override String get anki_default_profile => '匯出設定';
+	@override String get anki_retry => '重試';
 }
 
 // Path: retrying_in
@@ -9543,6 +9585,9 @@ extension on _StringsEn {
 			case 'update_auto_install': return 'Auto-install updates';
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
+			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
 	}
@@ -10134,6 +10179,9 @@ extension on _StringsAr {
 			case 'update_auto_install': return 'Auto-install updates';
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
+			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
 	}
@@ -10725,6 +10773,9 @@ extension on _StringsDe {
 			case 'update_auto_install': return 'Auto-install updates';
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
+			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
 	}
@@ -11316,6 +11367,9 @@ extension on _StringsEs {
 			case 'update_auto_install': return 'Auto-install updates';
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
+			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
 	}
@@ -11907,6 +11961,9 @@ extension on _StringsFr {
 			case 'update_auto_install': return 'Auto-install updates';
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
+			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
 	}
@@ -12498,6 +12555,9 @@ extension on _StringsId {
 			case 'update_auto_install': return 'Auto-install updates';
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
+			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
 	}
@@ -13089,6 +13149,9 @@ extension on _StringsJa {
 			case 'update_auto_install': return '自動インストール';
 			case 'update_settings': return 'アップデート設定';
 			case 'anki_settings_label': return 'Anki 設定';
+			case 'anki_default_deck': return 'デフォルトデッキ';
+			case 'anki_default_profile': return 'エクスポートプロファイル';
+			case 'anki_retry': return '再試行';
 			default: return null;
 		}
 	}
@@ -13680,6 +13743,9 @@ extension on _StringsKo {
 			case 'update_auto_install': return '자동 설치';
 			case 'update_settings': return '업데이트 설정';
 			case 'anki_settings_label': return 'Anki 설정';
+			case 'anki_default_deck': return '기본 덱';
+			case 'anki_default_profile': return '내보내기 프로필';
+			case 'anki_retry': return '다시 시도';
 			default: return null;
 		}
 	}
@@ -14271,6 +14337,9 @@ extension on _StringsPtBr {
 			case 'update_auto_install': return 'Auto-install updates';
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
+			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
 	}
@@ -14862,6 +14931,9 @@ extension on _StringsRu {
 			case 'update_auto_install': return 'Auto-install updates';
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
+			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
 	}
@@ -15453,6 +15525,9 @@ extension on _StringsTh {
 			case 'update_auto_install': return 'Auto-install updates';
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
+			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
 	}
@@ -16044,6 +16119,9 @@ extension on _StringsVi {
 			case 'update_auto_install': return 'Auto-install updates';
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
+			case 'anki_default_deck': return 'Default Deck';
+			case 'anki_default_profile': return 'Export Profile';
+			case 'anki_retry': return 'Retry';
 			default: return null;
 		}
 	}
@@ -16635,6 +16713,9 @@ extension on _StringsZhCn {
 			case 'update_auto_install': return '自动安装更新';
 			case 'update_settings': return '更新设置';
 			case 'anki_settings_label': return 'Anki 设置';
+			case 'anki_default_deck': return '默认牌组';
+			case 'anki_default_profile': return '导出配置';
+			case 'anki_retry': return '重试';
 			default: return null;
 		}
 	}
@@ -17226,6 +17307,9 @@ extension on _StringsZhHk {
 			case 'update_auto_install': return '自動安裝更新';
 			case 'update_settings': return '更新設定';
 			case 'anki_settings_label': return 'Anki 設定';
+			case 'anki_default_deck': return '預設牌組';
+			case 'anki_default_profile': return '匯出設定';
+			case 'anki_retry': return '重試';
 			default: return null;
 		}
 	}
