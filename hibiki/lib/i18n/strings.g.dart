@@ -194,6 +194,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get dialog_edit => 'EDIT';
 	String get dialog_export => 'EXPORT';
 	String get dialog_import => 'IMPORT';
+	String get dialog_importing => 'IMPORTING…';
 	String get dialog_import_dictionary => 'Import Dictionary';
 	String get dialog_import_folder => 'Import Folder Dictionary';
 	String get dialog_select_dictionary_type => 'Select dictionary type';
@@ -856,6 +857,7 @@ class _StringsAr implements _StringsEn {
 	@override String get dialog_edit => 'تعديل';
 	@override String get dialog_export => 'تصدير';
 	@override String get dialog_import => 'استيراد';
+	@override String get dialog_importing => 'جارٍ الاستيراد…';
 	@override String get dialog_import_dictionary => 'استيراد قاموس';
 	@override String get dialog_import_folder => 'استيراد قاموس من مجلد';
 	@override String get dialog_close => 'إغلاق';
@@ -1518,6 +1520,7 @@ class _StringsDe implements _StringsEn {
 	@override String get dialog_edit => 'BEARBEITEN';
 	@override String get dialog_export => 'EXPORTIEREN';
 	@override String get dialog_import => 'IMPORTIEREN';
+	@override String get dialog_importing => 'IMPORTIERT…';
 	@override String get dialog_import_dictionary => 'Wörterbuch importieren';
 	@override String get dialog_import_folder => 'Ordner-Wörterbuch importieren';
 	@override String get dialog_close => 'SCHLIESSEN';
@@ -2180,6 +2183,7 @@ class _StringsEs implements _StringsEn {
 	@override String get dialog_edit => 'EDITAR';
 	@override String get dialog_export => 'EXPORTAR';
 	@override String get dialog_import => 'IMPORTAR';
+	@override String get dialog_importing => 'IMPORTANDO…';
 	@override String get dialog_import_dictionary => 'Importar diccionario';
 	@override String get dialog_import_folder => 'Importar diccionario de carpeta';
 	@override String get dialog_close => 'CERRAR';
@@ -2842,6 +2846,7 @@ class _StringsFr implements _StringsEn {
 	@override String get dialog_edit => 'MODIFIER';
 	@override String get dialog_export => 'EXPORTER';
 	@override String get dialog_import => 'IMPORTER';
+	@override String get dialog_importing => 'IMPORTATION…';
 	@override String get dialog_import_dictionary => 'Importer un dictionnaire';
 	@override String get dialog_import_folder => 'Importer un dictionnaire de dossier';
 	@override String get dialog_close => 'FERMER';
@@ -3504,6 +3509,7 @@ class _StringsId implements _StringsEn {
 	@override String get dialog_edit => 'EDIT';
 	@override String get dialog_export => 'EKSPOR';
 	@override String get dialog_import => 'IMPOR';
+	@override String get dialog_importing => 'MENGIMPOR…';
 	@override String get dialog_import_dictionary => 'Impor Kamus';
 	@override String get dialog_import_folder => 'Impor Kamus dari Folder';
 	@override String get dialog_close => 'TUTUP';
@@ -4166,6 +4172,7 @@ class _StringsIt implements _StringsEn {
 	@override String get dialog_edit => 'MODIFICA';
 	@override String get dialog_export => 'ESPORTA';
 	@override String get dialog_import => 'IMPORTA';
+	@override String get dialog_importing => 'IMPORTAZIONE…';
 	@override String get dialog_import_dictionary => 'Importa dizionario';
 	@override String get dialog_import_folder => 'Importa dizionario da cartella';
 	@override String get dialog_select_dictionary_type => 'Seleziona tipo di dizionario';
@@ -4828,6 +4835,7 @@ class _StringsJa implements _StringsEn {
 	@override String get dialog_edit => '編集';
 	@override String get dialog_export => 'エクスポート';
 	@override String get dialog_import => 'インポート';
+	@override String get dialog_importing => 'インポート中…';
 	@override String get dialog_import_dictionary => '辞書をインポート';
 	@override String get dialog_import_folder => 'フォルダ辞書をインポート';
 	@override String get dialog_close => '閉じる';
@@ -5490,6 +5498,7 @@ class _StringsKo implements _StringsEn {
 	@override String get dialog_edit => '편집';
 	@override String get dialog_export => '내보내기';
 	@override String get dialog_import => '가져오기';
+	@override String get dialog_importing => '가져오는 중…';
 	@override String get dialog_import_dictionary => '사전 가져오기';
 	@override String get dialog_import_folder => '폴더 사전 가져오기';
 	@override String get dialog_close => '닫기';
@@ -6152,6 +6161,7 @@ class _StringsNl implements _StringsEn {
 	@override String get dialog_edit => 'BEWERKEN';
 	@override String get dialog_export => 'EXPORTEREN';
 	@override String get dialog_import => 'IMPORTEREN';
+	@override String get dialog_importing => 'IMPORTEREN…';
 	@override String get dialog_import_dictionary => 'Woordenboek importeren';
 	@override String get dialog_import_folder => 'Mapwoordenboek importeren';
 	@override String get dialog_select_dictionary_type => 'Selecteer woordenboektype';
@@ -6814,6 +6824,7 @@ class _StringsPtBr implements _StringsEn {
 	@override String get dialog_edit => 'EDITAR';
 	@override String get dialog_export => 'EXPORTAR';
 	@override String get dialog_import => 'IMPORTAR';
+	@override String get dialog_importing => 'IMPORTANDO…';
 	@override String get dialog_import_dictionary => 'Importar Dicionário';
 	@override String get dialog_import_folder => 'Importar Dicionário de Pasta';
 	@override String get dialog_close => 'FECHAR';
@@ -7476,6 +7487,7 @@ class _StringsRu implements _StringsEn {
 	@override String get dialog_edit => 'ИЗМЕНИТЬ';
 	@override String get dialog_export => 'ЭКСПОРТ';
 	@override String get dialog_import => 'ИМПОРТ';
+	@override String get dialog_importing => 'ИМПОРТ…';
 	@override String get dialog_import_dictionary => 'Импортировать словарь';
 	@override String get dialog_import_folder => 'Импортировать словарь из папки';
 	@override String get dialog_close => 'ЗАКРЫТЬ';
@@ -8138,6 +8150,7 @@ class _StringsTh implements _StringsEn {
 	@override String get dialog_edit => 'แก้ไข';
 	@override String get dialog_export => 'ส่งออก';
 	@override String get dialog_import => 'นำเข้า';
+	@override String get dialog_importing => 'กำลังนำเข้า…';
 	@override String get dialog_import_dictionary => 'นำเข้าพจนานุกรม';
 	@override String get dialog_import_folder => 'นำเข้าพจนานุกรมจากโฟลเดอร์';
 	@override String get dialog_close => 'ปิด';
@@ -8800,6 +8813,7 @@ class _StringsTr implements _StringsEn {
 	@override String get dialog_edit => 'DÜZENLE';
 	@override String get dialog_export => 'DIŞA AKTAR';
 	@override String get dialog_import => 'İÇE AKTAR';
+	@override String get dialog_importing => 'İÇE AKTARILIYOR…';
 	@override String get dialog_import_dictionary => 'Sözlük içe aktar';
 	@override String get dialog_import_folder => 'Klasör sözlüğü içe aktar';
 	@override String get dialog_select_dictionary_type => 'Sözlük türünü seçin';
@@ -9462,6 +9476,7 @@ class _StringsVi implements _StringsEn {
 	@override String get dialog_edit => 'SỬA';
 	@override String get dialog_export => 'XUẤT';
 	@override String get dialog_import => 'NHẬP';
+	@override String get dialog_importing => 'ĐANG NHẬP…';
 	@override String get dialog_import_dictionary => 'Nhập từ điển';
 	@override String get dialog_import_folder => 'Nhập từ điển dạng thư mục';
 	@override String get dialog_close => 'ĐÓNG';
@@ -10124,6 +10139,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get dialog_edit => '编辑';
 	@override String get dialog_export => '导出';
 	@override String get dialog_import => '导入';
+	@override String get dialog_importing => '正在导入…';
 	@override String get dialog_import_dictionary => '导入词典';
 	@override String get dialog_import_folder => '导入文件夹词典';
 	@override String get dialog_select_dictionary_type => '选择词典类型';
@@ -10786,6 +10802,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String get dialog_edit => '編輯';
 	@override String get dialog_export => '匯出';
 	@override String get dialog_import => '匯入';
+	@override String get dialog_importing => '正在匯入…';
 	@override String get dialog_import_dictionary => '匯入辭典';
 	@override String get dialog_import_folder => '匯入資料夾辭典';
 	@override String get dialog_close => '關閉';
@@ -11429,6 +11446,7 @@ extension on _StringsEn {
 			case 'dialog_edit': return 'EDIT';
 			case 'dialog_export': return 'EXPORT';
 			case 'dialog_import': return 'IMPORT';
+			case 'dialog_importing': return 'IMPORTING…';
 			case 'dialog_import_dictionary': return 'Import Dictionary';
 			case 'dialog_import_folder': return 'Import Folder Dictionary';
 			case 'dialog_select_dictionary_type': return 'Select dictionary type';
@@ -12052,6 +12070,7 @@ extension on _StringsAr {
 			case 'dialog_edit': return 'تعديل';
 			case 'dialog_export': return 'تصدير';
 			case 'dialog_import': return 'استيراد';
+			case 'dialog_importing': return 'جارٍ الاستيراد…';
 			case 'dialog_import_dictionary': return 'استيراد قاموس';
 			case 'dialog_import_folder': return 'استيراد قاموس من مجلد';
 			case 'dialog_close': return 'إغلاق';
@@ -12675,6 +12694,7 @@ extension on _StringsDe {
 			case 'dialog_edit': return 'BEARBEITEN';
 			case 'dialog_export': return 'EXPORTIEREN';
 			case 'dialog_import': return 'IMPORTIEREN';
+			case 'dialog_importing': return 'IMPORTIERT…';
 			case 'dialog_import_dictionary': return 'Wörterbuch importieren';
 			case 'dialog_import_folder': return 'Ordner-Wörterbuch importieren';
 			case 'dialog_close': return 'SCHLIESSEN';
@@ -13298,6 +13318,7 @@ extension on _StringsEs {
 			case 'dialog_edit': return 'EDITAR';
 			case 'dialog_export': return 'EXPORTAR';
 			case 'dialog_import': return 'IMPORTAR';
+			case 'dialog_importing': return 'IMPORTANDO…';
 			case 'dialog_import_dictionary': return 'Importar diccionario';
 			case 'dialog_import_folder': return 'Importar diccionario de carpeta';
 			case 'dialog_close': return 'CERRAR';
@@ -13921,6 +13942,7 @@ extension on _StringsFr {
 			case 'dialog_edit': return 'MODIFIER';
 			case 'dialog_export': return 'EXPORTER';
 			case 'dialog_import': return 'IMPORTER';
+			case 'dialog_importing': return 'IMPORTATION…';
 			case 'dialog_import_dictionary': return 'Importer un dictionnaire';
 			case 'dialog_import_folder': return 'Importer un dictionnaire de dossier';
 			case 'dialog_close': return 'FERMER';
@@ -14544,6 +14566,7 @@ extension on _StringsId {
 			case 'dialog_edit': return 'EDIT';
 			case 'dialog_export': return 'EKSPOR';
 			case 'dialog_import': return 'IMPOR';
+			case 'dialog_importing': return 'MENGIMPOR…';
 			case 'dialog_import_dictionary': return 'Impor Kamus';
 			case 'dialog_import_folder': return 'Impor Kamus dari Folder';
 			case 'dialog_close': return 'TUTUP';
@@ -15167,6 +15190,7 @@ extension on _StringsIt {
 			case 'dialog_edit': return 'MODIFICA';
 			case 'dialog_export': return 'ESPORTA';
 			case 'dialog_import': return 'IMPORTA';
+			case 'dialog_importing': return 'IMPORTAZIONE…';
 			case 'dialog_import_dictionary': return 'Importa dizionario';
 			case 'dialog_import_folder': return 'Importa dizionario da cartella';
 			case 'dialog_select_dictionary_type': return 'Seleziona tipo di dizionario';
@@ -15790,6 +15814,7 @@ extension on _StringsJa {
 			case 'dialog_edit': return '編集';
 			case 'dialog_export': return 'エクスポート';
 			case 'dialog_import': return 'インポート';
+			case 'dialog_importing': return 'インポート中…';
 			case 'dialog_import_dictionary': return '辞書をインポート';
 			case 'dialog_import_folder': return 'フォルダ辞書をインポート';
 			case 'dialog_close': return '閉じる';
@@ -16413,6 +16438,7 @@ extension on _StringsKo {
 			case 'dialog_edit': return '편집';
 			case 'dialog_export': return '내보내기';
 			case 'dialog_import': return '가져오기';
+			case 'dialog_importing': return '가져오는 중…';
 			case 'dialog_import_dictionary': return '사전 가져오기';
 			case 'dialog_import_folder': return '폴더 사전 가져오기';
 			case 'dialog_close': return '닫기';
@@ -17036,6 +17062,7 @@ extension on _StringsNl {
 			case 'dialog_edit': return 'BEWERKEN';
 			case 'dialog_export': return 'EXPORTEREN';
 			case 'dialog_import': return 'IMPORTEREN';
+			case 'dialog_importing': return 'IMPORTEREN…';
 			case 'dialog_import_dictionary': return 'Woordenboek importeren';
 			case 'dialog_import_folder': return 'Mapwoordenboek importeren';
 			case 'dialog_select_dictionary_type': return 'Selecteer woordenboektype';
@@ -17659,6 +17686,7 @@ extension on _StringsPtBr {
 			case 'dialog_edit': return 'EDITAR';
 			case 'dialog_export': return 'EXPORTAR';
 			case 'dialog_import': return 'IMPORTAR';
+			case 'dialog_importing': return 'IMPORTANDO…';
 			case 'dialog_import_dictionary': return 'Importar Dicionário';
 			case 'dialog_import_folder': return 'Importar Dicionário de Pasta';
 			case 'dialog_close': return 'FECHAR';
@@ -18282,6 +18310,7 @@ extension on _StringsRu {
 			case 'dialog_edit': return 'ИЗМЕНИТЬ';
 			case 'dialog_export': return 'ЭКСПОРТ';
 			case 'dialog_import': return 'ИМПОРТ';
+			case 'dialog_importing': return 'ИМПОРТ…';
 			case 'dialog_import_dictionary': return 'Импортировать словарь';
 			case 'dialog_import_folder': return 'Импортировать словарь из папки';
 			case 'dialog_close': return 'ЗАКРЫТЬ';
@@ -18905,6 +18934,7 @@ extension on _StringsTh {
 			case 'dialog_edit': return 'แก้ไข';
 			case 'dialog_export': return 'ส่งออก';
 			case 'dialog_import': return 'นำเข้า';
+			case 'dialog_importing': return 'กำลังนำเข้า…';
 			case 'dialog_import_dictionary': return 'นำเข้าพจนานุกรม';
 			case 'dialog_import_folder': return 'นำเข้าพจนานุกรมจากโฟลเดอร์';
 			case 'dialog_close': return 'ปิด';
@@ -19528,6 +19558,7 @@ extension on _StringsTr {
 			case 'dialog_edit': return 'DÜZENLE';
 			case 'dialog_export': return 'DIŞA AKTAR';
 			case 'dialog_import': return 'İÇE AKTAR';
+			case 'dialog_importing': return 'İÇE AKTARILIYOR…';
 			case 'dialog_import_dictionary': return 'Sözlük içe aktar';
 			case 'dialog_import_folder': return 'Klasör sözlüğü içe aktar';
 			case 'dialog_select_dictionary_type': return 'Sözlük türünü seçin';
@@ -20151,6 +20182,7 @@ extension on _StringsVi {
 			case 'dialog_edit': return 'SỬA';
 			case 'dialog_export': return 'XUẤT';
 			case 'dialog_import': return 'NHẬP';
+			case 'dialog_importing': return 'ĐANG NHẬP…';
 			case 'dialog_import_dictionary': return 'Nhập từ điển';
 			case 'dialog_import_folder': return 'Nhập từ điển dạng thư mục';
 			case 'dialog_close': return 'ĐÓNG';
@@ -20774,6 +20806,7 @@ extension on _StringsZhCn {
 			case 'dialog_edit': return '编辑';
 			case 'dialog_export': return '导出';
 			case 'dialog_import': return '导入';
+			case 'dialog_importing': return '正在导入…';
 			case 'dialog_import_dictionary': return '导入词典';
 			case 'dialog_import_folder': return '导入文件夹词典';
 			case 'dialog_select_dictionary_type': return '选择词典类型';
@@ -21397,6 +21430,7 @@ extension on _StringsZhHk {
 			case 'dialog_edit': return '編輯';
 			case 'dialog_export': return '匯出';
 			case 'dialog_import': return '匯入';
+			case 'dialog_importing': return '正在匯入…';
 			case 'dialog_import_dictionary': return '匯入辭典';
 			case 'dialog_import_folder': return '匯入資料夾辭典';
 			case 'dialog_close': return '關閉';
