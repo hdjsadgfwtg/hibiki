@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 10387 (611 per locale)
+/// Strings: 10982 (646 per locale)
 ///
-/// Built on 2026-04-25 at 14:27 UTC
+/// Built on 2026-04-27 at 10:27 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -701,6 +701,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get av_sync => 'A/V Sync';
 	String get av_sync_reset => 'Reset';
 	String get av_sync_hint => 'Positive = audio ahead of text, shifts cue back; Negative = audio behind.';
+	String get tap_seek => 'Tap to Seek';
+	String get tap_seek_hint => 'Tap a sentence to jump audio to that position.';
 	String get audio_volume => 'Volume';
 	String get reader_settings_section => 'Reader Settings';
 	String get action_bookmark => 'Bookmark';
@@ -858,6 +860,7 @@ class _StringsAr implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'القاموس';
+	@override String get dialog_importing => 'IMPORTING…';
 	@override String get player_media_type => 'المشغّل';
 	@override String get reader_media_type => 'القارئ';
 	@override String get viewer_media_type => 'العارض';
@@ -889,7 +892,6 @@ class _StringsAr implements _StringsEn {
 	@override String get dialog_edit => 'تعديل';
 	@override String get dialog_export => 'تصدير';
 	@override String get dialog_import => 'استيراد';
-	@override String get dialog_importing => 'جارٍ الاستيراد…';
 	@override String get dialog_import_dictionary => 'استيراد قاموس';
 	@override String get dialog_import_folder => 'استيراد قاموس من مجلد';
 	@override String get dialog_close => 'إغلاق';
@@ -1389,6 +1391,15 @@ class _StringsAr implements _StringsEn {
 	@override String get image_pause => 'إيقاف مؤقت عند الصورة';
 	@override String get image_pause_hint => 'إيقاف مؤقت تلقائي عند ظهور صورة أثناء التشغيل.';
 	@override String get image_pause_off => 'إيقاف';
+	@override String get tap_seek => 'Tap to Seek';
+	@override String get tap_seek_hint => 'Tap a sentence to jump audio to that position.';
+	@override String get custom_fonts_archive_error => 'Failed to extract archive';
+	@override String get custom_fonts_import_url => 'Import from URL';
+	@override String get custom_fonts_downloading => 'Downloading...';
+	@override String get custom_fonts_download_failed => 'Download failed';
+	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
+	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => 'مستوى الصوت';
 	@override String get reader_settings_section => 'إعدادات القارئ';
 	@override String get action_bookmark => 'إشارة مرجعية';
@@ -1428,13 +1439,6 @@ class _StringsAr implements _StringsEn {
 	@override String custom_fonts_imported({required Object name}) => 'تم استيراد الخط: ${name}';
 	@override String get custom_fonts_removed => 'تم إزالة الخط';
 	@override String get custom_fonts_drag_hint => 'اسحب لإعادة ترتيب أولوية الخطوط';
-	@override String get custom_fonts_import_url => 'Import from URL';
-	@override String get custom_fonts_downloading => 'Downloading...';
-	@override String get custom_fonts_download_failed => 'Download failed';
-	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
-	@override String get custom_fonts_archive_error => 'Failed to extract archive';
-	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
-	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'مظهر مخصص';
 	@override String get dark_mode => 'الوضع الداكن';
 	@override String get seed_color => 'اللون الأساسي';
@@ -1553,6 +1557,7 @@ class _StringsDe implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Wörterbuch';
+	@override String get dialog_importing => 'IMPORTING…';
 	@override String get player_media_type => 'Player';
 	@override String get reader_media_type => 'Reader';
 	@override String get viewer_media_type => 'Betrachter';
@@ -1584,7 +1589,6 @@ class _StringsDe implements _StringsEn {
 	@override String get dialog_edit => 'BEARBEITEN';
 	@override String get dialog_export => 'EXPORTIEREN';
 	@override String get dialog_import => 'IMPORTIEREN';
-	@override String get dialog_importing => 'IMPORTIERT…';
 	@override String get dialog_import_dictionary => 'Wörterbuch importieren';
 	@override String get dialog_import_folder => 'Ordner-Wörterbuch importieren';
 	@override String get dialog_close => 'SCHLIESSEN';
@@ -2084,6 +2088,15 @@ class _StringsDe implements _StringsEn {
 	@override String get image_pause => 'Bei Bild pausieren';
 	@override String get image_pause_hint => 'Automatisch pausieren, wenn ein Bild während der Wiedergabe erscheint.';
 	@override String get image_pause_off => 'Aus';
+	@override String get tap_seek => 'Tap to Seek';
+	@override String get tap_seek_hint => 'Tap a sentence to jump audio to that position.';
+	@override String get custom_fonts_archive_error => 'Failed to extract archive';
+	@override String get custom_fonts_import_url => 'Import from URL';
+	@override String get custom_fonts_downloading => 'Downloading...';
+	@override String get custom_fonts_download_failed => 'Download failed';
+	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
+	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => 'Lautstärke';
 	@override String get reader_settings_section => 'Reader-Einstellungen';
 	@override String get action_bookmark => 'Lesezeichen';
@@ -2123,13 +2136,6 @@ class _StringsDe implements _StringsEn {
 	@override String custom_fonts_imported({required Object name}) => 'Schrift importiert: ${name}';
 	@override String get custom_fonts_removed => 'Schrift entfernt';
 	@override String get custom_fonts_drag_hint => 'Ziehen, um Schriftpriorität zu ändern';
-	@override String get custom_fonts_import_url => 'Import from URL';
-	@override String get custom_fonts_downloading => 'Downloading...';
-	@override String get custom_fonts_download_failed => 'Download failed';
-	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
-	@override String get custom_fonts_archive_error => 'Failed to extract archive';
-	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
-	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Benutzerdefiniertes Design';
 	@override String get dark_mode => 'Dunkler Modus';
 	@override String get seed_color => 'Grundfarbe';
@@ -2248,6 +2254,7 @@ class _StringsEs implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Diccionario';
+	@override String get dialog_importing => 'IMPORTING…';
 	@override String get player_media_type => 'Reproductor';
 	@override String get reader_media_type => 'Lector';
 	@override String get viewer_media_type => 'Visor';
@@ -2279,7 +2286,6 @@ class _StringsEs implements _StringsEn {
 	@override String get dialog_edit => 'EDITAR';
 	@override String get dialog_export => 'EXPORTAR';
 	@override String get dialog_import => 'IMPORTAR';
-	@override String get dialog_importing => 'IMPORTANDO…';
 	@override String get dialog_import_dictionary => 'Importar diccionario';
 	@override String get dialog_import_folder => 'Importar diccionario de carpeta';
 	@override String get dialog_close => 'CERRAR';
@@ -2779,6 +2785,15 @@ class _StringsEs implements _StringsEn {
 	@override String get image_pause => 'Pausar en imagen';
 	@override String get image_pause_hint => 'Pausar automáticamente cuando aparece una imagen durante la reproducción.';
 	@override String get image_pause_off => 'Desactivado';
+	@override String get tap_seek => 'Tap to Seek';
+	@override String get tap_seek_hint => 'Tap a sentence to jump audio to that position.';
+	@override String get custom_fonts_archive_error => 'Failed to extract archive';
+	@override String get custom_fonts_import_url => 'Import from URL';
+	@override String get custom_fonts_downloading => 'Downloading...';
+	@override String get custom_fonts_download_failed => 'Download failed';
+	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
+	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => 'Volumen';
 	@override String get reader_settings_section => 'Configuración del lector';
 	@override String get action_bookmark => 'Marcador';
@@ -2818,13 +2833,6 @@ class _StringsEs implements _StringsEn {
 	@override String custom_fonts_imported({required Object name}) => 'Fuente importada: ${name}';
 	@override String get custom_fonts_removed => 'Fuente eliminada';
 	@override String get custom_fonts_drag_hint => 'Arrastra para reordenar la prioridad de fuentes';
-	@override String get custom_fonts_import_url => 'Import from URL';
-	@override String get custom_fonts_downloading => 'Downloading...';
-	@override String get custom_fonts_download_failed => 'Download failed';
-	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
-	@override String get custom_fonts_archive_error => 'Failed to extract archive';
-	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
-	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Tema personalizado';
 	@override String get dark_mode => 'Modo oscuro';
 	@override String get seed_color => 'Color base';
@@ -2943,6 +2951,7 @@ class _StringsFr implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Dictionnaire';
+	@override String get dialog_importing => 'IMPORTING…';
 	@override String get player_media_type => 'Lecteur';
 	@override String get reader_media_type => 'Liseuse';
 	@override String get viewer_media_type => 'Visionneuse';
@@ -2974,7 +2983,6 @@ class _StringsFr implements _StringsEn {
 	@override String get dialog_edit => 'MODIFIER';
 	@override String get dialog_export => 'EXPORTER';
 	@override String get dialog_import => 'IMPORTER';
-	@override String get dialog_importing => 'IMPORTATION…';
 	@override String get dialog_import_dictionary => 'Importer un dictionnaire';
 	@override String get dialog_import_folder => 'Importer un dictionnaire de dossier';
 	@override String get dialog_close => 'FERMER';
@@ -3474,6 +3482,15 @@ class _StringsFr implements _StringsEn {
 	@override String get image_pause => 'Pause sur image';
 	@override String get image_pause_hint => 'Pause automatique lorsqu\'une image apparaît pendant la lecture.';
 	@override String get image_pause_off => 'Désactivé';
+	@override String get tap_seek => 'Tap to Seek';
+	@override String get tap_seek_hint => 'Tap a sentence to jump audio to that position.';
+	@override String get custom_fonts_archive_error => 'Failed to extract archive';
+	@override String get custom_fonts_import_url => 'Import from URL';
+	@override String get custom_fonts_downloading => 'Downloading...';
+	@override String get custom_fonts_download_failed => 'Download failed';
+	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
+	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => 'Volume';
 	@override String get reader_settings_section => 'Paramètres du lecteur';
 	@override String get action_bookmark => 'Signet';
@@ -3513,13 +3530,6 @@ class _StringsFr implements _StringsEn {
 	@override String custom_fonts_imported({required Object name}) => 'Police importée : ${name}';
 	@override String get custom_fonts_removed => 'Police supprimée';
 	@override String get custom_fonts_drag_hint => 'Glisser pour réorganiser la priorité des polices';
-	@override String get custom_fonts_import_url => 'Import from URL';
-	@override String get custom_fonts_downloading => 'Downloading...';
-	@override String get custom_fonts_download_failed => 'Download failed';
-	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
-	@override String get custom_fonts_archive_error => 'Failed to extract archive';
-	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
-	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Thème personnalisé';
 	@override String get dark_mode => 'Mode sombre';
 	@override String get seed_color => 'Couleur de base';
@@ -3638,6 +3648,7 @@ class _StringsId implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Kamus';
+	@override String get dialog_importing => 'IMPORTING…';
 	@override String get player_media_type => 'Pemutar';
 	@override String get reader_media_type => 'Pembaca';
 	@override String get viewer_media_type => 'Penampil';
@@ -3669,7 +3680,6 @@ class _StringsId implements _StringsEn {
 	@override String get dialog_edit => 'EDIT';
 	@override String get dialog_export => 'EKSPOR';
 	@override String get dialog_import => 'IMPOR';
-	@override String get dialog_importing => 'MENGIMPOR…';
 	@override String get dialog_import_dictionary => 'Impor Kamus';
 	@override String get dialog_import_folder => 'Impor Kamus dari Folder';
 	@override String get dialog_close => 'TUTUP';
@@ -4169,6 +4179,15 @@ class _StringsId implements _StringsEn {
 	@override String get image_pause => 'Jeda pada Gambar';
 	@override String get image_pause_hint => 'Jeda otomatis saat gambar muncul selama pemutaran.';
 	@override String get image_pause_off => 'Mati';
+	@override String get tap_seek => 'Tap to Seek';
+	@override String get tap_seek_hint => 'Tap a sentence to jump audio to that position.';
+	@override String get custom_fonts_archive_error => 'Failed to extract archive';
+	@override String get custom_fonts_import_url => 'Import from URL';
+	@override String get custom_fonts_downloading => 'Downloading...';
+	@override String get custom_fonts_download_failed => 'Download failed';
+	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
+	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => 'Volume';
 	@override String get reader_settings_section => 'Pengaturan Pembaca';
 	@override String get action_bookmark => 'Bookmark';
@@ -4208,13 +4227,6 @@ class _StringsId implements _StringsEn {
 	@override String custom_fonts_imported({required Object name}) => 'Font diimpor: ${name}';
 	@override String get custom_fonts_removed => 'Font dihapus';
 	@override String get custom_fonts_drag_hint => 'Seret untuk mengatur ulang prioritas font';
-	@override String get custom_fonts_import_url => 'Import from URL';
-	@override String get custom_fonts_downloading => 'Downloading...';
-	@override String get custom_fonts_download_failed => 'Download failed';
-	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
-	@override String get custom_fonts_archive_error => 'Failed to extract archive';
-	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
-	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Tema Kustom';
 	@override String get dark_mode => 'Mode Gelap';
 	@override String get seed_color => 'Warna Dasar';
@@ -4333,6 +4345,7 @@ class _StringsIt implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Dizionario';
+	@override String get dialog_importing => 'IMPORTING…';
 	@override String get player_media_type => 'Lettore';
 	@override String get reader_media_type => 'Lettore';
 	@override String get viewer_media_type => 'Visualizzatore';
@@ -4364,7 +4377,6 @@ class _StringsIt implements _StringsEn {
 	@override String get dialog_edit => 'MODIFICA';
 	@override String get dialog_export => 'ESPORTA';
 	@override String get dialog_import => 'IMPORTA';
-	@override String get dialog_importing => 'IMPORTAZIONE…';
 	@override String get dialog_import_dictionary => 'Importa dizionario';
 	@override String get dialog_import_folder => 'Importa dizionario da cartella';
 	@override String get dialog_select_dictionary_type => 'Seleziona tipo di dizionario';
@@ -4806,6 +4818,15 @@ class _StringsIt implements _StringsEn {
 	@override String get image_pause => 'Pausa su immagine';
 	@override String get image_pause_hint => 'Pausa automatica quando appare un\'immagine durante la riproduzione.';
 	@override String get image_pause_off => 'Disattivato';
+	@override String get tap_seek => 'Tap to Seek';
+	@override String get tap_seek_hint => 'Tap a sentence to jump audio to that position.';
+	@override String get custom_fonts_archive_error => 'Failed to extract archive';
+	@override String get custom_fonts_import_url => 'Import from URL';
+	@override String get custom_fonts_downloading => 'Downloading...';
+	@override String get custom_fonts_download_failed => 'Download failed';
+	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
+	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get srt_epub_not_ready => 'Libro non pronto — reimportare';
 	@override String get srt_audio_unresolved => 'File audio non trovato — ricollegare';
 	@override String get srt_audio_load_error => 'Caricamento audio fallito';
@@ -4910,13 +4931,6 @@ class _StringsIt implements _StringsEn {
 	@override String custom_fonts_imported({required Object name}) => 'Carattere importato: ${name}';
 	@override String get custom_fonts_removed => 'Carattere rimosso';
 	@override String get custom_fonts_drag_hint => 'Trascina per riordinare la priorità dei caratteri';
-	@override String get custom_fonts_import_url => 'Import from URL';
-	@override String get custom_fonts_downloading => 'Downloading...';
-	@override String get custom_fonts_download_failed => 'Download failed';
-	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
-	@override String get custom_fonts_archive_error => 'Failed to extract archive';
-	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
-	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Tema personalizzato';
 	@override String get dark_mode => 'Modalità scura';
 	@override String get seed_color => 'Colore base';
@@ -5028,6 +5042,7 @@ class _StringsJa implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => '辞書';
+	@override String get dialog_importing => 'IMPORTING…';
 	@override String get player_media_type => 'プレイヤー';
 	@override String get reader_media_type => 'リーダー';
 	@override String get viewer_media_type => 'ビューアー';
@@ -5059,7 +5074,6 @@ class _StringsJa implements _StringsEn {
 	@override String get dialog_edit => '編集';
 	@override String get dialog_export => 'エクスポート';
 	@override String get dialog_import => 'インポート';
-	@override String get dialog_importing => 'インポート中…';
 	@override String get dialog_import_dictionary => '辞書をインポート';
 	@override String get dialog_import_folder => 'フォルダ辞書をインポート';
 	@override String get dialog_close => '閉じる';
@@ -5559,6 +5573,15 @@ class _StringsJa implements _StringsEn {
 	@override String get image_pause => '画像で一時停止';
 	@override String get image_pause_hint => '再生中に画像が表示されたら自動で一時停止します。';
 	@override String get image_pause_off => 'オフ';
+	@override String get tap_seek => 'Tap to Seek';
+	@override String get tap_seek_hint => 'Tap a sentence to jump audio to that position.';
+	@override String get custom_fonts_archive_error => 'Failed to extract archive';
+	@override String get custom_fonts_import_url => 'Import from URL';
+	@override String get custom_fonts_downloading => 'Downloading...';
+	@override String get custom_fonts_download_failed => 'Download failed';
+	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
+	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => '音量';
 	@override String get reader_settings_section => 'リーダー設定';
 	@override String get action_bookmark => 'ブックマーク';
@@ -5598,13 +5621,6 @@ class _StringsJa implements _StringsEn {
 	@override String custom_fonts_imported({required Object name}) => 'フォントをインポートしました: ${name}';
 	@override String get custom_fonts_removed => 'フォントを削除しました';
 	@override String get custom_fonts_drag_hint => 'ドラッグしてフォントの優先順位を変更';
-	@override String get custom_fonts_import_url => 'Import from URL';
-	@override String get custom_fonts_downloading => 'Downloading...';
-	@override String get custom_fonts_download_failed => 'Download failed';
-	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
-	@override String get custom_fonts_archive_error => 'Failed to extract archive';
-	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
-	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'カスタムテーマ';
 	@override String get dark_mode => 'ダークモード';
 	@override String get seed_color => 'シードカラー';
@@ -5723,6 +5739,7 @@ class _StringsKo implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => '사전';
+	@override String get dialog_importing => 'IMPORTING…';
 	@override String get player_media_type => '플레이어';
 	@override String get reader_media_type => '리더';
 	@override String get viewer_media_type => '뷰어';
@@ -5754,7 +5771,6 @@ class _StringsKo implements _StringsEn {
 	@override String get dialog_edit => '편집';
 	@override String get dialog_export => '내보내기';
 	@override String get dialog_import => '가져오기';
-	@override String get dialog_importing => '가져오는 중…';
 	@override String get dialog_import_dictionary => '사전 가져오기';
 	@override String get dialog_import_folder => '폴더 사전 가져오기';
 	@override String get dialog_close => '닫기';
@@ -6254,6 +6270,15 @@ class _StringsKo implements _StringsEn {
 	@override String get image_pause => '이미지에서 일시정지';
 	@override String get image_pause_hint => '재생 중 이미지가 나타나면 자동으로 일시정지합니다.';
 	@override String get image_pause_off => '끄기';
+	@override String get tap_seek => 'Tap to Seek';
+	@override String get tap_seek_hint => 'Tap a sentence to jump audio to that position.';
+	@override String get custom_fonts_archive_error => 'Failed to extract archive';
+	@override String get custom_fonts_import_url => 'Import from URL';
+	@override String get custom_fonts_downloading => 'Downloading...';
+	@override String get custom_fonts_download_failed => 'Download failed';
+	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
+	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => '볼륨';
 	@override String get reader_settings_section => '리더 설정';
 	@override String get action_bookmark => '북마크';
@@ -6293,13 +6318,6 @@ class _StringsKo implements _StringsEn {
 	@override String custom_fonts_imported({required Object name}) => '글꼴 가져옴: ${name}';
 	@override String get custom_fonts_removed => '글꼴이 제거되었습니다';
 	@override String get custom_fonts_drag_hint => '드래그하여 글꼴 우선순위 변경';
-	@override String get custom_fonts_import_url => 'Import from URL';
-	@override String get custom_fonts_downloading => 'Downloading...';
-	@override String get custom_fonts_download_failed => 'Download failed';
-	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
-	@override String get custom_fonts_archive_error => 'Failed to extract archive';
-	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
-	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => '커스텀 테마';
 	@override String get dark_mode => '다크 모드';
 	@override String get seed_color => '시드 색상';
@@ -6418,6 +6436,7 @@ class _StringsNl implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Woordenboek';
+	@override String get dialog_importing => 'IMPORTING…';
 	@override String get player_media_type => 'Speler';
 	@override String get reader_media_type => 'Lezer';
 	@override String get viewer_media_type => 'Viewer';
@@ -6449,7 +6468,6 @@ class _StringsNl implements _StringsEn {
 	@override String get dialog_edit => 'BEWERKEN';
 	@override String get dialog_export => 'EXPORTEREN';
 	@override String get dialog_import => 'IMPORTEREN';
-	@override String get dialog_importing => 'IMPORTEREN…';
 	@override String get dialog_import_dictionary => 'Woordenboek importeren';
 	@override String get dialog_import_folder => 'Mapwoordenboek importeren';
 	@override String get dialog_select_dictionary_type => 'Selecteer woordenboektype';
@@ -6891,6 +6909,15 @@ class _StringsNl implements _StringsEn {
 	@override String get image_pause => 'Pauzeren bij afbeelding';
 	@override String get image_pause_hint => 'Automatisch pauzeren wanneer een afbeelding verschijnt tijdens het afspelen.';
 	@override String get image_pause_off => 'Uit';
+	@override String get tap_seek => 'Tap to Seek';
+	@override String get tap_seek_hint => 'Tap a sentence to jump audio to that position.';
+	@override String get custom_fonts_archive_error => 'Failed to extract archive';
+	@override String get custom_fonts_import_url => 'Import from URL';
+	@override String get custom_fonts_downloading => 'Downloading...';
+	@override String get custom_fonts_download_failed => 'Download failed';
+	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
+	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get srt_epub_not_ready => 'Boek niet gereed — importeer opnieuw';
 	@override String get srt_audio_unresolved => 'Audiobestand niet gevonden — koppel opnieuw';
 	@override String get srt_audio_load_error => 'Audio laden mislukt';
@@ -6995,13 +7022,6 @@ class _StringsNl implements _StringsEn {
 	@override String custom_fonts_imported({required Object name}) => 'Lettertype geïmporteerd: ${name}';
 	@override String get custom_fonts_removed => 'Lettertype verwijderd';
 	@override String get custom_fonts_drag_hint => 'Sleep om letterpypeprioriteit te wijzigen';
-	@override String get custom_fonts_import_url => 'Import from URL';
-	@override String get custom_fonts_downloading => 'Downloading...';
-	@override String get custom_fonts_download_failed => 'Download failed';
-	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
-	@override String get custom_fonts_archive_error => 'Failed to extract archive';
-	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
-	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Aangepast thema';
 	@override String get dark_mode => 'Donkere modus';
 	@override String get seed_color => 'Basiskleur';
@@ -7113,6 +7133,7 @@ class _StringsPtBr implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Dicionário';
+	@override String get dialog_importing => 'IMPORTING…';
 	@override String get player_media_type => 'Reprodutor';
 	@override String get reader_media_type => 'Leitor';
 	@override String get viewer_media_type => 'Visualizador';
@@ -7144,7 +7165,6 @@ class _StringsPtBr implements _StringsEn {
 	@override String get dialog_edit => 'EDITAR';
 	@override String get dialog_export => 'EXPORTAR';
 	@override String get dialog_import => 'IMPORTAR';
-	@override String get dialog_importing => 'IMPORTANDO…';
 	@override String get dialog_import_dictionary => 'Importar Dicionário';
 	@override String get dialog_import_folder => 'Importar Dicionário de Pasta';
 	@override String get dialog_close => 'FECHAR';
@@ -7644,6 +7664,15 @@ class _StringsPtBr implements _StringsEn {
 	@override String get image_pause => 'Pausar na Imagem';
 	@override String get image_pause_hint => 'Pausar automaticamente quando uma imagem aparece durante a reprodução.';
 	@override String get image_pause_off => 'Desligado';
+	@override String get tap_seek => 'Tap to Seek';
+	@override String get tap_seek_hint => 'Tap a sentence to jump audio to that position.';
+	@override String get custom_fonts_archive_error => 'Failed to extract archive';
+	@override String get custom_fonts_import_url => 'Import from URL';
+	@override String get custom_fonts_downloading => 'Downloading...';
+	@override String get custom_fonts_download_failed => 'Download failed';
+	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
+	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => 'Volume';
 	@override String get reader_settings_section => 'Configurações do Leitor';
 	@override String get action_bookmark => 'Marcador';
@@ -7683,13 +7712,6 @@ class _StringsPtBr implements _StringsEn {
 	@override String custom_fonts_imported({required Object name}) => 'Fonte importada: ${name}';
 	@override String get custom_fonts_removed => 'Fonte removida';
 	@override String get custom_fonts_drag_hint => 'Arraste para reordenar a prioridade das fontes';
-	@override String get custom_fonts_import_url => 'Import from URL';
-	@override String get custom_fonts_downloading => 'Downloading...';
-	@override String get custom_fonts_download_failed => 'Download failed';
-	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
-	@override String get custom_fonts_archive_error => 'Failed to extract archive';
-	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
-	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Tema Personalizado';
 	@override String get dark_mode => 'Modo Escuro';
 	@override String get seed_color => 'Cor Base';
@@ -7808,6 +7830,7 @@ class _StringsRu implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Словарь';
+	@override String get dialog_importing => 'IMPORTING…';
 	@override String get player_media_type => 'Плеер';
 	@override String get reader_media_type => 'Читалка';
 	@override String get viewer_media_type => 'Просмотр';
@@ -7839,7 +7862,6 @@ class _StringsRu implements _StringsEn {
 	@override String get dialog_edit => 'ИЗМЕНИТЬ';
 	@override String get dialog_export => 'ЭКСПОРТ';
 	@override String get dialog_import => 'ИМПОРТ';
-	@override String get dialog_importing => 'ИМПОРТ…';
 	@override String get dialog_import_dictionary => 'Импортировать словарь';
 	@override String get dialog_import_folder => 'Импортировать словарь из папки';
 	@override String get dialog_close => 'ЗАКРЫТЬ';
@@ -8339,6 +8361,15 @@ class _StringsRu implements _StringsEn {
 	@override String get image_pause => 'Пауза на изображении';
 	@override String get image_pause_hint => 'Автопауза при появлении изображения во время воспроизведения.';
 	@override String get image_pause_off => 'Выкл.';
+	@override String get tap_seek => 'Tap to Seek';
+	@override String get tap_seek_hint => 'Tap a sentence to jump audio to that position.';
+	@override String get custom_fonts_archive_error => 'Failed to extract archive';
+	@override String get custom_fonts_import_url => 'Import from URL';
+	@override String get custom_fonts_downloading => 'Downloading...';
+	@override String get custom_fonts_download_failed => 'Download failed';
+	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
+	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => 'Громкость';
 	@override String get reader_settings_section => 'Настройки читалки';
 	@override String get action_bookmark => 'Закладка';
@@ -8378,13 +8409,6 @@ class _StringsRu implements _StringsEn {
 	@override String custom_fonts_imported({required Object name}) => 'Шрифт импортирован: ${name}';
 	@override String get custom_fonts_removed => 'Шрифт удалён';
 	@override String get custom_fonts_drag_hint => 'Перетащите для изменения приоритета шрифтов';
-	@override String get custom_fonts_import_url => 'Import from URL';
-	@override String get custom_fonts_downloading => 'Downloading...';
-	@override String get custom_fonts_download_failed => 'Download failed';
-	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
-	@override String get custom_fonts_archive_error => 'Failed to extract archive';
-	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
-	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Пользовательская тема';
 	@override String get dark_mode => 'Тёмный режим';
 	@override String get seed_color => 'Базовый цвет';
@@ -8503,6 +8527,7 @@ class _StringsTh implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'พจนานุกรม';
+	@override String get dialog_importing => 'IMPORTING…';
 	@override String get player_media_type => 'เครื่องเล่น';
 	@override String get reader_media_type => 'ตัวอ่าน';
 	@override String get viewer_media_type => 'ตัวดู';
@@ -8534,7 +8559,6 @@ class _StringsTh implements _StringsEn {
 	@override String get dialog_edit => 'แก้ไข';
 	@override String get dialog_export => 'ส่งออก';
 	@override String get dialog_import => 'นำเข้า';
-	@override String get dialog_importing => 'กำลังนำเข้า…';
 	@override String get dialog_import_dictionary => 'นำเข้าพจนานุกรม';
 	@override String get dialog_import_folder => 'นำเข้าพจนานุกรมจากโฟลเดอร์';
 	@override String get dialog_close => 'ปิด';
@@ -9034,6 +9058,15 @@ class _StringsTh implements _StringsEn {
 	@override String get image_pause => 'หยุดชั่วคราวเมื่อมีภาพ';
 	@override String get image_pause_hint => 'หยุดชั่วคราวอัตโนมัติเมื่อมีภาพปรากฏระหว่างเล่น';
 	@override String get image_pause_off => 'ปิด';
+	@override String get tap_seek => 'Tap to Seek';
+	@override String get tap_seek_hint => 'Tap a sentence to jump audio to that position.';
+	@override String get custom_fonts_archive_error => 'Failed to extract archive';
+	@override String get custom_fonts_import_url => 'Import from URL';
+	@override String get custom_fonts_downloading => 'Downloading...';
+	@override String get custom_fonts_download_failed => 'Download failed';
+	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
+	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => 'ระดับเสียง';
 	@override String get reader_settings_section => 'ตั้งค่าตัวอ่าน';
 	@override String get action_bookmark => 'บุ๊กมาร์ก';
@@ -9073,13 +9106,6 @@ class _StringsTh implements _StringsEn {
 	@override String custom_fonts_imported({required Object name}) => 'นำเข้าฟอนต์แล้ว: ${name}';
 	@override String get custom_fonts_removed => 'ลบฟอนต์แล้ว';
 	@override String get custom_fonts_drag_hint => 'ลากเพื่อจัดลำดับความสำคัญของฟอนต์';
-	@override String get custom_fonts_import_url => 'Import from URL';
-	@override String get custom_fonts_downloading => 'Downloading...';
-	@override String get custom_fonts_download_failed => 'Download failed';
-	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
-	@override String get custom_fonts_archive_error => 'Failed to extract archive';
-	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
-	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'ธีมกำหนดเอง';
 	@override String get dark_mode => 'โหมดมืด';
 	@override String get seed_color => 'สีหลัก';
@@ -9198,6 +9224,7 @@ class _StringsTr implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Sözlük';
+	@override String get dialog_importing => 'IMPORTING…';
 	@override String get player_media_type => 'Oynatıcı';
 	@override String get reader_media_type => 'Okuyucu';
 	@override String get viewer_media_type => 'Görüntüleyici';
@@ -9229,7 +9256,6 @@ class _StringsTr implements _StringsEn {
 	@override String get dialog_edit => 'DÜZENLE';
 	@override String get dialog_export => 'DIŞA AKTAR';
 	@override String get dialog_import => 'İÇE AKTAR';
-	@override String get dialog_importing => 'İÇE AKTARILIYOR…';
 	@override String get dialog_import_dictionary => 'Sözlük içe aktar';
 	@override String get dialog_import_folder => 'Klasör sözlüğü içe aktar';
 	@override String get dialog_select_dictionary_type => 'Sözlük türünü seçin';
@@ -9671,6 +9697,15 @@ class _StringsTr implements _StringsEn {
 	@override String get image_pause => 'Resimde duraklat';
 	@override String get image_pause_hint => 'Oynatma sırasında bir resim göründüğünde otomatik duraklat.';
 	@override String get image_pause_off => 'Kapalı';
+	@override String get tap_seek => 'Tap to Seek';
+	@override String get tap_seek_hint => 'Tap a sentence to jump audio to that position.';
+	@override String get custom_fonts_archive_error => 'Failed to extract archive';
+	@override String get custom_fonts_import_url => 'Import from URL';
+	@override String get custom_fonts_downloading => 'Downloading...';
+	@override String get custom_fonts_download_failed => 'Download failed';
+	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
+	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get srt_epub_not_ready => 'Kitap hazır değil — lütfen yeniden içe aktarın';
 	@override String get srt_audio_unresolved => 'Ses dosyası bulunamadı — lütfen yeniden bağlayın';
 	@override String get srt_audio_load_error => 'Ses yüklenemedi';
@@ -9775,13 +9810,6 @@ class _StringsTr implements _StringsEn {
 	@override String custom_fonts_imported({required Object name}) => 'Yazı tipi içe aktarıldı: ${name}';
 	@override String get custom_fonts_removed => 'Yazı tipi kaldırıldı';
 	@override String get custom_fonts_drag_hint => 'Yazı tipi önceliğini değiştirmek için sürükleyin';
-	@override String get custom_fonts_import_url => 'Import from URL';
-	@override String get custom_fonts_downloading => 'Downloading...';
-	@override String get custom_fonts_download_failed => 'Download failed';
-	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
-	@override String get custom_fonts_archive_error => 'Failed to extract archive';
-	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
-	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Özel tema';
 	@override String get dark_mode => 'Koyu mod';
 	@override String get seed_color => 'Ana renk';
@@ -9893,6 +9921,7 @@ class _StringsVi implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Từ điển';
+	@override String get dialog_importing => 'IMPORTING…';
 	@override String get player_media_type => 'Trình phát';
 	@override String get reader_media_type => 'Trình đọc';
 	@override String get viewer_media_type => 'Trình xem';
@@ -9924,7 +9953,6 @@ class _StringsVi implements _StringsEn {
 	@override String get dialog_edit => 'SỬA';
 	@override String get dialog_export => 'XUẤT';
 	@override String get dialog_import => 'NHẬP';
-	@override String get dialog_importing => 'ĐANG NHẬP…';
 	@override String get dialog_import_dictionary => 'Nhập từ điển';
 	@override String get dialog_import_folder => 'Nhập từ điển dạng thư mục';
 	@override String get dialog_close => 'ĐÓNG';
@@ -10424,6 +10452,15 @@ class _StringsVi implements _StringsEn {
 	@override String get image_pause => 'Tạm dừng khi có hình ảnh';
 	@override String get image_pause_hint => 'Tự động tạm dừng khi hình ảnh xuất hiện trong khi phát.';
 	@override String get image_pause_off => 'Tắt';
+	@override String get tap_seek => 'Tap to Seek';
+	@override String get tap_seek_hint => 'Tap a sentence to jump audio to that position.';
+	@override String get custom_fonts_archive_error => 'Failed to extract archive';
+	@override String get custom_fonts_import_url => 'Import from URL';
+	@override String get custom_fonts_downloading => 'Downloading...';
+	@override String get custom_fonts_download_failed => 'Download failed';
+	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
+	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => 'Âm lượng';
 	@override String get reader_settings_section => 'Cài đặt trình đọc';
 	@override String get action_bookmark => 'Đánh dấu';
@@ -10463,13 +10500,6 @@ class _StringsVi implements _StringsEn {
 	@override String custom_fonts_imported({required Object name}) => 'Đã nhập phông chữ: ${name}';
 	@override String get custom_fonts_removed => 'Đã xóa phông chữ';
 	@override String get custom_fonts_drag_hint => 'Kéo để sắp xếp thứ tự ưu tiên phông chữ';
-	@override String get custom_fonts_import_url => 'Import from URL';
-	@override String get custom_fonts_downloading => 'Downloading...';
-	@override String get custom_fonts_download_failed => 'Download failed';
-	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
-	@override String get custom_fonts_archive_error => 'Failed to extract archive';
-	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
-	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => 'Giao diện tùy chỉnh';
 	@override String get dark_mode => 'Chế độ tối';
 	@override String get seed_color => 'Màu chủ đạo';
@@ -11126,6 +11156,8 @@ class _StringsZhCn implements _StringsEn {
 	@override String get av_sync => '音画同步';
 	@override String get av_sync_reset => '归零';
 	@override String get av_sync_hint => '正数 = 音频先于文字，向回拨字幕条目；负数 = 音频滞后。';
+	@override String get tap_seek => '点击跳转';
+	@override String get tap_seek_hint => '点击句子跳转音频到对应位置。';
 	@override String get audio_volume => '音量';
 	@override String get reader_settings_section => '阅读设置';
 	@override String get action_bookmark => '书签';
@@ -11283,6 +11315,7 @@ class _StringsZhHk implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => '辭典';
+	@override String get dialog_importing => 'IMPORTING…';
 	@override String get player_media_type => '播放器';
 	@override String get reader_media_type => '閱讀器';
 	@override String get viewer_media_type => '檢視器';
@@ -11314,7 +11347,6 @@ class _StringsZhHk implements _StringsEn {
 	@override String get dialog_edit => '編輯';
 	@override String get dialog_export => '匯出';
 	@override String get dialog_import => '匯入';
-	@override String get dialog_importing => '正在匯入…';
 	@override String get dialog_import_dictionary => '匯入辭典';
 	@override String get dialog_import_folder => '匯入資料夾辭典';
 	@override String get dialog_close => '關閉';
@@ -11814,6 +11846,15 @@ class _StringsZhHk implements _StringsEn {
 	@override String get image_pause => '圖片暫停';
 	@override String get image_pause_hint => '播放時遇到圖片自動暫停。';
 	@override String get image_pause_off => '關閉';
+	@override String get tap_seek => 'Tap to Seek';
+	@override String get tap_seek_hint => 'Tap a sentence to jump audio to that position.';
+	@override String get custom_fonts_archive_error => 'Failed to extract archive';
+	@override String get custom_fonts_import_url => 'Import from URL';
+	@override String get custom_fonts_downloading => 'Downloading...';
+	@override String get custom_fonts_download_failed => 'Download failed';
+	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
+	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
+	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get audio_volume => '音量';
 	@override String get reader_settings_section => '閱讀設定';
 	@override String get action_bookmark => '書籤';
@@ -11853,13 +11894,6 @@ class _StringsZhHk implements _StringsEn {
 	@override String custom_fonts_imported({required Object name}) => '已匯入字型：${name}';
 	@override String get custom_fonts_removed => '已移除字型';
 	@override String get custom_fonts_drag_hint => '拖曳以調整字型優先順序';
-	@override String get custom_fonts_import_url => 'Import from URL';
-	@override String get custom_fonts_downloading => 'Downloading...';
-	@override String get custom_fonts_download_failed => 'Download failed';
-	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
-	@override String get custom_fonts_archive_error => 'Failed to extract archive';
-	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
-	@override String get custom_fonts_recommended => 'Recommended Fonts';
 	@override String get custom_theme => '自訂主題';
 	@override String get dark_mode => '深色模式';
 	@override String get seed_color => '種子色';
@@ -12291,9 +12325,9 @@ extension on _StringsEn {
 			case 'handlebar_image': return 'Image';
 			case 'handlebar_audio_sentence': return 'Audio (Sentence)';
 			case 'handlebar_tags': return 'Tags';
-			case 'silent_export': return 'Close on Export';
-			case 'silent_export_on': return 'The Card Creator will now automatically close upon card export.';
-			case 'silent_export_off': return 'The Card Creator will no longer close upon card export.';
+			case 'silent_export': return 'Silent Export';
+			case 'silent_export_on': return 'Export notifications are now disabled.';
+			case 'silent_export_off': return 'Export notifications are now enabled.';
 			case 'export_profile_empty': return 'Your export profile has no set fields and requires configuration.';
 			case 'error_export_media_ankidroid': return 'There was an error in exporting media to AnkiDroid.';
 			case 'error_add_note': return 'There was an error in adding a note to AnkiDroid.';
@@ -12503,6 +12537,8 @@ extension on _StringsEn {
 			case 'av_sync': return 'A/V Sync';
 			case 'av_sync_reset': return 'Reset';
 			case 'av_sync_hint': return 'Positive = audio ahead of text, shifts cue back; Negative = audio behind.';
+			case 'tap_seek': return 'Tap to Seek';
+			case 'tap_seek_hint': return 'Tap a sentence to jump audio to that position.';
 			case 'audio_volume': return 'Volume';
 			case 'reader_settings_section': return 'Reader Settings';
 			case 'action_bookmark': return 'Bookmark';
@@ -12591,7 +12627,7 @@ extension on _StringsEn {
 			case 'anki_default_deck_hint': return 'Cards will be added to this deck by default when exporting from the card creator.\nTo create a new deck, please create it in AnkiDroid first.';
 			case 'anki_default_profile': return 'Export Profile';
 			case 'anki_default_profile_hint': return 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.\nYou can manage export profiles in the card creator.';
-			case 'anki_silent_export_hint': return 'Automatically close the card creator after successfully exporting a card.';
+			case 'anki_silent_export_hint': return 'Do not show a notification after successfully exporting a card.';
 			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
 			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
@@ -12615,6 +12651,7 @@ extension on _StringsAr {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'القاموس';
+			case 'dialog_importing': return 'IMPORTING…';
 			case 'player_media_type': return 'المشغّل';
 			case 'reader_media_type': return 'القارئ';
 			case 'viewer_media_type': return 'العارض';
@@ -12646,7 +12683,6 @@ extension on _StringsAr {
 			case 'dialog_edit': return 'تعديل';
 			case 'dialog_export': return 'تصدير';
 			case 'dialog_import': return 'استيراد';
-			case 'dialog_importing': return 'جارٍ الاستيراد…';
 			case 'dialog_import_dictionary': return 'استيراد قاموس';
 			case 'dialog_import_folder': return 'استيراد قاموس من مجلد';
 			case 'dialog_close': return 'إغلاق';
@@ -13152,6 +13188,15 @@ extension on _StringsAr {
 			case 'image_pause': return 'إيقاف مؤقت عند الصورة';
 			case 'image_pause_hint': return 'إيقاف مؤقت تلقائي عند ظهور صورة أثناء التشغيل.';
 			case 'image_pause_off': return 'إيقاف';
+			case 'tap_seek': return 'Tap to Seek';
+			case 'tap_seek_hint': return 'Tap a sentence to jump audio to that position.';
+			case 'custom_fonts_archive_error': return 'Failed to extract archive';
+			case 'custom_fonts_import_url': return 'Import from URL';
+			case 'custom_fonts_downloading': return 'Downloading...';
+			case 'custom_fonts_download_failed': return 'Download failed';
+			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} font(s) imported';
+			case 'custom_fonts_no_fonts_in_archive': return 'No font files found in archive';
+			case 'custom_fonts_recommended': return 'Recommended Fonts';
 			case 'audio_volume': return 'مستوى الصوت';
 			case 'reader_settings_section': return 'إعدادات القارئ';
 			case 'action_bookmark': return 'إشارة مرجعية';
@@ -13264,6 +13309,7 @@ extension on _StringsDe {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Wörterbuch';
+			case 'dialog_importing': return 'IMPORTING…';
 			case 'player_media_type': return 'Player';
 			case 'reader_media_type': return 'Reader';
 			case 'viewer_media_type': return 'Betrachter';
@@ -13295,7 +13341,6 @@ extension on _StringsDe {
 			case 'dialog_edit': return 'BEARBEITEN';
 			case 'dialog_export': return 'EXPORTIEREN';
 			case 'dialog_import': return 'IMPORTIEREN';
-			case 'dialog_importing': return 'IMPORTIERT…';
 			case 'dialog_import_dictionary': return 'Wörterbuch importieren';
 			case 'dialog_import_folder': return 'Ordner-Wörterbuch importieren';
 			case 'dialog_close': return 'SCHLIESSEN';
@@ -13801,6 +13846,15 @@ extension on _StringsDe {
 			case 'image_pause': return 'Bei Bild pausieren';
 			case 'image_pause_hint': return 'Automatisch pausieren, wenn ein Bild während der Wiedergabe erscheint.';
 			case 'image_pause_off': return 'Aus';
+			case 'tap_seek': return 'Tap to Seek';
+			case 'tap_seek_hint': return 'Tap a sentence to jump audio to that position.';
+			case 'custom_fonts_archive_error': return 'Failed to extract archive';
+			case 'custom_fonts_import_url': return 'Import from URL';
+			case 'custom_fonts_downloading': return 'Downloading...';
+			case 'custom_fonts_download_failed': return 'Download failed';
+			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} font(s) imported';
+			case 'custom_fonts_no_fonts_in_archive': return 'No font files found in archive';
+			case 'custom_fonts_recommended': return 'Recommended Fonts';
 			case 'audio_volume': return 'Lautstärke';
 			case 'reader_settings_section': return 'Reader-Einstellungen';
 			case 'action_bookmark': return 'Lesezeichen';
@@ -13913,6 +13967,7 @@ extension on _StringsEs {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Diccionario';
+			case 'dialog_importing': return 'IMPORTING…';
 			case 'player_media_type': return 'Reproductor';
 			case 'reader_media_type': return 'Lector';
 			case 'viewer_media_type': return 'Visor';
@@ -13944,7 +13999,6 @@ extension on _StringsEs {
 			case 'dialog_edit': return 'EDITAR';
 			case 'dialog_export': return 'EXPORTAR';
 			case 'dialog_import': return 'IMPORTAR';
-			case 'dialog_importing': return 'IMPORTANDO…';
 			case 'dialog_import_dictionary': return 'Importar diccionario';
 			case 'dialog_import_folder': return 'Importar diccionario de carpeta';
 			case 'dialog_close': return 'CERRAR';
@@ -14450,6 +14504,15 @@ extension on _StringsEs {
 			case 'image_pause': return 'Pausar en imagen';
 			case 'image_pause_hint': return 'Pausar automáticamente cuando aparece una imagen durante la reproducción.';
 			case 'image_pause_off': return 'Desactivado';
+			case 'tap_seek': return 'Tap to Seek';
+			case 'tap_seek_hint': return 'Tap a sentence to jump audio to that position.';
+			case 'custom_fonts_archive_error': return 'Failed to extract archive';
+			case 'custom_fonts_import_url': return 'Import from URL';
+			case 'custom_fonts_downloading': return 'Downloading...';
+			case 'custom_fonts_download_failed': return 'Download failed';
+			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} font(s) imported';
+			case 'custom_fonts_no_fonts_in_archive': return 'No font files found in archive';
+			case 'custom_fonts_recommended': return 'Recommended Fonts';
 			case 'audio_volume': return 'Volumen';
 			case 'reader_settings_section': return 'Configuración del lector';
 			case 'action_bookmark': return 'Marcador';
@@ -14562,6 +14625,7 @@ extension on _StringsFr {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Dictionnaire';
+			case 'dialog_importing': return 'IMPORTING…';
 			case 'player_media_type': return 'Lecteur';
 			case 'reader_media_type': return 'Liseuse';
 			case 'viewer_media_type': return 'Visionneuse';
@@ -14593,7 +14657,6 @@ extension on _StringsFr {
 			case 'dialog_edit': return 'MODIFIER';
 			case 'dialog_export': return 'EXPORTER';
 			case 'dialog_import': return 'IMPORTER';
-			case 'dialog_importing': return 'IMPORTATION…';
 			case 'dialog_import_dictionary': return 'Importer un dictionnaire';
 			case 'dialog_import_folder': return 'Importer un dictionnaire de dossier';
 			case 'dialog_close': return 'FERMER';
@@ -15099,6 +15162,15 @@ extension on _StringsFr {
 			case 'image_pause': return 'Pause sur image';
 			case 'image_pause_hint': return 'Pause automatique lorsqu\'une image apparaît pendant la lecture.';
 			case 'image_pause_off': return 'Désactivé';
+			case 'tap_seek': return 'Tap to Seek';
+			case 'tap_seek_hint': return 'Tap a sentence to jump audio to that position.';
+			case 'custom_fonts_archive_error': return 'Failed to extract archive';
+			case 'custom_fonts_import_url': return 'Import from URL';
+			case 'custom_fonts_downloading': return 'Downloading...';
+			case 'custom_fonts_download_failed': return 'Download failed';
+			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} font(s) imported';
+			case 'custom_fonts_no_fonts_in_archive': return 'No font files found in archive';
+			case 'custom_fonts_recommended': return 'Recommended Fonts';
 			case 'audio_volume': return 'Volume';
 			case 'reader_settings_section': return 'Paramètres du lecteur';
 			case 'action_bookmark': return 'Signet';
@@ -15211,6 +15283,7 @@ extension on _StringsId {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Kamus';
+			case 'dialog_importing': return 'IMPORTING…';
 			case 'player_media_type': return 'Pemutar';
 			case 'reader_media_type': return 'Pembaca';
 			case 'viewer_media_type': return 'Penampil';
@@ -15242,7 +15315,6 @@ extension on _StringsId {
 			case 'dialog_edit': return 'EDIT';
 			case 'dialog_export': return 'EKSPOR';
 			case 'dialog_import': return 'IMPOR';
-			case 'dialog_importing': return 'MENGIMPOR…';
 			case 'dialog_import_dictionary': return 'Impor Kamus';
 			case 'dialog_import_folder': return 'Impor Kamus dari Folder';
 			case 'dialog_close': return 'TUTUP';
@@ -15748,6 +15820,15 @@ extension on _StringsId {
 			case 'image_pause': return 'Jeda pada Gambar';
 			case 'image_pause_hint': return 'Jeda otomatis saat gambar muncul selama pemutaran.';
 			case 'image_pause_off': return 'Mati';
+			case 'tap_seek': return 'Tap to Seek';
+			case 'tap_seek_hint': return 'Tap a sentence to jump audio to that position.';
+			case 'custom_fonts_archive_error': return 'Failed to extract archive';
+			case 'custom_fonts_import_url': return 'Import from URL';
+			case 'custom_fonts_downloading': return 'Downloading...';
+			case 'custom_fonts_download_failed': return 'Download failed';
+			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} font(s) imported';
+			case 'custom_fonts_no_fonts_in_archive': return 'No font files found in archive';
+			case 'custom_fonts_recommended': return 'Recommended Fonts';
 			case 'audio_volume': return 'Volume';
 			case 'reader_settings_section': return 'Pengaturan Pembaca';
 			case 'action_bookmark': return 'Bookmark';
@@ -15860,6 +15941,7 @@ extension on _StringsIt {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Dizionario';
+			case 'dialog_importing': return 'IMPORTING…';
 			case 'player_media_type': return 'Lettore';
 			case 'reader_media_type': return 'Lettore';
 			case 'viewer_media_type': return 'Visualizzatore';
@@ -15891,7 +15973,6 @@ extension on _StringsIt {
 			case 'dialog_edit': return 'MODIFICA';
 			case 'dialog_export': return 'ESPORTA';
 			case 'dialog_import': return 'IMPORTA';
-			case 'dialog_importing': return 'IMPORTAZIONE…';
 			case 'dialog_import_dictionary': return 'Importa dizionario';
 			case 'dialog_import_folder': return 'Importa dizionario da cartella';
 			case 'dialog_select_dictionary_type': return 'Seleziona tipo di dizionario';
@@ -16339,6 +16420,15 @@ extension on _StringsIt {
 			case 'image_pause': return 'Pausa su immagine';
 			case 'image_pause_hint': return 'Pausa automatica quando appare un\'immagine durante la riproduzione.';
 			case 'image_pause_off': return 'Disattivato';
+			case 'tap_seek': return 'Tap to Seek';
+			case 'tap_seek_hint': return 'Tap a sentence to jump audio to that position.';
+			case 'custom_fonts_archive_error': return 'Failed to extract archive';
+			case 'custom_fonts_import_url': return 'Import from URL';
+			case 'custom_fonts_downloading': return 'Downloading...';
+			case 'custom_fonts_download_failed': return 'Download failed';
+			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} font(s) imported';
+			case 'custom_fonts_no_fonts_in_archive': return 'No font files found in archive';
+			case 'custom_fonts_recommended': return 'Recommended Fonts';
 			case 'srt_epub_not_ready': return 'Libro non pronto — reimportare';
 			case 'srt_audio_unresolved': return 'File audio non trovato — ricollegare';
 			case 'srt_audio_load_error': return 'Caricamento audio fallito';
@@ -16509,6 +16599,7 @@ extension on _StringsJa {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return '辞書';
+			case 'dialog_importing': return 'IMPORTING…';
 			case 'player_media_type': return 'プレイヤー';
 			case 'reader_media_type': return 'リーダー';
 			case 'viewer_media_type': return 'ビューアー';
@@ -16540,7 +16631,6 @@ extension on _StringsJa {
 			case 'dialog_edit': return '編集';
 			case 'dialog_export': return 'エクスポート';
 			case 'dialog_import': return 'インポート';
-			case 'dialog_importing': return 'インポート中…';
 			case 'dialog_import_dictionary': return '辞書をインポート';
 			case 'dialog_import_folder': return 'フォルダ辞書をインポート';
 			case 'dialog_close': return '閉じる';
@@ -17046,6 +17136,15 @@ extension on _StringsJa {
 			case 'image_pause': return '画像で一時停止';
 			case 'image_pause_hint': return '再生中に画像が表示されたら自動で一時停止します。';
 			case 'image_pause_off': return 'オフ';
+			case 'tap_seek': return 'Tap to Seek';
+			case 'tap_seek_hint': return 'Tap a sentence to jump audio to that position.';
+			case 'custom_fonts_archive_error': return 'Failed to extract archive';
+			case 'custom_fonts_import_url': return 'Import from URL';
+			case 'custom_fonts_downloading': return 'Downloading...';
+			case 'custom_fonts_download_failed': return 'Download failed';
+			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} font(s) imported';
+			case 'custom_fonts_no_fonts_in_archive': return 'No font files found in archive';
+			case 'custom_fonts_recommended': return 'Recommended Fonts';
 			case 'audio_volume': return '音量';
 			case 'reader_settings_section': return 'リーダー設定';
 			case 'action_bookmark': return 'ブックマーク';
@@ -17158,6 +17257,7 @@ extension on _StringsKo {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return '사전';
+			case 'dialog_importing': return 'IMPORTING…';
 			case 'player_media_type': return '플레이어';
 			case 'reader_media_type': return '리더';
 			case 'viewer_media_type': return '뷰어';
@@ -17189,7 +17289,6 @@ extension on _StringsKo {
 			case 'dialog_edit': return '편집';
 			case 'dialog_export': return '내보내기';
 			case 'dialog_import': return '가져오기';
-			case 'dialog_importing': return '가져오는 중…';
 			case 'dialog_import_dictionary': return '사전 가져오기';
 			case 'dialog_import_folder': return '폴더 사전 가져오기';
 			case 'dialog_close': return '닫기';
@@ -17695,6 +17794,15 @@ extension on _StringsKo {
 			case 'image_pause': return '이미지에서 일시정지';
 			case 'image_pause_hint': return '재생 중 이미지가 나타나면 자동으로 일시정지합니다.';
 			case 'image_pause_off': return '끄기';
+			case 'tap_seek': return 'Tap to Seek';
+			case 'tap_seek_hint': return 'Tap a sentence to jump audio to that position.';
+			case 'custom_fonts_archive_error': return 'Failed to extract archive';
+			case 'custom_fonts_import_url': return 'Import from URL';
+			case 'custom_fonts_downloading': return 'Downloading...';
+			case 'custom_fonts_download_failed': return 'Download failed';
+			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} font(s) imported';
+			case 'custom_fonts_no_fonts_in_archive': return 'No font files found in archive';
+			case 'custom_fonts_recommended': return 'Recommended Fonts';
 			case 'audio_volume': return '볼륨';
 			case 'reader_settings_section': return '리더 설정';
 			case 'action_bookmark': return '북마크';
@@ -17807,6 +17915,7 @@ extension on _StringsNl {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Woordenboek';
+			case 'dialog_importing': return 'IMPORTING…';
 			case 'player_media_type': return 'Speler';
 			case 'reader_media_type': return 'Lezer';
 			case 'viewer_media_type': return 'Viewer';
@@ -17838,7 +17947,6 @@ extension on _StringsNl {
 			case 'dialog_edit': return 'BEWERKEN';
 			case 'dialog_export': return 'EXPORTEREN';
 			case 'dialog_import': return 'IMPORTEREN';
-			case 'dialog_importing': return 'IMPORTEREN…';
 			case 'dialog_import_dictionary': return 'Woordenboek importeren';
 			case 'dialog_import_folder': return 'Mapwoordenboek importeren';
 			case 'dialog_select_dictionary_type': return 'Selecteer woordenboektype';
@@ -18286,6 +18394,15 @@ extension on _StringsNl {
 			case 'image_pause': return 'Pauzeren bij afbeelding';
 			case 'image_pause_hint': return 'Automatisch pauzeren wanneer een afbeelding verschijnt tijdens het afspelen.';
 			case 'image_pause_off': return 'Uit';
+			case 'tap_seek': return 'Tap to Seek';
+			case 'tap_seek_hint': return 'Tap a sentence to jump audio to that position.';
+			case 'custom_fonts_archive_error': return 'Failed to extract archive';
+			case 'custom_fonts_import_url': return 'Import from URL';
+			case 'custom_fonts_downloading': return 'Downloading...';
+			case 'custom_fonts_download_failed': return 'Download failed';
+			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} font(s) imported';
+			case 'custom_fonts_no_fonts_in_archive': return 'No font files found in archive';
+			case 'custom_fonts_recommended': return 'Recommended Fonts';
 			case 'srt_epub_not_ready': return 'Boek niet gereed — importeer opnieuw';
 			case 'srt_audio_unresolved': return 'Audiobestand niet gevonden — koppel opnieuw';
 			case 'srt_audio_load_error': return 'Audio laden mislukt';
@@ -18456,6 +18573,7 @@ extension on _StringsPtBr {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Dicionário';
+			case 'dialog_importing': return 'IMPORTING…';
 			case 'player_media_type': return 'Reprodutor';
 			case 'reader_media_type': return 'Leitor';
 			case 'viewer_media_type': return 'Visualizador';
@@ -18487,7 +18605,6 @@ extension on _StringsPtBr {
 			case 'dialog_edit': return 'EDITAR';
 			case 'dialog_export': return 'EXPORTAR';
 			case 'dialog_import': return 'IMPORTAR';
-			case 'dialog_importing': return 'IMPORTANDO…';
 			case 'dialog_import_dictionary': return 'Importar Dicionário';
 			case 'dialog_import_folder': return 'Importar Dicionário de Pasta';
 			case 'dialog_close': return 'FECHAR';
@@ -18993,6 +19110,15 @@ extension on _StringsPtBr {
 			case 'image_pause': return 'Pausar na Imagem';
 			case 'image_pause_hint': return 'Pausar automaticamente quando uma imagem aparece durante a reprodução.';
 			case 'image_pause_off': return 'Desligado';
+			case 'tap_seek': return 'Tap to Seek';
+			case 'tap_seek_hint': return 'Tap a sentence to jump audio to that position.';
+			case 'custom_fonts_archive_error': return 'Failed to extract archive';
+			case 'custom_fonts_import_url': return 'Import from URL';
+			case 'custom_fonts_downloading': return 'Downloading...';
+			case 'custom_fonts_download_failed': return 'Download failed';
+			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} font(s) imported';
+			case 'custom_fonts_no_fonts_in_archive': return 'No font files found in archive';
+			case 'custom_fonts_recommended': return 'Recommended Fonts';
 			case 'audio_volume': return 'Volume';
 			case 'reader_settings_section': return 'Configurações do Leitor';
 			case 'action_bookmark': return 'Marcador';
@@ -19105,6 +19231,7 @@ extension on _StringsRu {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Словарь';
+			case 'dialog_importing': return 'IMPORTING…';
 			case 'player_media_type': return 'Плеер';
 			case 'reader_media_type': return 'Читалка';
 			case 'viewer_media_type': return 'Просмотр';
@@ -19136,7 +19263,6 @@ extension on _StringsRu {
 			case 'dialog_edit': return 'ИЗМЕНИТЬ';
 			case 'dialog_export': return 'ЭКСПОРТ';
 			case 'dialog_import': return 'ИМПОРТ';
-			case 'dialog_importing': return 'ИМПОРТ…';
 			case 'dialog_import_dictionary': return 'Импортировать словарь';
 			case 'dialog_import_folder': return 'Импортировать словарь из папки';
 			case 'dialog_close': return 'ЗАКРЫТЬ';
@@ -19642,6 +19768,15 @@ extension on _StringsRu {
 			case 'image_pause': return 'Пауза на изображении';
 			case 'image_pause_hint': return 'Автопауза при появлении изображения во время воспроизведения.';
 			case 'image_pause_off': return 'Выкл.';
+			case 'tap_seek': return 'Tap to Seek';
+			case 'tap_seek_hint': return 'Tap a sentence to jump audio to that position.';
+			case 'custom_fonts_archive_error': return 'Failed to extract archive';
+			case 'custom_fonts_import_url': return 'Import from URL';
+			case 'custom_fonts_downloading': return 'Downloading...';
+			case 'custom_fonts_download_failed': return 'Download failed';
+			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} font(s) imported';
+			case 'custom_fonts_no_fonts_in_archive': return 'No font files found in archive';
+			case 'custom_fonts_recommended': return 'Recommended Fonts';
 			case 'audio_volume': return 'Громкость';
 			case 'reader_settings_section': return 'Настройки читалки';
 			case 'action_bookmark': return 'Закладка';
@@ -19754,6 +19889,7 @@ extension on _StringsTh {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'พจนานุกรม';
+			case 'dialog_importing': return 'IMPORTING…';
 			case 'player_media_type': return 'เครื่องเล่น';
 			case 'reader_media_type': return 'ตัวอ่าน';
 			case 'viewer_media_type': return 'ตัวดู';
@@ -19785,7 +19921,6 @@ extension on _StringsTh {
 			case 'dialog_edit': return 'แก้ไข';
 			case 'dialog_export': return 'ส่งออก';
 			case 'dialog_import': return 'นำเข้า';
-			case 'dialog_importing': return 'กำลังนำเข้า…';
 			case 'dialog_import_dictionary': return 'นำเข้าพจนานุกรม';
 			case 'dialog_import_folder': return 'นำเข้าพจนานุกรมจากโฟลเดอร์';
 			case 'dialog_close': return 'ปิด';
@@ -20291,6 +20426,15 @@ extension on _StringsTh {
 			case 'image_pause': return 'หยุดชั่วคราวเมื่อมีภาพ';
 			case 'image_pause_hint': return 'หยุดชั่วคราวอัตโนมัติเมื่อมีภาพปรากฏระหว่างเล่น';
 			case 'image_pause_off': return 'ปิด';
+			case 'tap_seek': return 'Tap to Seek';
+			case 'tap_seek_hint': return 'Tap a sentence to jump audio to that position.';
+			case 'custom_fonts_archive_error': return 'Failed to extract archive';
+			case 'custom_fonts_import_url': return 'Import from URL';
+			case 'custom_fonts_downloading': return 'Downloading...';
+			case 'custom_fonts_download_failed': return 'Download failed';
+			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} font(s) imported';
+			case 'custom_fonts_no_fonts_in_archive': return 'No font files found in archive';
+			case 'custom_fonts_recommended': return 'Recommended Fonts';
 			case 'audio_volume': return 'ระดับเสียง';
 			case 'reader_settings_section': return 'ตั้งค่าตัวอ่าน';
 			case 'action_bookmark': return 'บุ๊กมาร์ก';
@@ -20403,6 +20547,7 @@ extension on _StringsTr {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Sözlük';
+			case 'dialog_importing': return 'IMPORTING…';
 			case 'player_media_type': return 'Oynatıcı';
 			case 'reader_media_type': return 'Okuyucu';
 			case 'viewer_media_type': return 'Görüntüleyici';
@@ -20434,7 +20579,6 @@ extension on _StringsTr {
 			case 'dialog_edit': return 'DÜZENLE';
 			case 'dialog_export': return 'DIŞA AKTAR';
 			case 'dialog_import': return 'İÇE AKTAR';
-			case 'dialog_importing': return 'İÇE AKTARILIYOR…';
 			case 'dialog_import_dictionary': return 'Sözlük içe aktar';
 			case 'dialog_import_folder': return 'Klasör sözlüğü içe aktar';
 			case 'dialog_select_dictionary_type': return 'Sözlük türünü seçin';
@@ -20882,6 +21026,15 @@ extension on _StringsTr {
 			case 'image_pause': return 'Resimde duraklat';
 			case 'image_pause_hint': return 'Oynatma sırasında bir resim göründüğünde otomatik duraklat.';
 			case 'image_pause_off': return 'Kapalı';
+			case 'tap_seek': return 'Tap to Seek';
+			case 'tap_seek_hint': return 'Tap a sentence to jump audio to that position.';
+			case 'custom_fonts_archive_error': return 'Failed to extract archive';
+			case 'custom_fonts_import_url': return 'Import from URL';
+			case 'custom_fonts_downloading': return 'Downloading...';
+			case 'custom_fonts_download_failed': return 'Download failed';
+			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} font(s) imported';
+			case 'custom_fonts_no_fonts_in_archive': return 'No font files found in archive';
+			case 'custom_fonts_recommended': return 'Recommended Fonts';
 			case 'srt_epub_not_ready': return 'Kitap hazır değil — lütfen yeniden içe aktarın';
 			case 'srt_audio_unresolved': return 'Ses dosyası bulunamadı — lütfen yeniden bağlayın';
 			case 'srt_audio_load_error': return 'Ses yüklenemedi';
@@ -21052,6 +21205,7 @@ extension on _StringsVi {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Từ điển';
+			case 'dialog_importing': return 'IMPORTING…';
 			case 'player_media_type': return 'Trình phát';
 			case 'reader_media_type': return 'Trình đọc';
 			case 'viewer_media_type': return 'Trình xem';
@@ -21083,7 +21237,6 @@ extension on _StringsVi {
 			case 'dialog_edit': return 'SỬA';
 			case 'dialog_export': return 'XUẤT';
 			case 'dialog_import': return 'NHẬP';
-			case 'dialog_importing': return 'ĐANG NHẬP…';
 			case 'dialog_import_dictionary': return 'Nhập từ điển';
 			case 'dialog_import_folder': return 'Nhập từ điển dạng thư mục';
 			case 'dialog_close': return 'ĐÓNG';
@@ -21589,6 +21742,15 @@ extension on _StringsVi {
 			case 'image_pause': return 'Tạm dừng khi có hình ảnh';
 			case 'image_pause_hint': return 'Tự động tạm dừng khi hình ảnh xuất hiện trong khi phát.';
 			case 'image_pause_off': return 'Tắt';
+			case 'tap_seek': return 'Tap to Seek';
+			case 'tap_seek_hint': return 'Tap a sentence to jump audio to that position.';
+			case 'custom_fonts_archive_error': return 'Failed to extract archive';
+			case 'custom_fonts_import_url': return 'Import from URL';
+			case 'custom_fonts_downloading': return 'Downloading...';
+			case 'custom_fonts_download_failed': return 'Download failed';
+			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} font(s) imported';
+			case 'custom_fonts_no_fonts_in_archive': return 'No font files found in archive';
+			case 'custom_fonts_recommended': return 'Recommended Fonts';
 			case 'audio_volume': return 'Âm lượng';
 			case 'reader_settings_section': return 'Cài đặt trình đọc';
 			case 'action_bookmark': return 'Đánh dấu';
@@ -22033,9 +22195,9 @@ extension on _StringsZhCn {
 			case 'handlebar_image': return '图片';
 			case 'handlebar_audio_sentence': return '音频（例句）';
 			case 'handlebar_tags': return '标签';
-			case 'silent_export': return '导出后关闭';
-			case 'silent_export_on': return '制卡工具将在导出卡片后自动关闭。';
-			case 'silent_export_off': return '制卡工具在导出卡片后不再自动关闭。';
+			case 'silent_export': return '导出不提醒';
+			case 'silent_export_on': return '导出提醒已关闭。';
+			case 'silent_export_off': return '导出提醒已开启。';
 			case 'export_profile_empty': return '当前导出配置没有设置任何字段，需要先进行配置。';
 			case 'error_export_media_ankidroid': return '导出媒体至 AnkiDroid 时出错。';
 			case 'error_add_note': return '向 AnkiDroid 添加卡片时出错。';
@@ -22245,6 +22407,8 @@ extension on _StringsZhCn {
 			case 'av_sync': return '音画同步';
 			case 'av_sync_reset': return '归零';
 			case 'av_sync_hint': return '正数 = 音频先于文字，向回拨字幕条目；负数 = 音频滞后。';
+			case 'tap_seek': return '点击跳转';
+			case 'tap_seek_hint': return '点击句子跳转音频到对应位置。';
 			case 'audio_volume': return '音量';
 			case 'reader_settings_section': return '阅读设置';
 			case 'action_bookmark': return '书签';
@@ -22333,7 +22497,7 @@ extension on _StringsZhCn {
 			case 'anki_default_deck_hint': return '制卡时默认将卡片添加到此牌组。\n如需新建牌组，请先在 AnkiDroid 中创建。';
 			case 'anki_default_profile': return '导出配置';
 			case 'anki_default_profile_hint': return '决定导出卡片时使用的卡片类型和字段映射。\n可在制卡工具中管理导出配置。';
-			case 'anki_silent_export_hint': return '成功导出卡片后自动关闭制卡工具。';
+			case 'anki_silent_export_hint': return '成功导出卡片后不显示提醒。';
 			case 'anki_auto_tag_hint': return '制卡时自动将当前书名添加为标签。';
 			case 'anki_duplicate_check_hint': return '选择导出前检查哪些卡片类型中是否已有重复。';
 			case 'anki_retry': return '重试';
@@ -22357,6 +22521,7 @@ extension on _StringsZhHk {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return '辭典';
+			case 'dialog_importing': return 'IMPORTING…';
 			case 'player_media_type': return '播放器';
 			case 'reader_media_type': return '閱讀器';
 			case 'viewer_media_type': return '檢視器';
@@ -22388,7 +22553,6 @@ extension on _StringsZhHk {
 			case 'dialog_edit': return '編輯';
 			case 'dialog_export': return '匯出';
 			case 'dialog_import': return '匯入';
-			case 'dialog_importing': return '正在匯入…';
 			case 'dialog_import_dictionary': return '匯入辭典';
 			case 'dialog_import_folder': return '匯入資料夾辭典';
 			case 'dialog_close': return '關閉';
@@ -22894,6 +23058,15 @@ extension on _StringsZhHk {
 			case 'image_pause': return '圖片暫停';
 			case 'image_pause_hint': return '播放時遇到圖片自動暫停。';
 			case 'image_pause_off': return '關閉';
+			case 'tap_seek': return 'Tap to Seek';
+			case 'tap_seek_hint': return 'Tap a sentence to jump audio to that position.';
+			case 'custom_fonts_archive_error': return 'Failed to extract archive';
+			case 'custom_fonts_import_url': return 'Import from URL';
+			case 'custom_fonts_downloading': return 'Downloading...';
+			case 'custom_fonts_download_failed': return 'Download failed';
+			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} font(s) imported';
+			case 'custom_fonts_no_fonts_in_archive': return 'No font files found in archive';
+			case 'custom_fonts_recommended': return 'Recommended Fonts';
 			case 'audio_volume': return '音量';
 			case 'reader_settings_section': return '閱讀設定';
 			case 'action_bookmark': return '書籤';
