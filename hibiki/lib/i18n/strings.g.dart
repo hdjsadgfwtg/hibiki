@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 11237 (661 per locale)
+/// Strings: 11254 (662 per locale)
 ///
-/// Built on 2026-04-28 at 10:03 UTC
+/// Built on 2026-04-28 at 13:44 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -686,6 +686,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get prev_sentence => 'Previous sentence';
 	String get next_sentence => 'Next sentence';
 	String get audiobook_settings => 'Audiobook Settings';
+	String get show_play_bar => 'Show playback bar';
 	String get follow_audio_on_tooltip => 'Follow audio: ON (auto-jump across chapters)';
 	String get follow_audio_off_tooltip => 'Follow audio: OFF';
 	String get reading_progress => 'Reading Progress';
@@ -1388,6 +1389,7 @@ class _StringsAr implements _StringsEn {
 	@override String get prev_sentence => 'الجملة السابقة';
 	@override String get next_sentence => 'الجملة التالية';
 	@override String get audiobook_settings => 'إعدادات الكتاب الصوتي';
+	@override String get show_play_bar => 'Show playback bar';
 	@override String get follow_audio_on_tooltip => 'تتبع الصوت: مفعّل (انتقال تلقائي بين الفصول)';
 	@override String get follow_audio_off_tooltip => 'تتبع الصوت: معطّل';
 	@override String get reading_progress => 'تقدم القراءة';
@@ -2100,6 +2102,7 @@ class _StringsDe implements _StringsEn {
 	@override String get prev_sentence => 'Vorheriger Satz';
 	@override String get next_sentence => 'Nächster Satz';
 	@override String get audiobook_settings => 'Hörbuch-Einstellungen';
+	@override String get show_play_bar => 'Show playback bar';
 	@override String get follow_audio_on_tooltip => 'Audio-Verfolgung: AN (automatischer Kapitelsprung)';
 	@override String get follow_audio_off_tooltip => 'Audio-Verfolgung: AUS';
 	@override String get reading_progress => 'Lesefortschritt';
@@ -2812,6 +2815,7 @@ class _StringsEs implements _StringsEn {
 	@override String get prev_sentence => 'Oración anterior';
 	@override String get next_sentence => 'Oración siguiente';
 	@override String get audiobook_settings => 'Configuración del audiolibro';
+	@override String get show_play_bar => 'Show playback bar';
 	@override String get follow_audio_on_tooltip => 'Seguir audio: ACTIVADO (salto automático entre capítulos)';
 	@override String get follow_audio_off_tooltip => 'Seguir audio: DESACTIVADO';
 	@override String get reading_progress => 'Progreso de lectura';
@@ -3524,6 +3528,7 @@ class _StringsFr implements _StringsEn {
 	@override String get prev_sentence => 'Phrase précédente';
 	@override String get next_sentence => 'Phrase suivante';
 	@override String get audiobook_settings => 'Paramètres du livre audio';
+	@override String get show_play_bar => 'Show playback bar';
 	@override String get follow_audio_on_tooltip => 'Suivi audio : ACTIVÉ (saut automatique entre chapitres)';
 	@override String get follow_audio_off_tooltip => 'Suivi audio : DÉSACTIVÉ';
 	@override String get reading_progress => 'Progression de lecture';
@@ -4236,6 +4241,7 @@ class _StringsId implements _StringsEn {
 	@override String get prev_sentence => 'Kalimat sebelumnya';
 	@override String get next_sentence => 'Kalimat berikutnya';
 	@override String get audiobook_settings => 'Pengaturan Buku Audio';
+	@override String get show_play_bar => 'Show playback bar';
 	@override String get follow_audio_on_tooltip => 'Ikuti audio: AKTIF (lompat bab otomatis)';
 	@override String get follow_audio_off_tooltip => 'Ikuti audio: NONAKTIF';
 	@override String get reading_progress => 'Progres Membaca';
@@ -4974,6 +4980,7 @@ class _StringsIt implements _StringsEn {
 	@override String get prev_sentence => 'Frase precedente';
 	@override String get next_sentence => 'Frase successiva';
 	@override String get audiobook_settings => 'Impostazioni audiolibro';
+	@override String get show_play_bar => 'Show playback bar';
 	@override String get follow_audio_on_tooltip => 'Segui audio: ATTIVO (salto automatico tra capitoli)';
 	@override String get follow_audio_off_tooltip => 'Segui audio: DISATTIVO';
 	@override String get reading_progress => 'Progresso di lettura';
@@ -5660,6 +5667,7 @@ class _StringsJa implements _StringsEn {
 	@override String get prev_sentence => '前の文';
 	@override String get next_sentence => '次の文';
 	@override String get audiobook_settings => 'オーディオブック設定';
+	@override String get show_play_bar => '再生バーを表示';
 	@override String get follow_audio_on_tooltip => '音声追従：ON（チャプター間を自動ジャンプ）';
 	@override String get follow_audio_off_tooltip => '音声追従：OFF';
 	@override String get reading_progress => '読書進捗';
@@ -6372,6 +6380,7 @@ class _StringsKo implements _StringsEn {
 	@override String get prev_sentence => '이전 문장';
 	@override String get next_sentence => '다음 문장';
 	@override String get audiobook_settings => '오디오북 설정';
+	@override String get show_play_bar => 'Show playback bar';
 	@override String get follow_audio_on_tooltip => '오디오 따라가기: 켜짐 (챕터 자동 이동)';
 	@override String get follow_audio_off_tooltip => '오디오 따라가기: 꺼짐';
 	@override String get reading_progress => '읽기 진행률';
@@ -7110,6 +7119,7 @@ class _StringsNl implements _StringsEn {
 	@override String get prev_sentence => 'Vorige zin';
 	@override String get next_sentence => 'Volgende zin';
 	@override String get audiobook_settings => 'Audioboekinstellingen';
+	@override String get show_play_bar => 'Show playback bar';
 	@override String get follow_audio_on_tooltip => 'Audio volgen: AAN (automatisch springen tussen hoofdstukken)';
 	@override String get follow_audio_off_tooltip => 'Audio volgen: UIT';
 	@override String get reading_progress => 'Leesvoortgang';
@@ -7796,6 +7806,7 @@ class _StringsPtBr implements _StringsEn {
 	@override String get prev_sentence => 'Frase anterior';
 	@override String get next_sentence => 'Próxima frase';
 	@override String get audiobook_settings => 'Configurações do Audiolivro';
+	@override String get show_play_bar => 'Show playback bar';
 	@override String get follow_audio_on_tooltip => 'Acompanhar áudio: LIGADO (pular entre capítulos automaticamente)';
 	@override String get follow_audio_off_tooltip => 'Acompanhar áudio: DESLIGADO';
 	@override String get reading_progress => 'Progresso da Leitura';
@@ -8508,6 +8519,7 @@ class _StringsRu implements _StringsEn {
 	@override String get prev_sentence => 'Предыдущее предложение';
 	@override String get next_sentence => 'Следующее предложение';
 	@override String get audiobook_settings => 'Настройки аудиокниги';
+	@override String get show_play_bar => 'Show playback bar';
 	@override String get follow_audio_on_tooltip => 'Следование за аудио: ВКЛ (автопереход между главами)';
 	@override String get follow_audio_off_tooltip => 'Следование за аудио: ВЫКЛ';
 	@override String get reading_progress => 'Прогресс чтения';
@@ -9220,6 +9232,7 @@ class _StringsTh implements _StringsEn {
 	@override String get prev_sentence => 'ประโยคก่อนหน้า';
 	@override String get next_sentence => 'ประโยคถัดไป';
 	@override String get audiobook_settings => 'ตั้งค่าหนังสือเสียง';
+	@override String get show_play_bar => 'Show playback bar';
 	@override String get follow_audio_on_tooltip => 'ติดตามเสียง: เปิด (ข้ามบทอัตโนมัติ)';
 	@override String get follow_audio_off_tooltip => 'ติดตามเสียง: ปิด';
 	@override String get reading_progress => 'ความคืบหน้าการอ่าน';
@@ -9958,6 +9971,7 @@ class _StringsTr implements _StringsEn {
 	@override String get prev_sentence => 'Önceki cümle';
 	@override String get next_sentence => 'Sonraki cümle';
 	@override String get audiobook_settings => 'Sesli kitap ayarları';
+	@override String get show_play_bar => 'Show playback bar';
 	@override String get follow_audio_on_tooltip => 'Ses takibi: AÇIK (bölümler arası otomatik atlama)';
 	@override String get follow_audio_off_tooltip => 'Ses takibi: KAPALI';
 	@override String get reading_progress => 'Okuma ilerlemesi';
@@ -10644,6 +10658,7 @@ class _StringsVi implements _StringsEn {
 	@override String get prev_sentence => 'Câu trước';
 	@override String get next_sentence => 'Câu sau';
 	@override String get audiobook_settings => 'Cài đặt sách nói';
+	@override String get show_play_bar => 'Show playback bar';
 	@override String get follow_audio_on_tooltip => 'Theo dõi âm thanh: BẬT (tự chuyển chương)';
 	@override String get follow_audio_off_tooltip => 'Theo dõi âm thanh: TẮT';
 	@override String get reading_progress => 'Tiến độ đọc';
@@ -11366,6 +11381,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get prev_sentence => '上一句';
 	@override String get next_sentence => '下一句';
 	@override String get audiobook_settings => '有声书设置';
+	@override String get show_play_bar => '显示播放栏';
 	@override String get follow_audio_on_tooltip => '音频跟随：开启（跨章自动跳转）';
 	@override String get follow_audio_off_tooltip => '音频跟随：关闭';
 	@override String get reading_progress => '阅读进度';
@@ -12068,6 +12084,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String get prev_sentence => '上一句';
 	@override String get next_sentence => '下一句';
 	@override String get audiobook_settings => '有聲書設定';
+	@override String get show_play_bar => '顯示播放欄';
 	@override String get follow_audio_on_tooltip => '音頻跟隨：開啟（跨章自動跳轉）';
 	@override String get follow_audio_off_tooltip => '音頻跟隨：關閉';
 	@override String get reading_progress => '閱讀進度';
@@ -12777,6 +12794,7 @@ extension on _StringsEn {
 			case 'prev_sentence': return 'Previous sentence';
 			case 'next_sentence': return 'Next sentence';
 			case 'audiobook_settings': return 'Audiobook Settings';
+			case 'show_play_bar': return 'Show playback bar';
 			case 'follow_audio_on_tooltip': return 'Follow audio: ON (auto-jump across chapters)';
 			case 'follow_audio_off_tooltip': return 'Follow audio: OFF';
 			case 'reading_progress': return 'Reading Progress';
@@ -13440,6 +13458,7 @@ extension on _StringsAr {
 			case 'prev_sentence': return 'الجملة السابقة';
 			case 'next_sentence': return 'الجملة التالية';
 			case 'audiobook_settings': return 'إعدادات الكتاب الصوتي';
+			case 'show_play_bar': return 'Show playback bar';
 			case 'follow_audio_on_tooltip': return 'تتبع الصوت: مفعّل (انتقال تلقائي بين الفصول)';
 			case 'follow_audio_off_tooltip': return 'تتبع الصوت: معطّل';
 			case 'reading_progress': return 'تقدم القراءة';
@@ -14113,6 +14132,7 @@ extension on _StringsDe {
 			case 'prev_sentence': return 'Vorheriger Satz';
 			case 'next_sentence': return 'Nächster Satz';
 			case 'audiobook_settings': return 'Hörbuch-Einstellungen';
+			case 'show_play_bar': return 'Show playback bar';
 			case 'follow_audio_on_tooltip': return 'Audio-Verfolgung: AN (automatischer Kapitelsprung)';
 			case 'follow_audio_off_tooltip': return 'Audio-Verfolgung: AUS';
 			case 'reading_progress': return 'Lesefortschritt';
@@ -14786,6 +14806,7 @@ extension on _StringsEs {
 			case 'prev_sentence': return 'Oración anterior';
 			case 'next_sentence': return 'Oración siguiente';
 			case 'audiobook_settings': return 'Configuración del audiolibro';
+			case 'show_play_bar': return 'Show playback bar';
 			case 'follow_audio_on_tooltip': return 'Seguir audio: ACTIVADO (salto automático entre capítulos)';
 			case 'follow_audio_off_tooltip': return 'Seguir audio: DESACTIVADO';
 			case 'reading_progress': return 'Progreso de lectura';
@@ -15459,6 +15480,7 @@ extension on _StringsFr {
 			case 'prev_sentence': return 'Phrase précédente';
 			case 'next_sentence': return 'Phrase suivante';
 			case 'audiobook_settings': return 'Paramètres du livre audio';
+			case 'show_play_bar': return 'Show playback bar';
 			case 'follow_audio_on_tooltip': return 'Suivi audio : ACTIVÉ (saut automatique entre chapitres)';
 			case 'follow_audio_off_tooltip': return 'Suivi audio : DÉSACTIVÉ';
 			case 'reading_progress': return 'Progression de lecture';
@@ -16132,6 +16154,7 @@ extension on _StringsId {
 			case 'prev_sentence': return 'Kalimat sebelumnya';
 			case 'next_sentence': return 'Kalimat berikutnya';
 			case 'audiobook_settings': return 'Pengaturan Buku Audio';
+			case 'show_play_bar': return 'Show playback bar';
 			case 'follow_audio_on_tooltip': return 'Ikuti audio: AKTIF (lompat bab otomatis)';
 			case 'follow_audio_off_tooltip': return 'Ikuti audio: NONAKTIF';
 			case 'reading_progress': return 'Progres Membaca';
@@ -16831,6 +16854,7 @@ extension on _StringsIt {
 			case 'prev_sentence': return 'Frase precedente';
 			case 'next_sentence': return 'Frase successiva';
 			case 'audiobook_settings': return 'Impostazioni audiolibro';
+			case 'show_play_bar': return 'Show playback bar';
 			case 'follow_audio_on_tooltip': return 'Segui audio: ATTIVO (salto automatico tra capitoli)';
 			case 'follow_audio_off_tooltip': return 'Segui audio: DISATTIVO';
 			case 'reading_progress': return 'Progresso di lettura';
@@ -17478,6 +17502,7 @@ extension on _StringsJa {
 			case 'prev_sentence': return '前の文';
 			case 'next_sentence': return '次の文';
 			case 'audiobook_settings': return 'オーディオブック設定';
+			case 'show_play_bar': return '再生バーを表示';
 			case 'follow_audio_on_tooltip': return '音声追従：ON（チャプター間を自動ジャンプ）';
 			case 'follow_audio_off_tooltip': return '音声追従：OFF';
 			case 'reading_progress': return '読書進捗';
@@ -18151,6 +18176,7 @@ extension on _StringsKo {
 			case 'prev_sentence': return '이전 문장';
 			case 'next_sentence': return '다음 문장';
 			case 'audiobook_settings': return '오디오북 설정';
+			case 'show_play_bar': return 'Show playback bar';
 			case 'follow_audio_on_tooltip': return '오디오 따라가기: 켜짐 (챕터 자동 이동)';
 			case 'follow_audio_off_tooltip': return '오디오 따라가기: 꺼짐';
 			case 'reading_progress': return '읽기 진행률';
@@ -18850,6 +18876,7 @@ extension on _StringsNl {
 			case 'prev_sentence': return 'Vorige zin';
 			case 'next_sentence': return 'Volgende zin';
 			case 'audiobook_settings': return 'Audioboekinstellingen';
+			case 'show_play_bar': return 'Show playback bar';
 			case 'follow_audio_on_tooltip': return 'Audio volgen: AAN (automatisch springen tussen hoofdstukken)';
 			case 'follow_audio_off_tooltip': return 'Audio volgen: UIT';
 			case 'reading_progress': return 'Leesvoortgang';
@@ -19497,6 +19524,7 @@ extension on _StringsPtBr {
 			case 'prev_sentence': return 'Frase anterior';
 			case 'next_sentence': return 'Próxima frase';
 			case 'audiobook_settings': return 'Configurações do Audiolivro';
+			case 'show_play_bar': return 'Show playback bar';
 			case 'follow_audio_on_tooltip': return 'Acompanhar áudio: LIGADO (pular entre capítulos automaticamente)';
 			case 'follow_audio_off_tooltip': return 'Acompanhar áudio: DESLIGADO';
 			case 'reading_progress': return 'Progresso da Leitura';
@@ -20170,6 +20198,7 @@ extension on _StringsRu {
 			case 'prev_sentence': return 'Предыдущее предложение';
 			case 'next_sentence': return 'Следующее предложение';
 			case 'audiobook_settings': return 'Настройки аудиокниги';
+			case 'show_play_bar': return 'Show playback bar';
 			case 'follow_audio_on_tooltip': return 'Следование за аудио: ВКЛ (автопереход между главами)';
 			case 'follow_audio_off_tooltip': return 'Следование за аудио: ВЫКЛ';
 			case 'reading_progress': return 'Прогресс чтения';
@@ -20843,6 +20872,7 @@ extension on _StringsTh {
 			case 'prev_sentence': return 'ประโยคก่อนหน้า';
 			case 'next_sentence': return 'ประโยคถัดไป';
 			case 'audiobook_settings': return 'ตั้งค่าหนังสือเสียง';
+			case 'show_play_bar': return 'Show playback bar';
 			case 'follow_audio_on_tooltip': return 'ติดตามเสียง: เปิด (ข้ามบทอัตโนมัติ)';
 			case 'follow_audio_off_tooltip': return 'ติดตามเสียง: ปิด';
 			case 'reading_progress': return 'ความคืบหน้าการอ่าน';
@@ -21542,6 +21572,7 @@ extension on _StringsTr {
 			case 'prev_sentence': return 'Önceki cümle';
 			case 'next_sentence': return 'Sonraki cümle';
 			case 'audiobook_settings': return 'Sesli kitap ayarları';
+			case 'show_play_bar': return 'Show playback bar';
 			case 'follow_audio_on_tooltip': return 'Ses takibi: AÇIK (bölümler arası otomatik atlama)';
 			case 'follow_audio_off_tooltip': return 'Ses takibi: KAPALI';
 			case 'reading_progress': return 'Okuma ilerlemesi';
@@ -22189,6 +22220,7 @@ extension on _StringsVi {
 			case 'prev_sentence': return 'Câu trước';
 			case 'next_sentence': return 'Câu sau';
 			case 'audiobook_settings': return 'Cài đặt sách nói';
+			case 'show_play_bar': return 'Show playback bar';
 			case 'follow_audio_on_tooltip': return 'Theo dõi âm thanh: BẬT (tự chuyển chương)';
 			case 'follow_audio_off_tooltip': return 'Theo dõi âm thanh: TẮT';
 			case 'reading_progress': return 'Tiến độ đọc';
@@ -22872,6 +22904,7 @@ extension on _StringsZhCn {
 			case 'prev_sentence': return '上一句';
 			case 'next_sentence': return '下一句';
 			case 'audiobook_settings': return '有声书设置';
+			case 'show_play_bar': return '显示播放栏';
 			case 'follow_audio_on_tooltip': return '音频跟随：开启（跨章自动跳转）';
 			case 'follow_audio_off_tooltip': return '音频跟随：关闭';
 			case 'reading_progress': return '阅读进度';
@@ -23535,6 +23568,7 @@ extension on _StringsZhHk {
 			case 'prev_sentence': return '上一句';
 			case 'next_sentence': return '下一句';
 			case 'audiobook_settings': return '有聲書設定';
+			case 'show_play_bar': return '顯示播放欄';
 			case 'follow_audio_on_tooltip': return '音頻跟隨：開啟（跨章自動跳轉）';
 			case 'follow_audio_off_tooltip': return '音頻跟隨：關閉';
 			case 'reading_progress': return '閱讀進度';
