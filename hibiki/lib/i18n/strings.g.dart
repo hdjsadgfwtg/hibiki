@@ -823,6 +823,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String favorites({required Object n}) => 'Favorites (${n})';
 	String get no_favorites => 'No saved sentences';
 	String get favorites_title => 'Favorite Sentences';
+	String get collections => 'Collections';
+	String get no_collections => 'No bookmarks or saved sentences';
+	String get collection_bookmark => 'Bookmark';
+	String get collection_sentence => 'Sentence';
 }
 
 // Path: retrying_in
@@ -1537,6 +1541,10 @@ class _StringsAr implements _StringsEn {
 	@override String favorites({required Object n}) => 'Favorites (${n})';
 	@override String get no_favorites => 'No saved sentences';
 	@override String get favorites_title => 'Favorite Sentences';
+	@override String get collections => 'Collections';
+	@override String get no_collections => 'No bookmarks or saved sentences';
+	@override String get collection_bookmark => 'Bookmark';
+	@override String get collection_sentence => 'Sentence';
 }
 
 // Path: retrying_in
@@ -2251,6 +2259,10 @@ class _StringsDe implements _StringsEn {
 	@override String favorites({required Object n}) => 'Favorites (${n})';
 	@override String get no_favorites => 'No saved sentences';
 	@override String get favorites_title => 'Favorite Sentences';
+	@override String get collections => 'Collections';
+	@override String get no_collections => 'No bookmarks or saved sentences';
+	@override String get collection_bookmark => 'Bookmark';
+	@override String get collection_sentence => 'Sentence';
 }
 
 // Path: retrying_in
@@ -2965,6 +2977,10 @@ class _StringsEs implements _StringsEn {
 	@override String favorites({required Object n}) => 'Favorites (${n})';
 	@override String get no_favorites => 'No saved sentences';
 	@override String get favorites_title => 'Favorite Sentences';
+	@override String get collections => 'Collections';
+	@override String get no_collections => 'No bookmarks or saved sentences';
+	@override String get collection_bookmark => 'Bookmark';
+	@override String get collection_sentence => 'Sentence';
 }
 
 // Path: retrying_in
@@ -3679,6 +3695,10 @@ class _StringsFr implements _StringsEn {
 	@override String favorites({required Object n}) => 'Favorites (${n})';
 	@override String get no_favorites => 'No saved sentences';
 	@override String get favorites_title => 'Favorite Sentences';
+	@override String get collections => 'Collections';
+	@override String get no_collections => 'No bookmarks or saved sentences';
+	@override String get collection_bookmark => 'Bookmark';
+	@override String get collection_sentence => 'Sentence';
 }
 
 // Path: retrying_in
@@ -4393,6 +4413,10 @@ class _StringsId implements _StringsEn {
 	@override String favorites({required Object n}) => 'Favorites (${n})';
 	@override String get no_favorites => 'No saved sentences';
 	@override String get favorites_title => 'Favorite Sentences';
+	@override String get collections => 'Collections';
+	@override String get no_collections => 'No bookmarks or saved sentences';
+	@override String get collection_bookmark => 'Bookmark';
+	@override String get collection_sentence => 'Sentence';
 }
 
 // Path: retrying_in
@@ -5107,6 +5131,10 @@ class _StringsIt implements _StringsEn {
 	@override String favorites({required Object n}) => 'Favorites (${n})';
 	@override String get no_favorites => 'No saved sentences';
 	@override String get favorites_title => 'Favorite Sentences';
+	@override String get collections => 'Collections';
+	@override String get no_collections => 'No bookmarks or saved sentences';
+	@override String get collection_bookmark => 'Bookmark';
+	@override String get collection_sentence => 'Sentence';
 }
 
 // Path: retrying_in
@@ -5821,6 +5849,10 @@ class _StringsJa implements _StringsEn {
 	@override String favorites({required Object n}) => 'お気に入り (${n})';
 	@override String get no_favorites => 'お気に入りはありません';
 	@override String get favorites_title => 'お気に入りの文';
+	@override String get collections => 'コレクション';
+	@override String get no_collections => 'ブックマークやお気に入りはありません';
+	@override String get collection_bookmark => 'ブックマーク';
+	@override String get collection_sentence => '文';
 }
 
 // Path: retrying_in
@@ -6535,6 +6567,10 @@ class _StringsKo implements _StringsEn {
 	@override String favorites({required Object n}) => 'Favorites (${n})';
 	@override String get no_favorites => 'No saved sentences';
 	@override String get favorites_title => 'Favorite Sentences';
+	@override String get collections => 'Collections';
+	@override String get no_collections => 'No bookmarks or saved sentences';
+	@override String get collection_bookmark => 'Bookmark';
+	@override String get collection_sentence => 'Sentence';
 }
 
 // Path: retrying_in
@@ -7249,6 +7285,10 @@ class _StringsNl implements _StringsEn {
 	@override String favorites({required Object n}) => 'Favorites (${n})';
 	@override String get no_favorites => 'No saved sentences';
 	@override String get favorites_title => 'Favorite Sentences';
+	@override String get collections => 'Collections';
+	@override String get no_collections => 'No bookmarks or saved sentences';
+	@override String get collection_bookmark => 'Bookmark';
+	@override String get collection_sentence => 'Sentence';
 }
 
 // Path: retrying_in
@@ -7963,6 +8003,10 @@ class _StringsPtBr implements _StringsEn {
 	@override String favorites({required Object n}) => 'Favorites (${n})';
 	@override String get no_favorites => 'No saved sentences';
 	@override String get favorites_title => 'Favorite Sentences';
+	@override String get collections => 'Collections';
+	@override String get no_collections => 'No bookmarks or saved sentences';
+	@override String get collection_bookmark => 'Bookmark';
+	@override String get collection_sentence => 'Sentence';
 }
 
 // Path: retrying_in
@@ -8677,6 +8721,10 @@ class _StringsRu implements _StringsEn {
 	@override String favorites({required Object n}) => 'Favorites (${n})';
 	@override String get no_favorites => 'No saved sentences';
 	@override String get favorites_title => 'Favorite Sentences';
+	@override String get collections => 'Collections';
+	@override String get no_collections => 'No bookmarks or saved sentences';
+	@override String get collection_bookmark => 'Bookmark';
+	@override String get collection_sentence => 'Sentence';
 }
 
 // Path: retrying_in
@@ -9391,6 +9439,10 @@ class _StringsTh implements _StringsEn {
 	@override String favorites({required Object n}) => 'Favorites (${n})';
 	@override String get no_favorites => 'No saved sentences';
 	@override String get favorites_title => 'Favorite Sentences';
+	@override String get collections => 'Collections';
+	@override String get no_collections => 'No bookmarks or saved sentences';
+	@override String get collection_bookmark => 'Bookmark';
+	@override String get collection_sentence => 'Sentence';
 }
 
 // Path: retrying_in
@@ -10105,6 +10157,10 @@ class _StringsTr implements _StringsEn {
 	@override String favorites({required Object n}) => 'Favorites (${n})';
 	@override String get no_favorites => 'No saved sentences';
 	@override String get favorites_title => 'Favorite Sentences';
+	@override String get collections => 'Collections';
+	@override String get no_collections => 'No bookmarks or saved sentences';
+	@override String get collection_bookmark => 'Bookmark';
+	@override String get collection_sentence => 'Sentence';
 }
 
 // Path: retrying_in
@@ -10819,6 +10875,10 @@ class _StringsVi implements _StringsEn {
 	@override String favorites({required Object n}) => 'Favorites (${n})';
 	@override String get no_favorites => 'No saved sentences';
 	@override String get favorites_title => 'Favorite Sentences';
+	@override String get collections => 'Collections';
+	@override String get no_collections => 'No bookmarks or saved sentences';
+	@override String get collection_bookmark => 'Bookmark';
+	@override String get collection_sentence => 'Sentence';
 }
 
 // Path: retrying_in
@@ -11533,6 +11593,10 @@ class _StringsZhCn implements _StringsEn {
 	@override String favorites({required Object n}) => '收藏 (${n})';
 	@override String get no_favorites => '暂无收藏句子';
 	@override String get favorites_title => '收藏的句子';
+	@override String get collections => '收藏夹';
+	@override String get no_collections => '暂无书签或收藏句子';
+	@override String get collection_bookmark => '书签';
+	@override String get collection_sentence => '句子';
 }
 
 // Path: retrying_in
@@ -12247,6 +12311,10 @@ class _StringsZhHk implements _StringsEn {
 	@override String favorites({required Object n}) => '收藏 (${n})';
 	@override String get no_favorites => '暫無收藏句子';
 	@override String get favorites_title => '收藏的句子';
+	@override String get collections => '收藏夾';
+	@override String get no_collections => '暫無書籤或收藏句子';
+	@override String get collection_bookmark => '書籤';
+	@override String get collection_sentence => '句子';
 }
 
 // Path: retrying_in
@@ -12948,6 +13016,10 @@ extension on _StringsEn {
 			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
 			case 'no_favorites': return 'No saved sentences';
 			case 'favorites_title': return 'Favorite Sentences';
+			case 'collections': return 'Collections';
+			case 'no_collections': return 'No bookmarks or saved sentences';
+			case 'collection_bookmark': return 'Bookmark';
+			case 'collection_sentence': return 'Sentence';
 			default: return null;
 		}
 	}
@@ -13623,6 +13695,10 @@ extension on _StringsAr {
 			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
 			case 'no_favorites': return 'No saved sentences';
 			case 'favorites_title': return 'Favorite Sentences';
+			case 'collections': return 'Collections';
+			case 'no_collections': return 'No bookmarks or saved sentences';
+			case 'collection_bookmark': return 'Bookmark';
+			case 'collection_sentence': return 'Sentence';
 			default: return null;
 		}
 	}
@@ -14298,6 +14374,10 @@ extension on _StringsDe {
 			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
 			case 'no_favorites': return 'No saved sentences';
 			case 'favorites_title': return 'Favorite Sentences';
+			case 'collections': return 'Collections';
+			case 'no_collections': return 'No bookmarks or saved sentences';
+			case 'collection_bookmark': return 'Bookmark';
+			case 'collection_sentence': return 'Sentence';
 			default: return null;
 		}
 	}
@@ -14973,6 +15053,10 @@ extension on _StringsEs {
 			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
 			case 'no_favorites': return 'No saved sentences';
 			case 'favorites_title': return 'Favorite Sentences';
+			case 'collections': return 'Collections';
+			case 'no_collections': return 'No bookmarks or saved sentences';
+			case 'collection_bookmark': return 'Bookmark';
+			case 'collection_sentence': return 'Sentence';
 			default: return null;
 		}
 	}
@@ -15648,6 +15732,10 @@ extension on _StringsFr {
 			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
 			case 'no_favorites': return 'No saved sentences';
 			case 'favorites_title': return 'Favorite Sentences';
+			case 'collections': return 'Collections';
+			case 'no_collections': return 'No bookmarks or saved sentences';
+			case 'collection_bookmark': return 'Bookmark';
+			case 'collection_sentence': return 'Sentence';
 			default: return null;
 		}
 	}
@@ -16323,6 +16411,10 @@ extension on _StringsId {
 			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
 			case 'no_favorites': return 'No saved sentences';
 			case 'favorites_title': return 'Favorite Sentences';
+			case 'collections': return 'Collections';
+			case 'no_collections': return 'No bookmarks or saved sentences';
+			case 'collection_bookmark': return 'Bookmark';
+			case 'collection_sentence': return 'Sentence';
 			default: return null;
 		}
 	}
@@ -16998,6 +17090,10 @@ extension on _StringsIt {
 			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
 			case 'no_favorites': return 'No saved sentences';
 			case 'favorites_title': return 'Favorite Sentences';
+			case 'collections': return 'Collections';
+			case 'no_collections': return 'No bookmarks or saved sentences';
+			case 'collection_bookmark': return 'Bookmark';
+			case 'collection_sentence': return 'Sentence';
 			default: return null;
 		}
 	}
@@ -17673,6 +17769,10 @@ extension on _StringsJa {
 			case 'favorites': return ({required Object n}) => 'お気に入り (${n})';
 			case 'no_favorites': return 'お気に入りはありません';
 			case 'favorites_title': return 'お気に入りの文';
+			case 'collections': return 'コレクション';
+			case 'no_collections': return 'ブックマークやお気に入りはありません';
+			case 'collection_bookmark': return 'ブックマーク';
+			case 'collection_sentence': return '文';
 			default: return null;
 		}
 	}
@@ -18348,6 +18448,10 @@ extension on _StringsKo {
 			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
 			case 'no_favorites': return 'No saved sentences';
 			case 'favorites_title': return 'Favorite Sentences';
+			case 'collections': return 'Collections';
+			case 'no_collections': return 'No bookmarks or saved sentences';
+			case 'collection_bookmark': return 'Bookmark';
+			case 'collection_sentence': return 'Sentence';
 			default: return null;
 		}
 	}
@@ -19023,6 +19127,10 @@ extension on _StringsNl {
 			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
 			case 'no_favorites': return 'No saved sentences';
 			case 'favorites_title': return 'Favorite Sentences';
+			case 'collections': return 'Collections';
+			case 'no_collections': return 'No bookmarks or saved sentences';
+			case 'collection_bookmark': return 'Bookmark';
+			case 'collection_sentence': return 'Sentence';
 			default: return null;
 		}
 	}
@@ -19698,6 +19806,10 @@ extension on _StringsPtBr {
 			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
 			case 'no_favorites': return 'No saved sentences';
 			case 'favorites_title': return 'Favorite Sentences';
+			case 'collections': return 'Collections';
+			case 'no_collections': return 'No bookmarks or saved sentences';
+			case 'collection_bookmark': return 'Bookmark';
+			case 'collection_sentence': return 'Sentence';
 			default: return null;
 		}
 	}
@@ -20373,6 +20485,10 @@ extension on _StringsRu {
 			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
 			case 'no_favorites': return 'No saved sentences';
 			case 'favorites_title': return 'Favorite Sentences';
+			case 'collections': return 'Collections';
+			case 'no_collections': return 'No bookmarks or saved sentences';
+			case 'collection_bookmark': return 'Bookmark';
+			case 'collection_sentence': return 'Sentence';
 			default: return null;
 		}
 	}
@@ -21048,6 +21164,10 @@ extension on _StringsTh {
 			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
 			case 'no_favorites': return 'No saved sentences';
 			case 'favorites_title': return 'Favorite Sentences';
+			case 'collections': return 'Collections';
+			case 'no_collections': return 'No bookmarks or saved sentences';
+			case 'collection_bookmark': return 'Bookmark';
+			case 'collection_sentence': return 'Sentence';
 			default: return null;
 		}
 	}
@@ -21723,6 +21843,10 @@ extension on _StringsTr {
 			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
 			case 'no_favorites': return 'No saved sentences';
 			case 'favorites_title': return 'Favorite Sentences';
+			case 'collections': return 'Collections';
+			case 'no_collections': return 'No bookmarks or saved sentences';
+			case 'collection_bookmark': return 'Bookmark';
+			case 'collection_sentence': return 'Sentence';
 			default: return null;
 		}
 	}
@@ -22398,6 +22522,10 @@ extension on _StringsVi {
 			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
 			case 'no_favorites': return 'No saved sentences';
 			case 'favorites_title': return 'Favorite Sentences';
+			case 'collections': return 'Collections';
+			case 'no_collections': return 'No bookmarks or saved sentences';
+			case 'collection_bookmark': return 'Bookmark';
+			case 'collection_sentence': return 'Sentence';
 			default: return null;
 		}
 	}
@@ -23073,6 +23201,10 @@ extension on _StringsZhCn {
 			case 'favorites': return ({required Object n}) => '收藏 (${n})';
 			case 'no_favorites': return '暂无收藏句子';
 			case 'favorites_title': return '收藏的句子';
+			case 'collections': return '收藏夹';
+			case 'no_collections': return '暂无书签或收藏句子';
+			case 'collection_bookmark': return '书签';
+			case 'collection_sentence': return '句子';
 			default: return null;
 		}
 	}
@@ -23748,6 +23880,10 @@ extension on _StringsZhHk {
 			case 'favorites': return ({required Object n}) => '收藏 (${n})';
 			case 'no_favorites': return '暫無收藏句子';
 			case 'favorites_title': return '收藏的句子';
+			case 'collections': return '收藏夾';
+			case 'no_collections': return '暫無書籤或收藏句子';
+			case 'collection_bookmark': return '書籤';
+			case 'collection_sentence': return '句子';
 			default: return null;
 		}
 	}
