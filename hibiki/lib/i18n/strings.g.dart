@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 11101 (653 per locale)
+/// Strings: 11237 (661 per locale)
 ///
-/// Built on 2026-04-27 at 10:36 UTC
+/// Built on 2026-04-28 at 10:03 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -770,6 +770,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get import_theme_invalid => 'Invalid theme code';
 	String get import_theme_success => 'Theme imported';
 	String get auto_add_book_name_to_tags => 'Auto-add book title to tags';
+	String get collapse_dictionaries => 'Collapse dictionaries';
 	String get deduplicate_pitch_accents => 'Deduplicate pitch accents';
 	String get harmonic_frequency => 'Aggregate word frequencies';
 	String get manage_audio_sources => 'Manage audio sources';
@@ -815,6 +816,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get hint_vert_text_orient => 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 	String get anki_manage_profiles => 'Manage Export Profiles';
 	String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+	String get action_favorite => 'Favorite';
+	String get favorite_added => 'Sentence saved to favorites';
+	String favorites({required Object n}) => 'Favorites (${n})';
+	String get no_favorites => 'No saved sentences';
+	String get favorites_title => 'Favorite Sentences';
 }
 
 // Path: retrying_in
@@ -1509,6 +1515,7 @@ class _StringsAr implements _StringsEn {
 	@override String get hint_vert_text_orient => 'مختلط: الأرقام والحروف اللاتينية تُدار جانبيًا. منتصب: جميع الأحرف تبقى منتصبة.';
 	@override String get anki_manage_profiles => 'إدارة ملفات التصدير';
 	@override String get anki_manage_profiles_hint => 'تكوين كيفية تعيين حقول البطاقات عند التصدير إلى AnkiDroid. كل ملف يرتبط بنوع ملاحظة Anki ويحدد أي حقل hibiki يملأ أي حقل Anki.';
+	@override String get collapse_dictionaries => 'Collapse dictionaries';
 	@override String get deduplicate_pitch_accents => 'إزالة تكرار علامات النبر';
 	@override String get harmonic_frequency => 'تجميع ترددات الكلمات';
 	@override String get manage_audio_sources => 'إدارة مصادر الصوت';
@@ -1521,6 +1528,11 @@ class _StringsAr implements _StringsEn {
 	@override String get dictionary_type_frequency => 'تردد';
 	@override String get dictionary_type_pitch => 'نبرة';
 	@override String get dictionary_type_term => 'مصطلح';
+	@override String get action_favorite => 'Favorite';
+	@override String get favorite_added => 'Sentence saved to favorites';
+	@override String favorites({required Object n}) => 'Favorites (${n})';
+	@override String get no_favorites => 'No saved sentences';
+	@override String get favorites_title => 'Favorite Sentences';
 }
 
 // Path: retrying_in
@@ -2215,6 +2227,7 @@ class _StringsDe implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Gemischt: Zahlen und lateinische Buchstaben werden seitwärts gedreht. Aufrecht: alle Zeichen bleiben aufrecht.';
 	@override String get anki_manage_profiles => 'Exportprofile verwalten';
 	@override String get anki_manage_profiles_hint => 'Feldzuordnung beim Export nach AnkiDroid konfigurieren. Jedes Profil ist an einen Anki-Notiztyp gebunden und definiert, welches hibiki-Feld in welches Anki-Feld eingetragen wird.';
+	@override String get collapse_dictionaries => 'Collapse dictionaries';
 	@override String get deduplicate_pitch_accents => 'Tonhöhenakzente deduplizieren';
 	@override String get harmonic_frequency => 'Worthäufigkeiten aggregieren';
 	@override String get manage_audio_sources => 'Audioquellen verwalten';
@@ -2227,6 +2240,11 @@ class _StringsDe implements _StringsEn {
 	@override String get dictionary_type_frequency => 'Häufigkeit';
 	@override String get dictionary_type_pitch => 'Tonhöhe';
 	@override String get dictionary_type_term => 'Begriff';
+	@override String get action_favorite => 'Favorite';
+	@override String get favorite_added => 'Sentence saved to favorites';
+	@override String favorites({required Object n}) => 'Favorites (${n})';
+	@override String get no_favorites => 'No saved sentences';
+	@override String get favorites_title => 'Favorite Sentences';
 }
 
 // Path: retrying_in
@@ -2921,6 +2939,7 @@ class _StringsEs implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Mixto: números y letras latinas se rotan de lado. Vertical: todos los caracteres se mantienen verticales.';
 	@override String get anki_manage_profiles => 'Gestionar perfiles de exportación';
 	@override String get anki_manage_profiles_hint => 'Configurar cómo se mapean los campos de las tarjetas al exportar a AnkiDroid. Cada perfil se vincula a un tipo de nota Anki y define qué campo de hibiki llena cada campo de Anki.';
+	@override String get collapse_dictionaries => 'Collapse dictionaries';
 	@override String get deduplicate_pitch_accents => 'Deduplicar acentos tonales';
 	@override String get harmonic_frequency => 'Agregar frecuencias de palabras';
 	@override String get manage_audio_sources => 'Gestionar fuentes de audio';
@@ -2933,6 +2952,11 @@ class _StringsEs implements _StringsEn {
 	@override String get dictionary_type_frequency => 'Frecuencia';
 	@override String get dictionary_type_pitch => 'Tono';
 	@override String get dictionary_type_term => 'Término';
+	@override String get action_favorite => 'Favorite';
+	@override String get favorite_added => 'Sentence saved to favorites';
+	@override String favorites({required Object n}) => 'Favorites (${n})';
+	@override String get no_favorites => 'No saved sentences';
+	@override String get favorites_title => 'Favorite Sentences';
 }
 
 // Path: retrying_in
@@ -3627,6 +3651,7 @@ class _StringsFr implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Mixte : les chiffres et lettres latines sont tournés sur le côté. Droit : tous les caractères restent droits.';
 	@override String get anki_manage_profiles => 'Gérer les profils d\'exportation';
 	@override String get anki_manage_profiles_hint => 'Configurer le mappage des champs lors de l\'exportation vers AnkiDroid. Chaque profil est lié à un type de note Anki et définit quel champ hibiki remplit quel champ Anki.';
+	@override String get collapse_dictionaries => 'Collapse dictionaries';
 	@override String get deduplicate_pitch_accents => 'Dédupliquer les accents tonaux';
 	@override String get harmonic_frequency => 'Agréger les fréquences de mots';
 	@override String get manage_audio_sources => 'Gérer les sources audio';
@@ -3639,6 +3664,11 @@ class _StringsFr implements _StringsEn {
 	@override String get dictionary_type_frequency => 'Fréquence';
 	@override String get dictionary_type_pitch => 'Accent tonal';
 	@override String get dictionary_type_term => 'Terme';
+	@override String get action_favorite => 'Favorite';
+	@override String get favorite_added => 'Sentence saved to favorites';
+	@override String favorites({required Object n}) => 'Favorites (${n})';
+	@override String get no_favorites => 'No saved sentences';
+	@override String get favorites_title => 'Favorite Sentences';
 }
 
 // Path: retrying_in
@@ -4333,6 +4363,7 @@ class _StringsId implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Campuran: angka dan huruf Latin diputar ke samping. Tegak: semua karakter tetap tegak.';
 	@override String get anki_manage_profiles => 'Kelola Profil Ekspor';
 	@override String get anki_manage_profiles_hint => 'Konfigurasi pemetaan bidang kartu saat mengekspor ke AnkiDroid. Setiap profil terikat ke tipe catatan Anki dan menentukan bidang hibiki mana yang mengisi bidang Anki mana.';
+	@override String get collapse_dictionaries => 'Collapse dictionaries';
 	@override String get deduplicate_pitch_accents => 'Hapus duplikat aksen nada';
 	@override String get harmonic_frequency => 'Gabungkan frekuensi kata';
 	@override String get manage_audio_sources => 'Kelola sumber audio';
@@ -4345,6 +4376,11 @@ class _StringsId implements _StringsEn {
 	@override String get dictionary_type_frequency => 'Frekuensi';
 	@override String get dictionary_type_pitch => 'Nada';
 	@override String get dictionary_type_term => 'Istilah';
+	@override String get action_favorite => 'Favorite';
+	@override String get favorite_added => 'Sentence saved to favorites';
+	@override String favorites({required Object n}) => 'Favorites (${n})';
+	@override String get no_favorites => 'No saved sentences';
+	@override String get favorites_title => 'Favorite Sentences';
 }
 
 // Path: retrying_in
@@ -5006,6 +5042,7 @@ class _StringsIt implements _StringsEn {
 	@override String get import_theme_invalid => 'Codice tema non valido';
 	@override String get import_theme_success => 'Tema importato';
 	@override String get auto_add_book_name_to_tags => 'Aggiungi automaticamente il titolo del libro alle etichette';
+	@override String get collapse_dictionaries => 'Collapse dictionaries';
 	@override String get deduplicate_pitch_accents => 'Deduplica accenti tonali';
 	@override String get harmonic_frequency => 'Aggrega frequenze delle parole';
 	@override String get manage_audio_sources => 'Gestisci sorgenti audio';
@@ -5051,6 +5088,11 @@ class _StringsIt implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Misto: numeri e lettere latine sono ruotati di lato. Diritto: tutti i caratteri rimangono diritti.';
 	@override String get anki_manage_profiles => 'Gestisci profili di esportazione';
 	@override String get anki_manage_profiles_hint => 'Configura la mappatura dei campi durante l\'esportazione verso AnkiDroid. Ogni profilo è collegato a un tipo di nota Anki e definisce quale campo hibiki riempie quale campo Anki.';
+	@override String get action_favorite => 'Favorite';
+	@override String get favorite_added => 'Sentence saved to favorites';
+	@override String favorites({required Object n}) => 'Favorites (${n})';
+	@override String get no_favorites => 'No saved sentences';
+	@override String get favorites_title => 'Favorite Sentences';
 }
 
 // Path: retrying_in
@@ -5705,6 +5747,7 @@ class _StringsJa implements _StringsEn {
 	@override String get import_theme_invalid => '無効なテーマコード';
 	@override String get import_theme_success => 'テーマをインポートしました';
 	@override String get auto_add_book_name_to_tags => 'タグに本のタイトルを自動追加';
+	@override String get collapse_dictionaries => 'Collapse dictionaries';
 	@override String get deduplicate_pitch_accents => 'アクセント重複除外';
 	@override String get harmonic_frequency => '語彙頻度集約';
 	@override String get manage_audio_sources => '音声ソースの管理';
@@ -5757,6 +5800,11 @@ class _StringsJa implements _StringsEn {
 	@override String get dictionary_type_frequency => '頻度';
 	@override String get dictionary_type_pitch => 'ピッチ';
 	@override String get dictionary_type_term => '用語';
+	@override String get action_favorite => 'お気に入り';
+	@override String get favorite_added => 'お気に入りに追加しました';
+	@override String favorites({required Object n}) => 'お気に入り (${n})';
+	@override String get no_favorites => 'お気に入りはありません';
+	@override String get favorites_title => 'お気に入りの文';
 }
 
 // Path: retrying_in
@@ -6451,6 +6499,7 @@ class _StringsKo implements _StringsEn {
 	@override String get hint_vert_text_orient => '혼합: 숫자와 라틴 문자가 옆으로 회전합니다. 직립: 모든 문자가 똑바로 유지됩니다.';
 	@override String get anki_manage_profiles => '내보내기 프로필 관리';
 	@override String get anki_manage_profiles_hint => 'AnkiDroid로 내보낼 때 카드 필드 매핑을 설정합니다. 각 프로필은 Anki 노트 유형에 연결되며, hibiki의 어떤 필드가 Anki의 어떤 필드에 들어갈지 정의합니다.';
+	@override String get collapse_dictionaries => 'Collapse dictionaries';
 	@override String get deduplicate_pitch_accents => '피치 악센트 중복 제거';
 	@override String get harmonic_frequency => '단어 빈도 집계';
 	@override String get manage_audio_sources => '오디오 소스 관리';
@@ -6463,6 +6512,11 @@ class _StringsKo implements _StringsEn {
 	@override String get dictionary_type_frequency => '빈도';
 	@override String get dictionary_type_pitch => '피치';
 	@override String get dictionary_type_term => '용어';
+	@override String get action_favorite => 'Favorite';
+	@override String get favorite_added => 'Sentence saved to favorites';
+	@override String favorites({required Object n}) => 'Favorites (${n})';
+	@override String get no_favorites => 'No saved sentences';
+	@override String get favorites_title => 'Favorite Sentences';
 }
 
 // Path: retrying_in
@@ -7124,6 +7178,7 @@ class _StringsNl implements _StringsEn {
 	@override String get import_theme_invalid => 'Ongeldige themacode';
 	@override String get import_theme_success => 'Thema geïmporteerd';
 	@override String get auto_add_book_name_to_tags => 'Boektitel automatisch aan labels toevoegen';
+	@override String get collapse_dictionaries => 'Collapse dictionaries';
 	@override String get deduplicate_pitch_accents => 'Toonhoogteaccenten dedupliceren';
 	@override String get harmonic_frequency => 'Woordfrequenties aggregeren';
 	@override String get manage_audio_sources => 'Audiobronnen beheren';
@@ -7169,6 +7224,11 @@ class _StringsNl implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Gemengd: cijfers en Latijnse letters worden zijwaarts gedraaid. Rechtop: alle tekens blijven rechtop staan.';
 	@override String get anki_manage_profiles => 'Exportprofielen beheren';
 	@override String get anki_manage_profiles_hint => 'Configureer de veldmapping bij het exporteren naar AnkiDroid. Elk profiel is gekoppeld aan een Anki-notitietype en bepaalt welk hibiki-veld welk Anki-veld vult.';
+	@override String get action_favorite => 'Favorite';
+	@override String get favorite_added => 'Sentence saved to favorites';
+	@override String favorites({required Object n}) => 'Favorites (${n})';
+	@override String get no_favorites => 'No saved sentences';
+	@override String get favorites_title => 'Favorite Sentences';
 }
 
 // Path: retrying_in
@@ -7863,6 +7923,7 @@ class _StringsPtBr implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Misto: números e letras latinas são girados de lado. Vertical: todos os caracteres permanecem verticais.';
 	@override String get anki_manage_profiles => 'Gerenciar Perfis de Exportação';
 	@override String get anki_manage_profiles_hint => 'Configurar como os campos dos cartões são mapeados ao exportar para o AnkiDroid. Cada perfil se vincula a um tipo de nota Anki e define qual campo do hibiki preenche cada campo do Anki.';
+	@override String get collapse_dictionaries => 'Collapse dictionaries';
 	@override String get deduplicate_pitch_accents => 'Deduplicar acentos tonais';
 	@override String get harmonic_frequency => 'Agregar frequências de palavras';
 	@override String get manage_audio_sources => 'Gerenciar fontes de áudio';
@@ -7875,6 +7936,11 @@ class _StringsPtBr implements _StringsEn {
 	@override String get dictionary_type_frequency => 'Frequência';
 	@override String get dictionary_type_pitch => 'Tom';
 	@override String get dictionary_type_term => 'Termo';
+	@override String get action_favorite => 'Favorite';
+	@override String get favorite_added => 'Sentence saved to favorites';
+	@override String favorites({required Object n}) => 'Favorites (${n})';
+	@override String get no_favorites => 'No saved sentences';
+	@override String get favorites_title => 'Favorite Sentences';
 }
 
 // Path: retrying_in
@@ -8569,6 +8635,7 @@ class _StringsRu implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Смешанный: цифры и латинские буквы поворачиваются набок. Прямой: все символы остаются прямыми.';
 	@override String get anki_manage_profiles => 'Управление профилями экспорта';
 	@override String get anki_manage_profiles_hint => 'Настройте сопоставление полей карточек при экспорте в AnkiDroid. Каждый профиль привязан к типу заметки Anki и определяет, какое поле hibiki заполняет какое поле Anki.';
+	@override String get collapse_dictionaries => 'Collapse dictionaries';
 	@override String get deduplicate_pitch_accents => 'Удалить дубликаты тональных ударений';
 	@override String get harmonic_frequency => 'Агрегация частот слов';
 	@override String get manage_audio_sources => 'Управление аудиоисточниками';
@@ -8581,6 +8648,11 @@ class _StringsRu implements _StringsEn {
 	@override String get dictionary_type_frequency => 'Частотность';
 	@override String get dictionary_type_pitch => 'Высота тона';
 	@override String get dictionary_type_term => 'Термин';
+	@override String get action_favorite => 'Favorite';
+	@override String get favorite_added => 'Sentence saved to favorites';
+	@override String favorites({required Object n}) => 'Favorites (${n})';
+	@override String get no_favorites => 'No saved sentences';
+	@override String get favorites_title => 'Favorite Sentences';
 }
 
 // Path: retrying_in
@@ -9275,6 +9347,7 @@ class _StringsTh implements _StringsEn {
 	@override String get hint_vert_text_orient => 'ผสม: ตัวเลขและอักษรละตินหมุนตะแคง ตั้งตรง: ตัวอักษรทั้งหมดตั้งตรง';
 	@override String get anki_manage_profiles => 'จัดการโปรไฟล์ส่งออก';
 	@override String get anki_manage_profiles_hint => 'กำหนดค่าการแมปฟิลด์การ์ดเมื่อส่งออกไปยัง AnkiDroid แต่ละโปรไฟล์ผูกกับประเภทโน้ต Anki และกำหนดว่าฟิลด์ hibiki ใดเติมในฟิลด์ Anki ใด';
+	@override String get collapse_dictionaries => 'Collapse dictionaries';
 	@override String get deduplicate_pitch_accents => 'ลบการเน้นเสียงซ้ำ';
 	@override String get harmonic_frequency => 'รวมความถี่คำ';
 	@override String get manage_audio_sources => 'จัดการแหล่งเสียง';
@@ -9287,6 +9360,11 @@ class _StringsTh implements _StringsEn {
 	@override String get dictionary_type_frequency => 'ความถี่';
 	@override String get dictionary_type_pitch => 'ระดับเสียง';
 	@override String get dictionary_type_term => 'คำศัพท์';
+	@override String get action_favorite => 'Favorite';
+	@override String get favorite_added => 'Sentence saved to favorites';
+	@override String favorites({required Object n}) => 'Favorites (${n})';
+	@override String get no_favorites => 'No saved sentences';
+	@override String get favorites_title => 'Favorite Sentences';
 }
 
 // Path: retrying_in
@@ -9948,6 +10026,7 @@ class _StringsTr implements _StringsEn {
 	@override String get import_theme_invalid => 'Geçersiz tema kodu';
 	@override String get import_theme_success => 'Tema içe aktarıldı';
 	@override String get auto_add_book_name_to_tags => 'Kitap başlığını otomatik olarak etiketlere ekle';
+	@override String get collapse_dictionaries => 'Collapse dictionaries';
 	@override String get deduplicate_pitch_accents => 'Ton vurgularını tekrarsızlaştır';
 	@override String get harmonic_frequency => 'Kelime sıklıklarını birleştir';
 	@override String get manage_audio_sources => 'Ses kaynaklarını yönet';
@@ -9993,6 +10072,11 @@ class _StringsTr implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Karışık: sayılar ve Latin harfleri yana döndürülür. Dik: tüm karakterler dik kalır.';
 	@override String get anki_manage_profiles => 'Dışa aktarma profillerini yönet';
 	@override String get anki_manage_profiles_hint => 'AnkiDroid\'a dışa aktarırken alan eşlemesini yapılandırın. Her profil bir Anki not türüne bağlıdır ve hangi hibiki alanının hangi Anki alanını dolduracağını tanımlar.';
+	@override String get action_favorite => 'Favorite';
+	@override String get favorite_added => 'Sentence saved to favorites';
+	@override String favorites({required Object n}) => 'Favorites (${n})';
+	@override String get no_favorites => 'No saved sentences';
+	@override String get favorites_title => 'Favorite Sentences';
 }
 
 // Path: retrying_in
@@ -10687,6 +10771,7 @@ class _StringsVi implements _StringsEn {
 	@override String get hint_vert_text_orient => 'Hỗn hợp: số và chữ Latin được xoay ngang. Thẳng đứng: tất cả ký tự giữ thẳng đứng.';
 	@override String get anki_manage_profiles => 'Quản lý hồ sơ xuất';
 	@override String get anki_manage_profiles_hint => 'Cấu hình ánh xạ trường thẻ khi xuất sang AnkiDroid. Mỗi hồ sơ liên kết với một loại ghi chú Anki và xác định trường hibiki nào điền vào trường Anki nào.';
+	@override String get collapse_dictionaries => 'Collapse dictionaries';
 	@override String get deduplicate_pitch_accents => 'Loại bỏ trùng lặp thanh điệu';
 	@override String get harmonic_frequency => 'Tổng hợp tần suất từ';
 	@override String get manage_audio_sources => 'Quản lý nguồn âm thanh';
@@ -10699,6 +10784,11 @@ class _StringsVi implements _StringsEn {
 	@override String get dictionary_type_frequency => 'Tần suất';
 	@override String get dictionary_type_pitch => 'Thanh điệu';
 	@override String get dictionary_type_term => 'Thuật ngữ';
+	@override String get action_favorite => 'Favorite';
+	@override String get favorite_added => 'Sentence saved to favorites';
+	@override String favorites({required Object n}) => 'Favorites (${n})';
+	@override String get no_favorites => 'No saved sentences';
+	@override String get favorites_title => 'Favorite Sentences';
 }
 
 // Path: retrying_in
@@ -11075,7 +11165,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get handlebar_book_cover => '书籍封面';
 	@override String get handlebar_audio => '音频';
 	@override String get handlebar_sasayaki_audio => 'Sasayaki 音频';
-	@override String get handlebar_popup_selection_text => 'Popup Selection Text';
+	@override String get handlebar_popup_selection_text => '弹窗选中文本';
 	@override String get handlebar_cloze_before => '完形填空前文';
 	@override String get handlebar_cloze_inside => '完形填空内容';
 	@override String get handlebar_cloze_after => '完形填空后文';
@@ -11360,6 +11450,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get import_theme_invalid => '无效的主题代码';
 	@override String get import_theme_success => '主题已导入';
 	@override String get auto_add_book_name_to_tags => '自动添加书名到标签';
+	@override String get collapse_dictionaries => '折叠词典';
 	@override String get deduplicate_pitch_accents => '音调去重';
 	@override String get harmonic_frequency => '词频聚合';
 	@override String get manage_audio_sources => '管理音频来源';
@@ -11405,6 +11496,11 @@ class _StringsZhCn implements _StringsEn {
 	@override String get hint_vert_text_orient => '混合：数字和西文字母旋转为横向。直立：所有字符保持直立。';
 	@override String get anki_manage_profiles => '管理导出配置';
 	@override String get anki_manage_profiles_hint => '配置导出到 AnkiDroid 时各字段的映射方式。每个配置绑定一个 Anki 笔记类型，定义 hibiki 的哪个字段填充 Anki 的哪个字段。';
+	@override String get action_favorite => '收藏';
+	@override String get favorite_added => '句子已收藏';
+	@override String favorites({required Object n}) => '收藏 (${n})';
+	@override String get no_favorites => '暂无收藏句子';
+	@override String get favorites_title => '收藏的句子';
 }
 
 // Path: retrying_in
@@ -12077,7 +12173,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String get error_log_share_subject => 'hibiki 錯誤記錄';
 	@override String get update_never_remind => '不再提醒';
 	@override String get update_auto_install => '自動安裝更新';
-	@override String get disable_dialog_scrim => '關閉彈窗背景遮罩（墨水屏）';
+	@override String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
 	@override String get update_settings => '更新設定';
 	@override String get anki_settings_label => 'Anki 設定';
 	@override String get anki_default_deck => '預設牌組';
@@ -12099,6 +12195,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String get hint_vert_text_orient => '混合：數字和西文字母旋轉為橫向。直立：所有字元保持直立。';
 	@override String get anki_manage_profiles => '管理匯出設定檔';
 	@override String get anki_manage_profiles_hint => '設定匯出到 AnkiDroid 時各欄位的對應方式。每個設定檔繫結一個 Anki 筆記類型，定義 hibiki 的哪個欄位填入 Anki 的哪個欄位。';
+	@override String get collapse_dictionaries => 'Collapse dictionaries';
 	@override String get deduplicate_pitch_accents => '音調重複去除';
 	@override String get harmonic_frequency => '詞頻聚合';
 	@override String get manage_audio_sources => '管理音訊來源';
@@ -12111,6 +12208,11 @@ class _StringsZhHk implements _StringsEn {
 	@override String get dictionary_type_frequency => '詞頻';
 	@override String get dictionary_type_pitch => '音調';
 	@override String get dictionary_type_term => '釋義';
+	@override String get action_favorite => '收藏';
+	@override String get favorite_added => '句子已收藏';
+	@override String favorites({required Object n}) => '收藏 (${n})';
+	@override String get no_favorites => '暫無收藏句子';
+	@override String get favorites_title => '收藏的句子';
 }
 
 // Path: retrying_in
@@ -12759,6 +12861,7 @@ extension on _StringsEn {
 			case 'import_theme_invalid': return 'Invalid theme code';
 			case 'import_theme_success': return 'Theme imported';
 			case 'auto_add_book_name_to_tags': return 'Auto-add book title to tags';
+			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return 'Deduplicate pitch accents';
 			case 'harmonic_frequency': return 'Aggregate word frequencies';
 			case 'manage_audio_sources': return 'Manage audio sources';
@@ -12804,6 +12907,11 @@ extension on _StringsEn {
 			case 'hint_vert_text_orient': return 'Mixed: numbers and Latin letters are rotated sideways. Upright: all characters stay upright.';
 			case 'anki_manage_profiles': return 'Manage Export Profiles';
 			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
+			case 'action_favorite': return 'Favorite';
+			case 'favorite_added': return 'Sentence saved to favorites';
+			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
+			case 'no_favorites': return 'No saved sentences';
+			case 'favorites_title': return 'Favorite Sentences';
 			default: return null;
 		}
 	}
@@ -13459,6 +13567,7 @@ extension on _StringsAr {
 			case 'hint_vert_text_orient': return 'مختلط: الأرقام والحروف اللاتينية تُدار جانبيًا. منتصب: جميع الأحرف تبقى منتصبة.';
 			case 'anki_manage_profiles': return 'إدارة ملفات التصدير';
 			case 'anki_manage_profiles_hint': return 'تكوين كيفية تعيين حقول البطاقات عند التصدير إلى AnkiDroid. كل ملف يرتبط بنوع ملاحظة Anki ويحدد أي حقل hibiki يملأ أي حقل Anki.';
+			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return 'إزالة تكرار علامات النبر';
 			case 'harmonic_frequency': return 'تجميع ترددات الكلمات';
 			case 'manage_audio_sources': return 'إدارة مصادر الصوت';
@@ -13471,6 +13580,11 @@ extension on _StringsAr {
 			case 'dictionary_type_frequency': return 'تردد';
 			case 'dictionary_type_pitch': return 'نبرة';
 			case 'dictionary_type_term': return 'مصطلح';
+			case 'action_favorite': return 'Favorite';
+			case 'favorite_added': return 'Sentence saved to favorites';
+			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
+			case 'no_favorites': return 'No saved sentences';
+			case 'favorites_title': return 'Favorite Sentences';
 			default: return null;
 		}
 	}
@@ -14126,6 +14240,7 @@ extension on _StringsDe {
 			case 'hint_vert_text_orient': return 'Gemischt: Zahlen und lateinische Buchstaben werden seitwärts gedreht. Aufrecht: alle Zeichen bleiben aufrecht.';
 			case 'anki_manage_profiles': return 'Exportprofile verwalten';
 			case 'anki_manage_profiles_hint': return 'Feldzuordnung beim Export nach AnkiDroid konfigurieren. Jedes Profil ist an einen Anki-Notiztyp gebunden und definiert, welches hibiki-Feld in welches Anki-Feld eingetragen wird.';
+			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return 'Tonhöhenakzente deduplizieren';
 			case 'harmonic_frequency': return 'Worthäufigkeiten aggregieren';
 			case 'manage_audio_sources': return 'Audioquellen verwalten';
@@ -14138,6 +14253,11 @@ extension on _StringsDe {
 			case 'dictionary_type_frequency': return 'Häufigkeit';
 			case 'dictionary_type_pitch': return 'Tonhöhe';
 			case 'dictionary_type_term': return 'Begriff';
+			case 'action_favorite': return 'Favorite';
+			case 'favorite_added': return 'Sentence saved to favorites';
+			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
+			case 'no_favorites': return 'No saved sentences';
+			case 'favorites_title': return 'Favorite Sentences';
 			default: return null;
 		}
 	}
@@ -14793,6 +14913,7 @@ extension on _StringsEs {
 			case 'hint_vert_text_orient': return 'Mixto: números y letras latinas se rotan de lado. Vertical: todos los caracteres se mantienen verticales.';
 			case 'anki_manage_profiles': return 'Gestionar perfiles de exportación';
 			case 'anki_manage_profiles_hint': return 'Configurar cómo se mapean los campos de las tarjetas al exportar a AnkiDroid. Cada perfil se vincula a un tipo de nota Anki y define qué campo de hibiki llena cada campo de Anki.';
+			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return 'Deduplicar acentos tonales';
 			case 'harmonic_frequency': return 'Agregar frecuencias de palabras';
 			case 'manage_audio_sources': return 'Gestionar fuentes de audio';
@@ -14805,6 +14926,11 @@ extension on _StringsEs {
 			case 'dictionary_type_frequency': return 'Frecuencia';
 			case 'dictionary_type_pitch': return 'Tono';
 			case 'dictionary_type_term': return 'Término';
+			case 'action_favorite': return 'Favorite';
+			case 'favorite_added': return 'Sentence saved to favorites';
+			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
+			case 'no_favorites': return 'No saved sentences';
+			case 'favorites_title': return 'Favorite Sentences';
 			default: return null;
 		}
 	}
@@ -15460,6 +15586,7 @@ extension on _StringsFr {
 			case 'hint_vert_text_orient': return 'Mixte : les chiffres et lettres latines sont tournés sur le côté. Droit : tous les caractères restent droits.';
 			case 'anki_manage_profiles': return 'Gérer les profils d\'exportation';
 			case 'anki_manage_profiles_hint': return 'Configurer le mappage des champs lors de l\'exportation vers AnkiDroid. Chaque profil est lié à un type de note Anki et définit quel champ hibiki remplit quel champ Anki.';
+			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return 'Dédupliquer les accents tonaux';
 			case 'harmonic_frequency': return 'Agréger les fréquences de mots';
 			case 'manage_audio_sources': return 'Gérer les sources audio';
@@ -15472,6 +15599,11 @@ extension on _StringsFr {
 			case 'dictionary_type_frequency': return 'Fréquence';
 			case 'dictionary_type_pitch': return 'Accent tonal';
 			case 'dictionary_type_term': return 'Terme';
+			case 'action_favorite': return 'Favorite';
+			case 'favorite_added': return 'Sentence saved to favorites';
+			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
+			case 'no_favorites': return 'No saved sentences';
+			case 'favorites_title': return 'Favorite Sentences';
 			default: return null;
 		}
 	}
@@ -16127,6 +16259,7 @@ extension on _StringsId {
 			case 'hint_vert_text_orient': return 'Campuran: angka dan huruf Latin diputar ke samping. Tegak: semua karakter tetap tegak.';
 			case 'anki_manage_profiles': return 'Kelola Profil Ekspor';
 			case 'anki_manage_profiles_hint': return 'Konfigurasi pemetaan bidang kartu saat mengekspor ke AnkiDroid. Setiap profil terikat ke tipe catatan Anki dan menentukan bidang hibiki mana yang mengisi bidang Anki mana.';
+			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return 'Hapus duplikat aksen nada';
 			case 'harmonic_frequency': return 'Gabungkan frekuensi kata';
 			case 'manage_audio_sources': return 'Kelola sumber audio';
@@ -16139,6 +16272,11 @@ extension on _StringsId {
 			case 'dictionary_type_frequency': return 'Frekuensi';
 			case 'dictionary_type_pitch': return 'Nada';
 			case 'dictionary_type_term': return 'Istilah';
+			case 'action_favorite': return 'Favorite';
+			case 'favorite_added': return 'Sentence saved to favorites';
+			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
+			case 'no_favorites': return 'No saved sentences';
+			case 'favorites_title': return 'Favorite Sentences';
 			default: return null;
 		}
 	}
@@ -16761,6 +16899,7 @@ extension on _StringsIt {
 			case 'import_theme_invalid': return 'Codice tema non valido';
 			case 'import_theme_success': return 'Tema importato';
 			case 'auto_add_book_name_to_tags': return 'Aggiungi automaticamente il titolo del libro alle etichette';
+			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return 'Deduplica accenti tonali';
 			case 'harmonic_frequency': return 'Aggrega frequenze delle parole';
 			case 'manage_audio_sources': return 'Gestisci sorgenti audio';
@@ -16806,6 +16945,11 @@ extension on _StringsIt {
 			case 'hint_vert_text_orient': return 'Misto: numeri e lettere latine sono ruotati di lato. Diritto: tutti i caratteri rimangono diritti.';
 			case 'anki_manage_profiles': return 'Gestisci profili di esportazione';
 			case 'anki_manage_profiles_hint': return 'Configura la mappatura dei campi durante l\'esportazione verso AnkiDroid. Ogni profilo è collegato a un tipo di nota Anki e definisce quale campo hibiki riempie quale campo Anki.';
+			case 'action_favorite': return 'Favorite';
+			case 'favorite_added': return 'Sentence saved to favorites';
+			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
+			case 'no_favorites': return 'No saved sentences';
+			case 'favorites_title': return 'Favorite Sentences';
 			default: return null;
 		}
 	}
@@ -17421,6 +17565,7 @@ extension on _StringsJa {
 			case 'import_theme_invalid': return '無効なテーマコード';
 			case 'import_theme_success': return 'テーマをインポートしました';
 			case 'auto_add_book_name_to_tags': return 'タグに本のタイトルを自動追加';
+			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return 'アクセント重複除外';
 			case 'harmonic_frequency': return '語彙頻度集約';
 			case 'manage_audio_sources': return '音声ソースの管理';
@@ -17473,6 +17618,11 @@ extension on _StringsJa {
 			case 'dictionary_type_frequency': return '頻度';
 			case 'dictionary_type_pitch': return 'ピッチ';
 			case 'dictionary_type_term': return '用語';
+			case 'action_favorite': return 'お気に入り';
+			case 'favorite_added': return 'お気に入りに追加しました';
+			case 'favorites': return ({required Object n}) => 'お気に入り (${n})';
+			case 'no_favorites': return 'お気に入りはありません';
+			case 'favorites_title': return 'お気に入りの文';
 			default: return null;
 		}
 	}
@@ -18128,6 +18278,7 @@ extension on _StringsKo {
 			case 'hint_vert_text_orient': return '혼합: 숫자와 라틴 문자가 옆으로 회전합니다. 직립: 모든 문자가 똑바로 유지됩니다.';
 			case 'anki_manage_profiles': return '내보내기 프로필 관리';
 			case 'anki_manage_profiles_hint': return 'AnkiDroid로 내보낼 때 카드 필드 매핑을 설정합니다. 각 프로필은 Anki 노트 유형에 연결되며, hibiki의 어떤 필드가 Anki의 어떤 필드에 들어갈지 정의합니다.';
+			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return '피치 악센트 중복 제거';
 			case 'harmonic_frequency': return '단어 빈도 집계';
 			case 'manage_audio_sources': return '오디오 소스 관리';
@@ -18140,6 +18291,11 @@ extension on _StringsKo {
 			case 'dictionary_type_frequency': return '빈도';
 			case 'dictionary_type_pitch': return '피치';
 			case 'dictionary_type_term': return '용어';
+			case 'action_favorite': return 'Favorite';
+			case 'favorite_added': return 'Sentence saved to favorites';
+			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
+			case 'no_favorites': return 'No saved sentences';
+			case 'favorites_title': return 'Favorite Sentences';
 			default: return null;
 		}
 	}
@@ -18762,6 +18918,7 @@ extension on _StringsNl {
 			case 'import_theme_invalid': return 'Ongeldige themacode';
 			case 'import_theme_success': return 'Thema geïmporteerd';
 			case 'auto_add_book_name_to_tags': return 'Boektitel automatisch aan labels toevoegen';
+			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return 'Toonhoogteaccenten dedupliceren';
 			case 'harmonic_frequency': return 'Woordfrequenties aggregeren';
 			case 'manage_audio_sources': return 'Audiobronnen beheren';
@@ -18807,6 +18964,11 @@ extension on _StringsNl {
 			case 'hint_vert_text_orient': return 'Gemengd: cijfers en Latijnse letters worden zijwaarts gedraaid. Rechtop: alle tekens blijven rechtop staan.';
 			case 'anki_manage_profiles': return 'Exportprofielen beheren';
 			case 'anki_manage_profiles_hint': return 'Configureer de veldmapping bij het exporteren naar AnkiDroid. Elk profiel is gekoppeld aan een Anki-notitietype en bepaalt welk hibiki-veld welk Anki-veld vult.';
+			case 'action_favorite': return 'Favorite';
+			case 'favorite_added': return 'Sentence saved to favorites';
+			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
+			case 'no_favorites': return 'No saved sentences';
+			case 'favorites_title': return 'Favorite Sentences';
 			default: return null;
 		}
 	}
@@ -19462,6 +19624,7 @@ extension on _StringsPtBr {
 			case 'hint_vert_text_orient': return 'Misto: números e letras latinas são girados de lado. Vertical: todos os caracteres permanecem verticais.';
 			case 'anki_manage_profiles': return 'Gerenciar Perfis de Exportação';
 			case 'anki_manage_profiles_hint': return 'Configurar como os campos dos cartões são mapeados ao exportar para o AnkiDroid. Cada perfil se vincula a um tipo de nota Anki e define qual campo do hibiki preenche cada campo do Anki.';
+			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return 'Deduplicar acentos tonais';
 			case 'harmonic_frequency': return 'Agregar frequências de palavras';
 			case 'manage_audio_sources': return 'Gerenciar fontes de áudio';
@@ -19474,6 +19637,11 @@ extension on _StringsPtBr {
 			case 'dictionary_type_frequency': return 'Frequência';
 			case 'dictionary_type_pitch': return 'Tom';
 			case 'dictionary_type_term': return 'Termo';
+			case 'action_favorite': return 'Favorite';
+			case 'favorite_added': return 'Sentence saved to favorites';
+			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
+			case 'no_favorites': return 'No saved sentences';
+			case 'favorites_title': return 'Favorite Sentences';
 			default: return null;
 		}
 	}
@@ -20129,6 +20297,7 @@ extension on _StringsRu {
 			case 'hint_vert_text_orient': return 'Смешанный: цифры и латинские буквы поворачиваются набок. Прямой: все символы остаются прямыми.';
 			case 'anki_manage_profiles': return 'Управление профилями экспорта';
 			case 'anki_manage_profiles_hint': return 'Настройте сопоставление полей карточек при экспорте в AnkiDroid. Каждый профиль привязан к типу заметки Anki и определяет, какое поле hibiki заполняет какое поле Anki.';
+			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return 'Удалить дубликаты тональных ударений';
 			case 'harmonic_frequency': return 'Агрегация частот слов';
 			case 'manage_audio_sources': return 'Управление аудиоисточниками';
@@ -20141,6 +20310,11 @@ extension on _StringsRu {
 			case 'dictionary_type_frequency': return 'Частотность';
 			case 'dictionary_type_pitch': return 'Высота тона';
 			case 'dictionary_type_term': return 'Термин';
+			case 'action_favorite': return 'Favorite';
+			case 'favorite_added': return 'Sentence saved to favorites';
+			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
+			case 'no_favorites': return 'No saved sentences';
+			case 'favorites_title': return 'Favorite Sentences';
 			default: return null;
 		}
 	}
@@ -20796,6 +20970,7 @@ extension on _StringsTh {
 			case 'hint_vert_text_orient': return 'ผสม: ตัวเลขและอักษรละตินหมุนตะแคง ตั้งตรง: ตัวอักษรทั้งหมดตั้งตรง';
 			case 'anki_manage_profiles': return 'จัดการโปรไฟล์ส่งออก';
 			case 'anki_manage_profiles_hint': return 'กำหนดค่าการแมปฟิลด์การ์ดเมื่อส่งออกไปยัง AnkiDroid แต่ละโปรไฟล์ผูกกับประเภทโน้ต Anki และกำหนดว่าฟิลด์ hibiki ใดเติมในฟิลด์ Anki ใด';
+			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return 'ลบการเน้นเสียงซ้ำ';
 			case 'harmonic_frequency': return 'รวมความถี่คำ';
 			case 'manage_audio_sources': return 'จัดการแหล่งเสียง';
@@ -20808,6 +20983,11 @@ extension on _StringsTh {
 			case 'dictionary_type_frequency': return 'ความถี่';
 			case 'dictionary_type_pitch': return 'ระดับเสียง';
 			case 'dictionary_type_term': return 'คำศัพท์';
+			case 'action_favorite': return 'Favorite';
+			case 'favorite_added': return 'Sentence saved to favorites';
+			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
+			case 'no_favorites': return 'No saved sentences';
+			case 'favorites_title': return 'Favorite Sentences';
 			default: return null;
 		}
 	}
@@ -21430,6 +21610,7 @@ extension on _StringsTr {
 			case 'import_theme_invalid': return 'Geçersiz tema kodu';
 			case 'import_theme_success': return 'Tema içe aktarıldı';
 			case 'auto_add_book_name_to_tags': return 'Kitap başlığını otomatik olarak etiketlere ekle';
+			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return 'Ton vurgularını tekrarsızlaştır';
 			case 'harmonic_frequency': return 'Kelime sıklıklarını birleştir';
 			case 'manage_audio_sources': return 'Ses kaynaklarını yönet';
@@ -21475,6 +21656,11 @@ extension on _StringsTr {
 			case 'hint_vert_text_orient': return 'Karışık: sayılar ve Latin harfleri yana döndürülür. Dik: tüm karakterler dik kalır.';
 			case 'anki_manage_profiles': return 'Dışa aktarma profillerini yönet';
 			case 'anki_manage_profiles_hint': return 'AnkiDroid\'a dışa aktarırken alan eşlemesini yapılandırın. Her profil bir Anki not türüne bağlıdır ve hangi hibiki alanının hangi Anki alanını dolduracağını tanımlar.';
+			case 'action_favorite': return 'Favorite';
+			case 'favorite_added': return 'Sentence saved to favorites';
+			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
+			case 'no_favorites': return 'No saved sentences';
+			case 'favorites_title': return 'Favorite Sentences';
 			default: return null;
 		}
 	}
@@ -22130,6 +22316,7 @@ extension on _StringsVi {
 			case 'hint_vert_text_orient': return 'Hỗn hợp: số và chữ Latin được xoay ngang. Thẳng đứng: tất cả ký tự giữ thẳng đứng.';
 			case 'anki_manage_profiles': return 'Quản lý hồ sơ xuất';
 			case 'anki_manage_profiles_hint': return 'Cấu hình ánh xạ trường thẻ khi xuất sang AnkiDroid. Mỗi hồ sơ liên kết với một loại ghi chú Anki và xác định trường hibiki nào điền vào trường Anki nào.';
+			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return 'Loại bỏ trùng lặp thanh điệu';
 			case 'harmonic_frequency': return 'Tổng hợp tần suất từ';
 			case 'manage_audio_sources': return 'Quản lý nguồn âm thanh';
@@ -22142,6 +22329,11 @@ extension on _StringsVi {
 			case 'dictionary_type_frequency': return 'Tần suất';
 			case 'dictionary_type_pitch': return 'Thanh điệu';
 			case 'dictionary_type_term': return 'Thuật ngữ';
+			case 'action_favorite': return 'Favorite';
+			case 'favorite_added': return 'Sentence saved to favorites';
+			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
+			case 'no_favorites': return 'No saved sentences';
+			case 'favorites_title': return 'Favorite Sentences';
 			default: return null;
 		}
 	}
@@ -22473,7 +22665,7 @@ extension on _StringsZhCn {
 			case 'handlebar_book_cover': return '书籍封面';
 			case 'handlebar_audio': return '音频';
 			case 'handlebar_sasayaki_audio': return 'Sasayaki 音频';
-			case 'handlebar_popup_selection_text': return 'Popup Selection Text';
+			case 'handlebar_popup_selection_text': return '弹窗选中文本';
 			case 'handlebar_cloze_before': return '完形填空前文';
 			case 'handlebar_cloze_inside': return '完形填空内容';
 			case 'handlebar_cloze_after': return '完形填空后文';
@@ -22764,6 +22956,7 @@ extension on _StringsZhCn {
 			case 'import_theme_invalid': return '无效的主题代码';
 			case 'import_theme_success': return '主题已导入';
 			case 'auto_add_book_name_to_tags': return '自动添加书名到标签';
+			case 'collapse_dictionaries': return '折叠词典';
 			case 'deduplicate_pitch_accents': return '音调去重';
 			case 'harmonic_frequency': return '词频聚合';
 			case 'manage_audio_sources': return '管理音频来源';
@@ -22809,6 +23002,11 @@ extension on _StringsZhCn {
 			case 'hint_vert_text_orient': return '混合：数字和西文字母旋转为横向。直立：所有字符保持直立。';
 			case 'anki_manage_profiles': return '管理导出配置';
 			case 'anki_manage_profiles_hint': return '配置导出到 AnkiDroid 时各字段的映射方式。每个配置绑定一个 Anki 笔记类型，定义 hibiki 的哪个字段填充 Anki 的哪个字段。';
+			case 'action_favorite': return '收藏';
+			case 'favorite_added': return '句子已收藏';
+			case 'favorites': return ({required Object n}) => '收藏 (${n})';
+			case 'no_favorites': return '暂无收藏句子';
+			case 'favorites_title': return '收藏的句子';
 			default: return null;
 		}
 	}
@@ -23442,7 +23640,7 @@ extension on _StringsZhHk {
 			case 'error_log_share_subject': return 'hibiki 錯誤記錄';
 			case 'update_never_remind': return '不再提醒';
 			case 'update_auto_install': return '自動安裝更新';
-			case 'disable_dialog_scrim': return '關閉彈窗背景遮罩（墨水屏）';
+			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
 			case 'update_settings': return '更新設定';
 			case 'anki_settings_label': return 'Anki 設定';
 			case 'anki_default_deck': return '預設牌組';
@@ -23464,6 +23662,7 @@ extension on _StringsZhHk {
 			case 'hint_vert_text_orient': return '混合：數字和西文字母旋轉為橫向。直立：所有字元保持直立。';
 			case 'anki_manage_profiles': return '管理匯出設定檔';
 			case 'anki_manage_profiles_hint': return '設定匯出到 AnkiDroid 時各欄位的對應方式。每個設定檔繫結一個 Anki 筆記類型，定義 hibiki 的哪個欄位填入 Anki 的哪個欄位。';
+			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return '音調重複去除';
 			case 'harmonic_frequency': return '詞頻聚合';
 			case 'manage_audio_sources': return '管理音訊來源';
@@ -23476,6 +23675,11 @@ extension on _StringsZhHk {
 			case 'dictionary_type_frequency': return '詞頻';
 			case 'dictionary_type_pitch': return '音調';
 			case 'dictionary_type_term': return '釋義';
+			case 'action_favorite': return '收藏';
+			case 'favorite_added': return '句子已收藏';
+			case 'favorites': return ({required Object n}) => '收藏 (${n})';
+			case 'no_favorites': return '暫無收藏句子';
+			case 'favorites_title': return '收藏的句子';
 			default: return null;
 		}
 	}
