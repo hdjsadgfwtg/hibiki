@@ -11460,8 +11460,8 @@ class _StringsZhCn implements _StringsEn {
 	@override String get ttu_furigana_mode => '振假名';
 	@override String get ttu_furigana_show => '显示';
 	@override String get ttu_furigana_hide => '隐藏';
-	@override String get ttu_furigana_partial => '部分隐藏';
-	@override String get ttu_furigana_toggle => '点击切换';
+	@override String get ttu_furigana_partial => '部分';
+	@override String get ttu_furigana_toggle => '切换';
 	@override String get ttu_text_indentation => '段落缩进';
 	@override String get ttu_first_dimension_margin => '边距';
 	@override String get ttu_second_dimension_max => '最大宽/高';
@@ -11508,7 +11508,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get av_sync_hint => '正数 = 音频先于文字，向回拨字幕条目；负数 = 音频滞后。';
 	@override String get tap_seek => '点击跳转';
 	@override String get tap_seek_hint => '点击句子跳转音频到对应位置。';
-	@override String get ttu_furigana_mode_hint => '显示：正常；隐藏：完全移除；部分隐藏：颜色提示；点击切换：点击显隐。';
+	@override String get ttu_furigana_mode_hint => '显示注音，隐藏注音，淡化部分注音，或点按切换显隐。';
 	@override String get ttu_text_justify_hint => '拉伸文字填满列宽。';
 	@override String get ttu_vert_kerning_hint => '调整竖排 CJK 字符间距。';
 	@override String get ttu_font_vpal_hint => '竖排时使用比例标点替代字形。';
@@ -23102,8 +23102,8 @@ extension on _StringsZhCn {
 			case 'ttu_furigana_mode': return '振假名';
 			case 'ttu_furigana_show': return '显示';
 			case 'ttu_furigana_hide': return '隐藏';
-			case 'ttu_furigana_partial': return '部分隐藏';
-			case 'ttu_furigana_toggle': return '点击切换';
+			case 'ttu_furigana_partial': return '部分';
+			case 'ttu_furigana_toggle': return '切换';
 			case 'ttu_text_indentation': return '段落缩进';
 			case 'ttu_first_dimension_margin': return '边距';
 			case 'ttu_second_dimension_max': return '最大宽/高';
@@ -23150,7 +23150,7 @@ extension on _StringsZhCn {
 			case 'av_sync_hint': return '正数 = 音频先于文字，向回拨字幕条目；负数 = 音频滞后。';
 			case 'tap_seek': return '点击跳转';
 			case 'tap_seek_hint': return '点击句子跳转音频到对应位置。';
-			case 'ttu_furigana_mode_hint': return '显示：正常；隐藏：完全移除；部分隐藏：颜色提示；点击切换：点击显隐。';
+			case 'ttu_furigana_mode_hint': return '显示注音，隐藏注音，淡化部分注音，或点按切换显隐。';
 			case 'ttu_text_justify_hint': return '拉伸文字填满列宽。';
 			case 'ttu_vert_kerning_hint': return '调整竖排 CJK 字符间距。';
 			case 'ttu_font_vpal_hint': return '竖排时使用比例标点替代字形。';
