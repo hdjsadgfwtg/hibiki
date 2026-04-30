@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 11339 (667 per locale)
+/// Strings: 11492 (676 per locale)
 ///
-/// Built on 2026-04-29 at 12:04 UTC
+/// Built on 2026-04-30 at 16:08 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -829,6 +829,13 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get no_collections => 'No bookmarks or saved sentences';
 	String get collection_bookmark => 'Bookmark';
 	String get collection_sentence => 'Sentence';
+	String get floating_lyric_previous => 'Previous';
+	String get floating_lyric_play_pause => 'Play';
+	String get floating_lyric_next => 'Next';
+	String get floating_lyric_lock => 'Lock';
+	String get floating_lyric_unlock => 'Unlock';
+	String get floating_lyric_close => 'Close';
+	String get initialization_failed => 'Initialisation failed';
 }
 
 // Path: retrying_in
@@ -883,7 +890,7 @@ class _StringsAr implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'القاموس';
-	@override String get dialog_importing => 'IMPORTING…';
+	@override String get dialog_importing => 'جاري الاستيراد…';
 	@override String get player_media_type => 'المشغّل';
 	@override String get reader_media_type => 'القارئ';
 	@override String get viewer_media_type => 'العارض';
@@ -941,7 +948,7 @@ class _StringsAr implements _StringsEn {
 	@override String get dialog_manage => 'إدارة';
 	@override String get dialog_stop => 'إيقاف';
 	@override String get dialog_done => 'تم';
-	@override String get dialog_add => 'ADD';
+	@override String get dialog_add => 'إضافة';
 	@override String get reset => 'إعادة تعيين';
 	@override String get dialog_launch_ankidroid => 'فتح ANKIDROID';
 	@override String get media_item_delete_confirmation => 'سيتم حذف هذا العنصر من السجل. هل أنت متأكد؟';
@@ -1398,8 +1405,6 @@ class _StringsAr implements _StringsEn {
 	@override String get audiobook_settings => 'إعدادات الكتاب الصوتي';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
-	@override String get show_floating_lyric => 'Floating lyric overlay';
-	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'تتبع الصوت: مفعّل (انتقال تلقائي بين الفصول)';
 	@override String get follow_audio_off_tooltip => 'تتبع الصوت: معطّل';
 	@override String get reading_progress => 'تقدم القراءة';
@@ -1549,6 +1554,15 @@ class _StringsAr implements _StringsEn {
 	@override String get no_collections => 'No bookmarks or saved sentences';
 	@override String get collection_bookmark => 'Bookmark';
 	@override String get collection_sentence => 'Sentence';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
+	@override String get floating_lyric_previous => 'Previous';
+	@override String get floating_lyric_play_pause => 'Play';
+	@override String get floating_lyric_next => 'Next';
+	@override String get floating_lyric_lock => 'Lock';
+	@override String get floating_lyric_unlock => 'Unlock';
+	@override String get floating_lyric_close => 'Close';
+	@override String get initialization_failed => 'فشل التهيئة';
 }
 
 // Path: retrying_in
@@ -1603,7 +1617,7 @@ class _StringsDe implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Wörterbuch';
-	@override String get dialog_importing => 'IMPORTING…';
+	@override String get dialog_importing => 'IMPORTIEREN…';
 	@override String get player_media_type => 'Player';
 	@override String get reader_media_type => 'Reader';
 	@override String get viewer_media_type => 'Betrachter';
@@ -1661,7 +1675,7 @@ class _StringsDe implements _StringsEn {
 	@override String get dialog_manage => 'VERWALTEN';
 	@override String get dialog_stop => 'STOPPEN';
 	@override String get dialog_done => 'FERTIG';
-	@override String get dialog_add => 'ADD';
+	@override String get dialog_add => 'HINZUFÜGEN';
 	@override String get reset => 'Zurücksetzen';
 	@override String get dialog_launch_ankidroid => 'ANKIDROID STARTEN';
 	@override String get media_item_delete_confirmation => 'Dieses Element wird aus dem Verlauf gelöscht. Sind Sie sicher?';
@@ -2118,8 +2132,6 @@ class _StringsDe implements _StringsEn {
 	@override String get audiobook_settings => 'Hörbuch-Einstellungen';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
-	@override String get show_floating_lyric => 'Floating lyric overlay';
-	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Audio-Verfolgung: AN (automatischer Kapitelsprung)';
 	@override String get follow_audio_off_tooltip => 'Audio-Verfolgung: AUS';
 	@override String get reading_progress => 'Lesefortschritt';
@@ -2269,6 +2281,15 @@ class _StringsDe implements _StringsEn {
 	@override String get no_collections => 'No bookmarks or saved sentences';
 	@override String get collection_bookmark => 'Bookmark';
 	@override String get collection_sentence => 'Sentence';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
+	@override String get floating_lyric_previous => 'Previous';
+	@override String get floating_lyric_play_pause => 'Play';
+	@override String get floating_lyric_next => 'Next';
+	@override String get floating_lyric_lock => 'Lock';
+	@override String get floating_lyric_unlock => 'Unlock';
+	@override String get floating_lyric_close => 'Close';
+	@override String get initialization_failed => 'Initialisierung fehlgeschlagen';
 }
 
 // Path: retrying_in
@@ -2323,7 +2344,7 @@ class _StringsEs implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Diccionario';
-	@override String get dialog_importing => 'IMPORTING…';
+	@override String get dialog_importing => 'IMPORTANDO…';
 	@override String get player_media_type => 'Reproductor';
 	@override String get reader_media_type => 'Lector';
 	@override String get viewer_media_type => 'Visor';
@@ -2381,7 +2402,7 @@ class _StringsEs implements _StringsEn {
 	@override String get dialog_manage => 'GESTIONAR';
 	@override String get dialog_stop => 'DETENER';
 	@override String get dialog_done => 'HECHO';
-	@override String get dialog_add => 'ADD';
+	@override String get dialog_add => 'AÑADIR';
 	@override String get reset => 'Restablecer';
 	@override String get dialog_launch_ankidroid => 'ABRIR ANKIDROID';
 	@override String get media_item_delete_confirmation => 'Esto eliminará este elemento del historial. ¿Estás seguro?';
@@ -2838,8 +2859,6 @@ class _StringsEs implements _StringsEn {
 	@override String get audiobook_settings => 'Configuración del audiolibro';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
-	@override String get show_floating_lyric => 'Floating lyric overlay';
-	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Seguir audio: ACTIVADO (salto automático entre capítulos)';
 	@override String get follow_audio_off_tooltip => 'Seguir audio: DESACTIVADO';
 	@override String get reading_progress => 'Progreso de lectura';
@@ -2989,6 +3008,15 @@ class _StringsEs implements _StringsEn {
 	@override String get no_collections => 'No bookmarks or saved sentences';
 	@override String get collection_bookmark => 'Bookmark';
 	@override String get collection_sentence => 'Sentence';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
+	@override String get floating_lyric_previous => 'Previous';
+	@override String get floating_lyric_play_pause => 'Play';
+	@override String get floating_lyric_next => 'Next';
+	@override String get floating_lyric_lock => 'Lock';
+	@override String get floating_lyric_unlock => 'Unlock';
+	@override String get floating_lyric_close => 'Close';
+	@override String get initialization_failed => 'Error de inicialización';
 }
 
 // Path: retrying_in
@@ -3043,7 +3071,7 @@ class _StringsFr implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Dictionnaire';
-	@override String get dialog_importing => 'IMPORTING…';
+	@override String get dialog_importing => 'IMPORTATION…';
 	@override String get player_media_type => 'Lecteur';
 	@override String get reader_media_type => 'Liseuse';
 	@override String get viewer_media_type => 'Visionneuse';
@@ -3101,7 +3129,7 @@ class _StringsFr implements _StringsEn {
 	@override String get dialog_manage => 'GÉRER';
 	@override String get dialog_stop => 'ARRÊTER';
 	@override String get dialog_done => 'TERMINÉ';
-	@override String get dialog_add => 'ADD';
+	@override String get dialog_add => 'AJOUTER';
 	@override String get reset => 'Réinitialiser';
 	@override String get dialog_launch_ankidroid => 'OUVRIR ANKIDROID';
 	@override String get media_item_delete_confirmation => 'Cet élément sera supprimé de l\'historique. Êtes-vous sûr de vouloir continuer ?';
@@ -3558,8 +3586,6 @@ class _StringsFr implements _StringsEn {
 	@override String get audiobook_settings => 'Paramètres du livre audio';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
-	@override String get show_floating_lyric => 'Floating lyric overlay';
-	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Suivi audio : ACTIVÉ (saut automatique entre chapitres)';
 	@override String get follow_audio_off_tooltip => 'Suivi audio : DÉSACTIVÉ';
 	@override String get reading_progress => 'Progression de lecture';
@@ -3709,6 +3735,15 @@ class _StringsFr implements _StringsEn {
 	@override String get no_collections => 'No bookmarks or saved sentences';
 	@override String get collection_bookmark => 'Bookmark';
 	@override String get collection_sentence => 'Sentence';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
+	@override String get floating_lyric_previous => 'Previous';
+	@override String get floating_lyric_play_pause => 'Play';
+	@override String get floating_lyric_next => 'Next';
+	@override String get floating_lyric_lock => 'Lock';
+	@override String get floating_lyric_unlock => 'Unlock';
+	@override String get floating_lyric_close => 'Close';
+	@override String get initialization_failed => 'Échec de l\'initialisation';
 }
 
 // Path: retrying_in
@@ -3763,7 +3798,7 @@ class _StringsId implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Kamus';
-	@override String get dialog_importing => 'IMPORTING…';
+	@override String get dialog_importing => 'MENGIMPOR…';
 	@override String get player_media_type => 'Pemutar';
 	@override String get reader_media_type => 'Pembaca';
 	@override String get viewer_media_type => 'Penampil';
@@ -3821,7 +3856,7 @@ class _StringsId implements _StringsEn {
 	@override String get dialog_manage => 'KELOLA';
 	@override String get dialog_stop => 'BERHENTI';
 	@override String get dialog_done => 'SELESAI';
-	@override String get dialog_add => 'ADD';
+	@override String get dialog_add => 'TAMBAH';
 	@override String get reset => 'Reset';
 	@override String get dialog_launch_ankidroid => 'BUKA ANKIDROID';
 	@override String get media_item_delete_confirmation => 'Item ini akan dihapus dari riwayat. Apakah Anda yakin?';
@@ -4278,8 +4313,6 @@ class _StringsId implements _StringsEn {
 	@override String get audiobook_settings => 'Pengaturan Buku Audio';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
-	@override String get show_floating_lyric => 'Floating lyric overlay';
-	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Ikuti audio: AKTIF (lompat bab otomatis)';
 	@override String get follow_audio_off_tooltip => 'Ikuti audio: NONAKTIF';
 	@override String get reading_progress => 'Progres Membaca';
@@ -4429,6 +4462,15 @@ class _StringsId implements _StringsEn {
 	@override String get no_collections => 'No bookmarks or saved sentences';
 	@override String get collection_bookmark => 'Bookmark';
 	@override String get collection_sentence => 'Sentence';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
+	@override String get floating_lyric_previous => 'Previous';
+	@override String get floating_lyric_play_pause => 'Play';
+	@override String get floating_lyric_next => 'Next';
+	@override String get floating_lyric_lock => 'Lock';
+	@override String get floating_lyric_unlock => 'Unlock';
+	@override String get floating_lyric_close => 'Close';
+	@override String get initialization_failed => 'Inisialisasi gagal';
 }
 
 // Path: retrying_in
@@ -4483,7 +4525,7 @@ class _StringsIt implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Dizionario';
-	@override String get dialog_importing => 'IMPORTING…';
+	@override String get dialog_importing => 'IMPORTAZIONE…';
 	@override String get player_media_type => 'Lettore';
 	@override String get reader_media_type => 'Lettore';
 	@override String get viewer_media_type => 'Visualizzatore';
@@ -5023,8 +5065,6 @@ class _StringsIt implements _StringsEn {
 	@override String get audiobook_settings => 'Impostazioni audiolibro';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
-	@override String get show_floating_lyric => 'Floating lyric overlay';
-	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Segui audio: ATTIVO (salto automatico tra capitoli)';
 	@override String get follow_audio_off_tooltip => 'Segui audio: DISATTIVO';
 	@override String get reading_progress => 'Progresso di lettura';
@@ -5149,6 +5189,15 @@ class _StringsIt implements _StringsEn {
 	@override String get no_collections => 'No bookmarks or saved sentences';
 	@override String get collection_bookmark => 'Bookmark';
 	@override String get collection_sentence => 'Sentence';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
+	@override String get floating_lyric_previous => 'Previous';
+	@override String get floating_lyric_play_pause => 'Play';
+	@override String get floating_lyric_next => 'Next';
+	@override String get floating_lyric_lock => 'Lock';
+	@override String get floating_lyric_unlock => 'Unlock';
+	@override String get floating_lyric_close => 'Close';
+	@override String get initialization_failed => 'Inizializzazione fallita';
 }
 
 // Path: retrying_in
@@ -5203,7 +5252,7 @@ class _StringsJa implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => '辞書';
-	@override String get dialog_importing => 'IMPORTING…';
+	@override String get dialog_importing => 'インポート中…';
 	@override String get player_media_type => 'プレイヤー';
 	@override String get reader_media_type => 'リーダー';
 	@override String get viewer_media_type => 'ビューアー';
@@ -5261,7 +5310,7 @@ class _StringsJa implements _StringsEn {
 	@override String get dialog_manage => '管理';
 	@override String get dialog_stop => '停止';
 	@override String get dialog_done => '完了';
-	@override String get dialog_add => 'ADD';
+	@override String get dialog_add => '追加';
 	@override String get reset => 'リセット';
 	@override String get dialog_launch_ankidroid => 'ANKIDROIDを起動';
 	@override String get media_item_delete_confirmation => 'この項目を履歴から削除します。よろしいですか？';
@@ -5718,8 +5767,6 @@ class _StringsJa implements _StringsEn {
 	@override String get audiobook_settings => 'オーディオブック設定';
 	@override String get show_play_bar => '再生バーを表示';
 	@override String get show_media_notification => 'メディア通知を表示';
-	@override String get show_floating_lyric => 'フローティング字幕';
-	@override String get floating_lyric_hint => '他のアプリの上に現在の文を表示します。';
 	@override String get follow_audio_on_tooltip => '音声追従：ON（チャプター間を自動ジャンプ）';
 	@override String get follow_audio_off_tooltip => '音声追従：OFF';
 	@override String get reading_progress => '読書進捗';
@@ -5869,6 +5916,15 @@ class _StringsJa implements _StringsEn {
 	@override String get no_collections => 'ブックマークや保存した文がありません';
 	@override String get collection_bookmark => 'ブックマーク';
 	@override String get collection_sentence => '文';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
+	@override String get floating_lyric_previous => 'Previous';
+	@override String get floating_lyric_play_pause => 'Play';
+	@override String get floating_lyric_next => 'Next';
+	@override String get floating_lyric_lock => 'Lock';
+	@override String get floating_lyric_unlock => 'Unlock';
+	@override String get floating_lyric_close => 'Close';
+	@override String get initialization_failed => '初期化に失敗しました';
 }
 
 // Path: retrying_in
@@ -5923,7 +5979,7 @@ class _StringsKo implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => '사전';
-	@override String get dialog_importing => 'IMPORTING…';
+	@override String get dialog_importing => '가져오는 중…';
 	@override String get player_media_type => '플레이어';
 	@override String get reader_media_type => '리더';
 	@override String get viewer_media_type => '뷰어';
@@ -5981,7 +6037,7 @@ class _StringsKo implements _StringsEn {
 	@override String get dialog_manage => '관리';
 	@override String get dialog_stop => '중지';
 	@override String get dialog_done => '완료';
-	@override String get dialog_add => 'ADD';
+	@override String get dialog_add => '추가';
 	@override String get reset => '초기화';
 	@override String get dialog_launch_ankidroid => 'ANKIDROID 실행';
 	@override String get media_item_delete_confirmation => '이 항목이 기록에서 삭제됩니다. 계속하시겠습니까?';
@@ -6438,8 +6494,6 @@ class _StringsKo implements _StringsEn {
 	@override String get audiobook_settings => '오디오북 설정';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
-	@override String get show_floating_lyric => 'Floating lyric overlay';
-	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => '오디오 따라가기: 켜짐 (챕터 자동 이동)';
 	@override String get follow_audio_off_tooltip => '오디오 따라가기: 꺼짐';
 	@override String get reading_progress => '읽기 진행률';
@@ -6589,6 +6643,15 @@ class _StringsKo implements _StringsEn {
 	@override String get no_collections => 'No bookmarks or saved sentences';
 	@override String get collection_bookmark => 'Bookmark';
 	@override String get collection_sentence => 'Sentence';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
+	@override String get floating_lyric_previous => 'Previous';
+	@override String get floating_lyric_play_pause => 'Play';
+	@override String get floating_lyric_next => 'Next';
+	@override String get floating_lyric_lock => 'Lock';
+	@override String get floating_lyric_unlock => 'Unlock';
+	@override String get floating_lyric_close => 'Close';
+	@override String get initialization_failed => '초기화 실패';
 }
 
 // Path: retrying_in
@@ -6643,7 +6706,7 @@ class _StringsNl implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Woordenboek';
-	@override String get dialog_importing => 'IMPORTING…';
+	@override String get dialog_importing => 'IMPORTEREN…';
 	@override String get player_media_type => 'Speler';
 	@override String get reader_media_type => 'Lezer';
 	@override String get viewer_media_type => 'Viewer';
@@ -7183,8 +7246,6 @@ class _StringsNl implements _StringsEn {
 	@override String get audiobook_settings => 'Audioboekinstellingen';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
-	@override String get show_floating_lyric => 'Floating lyric overlay';
-	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Audio volgen: AAN (automatisch springen tussen hoofdstukken)';
 	@override String get follow_audio_off_tooltip => 'Audio volgen: UIT';
 	@override String get reading_progress => 'Leesvoortgang';
@@ -7309,6 +7370,15 @@ class _StringsNl implements _StringsEn {
 	@override String get no_collections => 'No bookmarks or saved sentences';
 	@override String get collection_bookmark => 'Bookmark';
 	@override String get collection_sentence => 'Sentence';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
+	@override String get floating_lyric_previous => 'Previous';
+	@override String get floating_lyric_play_pause => 'Play';
+	@override String get floating_lyric_next => 'Next';
+	@override String get floating_lyric_lock => 'Lock';
+	@override String get floating_lyric_unlock => 'Unlock';
+	@override String get floating_lyric_close => 'Close';
+	@override String get initialization_failed => 'Initialisatie mislukt';
 }
 
 // Path: retrying_in
@@ -7363,7 +7433,7 @@ class _StringsPtBr implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Dicionário';
-	@override String get dialog_importing => 'IMPORTING…';
+	@override String get dialog_importing => 'IMPORTANDO…';
 	@override String get player_media_type => 'Reprodutor';
 	@override String get reader_media_type => 'Leitor';
 	@override String get viewer_media_type => 'Visualizador';
@@ -7421,7 +7491,7 @@ class _StringsPtBr implements _StringsEn {
 	@override String get dialog_manage => 'GERENCIAR';
 	@override String get dialog_stop => 'PARAR';
 	@override String get dialog_done => 'CONCLUÍDO';
-	@override String get dialog_add => 'ADD';
+	@override String get dialog_add => 'ADICIONAR';
 	@override String get reset => 'Redefinir';
 	@override String get dialog_launch_ankidroid => 'ABRIR ANKIDROID';
 	@override String get media_item_delete_confirmation => 'Isso removerá este item do histórico. Tem certeza de que deseja fazer isso?';
@@ -7878,8 +7948,6 @@ class _StringsPtBr implements _StringsEn {
 	@override String get audiobook_settings => 'Configurações do Audiolivro';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
-	@override String get show_floating_lyric => 'Floating lyric overlay';
-	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Acompanhar áudio: LIGADO (pular entre capítulos automaticamente)';
 	@override String get follow_audio_off_tooltip => 'Acompanhar áudio: DESLIGADO';
 	@override String get reading_progress => 'Progresso da Leitura';
@@ -8029,6 +8097,15 @@ class _StringsPtBr implements _StringsEn {
 	@override String get no_collections => 'No bookmarks or saved sentences';
 	@override String get collection_bookmark => 'Bookmark';
 	@override String get collection_sentence => 'Sentence';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
+	@override String get floating_lyric_previous => 'Previous';
+	@override String get floating_lyric_play_pause => 'Play';
+	@override String get floating_lyric_next => 'Next';
+	@override String get floating_lyric_lock => 'Lock';
+	@override String get floating_lyric_unlock => 'Unlock';
+	@override String get floating_lyric_close => 'Close';
+	@override String get initialization_failed => 'Falha na inicialização';
 }
 
 // Path: retrying_in
@@ -8083,7 +8160,7 @@ class _StringsRu implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Словарь';
-	@override String get dialog_importing => 'IMPORTING…';
+	@override String get dialog_importing => 'ИМПОРТ…';
 	@override String get player_media_type => 'Плеер';
 	@override String get reader_media_type => 'Читалка';
 	@override String get viewer_media_type => 'Просмотр';
@@ -8141,7 +8218,7 @@ class _StringsRu implements _StringsEn {
 	@override String get dialog_manage => 'УПРАВЛЕНИЕ';
 	@override String get dialog_stop => 'СТОП';
 	@override String get dialog_done => 'ГОТОВО';
-	@override String get dialog_add => 'ADD';
+	@override String get dialog_add => 'ДОБАВИТЬ';
 	@override String get reset => 'Сбросить';
 	@override String get dialog_launch_ankidroid => 'ОТКРЫТЬ ANKIDROID';
 	@override String get media_item_delete_confirmation => 'Этот элемент будет удалён из истории. Вы уверены?';
@@ -8598,8 +8675,6 @@ class _StringsRu implements _StringsEn {
 	@override String get audiobook_settings => 'Настройки аудиокниги';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
-	@override String get show_floating_lyric => 'Floating lyric overlay';
-	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Следование за аудио: ВКЛ (автопереход между главами)';
 	@override String get follow_audio_off_tooltip => 'Следование за аудио: ВЫКЛ';
 	@override String get reading_progress => 'Прогресс чтения';
@@ -8749,6 +8824,15 @@ class _StringsRu implements _StringsEn {
 	@override String get no_collections => 'No bookmarks or saved sentences';
 	@override String get collection_bookmark => 'Bookmark';
 	@override String get collection_sentence => 'Sentence';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
+	@override String get floating_lyric_previous => 'Previous';
+	@override String get floating_lyric_play_pause => 'Play';
+	@override String get floating_lyric_next => 'Next';
+	@override String get floating_lyric_lock => 'Lock';
+	@override String get floating_lyric_unlock => 'Unlock';
+	@override String get floating_lyric_close => 'Close';
+	@override String get initialization_failed => 'Ошибка инициализации';
 }
 
 // Path: retrying_in
@@ -8803,7 +8887,7 @@ class _StringsTh implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'พจนานุกรม';
-	@override String get dialog_importing => 'IMPORTING…';
+	@override String get dialog_importing => 'กำลังนำเข้า…';
 	@override String get player_media_type => 'เครื่องเล่น';
 	@override String get reader_media_type => 'ตัวอ่าน';
 	@override String get viewer_media_type => 'ตัวดู';
@@ -8861,7 +8945,7 @@ class _StringsTh implements _StringsEn {
 	@override String get dialog_manage => 'จัดการ';
 	@override String get dialog_stop => 'หยุด';
 	@override String get dialog_done => 'เสร็จสิ้น';
-	@override String get dialog_add => 'ADD';
+	@override String get dialog_add => 'เพิ่ม';
 	@override String get reset => 'รีเซ็ต';
 	@override String get dialog_launch_ankidroid => 'เปิด ANKIDROID';
 	@override String get media_item_delete_confirmation => 'รายการนี้จะถูกลบออกจากประวัติ คุณแน่ใจหรือไม่?';
@@ -9318,8 +9402,6 @@ class _StringsTh implements _StringsEn {
 	@override String get audiobook_settings => 'ตั้งค่าหนังสือเสียง';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
-	@override String get show_floating_lyric => 'Floating lyric overlay';
-	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'ติดตามเสียง: เปิด (ข้ามบทอัตโนมัติ)';
 	@override String get follow_audio_off_tooltip => 'ติดตามเสียง: ปิด';
 	@override String get reading_progress => 'ความคืบหน้าการอ่าน';
@@ -9469,6 +9551,15 @@ class _StringsTh implements _StringsEn {
 	@override String get no_collections => 'No bookmarks or saved sentences';
 	@override String get collection_bookmark => 'Bookmark';
 	@override String get collection_sentence => 'Sentence';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
+	@override String get floating_lyric_previous => 'Previous';
+	@override String get floating_lyric_play_pause => 'Play';
+	@override String get floating_lyric_next => 'Next';
+	@override String get floating_lyric_lock => 'Lock';
+	@override String get floating_lyric_unlock => 'Unlock';
+	@override String get floating_lyric_close => 'Close';
+	@override String get initialization_failed => 'การเริ่มต้นล้มเหลว';
 }
 
 // Path: retrying_in
@@ -9523,7 +9614,7 @@ class _StringsTr implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Sözlük';
-	@override String get dialog_importing => 'IMPORTING…';
+	@override String get dialog_importing => 'İÇE AKTARILIYOR…';
 	@override String get player_media_type => 'Oynatıcı';
 	@override String get reader_media_type => 'Okuyucu';
 	@override String get viewer_media_type => 'Görüntüleyici';
@@ -10063,8 +10154,6 @@ class _StringsTr implements _StringsEn {
 	@override String get audiobook_settings => 'Sesli kitap ayarları';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
-	@override String get show_floating_lyric => 'Floating lyric overlay';
-	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Ses takibi: AÇIK (bölümler arası otomatik atlama)';
 	@override String get follow_audio_off_tooltip => 'Ses takibi: KAPALI';
 	@override String get reading_progress => 'Okuma ilerlemesi';
@@ -10189,6 +10278,15 @@ class _StringsTr implements _StringsEn {
 	@override String get no_collections => 'No bookmarks or saved sentences';
 	@override String get collection_bookmark => 'Bookmark';
 	@override String get collection_sentence => 'Sentence';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
+	@override String get floating_lyric_previous => 'Previous';
+	@override String get floating_lyric_play_pause => 'Play';
+	@override String get floating_lyric_next => 'Next';
+	@override String get floating_lyric_lock => 'Lock';
+	@override String get floating_lyric_unlock => 'Unlock';
+	@override String get floating_lyric_close => 'Close';
+	@override String get initialization_failed => 'Başlatma başarısız';
 }
 
 // Path: retrying_in
@@ -10243,7 +10341,7 @@ class _StringsVi implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => 'Từ điển';
-	@override String get dialog_importing => 'IMPORTING…';
+	@override String get dialog_importing => 'ĐANG NHẬP…';
 	@override String get player_media_type => 'Trình phát';
 	@override String get reader_media_type => 'Trình đọc';
 	@override String get viewer_media_type => 'Trình xem';
@@ -10301,7 +10399,7 @@ class _StringsVi implements _StringsEn {
 	@override String get dialog_manage => 'QUẢN LÝ';
 	@override String get dialog_stop => 'DỪNG';
 	@override String get dialog_done => 'XONG';
-	@override String get dialog_add => 'ADD';
+	@override String get dialog_add => 'THÊM';
 	@override String get reset => 'Đặt lại';
 	@override String get dialog_launch_ankidroid => 'MỞ ANKIDROID';
 	@override String get media_item_delete_confirmation => 'Thao tác này sẽ xóa mục này khỏi lịch sử. Bạn có chắc chắn muốn thực hiện?';
@@ -10758,8 +10856,6 @@ class _StringsVi implements _StringsEn {
 	@override String get audiobook_settings => 'Cài đặt sách nói';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
-	@override String get show_floating_lyric => 'Floating lyric overlay';
-	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Theo dõi âm thanh: BẬT (tự chuyển chương)';
 	@override String get follow_audio_off_tooltip => 'Theo dõi âm thanh: TẮT';
 	@override String get reading_progress => 'Tiến độ đọc';
@@ -10909,6 +11005,15 @@ class _StringsVi implements _StringsEn {
 	@override String get no_collections => 'No bookmarks or saved sentences';
 	@override String get collection_bookmark => 'Bookmark';
 	@override String get collection_sentence => 'Sentence';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
+	@override String get floating_lyric_previous => 'Previous';
+	@override String get floating_lyric_play_pause => 'Play';
+	@override String get floating_lyric_next => 'Next';
+	@override String get floating_lyric_lock => 'Lock';
+	@override String get floating_lyric_unlock => 'Unlock';
+	@override String get floating_lyric_close => 'Close';
+	@override String get initialization_failed => 'Khởi tạo thất bại';
 }
 
 // Path: retrying_in
@@ -11488,8 +11593,6 @@ class _StringsZhCn implements _StringsEn {
 	@override String get audiobook_settings => '有声书设置';
 	@override String get show_play_bar => '显示播放栏';
 	@override String get show_media_notification => '显示媒体通知';
-	@override String get show_floating_lyric => '悬浮字幕';
-	@override String get floating_lyric_hint => '在其他应用上方显示当前句子。';
 	@override String get follow_audio_on_tooltip => '音频跟随：开启（跨章自动跳转）';
 	@override String get follow_audio_off_tooltip => '音频跟随：关闭';
 	@override String get reading_progress => '阅读进度';
@@ -11629,6 +11732,15 @@ class _StringsZhCn implements _StringsEn {
 	@override String get no_collections => '没有书签或保存的句子';
 	@override String get collection_bookmark => '书签';
 	@override String get collection_sentence => '句子';
+	@override String get floating_lyric_previous => '上句';
+	@override String get floating_lyric_play_pause => '播放';
+	@override String get floating_lyric_next => '下句';
+	@override String get floating_lyric_lock => '锁定';
+	@override String get floating_lyric_unlock => '解锁';
+	@override String get floating_lyric_close => '关闭';
+	@override String get show_floating_lyric => '悬浮字幕';
+	@override String get floating_lyric_hint => '在其他应用上方显示当前句子。';
+	@override String get initialization_failed => '初始化失败';
 }
 
 // Path: retrying_in
@@ -11683,7 +11795,7 @@ class _StringsZhHk implements _StringsEn {
 
 	// Translations
 	@override String get dictionary_media_type => '辭典';
-	@override String get dialog_importing => 'IMPORTING…';
+	@override String get dialog_importing => '正在匯入…';
 	@override String get player_media_type => '播放器';
 	@override String get reader_media_type => '閱讀器';
 	@override String get viewer_media_type => '檢視器';
@@ -11741,7 +11853,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String get dialog_manage => '管理';
 	@override String get dialog_stop => '停止';
 	@override String get dialog_done => '完成';
-	@override String get dialog_add => 'ADD';
+	@override String get dialog_add => '添加';
 	@override String get reset => '重設';
 	@override String get dialog_launch_ankidroid => '啟動 ANKIDROID';
 	@override String get media_item_delete_confirmation => '此操作將從歷史記錄中移除該項目。確定繼續嗎？';
@@ -12198,8 +12310,6 @@ class _StringsZhHk implements _StringsEn {
 	@override String get audiobook_settings => '有聲書設定';
 	@override String get show_play_bar => '顯示播放欄';
 	@override String get show_media_notification => '顯示媒體通知';
-	@override String get show_floating_lyric => '懸浮字幕';
-	@override String get floating_lyric_hint => '在其他應用上方顯示當前句子。';
 	@override String get follow_audio_on_tooltip => '音頻跟隨：開啟（跨章自動跳轉）';
 	@override String get follow_audio_off_tooltip => '音頻跟隨：關閉';
 	@override String get reading_progress => '閱讀進度';
@@ -12349,6 +12459,15 @@ class _StringsZhHk implements _StringsEn {
 	@override String get no_collections => '沒有書籤或保存的句子';
 	@override String get collection_bookmark => '書籤';
 	@override String get collection_sentence => '句子';
+	@override String get floating_lyric_previous => '上句';
+	@override String get floating_lyric_play_pause => '播放';
+	@override String get floating_lyric_next => '下句';
+	@override String get floating_lyric_lock => '鎖定';
+	@override String get floating_lyric_unlock => '解鎖';
+	@override String get floating_lyric_close => '關閉';
+	@override String get show_floating_lyric => '懸浮字幕';
+	@override String get floating_lyric_hint => '在其他應用程式上方顯示目前句子。';
+	@override String get initialization_failed => '初始化失敗';
 }
 
 // Path: retrying_in
@@ -13056,6 +13175,13 @@ extension on _StringsEn {
 			case 'no_collections': return 'No bookmarks or saved sentences';
 			case 'collection_bookmark': return 'Bookmark';
 			case 'collection_sentence': return 'Sentence';
+			case 'floating_lyric_previous': return 'Previous';
+			case 'floating_lyric_play_pause': return 'Play';
+			case 'floating_lyric_next': return 'Next';
+			case 'floating_lyric_lock': return 'Lock';
+			case 'floating_lyric_unlock': return 'Unlock';
+			case 'floating_lyric_close': return 'Close';
+			case 'initialization_failed': return 'Initialisation failed';
 			default: return null;
 		}
 	}
@@ -13065,7 +13191,7 @@ extension on _StringsAr {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'القاموس';
-			case 'dialog_importing': return 'IMPORTING…';
+			case 'dialog_importing': return 'جاري الاستيراد…';
 			case 'player_media_type': return 'المشغّل';
 			case 'reader_media_type': return 'القارئ';
 			case 'viewer_media_type': return 'العارض';
@@ -13123,7 +13249,7 @@ extension on _StringsAr {
 			case 'dialog_manage': return 'إدارة';
 			case 'dialog_stop': return 'إيقاف';
 			case 'dialog_done': return 'تم';
-			case 'dialog_add': return 'ADD';
+			case 'dialog_add': return 'إضافة';
 			case 'reset': return 'إعادة تعيين';
 			case 'dialog_launch_ankidroid': return 'فتح ANKIDROID';
 			case 'media_item_delete_confirmation': return 'سيتم حذف هذا العنصر من السجل. هل أنت متأكد؟';
@@ -13586,8 +13712,6 @@ extension on _StringsAr {
 			case 'audiobook_settings': return 'إعدادات الكتاب الصوتي';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
-			case 'show_floating_lyric': return 'Floating lyric overlay';
-			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'تتبع الصوت: مفعّل (انتقال تلقائي بين الفصول)';
 			case 'follow_audio_off_tooltip': return 'تتبع الصوت: معطّل';
 			case 'reading_progress': return 'تقدم القراءة';
@@ -13737,6 +13861,15 @@ extension on _StringsAr {
 			case 'no_collections': return 'No bookmarks or saved sentences';
 			case 'collection_bookmark': return 'Bookmark';
 			case 'collection_sentence': return 'Sentence';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
+			case 'floating_lyric_previous': return 'Previous';
+			case 'floating_lyric_play_pause': return 'Play';
+			case 'floating_lyric_next': return 'Next';
+			case 'floating_lyric_lock': return 'Lock';
+			case 'floating_lyric_unlock': return 'Unlock';
+			case 'floating_lyric_close': return 'Close';
+			case 'initialization_failed': return 'فشل التهيئة';
 			default: return null;
 		}
 	}
@@ -13746,7 +13879,7 @@ extension on _StringsDe {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Wörterbuch';
-			case 'dialog_importing': return 'IMPORTING…';
+			case 'dialog_importing': return 'IMPORTIEREN…';
 			case 'player_media_type': return 'Player';
 			case 'reader_media_type': return 'Reader';
 			case 'viewer_media_type': return 'Betrachter';
@@ -13804,7 +13937,7 @@ extension on _StringsDe {
 			case 'dialog_manage': return 'VERWALTEN';
 			case 'dialog_stop': return 'STOPPEN';
 			case 'dialog_done': return 'FERTIG';
-			case 'dialog_add': return 'ADD';
+			case 'dialog_add': return 'HINZUFÜGEN';
 			case 'reset': return 'Zurücksetzen';
 			case 'dialog_launch_ankidroid': return 'ANKIDROID STARTEN';
 			case 'media_item_delete_confirmation': return 'Dieses Element wird aus dem Verlauf gelöscht. Sind Sie sicher?';
@@ -14267,8 +14400,6 @@ extension on _StringsDe {
 			case 'audiobook_settings': return 'Hörbuch-Einstellungen';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
-			case 'show_floating_lyric': return 'Floating lyric overlay';
-			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Audio-Verfolgung: AN (automatischer Kapitelsprung)';
 			case 'follow_audio_off_tooltip': return 'Audio-Verfolgung: AUS';
 			case 'reading_progress': return 'Lesefortschritt';
@@ -14418,6 +14549,15 @@ extension on _StringsDe {
 			case 'no_collections': return 'No bookmarks or saved sentences';
 			case 'collection_bookmark': return 'Bookmark';
 			case 'collection_sentence': return 'Sentence';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
+			case 'floating_lyric_previous': return 'Previous';
+			case 'floating_lyric_play_pause': return 'Play';
+			case 'floating_lyric_next': return 'Next';
+			case 'floating_lyric_lock': return 'Lock';
+			case 'floating_lyric_unlock': return 'Unlock';
+			case 'floating_lyric_close': return 'Close';
+			case 'initialization_failed': return 'Initialisierung fehlgeschlagen';
 			default: return null;
 		}
 	}
@@ -14427,7 +14567,7 @@ extension on _StringsEs {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Diccionario';
-			case 'dialog_importing': return 'IMPORTING…';
+			case 'dialog_importing': return 'IMPORTANDO…';
 			case 'player_media_type': return 'Reproductor';
 			case 'reader_media_type': return 'Lector';
 			case 'viewer_media_type': return 'Visor';
@@ -14485,7 +14625,7 @@ extension on _StringsEs {
 			case 'dialog_manage': return 'GESTIONAR';
 			case 'dialog_stop': return 'DETENER';
 			case 'dialog_done': return 'HECHO';
-			case 'dialog_add': return 'ADD';
+			case 'dialog_add': return 'AÑADIR';
 			case 'reset': return 'Restablecer';
 			case 'dialog_launch_ankidroid': return 'ABRIR ANKIDROID';
 			case 'media_item_delete_confirmation': return 'Esto eliminará este elemento del historial. ¿Estás seguro?';
@@ -14948,8 +15088,6 @@ extension on _StringsEs {
 			case 'audiobook_settings': return 'Configuración del audiolibro';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
-			case 'show_floating_lyric': return 'Floating lyric overlay';
-			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Seguir audio: ACTIVADO (salto automático entre capítulos)';
 			case 'follow_audio_off_tooltip': return 'Seguir audio: DESACTIVADO';
 			case 'reading_progress': return 'Progreso de lectura';
@@ -15099,6 +15237,15 @@ extension on _StringsEs {
 			case 'no_collections': return 'No bookmarks or saved sentences';
 			case 'collection_bookmark': return 'Bookmark';
 			case 'collection_sentence': return 'Sentence';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
+			case 'floating_lyric_previous': return 'Previous';
+			case 'floating_lyric_play_pause': return 'Play';
+			case 'floating_lyric_next': return 'Next';
+			case 'floating_lyric_lock': return 'Lock';
+			case 'floating_lyric_unlock': return 'Unlock';
+			case 'floating_lyric_close': return 'Close';
+			case 'initialization_failed': return 'Error de inicialización';
 			default: return null;
 		}
 	}
@@ -15108,7 +15255,7 @@ extension on _StringsFr {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Dictionnaire';
-			case 'dialog_importing': return 'IMPORTING…';
+			case 'dialog_importing': return 'IMPORTATION…';
 			case 'player_media_type': return 'Lecteur';
 			case 'reader_media_type': return 'Liseuse';
 			case 'viewer_media_type': return 'Visionneuse';
@@ -15166,7 +15313,7 @@ extension on _StringsFr {
 			case 'dialog_manage': return 'GÉRER';
 			case 'dialog_stop': return 'ARRÊTER';
 			case 'dialog_done': return 'TERMINÉ';
-			case 'dialog_add': return 'ADD';
+			case 'dialog_add': return 'AJOUTER';
 			case 'reset': return 'Réinitialiser';
 			case 'dialog_launch_ankidroid': return 'OUVRIR ANKIDROID';
 			case 'media_item_delete_confirmation': return 'Cet élément sera supprimé de l\'historique. Êtes-vous sûr de vouloir continuer ?';
@@ -15629,8 +15776,6 @@ extension on _StringsFr {
 			case 'audiobook_settings': return 'Paramètres du livre audio';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
-			case 'show_floating_lyric': return 'Floating lyric overlay';
-			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Suivi audio : ACTIVÉ (saut automatique entre chapitres)';
 			case 'follow_audio_off_tooltip': return 'Suivi audio : DÉSACTIVÉ';
 			case 'reading_progress': return 'Progression de lecture';
@@ -15780,6 +15925,15 @@ extension on _StringsFr {
 			case 'no_collections': return 'No bookmarks or saved sentences';
 			case 'collection_bookmark': return 'Bookmark';
 			case 'collection_sentence': return 'Sentence';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
+			case 'floating_lyric_previous': return 'Previous';
+			case 'floating_lyric_play_pause': return 'Play';
+			case 'floating_lyric_next': return 'Next';
+			case 'floating_lyric_lock': return 'Lock';
+			case 'floating_lyric_unlock': return 'Unlock';
+			case 'floating_lyric_close': return 'Close';
+			case 'initialization_failed': return 'Échec de l\'initialisation';
 			default: return null;
 		}
 	}
@@ -15789,7 +15943,7 @@ extension on _StringsId {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Kamus';
-			case 'dialog_importing': return 'IMPORTING…';
+			case 'dialog_importing': return 'MENGIMPOR…';
 			case 'player_media_type': return 'Pemutar';
 			case 'reader_media_type': return 'Pembaca';
 			case 'viewer_media_type': return 'Penampil';
@@ -15847,7 +16001,7 @@ extension on _StringsId {
 			case 'dialog_manage': return 'KELOLA';
 			case 'dialog_stop': return 'BERHENTI';
 			case 'dialog_done': return 'SELESAI';
-			case 'dialog_add': return 'ADD';
+			case 'dialog_add': return 'TAMBAH';
 			case 'reset': return 'Reset';
 			case 'dialog_launch_ankidroid': return 'BUKA ANKIDROID';
 			case 'media_item_delete_confirmation': return 'Item ini akan dihapus dari riwayat. Apakah Anda yakin?';
@@ -16310,8 +16464,6 @@ extension on _StringsId {
 			case 'audiobook_settings': return 'Pengaturan Buku Audio';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
-			case 'show_floating_lyric': return 'Floating lyric overlay';
-			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Ikuti audio: AKTIF (lompat bab otomatis)';
 			case 'follow_audio_off_tooltip': return 'Ikuti audio: NONAKTIF';
 			case 'reading_progress': return 'Progres Membaca';
@@ -16461,6 +16613,15 @@ extension on _StringsId {
 			case 'no_collections': return 'No bookmarks or saved sentences';
 			case 'collection_bookmark': return 'Bookmark';
 			case 'collection_sentence': return 'Sentence';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
+			case 'floating_lyric_previous': return 'Previous';
+			case 'floating_lyric_play_pause': return 'Play';
+			case 'floating_lyric_next': return 'Next';
+			case 'floating_lyric_lock': return 'Lock';
+			case 'floating_lyric_unlock': return 'Unlock';
+			case 'floating_lyric_close': return 'Close';
+			case 'initialization_failed': return 'Inisialisasi gagal';
 			default: return null;
 		}
 	}
@@ -16470,7 +16631,7 @@ extension on _StringsIt {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Dizionario';
-			case 'dialog_importing': return 'IMPORTING…';
+			case 'dialog_importing': return 'IMPORTAZIONE…';
 			case 'player_media_type': return 'Lettore';
 			case 'reader_media_type': return 'Lettore';
 			case 'viewer_media_type': return 'Visualizzatore';
@@ -17016,8 +17177,6 @@ extension on _StringsIt {
 			case 'audiobook_settings': return 'Impostazioni audiolibro';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
-			case 'show_floating_lyric': return 'Floating lyric overlay';
-			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Segui audio: ATTIVO (salto automatico tra capitoli)';
 			case 'follow_audio_off_tooltip': return 'Segui audio: DISATTIVO';
 			case 'reading_progress': return 'Progresso di lettura';
@@ -17142,6 +17301,15 @@ extension on _StringsIt {
 			case 'no_collections': return 'No bookmarks or saved sentences';
 			case 'collection_bookmark': return 'Bookmark';
 			case 'collection_sentence': return 'Sentence';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
+			case 'floating_lyric_previous': return 'Previous';
+			case 'floating_lyric_play_pause': return 'Play';
+			case 'floating_lyric_next': return 'Next';
+			case 'floating_lyric_lock': return 'Lock';
+			case 'floating_lyric_unlock': return 'Unlock';
+			case 'floating_lyric_close': return 'Close';
+			case 'initialization_failed': return 'Inizializzazione fallita';
 			default: return null;
 		}
 	}
@@ -17151,7 +17319,7 @@ extension on _StringsJa {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return '辞書';
-			case 'dialog_importing': return 'IMPORTING…';
+			case 'dialog_importing': return 'インポート中…';
 			case 'player_media_type': return 'プレイヤー';
 			case 'reader_media_type': return 'リーダー';
 			case 'viewer_media_type': return 'ビューアー';
@@ -17209,7 +17377,7 @@ extension on _StringsJa {
 			case 'dialog_manage': return '管理';
 			case 'dialog_stop': return '停止';
 			case 'dialog_done': return '完了';
-			case 'dialog_add': return 'ADD';
+			case 'dialog_add': return '追加';
 			case 'reset': return 'リセット';
 			case 'dialog_launch_ankidroid': return 'ANKIDROIDを起動';
 			case 'media_item_delete_confirmation': return 'この項目を履歴から削除します。よろしいですか？';
@@ -17672,8 +17840,6 @@ extension on _StringsJa {
 			case 'audiobook_settings': return 'オーディオブック設定';
 			case 'show_play_bar': return '再生バーを表示';
 			case 'show_media_notification': return 'メディア通知を表示';
-			case 'show_floating_lyric': return 'フローティング字幕';
-			case 'floating_lyric_hint': return '他のアプリの上に現在の文を表示します。';
 			case 'follow_audio_on_tooltip': return '音声追従：ON（チャプター間を自動ジャンプ）';
 			case 'follow_audio_off_tooltip': return '音声追従：OFF';
 			case 'reading_progress': return '読書進捗';
@@ -17823,6 +17989,15 @@ extension on _StringsJa {
 			case 'no_collections': return 'ブックマークや保存した文がありません';
 			case 'collection_bookmark': return 'ブックマーク';
 			case 'collection_sentence': return '文';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
+			case 'floating_lyric_previous': return 'Previous';
+			case 'floating_lyric_play_pause': return 'Play';
+			case 'floating_lyric_next': return 'Next';
+			case 'floating_lyric_lock': return 'Lock';
+			case 'floating_lyric_unlock': return 'Unlock';
+			case 'floating_lyric_close': return 'Close';
+			case 'initialization_failed': return '初期化に失敗しました';
 			default: return null;
 		}
 	}
@@ -17832,7 +18007,7 @@ extension on _StringsKo {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return '사전';
-			case 'dialog_importing': return 'IMPORTING…';
+			case 'dialog_importing': return '가져오는 중…';
 			case 'player_media_type': return '플레이어';
 			case 'reader_media_type': return '리더';
 			case 'viewer_media_type': return '뷰어';
@@ -17890,7 +18065,7 @@ extension on _StringsKo {
 			case 'dialog_manage': return '관리';
 			case 'dialog_stop': return '중지';
 			case 'dialog_done': return '완료';
-			case 'dialog_add': return 'ADD';
+			case 'dialog_add': return '추가';
 			case 'reset': return '초기화';
 			case 'dialog_launch_ankidroid': return 'ANKIDROID 실행';
 			case 'media_item_delete_confirmation': return '이 항목이 기록에서 삭제됩니다. 계속하시겠습니까?';
@@ -18353,8 +18528,6 @@ extension on _StringsKo {
 			case 'audiobook_settings': return '오디오북 설정';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
-			case 'show_floating_lyric': return 'Floating lyric overlay';
-			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return '오디오 따라가기: 켜짐 (챕터 자동 이동)';
 			case 'follow_audio_off_tooltip': return '오디오 따라가기: 꺼짐';
 			case 'reading_progress': return '읽기 진행률';
@@ -18504,6 +18677,15 @@ extension on _StringsKo {
 			case 'no_collections': return 'No bookmarks or saved sentences';
 			case 'collection_bookmark': return 'Bookmark';
 			case 'collection_sentence': return 'Sentence';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
+			case 'floating_lyric_previous': return 'Previous';
+			case 'floating_lyric_play_pause': return 'Play';
+			case 'floating_lyric_next': return 'Next';
+			case 'floating_lyric_lock': return 'Lock';
+			case 'floating_lyric_unlock': return 'Unlock';
+			case 'floating_lyric_close': return 'Close';
+			case 'initialization_failed': return '초기화 실패';
 			default: return null;
 		}
 	}
@@ -18513,7 +18695,7 @@ extension on _StringsNl {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Woordenboek';
-			case 'dialog_importing': return 'IMPORTING…';
+			case 'dialog_importing': return 'IMPORTEREN…';
 			case 'player_media_type': return 'Speler';
 			case 'reader_media_type': return 'Lezer';
 			case 'viewer_media_type': return 'Viewer';
@@ -19059,8 +19241,6 @@ extension on _StringsNl {
 			case 'audiobook_settings': return 'Audioboekinstellingen';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
-			case 'show_floating_lyric': return 'Floating lyric overlay';
-			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Audio volgen: AAN (automatisch springen tussen hoofdstukken)';
 			case 'follow_audio_off_tooltip': return 'Audio volgen: UIT';
 			case 'reading_progress': return 'Leesvoortgang';
@@ -19185,6 +19365,15 @@ extension on _StringsNl {
 			case 'no_collections': return 'No bookmarks or saved sentences';
 			case 'collection_bookmark': return 'Bookmark';
 			case 'collection_sentence': return 'Sentence';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
+			case 'floating_lyric_previous': return 'Previous';
+			case 'floating_lyric_play_pause': return 'Play';
+			case 'floating_lyric_next': return 'Next';
+			case 'floating_lyric_lock': return 'Lock';
+			case 'floating_lyric_unlock': return 'Unlock';
+			case 'floating_lyric_close': return 'Close';
+			case 'initialization_failed': return 'Initialisatie mislukt';
 			default: return null;
 		}
 	}
@@ -19194,7 +19383,7 @@ extension on _StringsPtBr {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Dicionário';
-			case 'dialog_importing': return 'IMPORTING…';
+			case 'dialog_importing': return 'IMPORTANDO…';
 			case 'player_media_type': return 'Reprodutor';
 			case 'reader_media_type': return 'Leitor';
 			case 'viewer_media_type': return 'Visualizador';
@@ -19252,7 +19441,7 @@ extension on _StringsPtBr {
 			case 'dialog_manage': return 'GERENCIAR';
 			case 'dialog_stop': return 'PARAR';
 			case 'dialog_done': return 'CONCLUÍDO';
-			case 'dialog_add': return 'ADD';
+			case 'dialog_add': return 'ADICIONAR';
 			case 'reset': return 'Redefinir';
 			case 'dialog_launch_ankidroid': return 'ABRIR ANKIDROID';
 			case 'media_item_delete_confirmation': return 'Isso removerá este item do histórico. Tem certeza de que deseja fazer isso?';
@@ -19715,8 +19904,6 @@ extension on _StringsPtBr {
 			case 'audiobook_settings': return 'Configurações do Audiolivro';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
-			case 'show_floating_lyric': return 'Floating lyric overlay';
-			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Acompanhar áudio: LIGADO (pular entre capítulos automaticamente)';
 			case 'follow_audio_off_tooltip': return 'Acompanhar áudio: DESLIGADO';
 			case 'reading_progress': return 'Progresso da Leitura';
@@ -19866,6 +20053,15 @@ extension on _StringsPtBr {
 			case 'no_collections': return 'No bookmarks or saved sentences';
 			case 'collection_bookmark': return 'Bookmark';
 			case 'collection_sentence': return 'Sentence';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
+			case 'floating_lyric_previous': return 'Previous';
+			case 'floating_lyric_play_pause': return 'Play';
+			case 'floating_lyric_next': return 'Next';
+			case 'floating_lyric_lock': return 'Lock';
+			case 'floating_lyric_unlock': return 'Unlock';
+			case 'floating_lyric_close': return 'Close';
+			case 'initialization_failed': return 'Falha na inicialização';
 			default: return null;
 		}
 	}
@@ -19875,7 +20071,7 @@ extension on _StringsRu {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Словарь';
-			case 'dialog_importing': return 'IMPORTING…';
+			case 'dialog_importing': return 'ИМПОРТ…';
 			case 'player_media_type': return 'Плеер';
 			case 'reader_media_type': return 'Читалка';
 			case 'viewer_media_type': return 'Просмотр';
@@ -19933,7 +20129,7 @@ extension on _StringsRu {
 			case 'dialog_manage': return 'УПРАВЛЕНИЕ';
 			case 'dialog_stop': return 'СТОП';
 			case 'dialog_done': return 'ГОТОВО';
-			case 'dialog_add': return 'ADD';
+			case 'dialog_add': return 'ДОБАВИТЬ';
 			case 'reset': return 'Сбросить';
 			case 'dialog_launch_ankidroid': return 'ОТКРЫТЬ ANKIDROID';
 			case 'media_item_delete_confirmation': return 'Этот элемент будет удалён из истории. Вы уверены?';
@@ -20396,8 +20592,6 @@ extension on _StringsRu {
 			case 'audiobook_settings': return 'Настройки аудиокниги';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
-			case 'show_floating_lyric': return 'Floating lyric overlay';
-			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Следование за аудио: ВКЛ (автопереход между главами)';
 			case 'follow_audio_off_tooltip': return 'Следование за аудио: ВЫКЛ';
 			case 'reading_progress': return 'Прогресс чтения';
@@ -20547,6 +20741,15 @@ extension on _StringsRu {
 			case 'no_collections': return 'No bookmarks or saved sentences';
 			case 'collection_bookmark': return 'Bookmark';
 			case 'collection_sentence': return 'Sentence';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
+			case 'floating_lyric_previous': return 'Previous';
+			case 'floating_lyric_play_pause': return 'Play';
+			case 'floating_lyric_next': return 'Next';
+			case 'floating_lyric_lock': return 'Lock';
+			case 'floating_lyric_unlock': return 'Unlock';
+			case 'floating_lyric_close': return 'Close';
+			case 'initialization_failed': return 'Ошибка инициализации';
 			default: return null;
 		}
 	}
@@ -20556,7 +20759,7 @@ extension on _StringsTh {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'พจนานุกรม';
-			case 'dialog_importing': return 'IMPORTING…';
+			case 'dialog_importing': return 'กำลังนำเข้า…';
 			case 'player_media_type': return 'เครื่องเล่น';
 			case 'reader_media_type': return 'ตัวอ่าน';
 			case 'viewer_media_type': return 'ตัวดู';
@@ -20614,7 +20817,7 @@ extension on _StringsTh {
 			case 'dialog_manage': return 'จัดการ';
 			case 'dialog_stop': return 'หยุด';
 			case 'dialog_done': return 'เสร็จสิ้น';
-			case 'dialog_add': return 'ADD';
+			case 'dialog_add': return 'เพิ่ม';
 			case 'reset': return 'รีเซ็ต';
 			case 'dialog_launch_ankidroid': return 'เปิด ANKIDROID';
 			case 'media_item_delete_confirmation': return 'รายการนี้จะถูกลบออกจากประวัติ คุณแน่ใจหรือไม่?';
@@ -21077,8 +21280,6 @@ extension on _StringsTh {
 			case 'audiobook_settings': return 'ตั้งค่าหนังสือเสียง';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
-			case 'show_floating_lyric': return 'Floating lyric overlay';
-			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'ติดตามเสียง: เปิด (ข้ามบทอัตโนมัติ)';
 			case 'follow_audio_off_tooltip': return 'ติดตามเสียง: ปิด';
 			case 'reading_progress': return 'ความคืบหน้าการอ่าน';
@@ -21228,6 +21429,15 @@ extension on _StringsTh {
 			case 'no_collections': return 'No bookmarks or saved sentences';
 			case 'collection_bookmark': return 'Bookmark';
 			case 'collection_sentence': return 'Sentence';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
+			case 'floating_lyric_previous': return 'Previous';
+			case 'floating_lyric_play_pause': return 'Play';
+			case 'floating_lyric_next': return 'Next';
+			case 'floating_lyric_lock': return 'Lock';
+			case 'floating_lyric_unlock': return 'Unlock';
+			case 'floating_lyric_close': return 'Close';
+			case 'initialization_failed': return 'การเริ่มต้นล้มเหลว';
 			default: return null;
 		}
 	}
@@ -21237,7 +21447,7 @@ extension on _StringsTr {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Sözlük';
-			case 'dialog_importing': return 'IMPORTING…';
+			case 'dialog_importing': return 'İÇE AKTARILIYOR…';
 			case 'player_media_type': return 'Oynatıcı';
 			case 'reader_media_type': return 'Okuyucu';
 			case 'viewer_media_type': return 'Görüntüleyici';
@@ -21783,8 +21993,6 @@ extension on _StringsTr {
 			case 'audiobook_settings': return 'Sesli kitap ayarları';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
-			case 'show_floating_lyric': return 'Floating lyric overlay';
-			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Ses takibi: AÇIK (bölümler arası otomatik atlama)';
 			case 'follow_audio_off_tooltip': return 'Ses takibi: KAPALI';
 			case 'reading_progress': return 'Okuma ilerlemesi';
@@ -21909,6 +22117,15 @@ extension on _StringsTr {
 			case 'no_collections': return 'No bookmarks or saved sentences';
 			case 'collection_bookmark': return 'Bookmark';
 			case 'collection_sentence': return 'Sentence';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
+			case 'floating_lyric_previous': return 'Previous';
+			case 'floating_lyric_play_pause': return 'Play';
+			case 'floating_lyric_next': return 'Next';
+			case 'floating_lyric_lock': return 'Lock';
+			case 'floating_lyric_unlock': return 'Unlock';
+			case 'floating_lyric_close': return 'Close';
+			case 'initialization_failed': return 'Başlatma başarısız';
 			default: return null;
 		}
 	}
@@ -21918,7 +22135,7 @@ extension on _StringsVi {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return 'Từ điển';
-			case 'dialog_importing': return 'IMPORTING…';
+			case 'dialog_importing': return 'ĐANG NHẬP…';
 			case 'player_media_type': return 'Trình phát';
 			case 'reader_media_type': return 'Trình đọc';
 			case 'viewer_media_type': return 'Trình xem';
@@ -21976,7 +22193,7 @@ extension on _StringsVi {
 			case 'dialog_manage': return 'QUẢN LÝ';
 			case 'dialog_stop': return 'DỪNG';
 			case 'dialog_done': return 'XONG';
-			case 'dialog_add': return 'ADD';
+			case 'dialog_add': return 'THÊM';
 			case 'reset': return 'Đặt lại';
 			case 'dialog_launch_ankidroid': return 'MỞ ANKIDROID';
 			case 'media_item_delete_confirmation': return 'Thao tác này sẽ xóa mục này khỏi lịch sử. Bạn có chắc chắn muốn thực hiện?';
@@ -22439,8 +22656,6 @@ extension on _StringsVi {
 			case 'audiobook_settings': return 'Cài đặt sách nói';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
-			case 'show_floating_lyric': return 'Floating lyric overlay';
-			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Theo dõi âm thanh: BẬT (tự chuyển chương)';
 			case 'follow_audio_off_tooltip': return 'Theo dõi âm thanh: TẮT';
 			case 'reading_progress': return 'Tiến độ đọc';
@@ -22590,6 +22805,15 @@ extension on _StringsVi {
 			case 'no_collections': return 'No bookmarks or saved sentences';
 			case 'collection_bookmark': return 'Bookmark';
 			case 'collection_sentence': return 'Sentence';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
+			case 'floating_lyric_previous': return 'Previous';
+			case 'floating_lyric_play_pause': return 'Play';
+			case 'floating_lyric_next': return 'Next';
+			case 'floating_lyric_lock': return 'Lock';
+			case 'floating_lyric_unlock': return 'Unlock';
+			case 'floating_lyric_close': return 'Close';
+			case 'initialization_failed': return 'Khởi tạo thất bại';
 			default: return null;
 		}
 	}
@@ -23130,8 +23354,6 @@ extension on _StringsZhCn {
 			case 'audiobook_settings': return '有声书设置';
 			case 'show_play_bar': return '显示播放栏';
 			case 'show_media_notification': return '显示媒体通知';
-			case 'show_floating_lyric': return '悬浮字幕';
-			case 'floating_lyric_hint': return '在其他应用上方显示当前句子。';
 			case 'follow_audio_on_tooltip': return '音频跟随：开启（跨章自动跳转）';
 			case 'follow_audio_off_tooltip': return '音频跟随：关闭';
 			case 'reading_progress': return '阅读进度';
@@ -23271,6 +23493,15 @@ extension on _StringsZhCn {
 			case 'no_collections': return '没有书签或保存的句子';
 			case 'collection_bookmark': return '书签';
 			case 'collection_sentence': return '句子';
+			case 'floating_lyric_previous': return '上句';
+			case 'floating_lyric_play_pause': return '播放';
+			case 'floating_lyric_next': return '下句';
+			case 'floating_lyric_lock': return '锁定';
+			case 'floating_lyric_unlock': return '解锁';
+			case 'floating_lyric_close': return '关闭';
+			case 'show_floating_lyric': return '悬浮字幕';
+			case 'floating_lyric_hint': return '在其他应用上方显示当前句子。';
+			case 'initialization_failed': return '初始化失败';
 			default: return null;
 		}
 	}
@@ -23280,7 +23511,7 @@ extension on _StringsZhHk {
 	dynamic _flatMapFunction(String path) {
 		switch (path) {
 			case 'dictionary_media_type': return '辭典';
-			case 'dialog_importing': return 'IMPORTING…';
+			case 'dialog_importing': return '正在匯入…';
 			case 'player_media_type': return '播放器';
 			case 'reader_media_type': return '閱讀器';
 			case 'viewer_media_type': return '檢視器';
@@ -23338,7 +23569,7 @@ extension on _StringsZhHk {
 			case 'dialog_manage': return '管理';
 			case 'dialog_stop': return '停止';
 			case 'dialog_done': return '完成';
-			case 'dialog_add': return 'ADD';
+			case 'dialog_add': return '添加';
 			case 'reset': return '重設';
 			case 'dialog_launch_ankidroid': return '啟動 ANKIDROID';
 			case 'media_item_delete_confirmation': return '此操作將從歷史記錄中移除該項目。確定繼續嗎？';
@@ -23801,8 +24032,6 @@ extension on _StringsZhHk {
 			case 'audiobook_settings': return '有聲書設定';
 			case 'show_play_bar': return '顯示播放欄';
 			case 'show_media_notification': return '顯示媒體通知';
-			case 'show_floating_lyric': return '懸浮字幕';
-			case 'floating_lyric_hint': return '在其他應用上方顯示當前句子。';
 			case 'follow_audio_on_tooltip': return '音頻跟隨：開啟（跨章自動跳轉）';
 			case 'follow_audio_off_tooltip': return '音頻跟隨：關閉';
 			case 'reading_progress': return '閱讀進度';
@@ -23952,6 +24181,15 @@ extension on _StringsZhHk {
 			case 'no_collections': return '沒有書籤或保存的句子';
 			case 'collection_bookmark': return '書籤';
 			case 'collection_sentence': return '句子';
+			case 'floating_lyric_previous': return '上句';
+			case 'floating_lyric_play_pause': return '播放';
+			case 'floating_lyric_next': return '下句';
+			case 'floating_lyric_lock': return '鎖定';
+			case 'floating_lyric_unlock': return '解鎖';
+			case 'floating_lyric_close': return '關閉';
+			case 'show_floating_lyric': return '懸浮字幕';
+			case 'floating_lyric_hint': return '在其他應用程式上方顯示目前句子。';
+			case 'initialization_failed': return '初始化失敗';
 			default: return null;
 		}
 	}
