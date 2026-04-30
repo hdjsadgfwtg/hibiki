@@ -688,6 +688,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get audiobook_settings => 'Audiobook Settings';
 	String get show_play_bar => 'Show playback bar';
 	String get show_media_notification => 'Show media notification';
+	String get show_floating_lyric => 'Floating lyric overlay';
+	String get floating_lyric_hint => 'Show current sentence over other apps.';
 	String get follow_audio_on_tooltip => 'Follow audio: ON (auto-jump across chapters)';
 	String get follow_audio_off_tooltip => 'Follow audio: OFF';
 	String get reading_progress => 'Reading Progress';
@@ -1396,6 +1398,8 @@ class _StringsAr implements _StringsEn {
 	@override String get audiobook_settings => 'إعدادات الكتاب الصوتي';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'تتبع الصوت: مفعّل (انتقال تلقائي بين الفصول)';
 	@override String get follow_audio_off_tooltip => 'تتبع الصوت: معطّل';
 	@override String get reading_progress => 'تقدم القراءة';
@@ -2114,6 +2118,8 @@ class _StringsDe implements _StringsEn {
 	@override String get audiobook_settings => 'Hörbuch-Einstellungen';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Audio-Verfolgung: AN (automatischer Kapitelsprung)';
 	@override String get follow_audio_off_tooltip => 'Audio-Verfolgung: AUS';
 	@override String get reading_progress => 'Lesefortschritt';
@@ -2832,6 +2838,8 @@ class _StringsEs implements _StringsEn {
 	@override String get audiobook_settings => 'Configuración del audiolibro';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Seguir audio: ACTIVADO (salto automático entre capítulos)';
 	@override String get follow_audio_off_tooltip => 'Seguir audio: DESACTIVADO';
 	@override String get reading_progress => 'Progreso de lectura';
@@ -3550,6 +3558,8 @@ class _StringsFr implements _StringsEn {
 	@override String get audiobook_settings => 'Paramètres du livre audio';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Suivi audio : ACTIVÉ (saut automatique entre chapitres)';
 	@override String get follow_audio_off_tooltip => 'Suivi audio : DÉSACTIVÉ';
 	@override String get reading_progress => 'Progression de lecture';
@@ -4268,6 +4278,8 @@ class _StringsId implements _StringsEn {
 	@override String get audiobook_settings => 'Pengaturan Buku Audio';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Ikuti audio: AKTIF (lompat bab otomatis)';
 	@override String get follow_audio_off_tooltip => 'Ikuti audio: NONAKTIF';
 	@override String get reading_progress => 'Progres Membaca';
@@ -5011,6 +5023,8 @@ class _StringsIt implements _StringsEn {
 	@override String get audiobook_settings => 'Impostazioni audiolibro';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Segui audio: ATTIVO (salto automatico tra capitoli)';
 	@override String get follow_audio_off_tooltip => 'Segui audio: DISATTIVO';
 	@override String get reading_progress => 'Progresso di lettura';
@@ -5704,6 +5718,8 @@ class _StringsJa implements _StringsEn {
 	@override String get audiobook_settings => 'オーディオブック設定';
 	@override String get show_play_bar => '再生バーを表示';
 	@override String get show_media_notification => 'メディア通知を表示';
+	@override String get show_floating_lyric => 'フローティング字幕';
+	@override String get floating_lyric_hint => '他のアプリの上に現在の文を表示します。';
 	@override String get follow_audio_on_tooltip => '音声追従：ON（チャプター間を自動ジャンプ）';
 	@override String get follow_audio_off_tooltip => '音声追従：OFF';
 	@override String get reading_progress => '読書進捗';
@@ -6422,6 +6438,8 @@ class _StringsKo implements _StringsEn {
 	@override String get audiobook_settings => '오디오북 설정';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => '오디오 따라가기: 켜짐 (챕터 자동 이동)';
 	@override String get follow_audio_off_tooltip => '오디오 따라가기: 꺼짐';
 	@override String get reading_progress => '읽기 진행률';
@@ -7165,6 +7183,8 @@ class _StringsNl implements _StringsEn {
 	@override String get audiobook_settings => 'Audioboekinstellingen';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Audio volgen: AAN (automatisch springen tussen hoofdstukken)';
 	@override String get follow_audio_off_tooltip => 'Audio volgen: UIT';
 	@override String get reading_progress => 'Leesvoortgang';
@@ -7858,6 +7878,8 @@ class _StringsPtBr implements _StringsEn {
 	@override String get audiobook_settings => 'Configurações do Audiolivro';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Acompanhar áudio: LIGADO (pular entre capítulos automaticamente)';
 	@override String get follow_audio_off_tooltip => 'Acompanhar áudio: DESLIGADO';
 	@override String get reading_progress => 'Progresso da Leitura';
@@ -8576,6 +8598,8 @@ class _StringsRu implements _StringsEn {
 	@override String get audiobook_settings => 'Настройки аудиокниги';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Следование за аудио: ВКЛ (автопереход между главами)';
 	@override String get follow_audio_off_tooltip => 'Следование за аудио: ВЫКЛ';
 	@override String get reading_progress => 'Прогресс чтения';
@@ -9294,6 +9318,8 @@ class _StringsTh implements _StringsEn {
 	@override String get audiobook_settings => 'ตั้งค่าหนังสือเสียง';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'ติดตามเสียง: เปิด (ข้ามบทอัตโนมัติ)';
 	@override String get follow_audio_off_tooltip => 'ติดตามเสียง: ปิด';
 	@override String get reading_progress => 'ความคืบหน้าการอ่าน';
@@ -10037,6 +10063,8 @@ class _StringsTr implements _StringsEn {
 	@override String get audiobook_settings => 'Sesli kitap ayarları';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Ses takibi: AÇIK (bölümler arası otomatik atlama)';
 	@override String get follow_audio_off_tooltip => 'Ses takibi: KAPALI';
 	@override String get reading_progress => 'Okuma ilerlemesi';
@@ -10730,6 +10758,8 @@ class _StringsVi implements _StringsEn {
 	@override String get audiobook_settings => 'Cài đặt sách nói';
 	@override String get show_play_bar => 'Show playback bar';
 	@override String get show_media_notification => 'Show media notification';
+	@override String get show_floating_lyric => 'Floating lyric overlay';
+	@override String get floating_lyric_hint => 'Show current sentence over other apps.';
 	@override String get follow_audio_on_tooltip => 'Theo dõi âm thanh: BẬT (tự chuyển chương)';
 	@override String get follow_audio_off_tooltip => 'Theo dõi âm thanh: TẮT';
 	@override String get reading_progress => 'Tiến độ đọc';
@@ -11458,6 +11488,8 @@ class _StringsZhCn implements _StringsEn {
 	@override String get audiobook_settings => '有声书设置';
 	@override String get show_play_bar => '显示播放栏';
 	@override String get show_media_notification => '显示媒体通知';
+	@override String get show_floating_lyric => '悬浮字幕';
+	@override String get floating_lyric_hint => '在其他应用上方显示当前句子。';
 	@override String get follow_audio_on_tooltip => '音频跟随：开启（跨章自动跳转）';
 	@override String get follow_audio_off_tooltip => '音频跟随：关闭';
 	@override String get reading_progress => '阅读进度';
@@ -12166,6 +12198,8 @@ class _StringsZhHk implements _StringsEn {
 	@override String get audiobook_settings => '有聲書設定';
 	@override String get show_play_bar => '顯示播放欄';
 	@override String get show_media_notification => '顯示媒體通知';
+	@override String get show_floating_lyric => '懸浮字幕';
+	@override String get floating_lyric_hint => '在其他應用上方顯示當前句子。';
 	@override String get follow_audio_on_tooltip => '音頻跟隨：開啟（跨章自動跳轉）';
 	@override String get follow_audio_off_tooltip => '音頻跟隨：關閉';
 	@override String get reading_progress => '閱讀進度';
@@ -12881,6 +12915,8 @@ extension on _StringsEn {
 			case 'audiobook_settings': return 'Audiobook Settings';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Follow audio: ON (auto-jump across chapters)';
 			case 'follow_audio_off_tooltip': return 'Follow audio: OFF';
 			case 'reading_progress': return 'Reading Progress';
@@ -13550,6 +13586,8 @@ extension on _StringsAr {
 			case 'audiobook_settings': return 'إعدادات الكتاب الصوتي';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'تتبع الصوت: مفعّل (انتقال تلقائي بين الفصول)';
 			case 'follow_audio_off_tooltip': return 'تتبع الصوت: معطّل';
 			case 'reading_progress': return 'تقدم القراءة';
@@ -14229,6 +14267,8 @@ extension on _StringsDe {
 			case 'audiobook_settings': return 'Hörbuch-Einstellungen';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Audio-Verfolgung: AN (automatischer Kapitelsprung)';
 			case 'follow_audio_off_tooltip': return 'Audio-Verfolgung: AUS';
 			case 'reading_progress': return 'Lesefortschritt';
@@ -14908,6 +14948,8 @@ extension on _StringsEs {
 			case 'audiobook_settings': return 'Configuración del audiolibro';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Seguir audio: ACTIVADO (salto automático entre capítulos)';
 			case 'follow_audio_off_tooltip': return 'Seguir audio: DESACTIVADO';
 			case 'reading_progress': return 'Progreso de lectura';
@@ -15587,6 +15629,8 @@ extension on _StringsFr {
 			case 'audiobook_settings': return 'Paramètres du livre audio';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Suivi audio : ACTIVÉ (saut automatique entre chapitres)';
 			case 'follow_audio_off_tooltip': return 'Suivi audio : DÉSACTIVÉ';
 			case 'reading_progress': return 'Progression de lecture';
@@ -16266,6 +16310,8 @@ extension on _StringsId {
 			case 'audiobook_settings': return 'Pengaturan Buku Audio';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Ikuti audio: AKTIF (lompat bab otomatis)';
 			case 'follow_audio_off_tooltip': return 'Ikuti audio: NONAKTIF';
 			case 'reading_progress': return 'Progres Membaca';
@@ -16970,6 +17016,8 @@ extension on _StringsIt {
 			case 'audiobook_settings': return 'Impostazioni audiolibro';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Segui audio: ATTIVO (salto automatico tra capitoli)';
 			case 'follow_audio_off_tooltip': return 'Segui audio: DISATTIVO';
 			case 'reading_progress': return 'Progresso di lettura';
@@ -17624,6 +17672,8 @@ extension on _StringsJa {
 			case 'audiobook_settings': return 'オーディオブック設定';
 			case 'show_play_bar': return '再生バーを表示';
 			case 'show_media_notification': return 'メディア通知を表示';
+			case 'show_floating_lyric': return 'フローティング字幕';
+			case 'floating_lyric_hint': return '他のアプリの上に現在の文を表示します。';
 			case 'follow_audio_on_tooltip': return '音声追従：ON（チャプター間を自動ジャンプ）';
 			case 'follow_audio_off_tooltip': return '音声追従：OFF';
 			case 'reading_progress': return '読書進捗';
@@ -18303,6 +18353,8 @@ extension on _StringsKo {
 			case 'audiobook_settings': return '오디오북 설정';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return '오디오 따라가기: 켜짐 (챕터 자동 이동)';
 			case 'follow_audio_off_tooltip': return '오디오 따라가기: 꺼짐';
 			case 'reading_progress': return '읽기 진행률';
@@ -19007,6 +19059,8 @@ extension on _StringsNl {
 			case 'audiobook_settings': return 'Audioboekinstellingen';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Audio volgen: AAN (automatisch springen tussen hoofdstukken)';
 			case 'follow_audio_off_tooltip': return 'Audio volgen: UIT';
 			case 'reading_progress': return 'Leesvoortgang';
@@ -19661,6 +19715,8 @@ extension on _StringsPtBr {
 			case 'audiobook_settings': return 'Configurações do Audiolivro';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Acompanhar áudio: LIGADO (pular entre capítulos automaticamente)';
 			case 'follow_audio_off_tooltip': return 'Acompanhar áudio: DESLIGADO';
 			case 'reading_progress': return 'Progresso da Leitura';
@@ -20340,6 +20396,8 @@ extension on _StringsRu {
 			case 'audiobook_settings': return 'Настройки аудиокниги';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Следование за аудио: ВКЛ (автопереход между главами)';
 			case 'follow_audio_off_tooltip': return 'Следование за аудио: ВЫКЛ';
 			case 'reading_progress': return 'Прогресс чтения';
@@ -21019,6 +21077,8 @@ extension on _StringsTh {
 			case 'audiobook_settings': return 'ตั้งค่าหนังสือเสียง';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'ติดตามเสียง: เปิด (ข้ามบทอัตโนมัติ)';
 			case 'follow_audio_off_tooltip': return 'ติดตามเสียง: ปิด';
 			case 'reading_progress': return 'ความคืบหน้าการอ่าน';
@@ -21723,6 +21783,8 @@ extension on _StringsTr {
 			case 'audiobook_settings': return 'Sesli kitap ayarları';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Ses takibi: AÇIK (bölümler arası otomatik atlama)';
 			case 'follow_audio_off_tooltip': return 'Ses takibi: KAPALI';
 			case 'reading_progress': return 'Okuma ilerlemesi';
@@ -22377,6 +22439,8 @@ extension on _StringsVi {
 			case 'audiobook_settings': return 'Cài đặt sách nói';
 			case 'show_play_bar': return 'Show playback bar';
 			case 'show_media_notification': return 'Show media notification';
+			case 'show_floating_lyric': return 'Floating lyric overlay';
+			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
 			case 'follow_audio_on_tooltip': return 'Theo dõi âm thanh: BẬT (tự chuyển chương)';
 			case 'follow_audio_off_tooltip': return 'Theo dõi âm thanh: TẮT';
 			case 'reading_progress': return 'Tiến độ đọc';
@@ -23066,6 +23130,8 @@ extension on _StringsZhCn {
 			case 'audiobook_settings': return '有声书设置';
 			case 'show_play_bar': return '显示播放栏';
 			case 'show_media_notification': return '显示媒体通知';
+			case 'show_floating_lyric': return '悬浮字幕';
+			case 'floating_lyric_hint': return '在其他应用上方显示当前句子。';
 			case 'follow_audio_on_tooltip': return '音频跟随：开启（跨章自动跳转）';
 			case 'follow_audio_off_tooltip': return '音频跟随：关闭';
 			case 'reading_progress': return '阅读进度';
@@ -23735,6 +23801,8 @@ extension on _StringsZhHk {
 			case 'audiobook_settings': return '有聲書設定';
 			case 'show_play_bar': return '顯示播放欄';
 			case 'show_media_notification': return '顯示媒體通知';
+			case 'show_floating_lyric': return '懸浮字幕';
+			case 'floating_lyric_hint': return '在其他應用上方顯示當前句子。';
 			case 'follow_audio_on_tooltip': return '音頻跟隨：開啟（跨章自動跳轉）';
 			case 'follow_audio_off_tooltip': return '音頻跟隨：關閉';
 			case 'reading_progress': return '閱讀進度';
