@@ -22,6 +22,8 @@ import 'package:flutter_image_compress/flutter_image_compress.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:drift/drift.dart';
+import 'package:hibiki/src/cloud_backup/backup_snapshot_service.dart';
+import 'package:hibiki/src/cloud_backup/google_drive_backup_service.dart';
 import 'package:hibiki/src/database/database.dart';
 import 'package:intl/intl.dart' as intl;
 import 'package:path/path.dart' as path;
@@ -232,6 +234,10 @@ class AppModel with ChangeNotifier {
   Directory get dictionaryImportWorkingDirectory =>
       _dictionaryImportWorkingDirectory;
   late final Directory _dictionaryImportWorkingDirectory;
+
+  /// Directory used for temporary cloud backup snapshots and downloads.
+  Directory get cloudBackupStagingDirectory => _cloudBackupStagingDirectory;
+  late final Directory _cloudBackupStagingDirectory;
 
   /// Used to fetch a language by its locale tag with constant time performance.
   /// Initialised with [populateLanguages] at startup.
@@ -1146,12 +1152,15 @@ class AppModel with ChangeNotifier {
 
       _dictionaryImportWorkingDirectory = Directory(
           path.join(appDirectory.path, 'dictionaryImportWorkingDirectory'));
+      _cloudBackupStagingDirectory =
+          Directory(path.join(appDirectory.path, 'cloudBackupStaging'));
       _exportDirectory = await prepareFallbackHibikiDirectory();
       _alternateExportDirectory = _exportDirectory;
       _webArchiveDirectory =
           Directory(path.join(appDirectory.path, 'webArchive'));
 
       thumbnailsDirectory.createSync();
+      cloudBackupStagingDirectory.createSync();
       dictionaryImportWorkingDirectory.createSync();
       dictionaryResourceDirectory.createSync();
       _rebuildDictPathsCache();
@@ -1275,6 +1284,86 @@ class AppModel with ChangeNotifier {
     }
     _prefCache[key] = strVal;
     await _database.setPref(key, strVal);
+  }
+
+  BackupSnapshotService createBackupSnapshotService() {
+    return BackupSnapshotService(
+      documentsDirectory: appDirectory,
+      supportDirectory: databaseDirectory,
+      stagingDirectory: cloudBackupStagingDirectory,
+    );
+  }
+
+  GoogleDriveBackupService createGoogleDriveBackupService() {
+    return GoogleDriveBackupService(
+      snapshotService: createBackupSnapshotService(),
+    );
+  }
+
+  bool get cloudBackupEnabled {
+    return _getPref('cloud_backup_enabled', defaultValue: false);
+  }
+
+  Future<void> setCloudBackupEnabled(bool value) async {
+    await _setPref('cloud_backup_enabled', value);
+    if (value && cloudBackupLastRunAt == 0) {
+      await _setPref(
+        'cloud_backup_last_run_at',
+        DateTime.now().millisecondsSinceEpoch,
+      );
+    }
+    notifyListeners();
+  }
+
+  int get cloudBackupLastRunAt {
+    return _getPref('cloud_backup_last_run_at', defaultValue: 0);
+  }
+
+  Future<void> _setCloudBackupLastRunAt(int value) async {
+    await _setPref('cloud_backup_last_run_at', value);
+    notifyListeners();
+  }
+
+  Future<CloudBackupUploadResult> backupToGoogleDrive({
+    bool interactive = true,
+  }) async {
+    final GoogleDriveBackupService service = createGoogleDriveBackupService();
+    final CloudBackupUploadResult result = await service.backupNow(
+      appVersion: packageInfo.version,
+      interactive: interactive,
+    );
+    await _setCloudBackupLastRunAt(DateTime.now().millisecondsSinceEpoch);
+    return result;
+  }
+
+  Future<CloudBackupRestoreResult> restoreFromGoogleDrive() async {
+    final GoogleDriveBackupService service = createGoogleDriveBackupService();
+    final DownloadedBackupSnapshot snapshot =
+        await service.downloadLatestSnapshot(interactive: true);
+    await createBackupSnapshotService().validateSnapshot(snapshot.file);
+    await _database.close();
+    await createBackupSnapshotService().restoreSnapshot(snapshot.file);
+    Restart.restartApp();
+    return CloudBackupRestoreResult(
+      fileId: snapshot.fileId,
+      downloadedBytes: snapshot.downloadedBytes,
+    );
+  }
+
+  Future<void> runCloudBackupOnStartup() async {
+    if (!cloudBackupEnabled) return;
+
+    final int lastRunAt = cloudBackupLastRunAt;
+    final int now = DateTime.now().millisecondsSinceEpoch;
+    const int intervalMs = 12 * 60 * 60 * 1000;
+    if (now - lastRunAt < intervalMs) return;
+
+    try {
+      await backupToGoogleDrive(interactive: false);
+    } catch (e, stack) {
+      ErrorLogService.instance.log('CloudBackup.startup', e, stack);
+      debugPrint('[hibiki-cloud-backup] startup backup failed: $e');
+    }
   }
 
   // ── model / Drift row conversion helpers ──────────────────────────

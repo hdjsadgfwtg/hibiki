@@ -635,6 +635,18 @@ class _TtuSettingsDialogContentState extends BasePageState {
           onTap: appModel.showLanguageMenu,
         ),
         const Space.small(),
+        _buildTapRow(
+          context: context,
+          icon: Icons.cloud_sync,
+          label: 'Google Drive Backup',
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => const CloudBackupPage()),
+            ).then((_) => setState(() {}));
+          },
+        ),
+        const Space.small(),
         const JidoujishoDivider(),
         const Space.small(),
         _buildSwitch(

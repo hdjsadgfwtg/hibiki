@@ -109,6 +109,7 @@ void main() {
     /// [HomePage].
     final appModel = container.read(appProvider);
     await appModel.initialise();
+    unawaited(appModel.runCloudBackupOnStartup());
     /// Capture Flutter framework errors with full details.
     FlutterError.onError = (details) {
       // Suppress known Flutter framework bug: RawTooltipState creates
