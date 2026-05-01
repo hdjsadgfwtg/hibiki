@@ -11691,7 +11691,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get import_theme_invalid => '无效的主题代码';
 	@override String get import_theme_success => '主题已导入';
 	@override String get auto_add_book_name_to_tags => '自动添加书名到标签';
-	@override String get collapse_dictionaries => '折叠词典';
+	@override String get collapse_dictionaries => '折叠词典显示';
 	@override String get deduplicate_pitch_accents => '音调去重';
 	@override String get harmonic_frequency => '词频聚合';
 	@override String get manage_audio_sources => '管理音频来源';
@@ -23469,7 +23469,7 @@ extension on _StringsZhCn {
 			case 'import_theme_invalid': return '无效的主题代码';
 			case 'import_theme_success': return '主题已导入';
 			case 'auto_add_book_name_to_tags': return '自动添加书名到标签';
-			case 'collapse_dictionaries': return '折叠词典';
+			case 'collapse_dictionaries': return '折叠词典显示';
 			case 'deduplicate_pitch_accents': return '音调去重';
 			case 'harmonic_frequency': return '词频聚合';
 			case 'manage_audio_sources': return '管理音频来源';
