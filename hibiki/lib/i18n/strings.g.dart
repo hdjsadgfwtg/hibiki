@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 11951 (703 per locale)
+/// Strings: 11968 (704 per locale)
 ///
-/// Built on 2026-05-02 at 16:46 UTC
+/// Built on 2026-05-02 at 19:01 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -732,6 +732,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get section_typography => 'Typography';
 	String get section_layout => 'Layout & Display';
 	String get section_interface => 'Interface';
+	String get section_update => 'Update Settings';
 	String get action_bookmark => 'Bookmark';
 	String get action_fullscreen_toggle => 'Toggle Fullscreen';
 	String get action_exit => 'Exit';
@@ -1486,6 +1487,7 @@ class _StringsAr implements _StringsEn {
 	@override String get section_typography => 'الطباعة';
 	@override String get section_layout => 'التخطيط والعرض';
 	@override String get section_interface => 'الواجهة';
+	@override String get section_update => 'إعدادات التحديث';
 	@override String get action_bookmark => 'علامة مرجعية';
 	@override String get action_fullscreen_toggle => 'تبديل ملء الشاشة';
 	@override String get action_exit => 'خروج';
@@ -2228,6 +2230,7 @@ class _StringsDe implements _StringsEn {
 	@override String get section_typography => 'Typography';
 	@override String get section_layout => 'Layout & Display';
 	@override String get section_interface => 'Interface';
+	@override String get section_update => 'Update Settings';
 	@override String get action_bookmark => 'Lesezeichen';
 	@override String get action_fullscreen_toggle => 'Vollbild umschalten';
 	@override String get action_exit => 'Beenden';
@@ -2982,6 +2985,7 @@ class _StringsEs implements _StringsEn {
 	@override String get section_typography => 'Typography';
 	@override String get section_layout => 'Layout & Display';
 	@override String get section_interface => 'Interface';
+	@override String get section_update => 'Update Settings';
 	@override String get action_bookmark => 'Marcador';
 	@override String get action_fullscreen_toggle => 'Alternar pantalla completa';
 	@override String get action_exit => 'Salir';
@@ -3736,6 +3740,7 @@ class _StringsFr implements _StringsEn {
 	@override String get section_typography => 'Typography';
 	@override String get section_layout => 'Layout & Display';
 	@override String get section_interface => 'Interface';
+	@override String get section_update => 'Update Settings';
 	@override String get action_bookmark => 'Signet';
 	@override String get action_fullscreen_toggle => 'Plein écran';
 	@override String get action_exit => 'Quitter';
@@ -4490,6 +4495,7 @@ class _StringsId implements _StringsEn {
 	@override String get section_typography => 'Typography';
 	@override String get section_layout => 'Layout & Display';
 	@override String get section_interface => 'Interface';
+	@override String get section_update => 'Update Settings';
 	@override String get action_bookmark => 'Bookmark';
 	@override String get action_fullscreen_toggle => 'Alihkan Layar Penuh';
 	@override String get action_exit => 'Keluar';
@@ -5251,6 +5257,7 @@ class _StringsIt implements _StringsEn {
 	@override String get section_typography => 'Typography';
 	@override String get section_layout => 'Layout & Display';
 	@override String get section_interface => 'Interface';
+	@override String get section_update => 'Update Settings';
 	@override String get action_bookmark => 'Segnalibro';
 	@override String get action_fullscreen_toggle => 'Schermo intero';
 	@override String get action_exit => 'Esci';
@@ -6008,6 +6015,7 @@ class _StringsJa implements _StringsEn {
 	@override String get section_typography => 'タイポグラフィ';
 	@override String get section_layout => 'レイアウトと表示';
 	@override String get section_interface => 'インターフェース';
+	@override String get section_update => '更新設定';
 	@override String get action_bookmark => 'ブックマーク';
 	@override String get action_fullscreen_toggle => '全画面表示の切替';
 	@override String get action_exit => '終了';
@@ -6752,6 +6760,7 @@ class _StringsKo implements _StringsEn {
 	@override String get section_typography => 'Typography';
 	@override String get section_layout => 'Layout & Display';
 	@override String get section_interface => 'Interface';
+	@override String get section_update => 'Update Settings';
 	@override String get action_bookmark => '???';
 	@override String get action_fullscreen_toggle => '?? ?? ??';
 	@override String get action_exit => '??';
@@ -7513,6 +7522,7 @@ class _StringsNl implements _StringsEn {
 	@override String get section_typography => 'Typography';
 	@override String get section_layout => 'Layout & Display';
 	@override String get section_interface => 'Interface';
+	@override String get section_update => 'Update Settings';
 	@override String get action_bookmark => 'Bladwijzer';
 	@override String get action_fullscreen_toggle => 'Volledig scherm';
 	@override String get action_exit => 'Afsluiten';
@@ -8260,6 +8270,7 @@ class _StringsPtBr implements _StringsEn {
 	@override String get section_typography => 'Typography';
 	@override String get section_layout => 'Layout & Display';
 	@override String get section_interface => 'Interface';
+	@override String get section_update => 'Update Settings';
 	@override String get action_bookmark => 'Marcador';
 	@override String get action_fullscreen_toggle => 'Alternar Tela Cheia';
 	@override String get action_exit => 'Sair';
@@ -9014,6 +9025,7 @@ class _StringsRu implements _StringsEn {
 	@override String get section_typography => 'Typography';
 	@override String get section_layout => 'Layout & Display';
 	@override String get section_interface => 'Interface';
+	@override String get section_update => 'Update Settings';
 	@override String get action_bookmark => 'Закладка';
 	@override String get action_fullscreen_toggle => 'Полноэкранный режим';
 	@override String get action_exit => 'Выход';
@@ -9768,6 +9780,7 @@ class _StringsTh implements _StringsEn {
 	@override String get section_typography => 'Typography';
 	@override String get section_layout => 'Layout & Display';
 	@override String get section_interface => 'Interface';
+	@override String get section_update => 'Update Settings';
 	@override String get action_bookmark => '?????????';
 	@override String get action_fullscreen_toggle => '??????????';
 	@override String get action_exit => '???';
@@ -10529,6 +10542,7 @@ class _StringsTr implements _StringsEn {
 	@override String get section_typography => 'Typography';
 	@override String get section_layout => 'Layout & Display';
 	@override String get section_interface => 'Interface';
+	@override String get section_update => 'Update Settings';
 	@override String get action_bookmark => 'Yer imi';
 	@override String get action_fullscreen_toggle => 'Tam ekran';
 	@override String get action_exit => '??k??';
@@ -11276,6 +11290,7 @@ class _StringsVi implements _StringsEn {
 	@override String get section_typography => 'Typography';
 	@override String get section_layout => 'Layout & Display';
 	@override String get section_interface => 'Interface';
+	@override String get section_update => 'Update Settings';
 	@override String get action_bookmark => '?ánh d?u';
 	@override String get action_fullscreen_toggle => 'B?t/t?t toàn màn hình';
 	@override String get action_exit => 'Thoát';
@@ -12040,6 +12055,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get section_typography => '排版';
 	@override String get section_layout => '布局与显示';
 	@override String get section_interface => '界面';
+	@override String get section_update => '更新设置';
 	@override String get action_bookmark => '书签';
 	@override String get action_fullscreen_toggle => '全屏切换';
 	@override String get action_exit => '退出';
@@ -12794,6 +12810,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String get section_typography => 'Typography';
 	@override String get section_layout => 'Layout & Display';
 	@override String get section_interface => 'Interface';
+	@override String get section_update => 'Update Settings';
 	@override String get action_bookmark => '書籤';
 	@override String get action_fullscreen_toggle => '全螢幕切換';
 	@override String get action_exit => '結束';
@@ -13537,6 +13554,7 @@ extension on _StringsEn {
 			case 'section_typography': return 'Typography';
 			case 'section_layout': return 'Layout & Display';
 			case 'section_interface': return 'Interface';
+			case 'section_update': return 'Update Settings';
 			case 'action_bookmark': return 'Bookmark';
 			case 'action_fullscreen_toggle': return 'Toggle Fullscreen';
 			case 'action_exit': return 'Exit';
@@ -14252,6 +14270,7 @@ extension on _StringsAr {
 			case 'section_typography': return 'الطباعة';
 			case 'section_layout': return 'التخطيط والعرض';
 			case 'section_interface': return 'الواجهة';
+			case 'section_update': return 'إعدادات التحديث';
 			case 'action_bookmark': return 'علامة مرجعية';
 			case 'action_fullscreen_toggle': return 'تبديل ملء الشاشة';
 			case 'action_exit': return 'خروج';
@@ -14955,6 +14974,7 @@ extension on _StringsDe {
 			case 'section_typography': return 'Typography';
 			case 'section_layout': return 'Layout & Display';
 			case 'section_interface': return 'Interface';
+			case 'section_update': return 'Update Settings';
 			case 'action_bookmark': return 'Lesezeichen';
 			case 'action_fullscreen_toggle': return 'Vollbild umschalten';
 			case 'action_exit': return 'Beenden';
@@ -15670,6 +15690,7 @@ extension on _StringsEs {
 			case 'section_typography': return 'Typography';
 			case 'section_layout': return 'Layout & Display';
 			case 'section_interface': return 'Interface';
+			case 'section_update': return 'Update Settings';
 			case 'action_bookmark': return 'Marcador';
 			case 'action_fullscreen_toggle': return 'Alternar pantalla completa';
 			case 'action_exit': return 'Salir';
@@ -16385,6 +16406,7 @@ extension on _StringsFr {
 			case 'section_typography': return 'Typography';
 			case 'section_layout': return 'Layout & Display';
 			case 'section_interface': return 'Interface';
+			case 'section_update': return 'Update Settings';
 			case 'action_bookmark': return 'Signet';
 			case 'action_fullscreen_toggle': return 'Plein écran';
 			case 'action_exit': return 'Quitter';
@@ -17100,6 +17122,7 @@ extension on _StringsId {
 			case 'section_typography': return 'Typography';
 			case 'section_layout': return 'Layout & Display';
 			case 'section_interface': return 'Interface';
+			case 'section_update': return 'Update Settings';
 			case 'action_bookmark': return 'Bookmark';
 			case 'action_fullscreen_toggle': return 'Alihkan Layar Penuh';
 			case 'action_exit': return 'Keluar';
@@ -17822,6 +17845,7 @@ extension on _StringsIt {
 			case 'section_typography': return 'Typography';
 			case 'section_layout': return 'Layout & Display';
 			case 'section_interface': return 'Interface';
+			case 'section_update': return 'Update Settings';
 			case 'action_bookmark': return 'Segnalibro';
 			case 'action_fullscreen_toggle': return 'Schermo intero';
 			case 'action_exit': return 'Esci';
@@ -18540,6 +18564,7 @@ extension on _StringsJa {
 			case 'section_typography': return 'タイポグラフィ';
 			case 'section_layout': return 'レイアウトと表示';
 			case 'section_interface': return 'インターフェース';
+			case 'section_update': return '更新設定';
 			case 'action_bookmark': return 'ブックマーク';
 			case 'action_fullscreen_toggle': return '全画面表示の切替';
 			case 'action_exit': return '終了';
@@ -19245,6 +19270,7 @@ extension on _StringsKo {
 			case 'section_typography': return 'Typography';
 			case 'section_layout': return 'Layout & Display';
 			case 'section_interface': return 'Interface';
+			case 'section_update': return 'Update Settings';
 			case 'action_bookmark': return '???';
 			case 'action_fullscreen_toggle': return '?? ?? ??';
 			case 'action_exit': return '??';
@@ -19967,6 +19993,7 @@ extension on _StringsNl {
 			case 'section_typography': return 'Typography';
 			case 'section_layout': return 'Layout & Display';
 			case 'section_interface': return 'Interface';
+			case 'section_update': return 'Update Settings';
 			case 'action_bookmark': return 'Bladwijzer';
 			case 'action_fullscreen_toggle': return 'Volledig scherm';
 			case 'action_exit': return 'Afsluiten';
@@ -20675,6 +20702,7 @@ extension on _StringsPtBr {
 			case 'section_typography': return 'Typography';
 			case 'section_layout': return 'Layout & Display';
 			case 'section_interface': return 'Interface';
+			case 'section_update': return 'Update Settings';
 			case 'action_bookmark': return 'Marcador';
 			case 'action_fullscreen_toggle': return 'Alternar Tela Cheia';
 			case 'action_exit': return 'Sair';
@@ -21390,6 +21418,7 @@ extension on _StringsRu {
 			case 'section_typography': return 'Typography';
 			case 'section_layout': return 'Layout & Display';
 			case 'section_interface': return 'Interface';
+			case 'section_update': return 'Update Settings';
 			case 'action_bookmark': return 'Закладка';
 			case 'action_fullscreen_toggle': return 'Полноэкранный режим';
 			case 'action_exit': return 'Выход';
@@ -22105,6 +22134,7 @@ extension on _StringsTh {
 			case 'section_typography': return 'Typography';
 			case 'section_layout': return 'Layout & Display';
 			case 'section_interface': return 'Interface';
+			case 'section_update': return 'Update Settings';
 			case 'action_bookmark': return '?????????';
 			case 'action_fullscreen_toggle': return '??????????';
 			case 'action_exit': return '???';
@@ -22827,6 +22857,7 @@ extension on _StringsTr {
 			case 'section_typography': return 'Typography';
 			case 'section_layout': return 'Layout & Display';
 			case 'section_interface': return 'Interface';
+			case 'section_update': return 'Update Settings';
 			case 'action_bookmark': return 'Yer imi';
 			case 'action_fullscreen_toggle': return 'Tam ekran';
 			case 'action_exit': return '??k??';
@@ -23535,6 +23566,7 @@ extension on _StringsVi {
 			case 'section_typography': return 'Typography';
 			case 'section_layout': return 'Layout & Display';
 			case 'section_interface': return 'Interface';
+			case 'section_update': return 'Update Settings';
 			case 'action_bookmark': return '?ánh d?u';
 			case 'action_fullscreen_toggle': return 'B?t/t?t toàn màn hình';
 			case 'action_exit': return 'Thoát';
@@ -24260,6 +24292,7 @@ extension on _StringsZhCn {
 			case 'section_typography': return '排版';
 			case 'section_layout': return '布局与显示';
 			case 'section_interface': return '界面';
+			case 'section_update': return '更新设置';
 			case 'action_bookmark': return '书签';
 			case 'action_fullscreen_toggle': return '全屏切换';
 			case 'action_exit': return '退出';
@@ -24975,6 +25008,7 @@ extension on _StringsZhHk {
 			case 'section_typography': return 'Typography';
 			case 'section_layout': return 'Layout & Display';
 			case 'section_interface': return 'Interface';
+			case 'section_update': return 'Update Settings';
 			case 'action_bookmark': return '書籤';
 			case 'action_fullscreen_toggle': return '全螢幕切換';
 			case 'action_exit': return '結束';
