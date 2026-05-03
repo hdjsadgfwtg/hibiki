@@ -789,6 +789,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get dark_mode => 'Dark Mode';
 	String get seed_color => 'Seed Color';
 	String get font_color => 'Font Color';
+	String get background_color => 'Background Color';
+	String get selection_color => 'Selection Highlight';
 	String get apply_theme => 'Apply Theme';
 	String get preview => 'Preview';
 	String get share_theme => 'Share Theme';
@@ -797,6 +799,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get import_theme_hint => 'Paste theme code';
 	String get import_theme_invalid => 'Invalid theme code';
 	String get import_theme_success => 'Theme imported';
+	String get color_primary => 'Primary';
+	String get color_secondary => 'Secondary';
+	String get color_tertiary => 'Tertiary';
+	String get color_container => 'Container';
 	String get auto_add_book_name_to_tags => 'Auto-add book title to tags';
 	String get collapse_dictionaries => 'Collapse dictionaries';
 	String get deduplicate_pitch_accents => 'Deduplicate pitch accents';
@@ -1540,6 +1546,8 @@ class _StringsAr implements _StringsEn {
 	@override String get dark_mode => 'الوضع الداكن';
 	@override String get seed_color => 'اللون الأساسي';
 	@override String get font_color => 'لون الخط';
+	@override String get background_color => 'Background Color';
+	@override String get selection_color => 'Selection Highlight';
 	@override String get apply_theme => 'تطبيق المظهر';
 	@override String get preview => 'معاينة';
 	@override String get share_theme => 'مشاركة المظهر';
@@ -1548,6 +1556,10 @@ class _StringsAr implements _StringsEn {
 	@override String get import_theme_hint => 'الصق رمز المظهر';
 	@override String get import_theme_invalid => 'رمز مظهر غير صالح';
 	@override String get import_theme_success => 'تم استيراد المظهر';
+	@override String get color_primary => 'Primary';
+	@override String get color_secondary => 'Secondary';
+	@override String get color_tertiary => 'Tertiary';
+	@override String get color_container => 'Container';
 	@override String get auto_add_book_name_to_tags => 'إضافة عنوان الكتاب تلقائياً إلى الوسوم';
 	@override String get collapse_dictionaries => 'طي القواميس';
 	@override String get deduplicate_pitch_accents => 'إزالة تكرار النبرات';
@@ -2278,6 +2290,8 @@ class _StringsDe implements _StringsEn {
 	@override String get dark_mode => 'Dunkler Modus';
 	@override String get seed_color => 'Grundfarbe';
 	@override String get font_color => 'Schriftfarbe';
+	@override String get background_color => 'Background Color';
+	@override String get selection_color => 'Selection Highlight';
 	@override String get apply_theme => 'Design anwenden';
 	@override String get preview => 'Vorschau';
 	@override String get share_theme => 'Theme teilen';
@@ -2286,6 +2300,10 @@ class _StringsDe implements _StringsEn {
 	@override String get import_theme_hint => 'Theme-Code einfügen';
 	@override String get import_theme_invalid => 'Ungültiger Theme-Code';
 	@override String get import_theme_success => 'Theme importiert';
+	@override String get color_primary => 'Primary';
+	@override String get color_secondary => 'Secondary';
+	@override String get color_tertiary => 'Tertiary';
+	@override String get color_container => 'Container';
 	@override String get auto_add_book_name_to_tags => 'Buchtitel automatisch zu Tags hinzufügen';
 	@override String get use_recommended_template => 'Empfohlen';
 	@override String get recommended_template_exists => 'Das Standardprofil existiert bereits.';
@@ -3035,6 +3053,8 @@ class _StringsEs implements _StringsEn {
 	@override String get dark_mode => 'Modo oscuro';
 	@override String get seed_color => 'Color base';
 	@override String get font_color => 'Color de fuente';
+	@override String get background_color => 'Background Color';
+	@override String get selection_color => 'Selection Highlight';
 	@override String get apply_theme => 'Aplicar tema';
 	@override String get preview => 'Vista previa';
 	@override String get share_theme => 'Compartir tema';
@@ -3043,6 +3063,10 @@ class _StringsEs implements _StringsEn {
 	@override String get import_theme_hint => 'Pegar código de tema';
 	@override String get import_theme_invalid => 'Código de tema no válido';
 	@override String get import_theme_success => 'Tema importado';
+	@override String get color_primary => 'Primary';
+	@override String get color_secondary => 'Secondary';
+	@override String get color_tertiary => 'Tertiary';
+	@override String get color_container => 'Container';
 	@override String get auto_add_book_name_to_tags => 'A?adir título del libro a las etiquetas automáticamente';
 	@override String get use_recommended_template => 'Recomendado';
 	@override String get recommended_template_exists => 'El perfil estándar ya existe.';
@@ -3792,6 +3816,8 @@ class _StringsFr implements _StringsEn {
 	@override String get dark_mode => 'Mode sombre';
 	@override String get seed_color => 'Couleur de base';
 	@override String get font_color => 'Couleur de police';
+	@override String get background_color => 'Background Color';
+	@override String get selection_color => 'Selection Highlight';
 	@override String get apply_theme => 'Appliquer le thème';
 	@override String get preview => 'Aper?u';
 	@override String get share_theme => 'Partager le thème';
@@ -3800,6 +3826,10 @@ class _StringsFr implements _StringsEn {
 	@override String get import_theme_hint => 'Coller le code du thème';
 	@override String get import_theme_invalid => 'Code de thème invalide';
 	@override String get import_theme_success => 'Thème importé';
+	@override String get color_primary => 'Primary';
+	@override String get color_secondary => 'Secondary';
+	@override String get color_tertiary => 'Tertiary';
+	@override String get color_container => 'Container';
 	@override String get auto_add_book_name_to_tags => 'Ajouter automatiquement le titre du livre aux étiquettes';
 	@override String get use_recommended_template => 'Recommandé';
 	@override String get recommended_template_exists => 'Le profil standard existe déjà.';
@@ -4549,6 +4579,8 @@ class _StringsId implements _StringsEn {
 	@override String get dark_mode => 'Mode Gelap';
 	@override String get seed_color => 'Warna Dasar';
 	@override String get font_color => 'Warna Font';
+	@override String get background_color => 'Background Color';
+	@override String get selection_color => 'Selection Highlight';
 	@override String get apply_theme => 'Terapkan Tema';
 	@override String get preview => 'Pratinjau';
 	@override String get share_theme => 'Bagikan Tema';
@@ -4557,6 +4589,10 @@ class _StringsId implements _StringsEn {
 	@override String get import_theme_hint => 'Tempel kode tema';
 	@override String get import_theme_invalid => 'Kode tema tidak valid';
 	@override String get import_theme_success => 'Tema berhasil diimpor';
+	@override String get color_primary => 'Primary';
+	@override String get color_secondary => 'Secondary';
+	@override String get color_tertiary => 'Tertiary';
+	@override String get color_container => 'Container';
 	@override String get auto_add_book_name_to_tags => 'Tambahkan judul buku ke tag secara otomatis';
 	@override String get use_recommended_template => 'Rekomendasi';
 	@override String get recommended_template_exists => 'Profil standar sudah ada.';
@@ -5313,6 +5349,8 @@ class _StringsIt implements _StringsEn {
 	@override String get dark_mode => 'Modalità scura';
 	@override String get seed_color => 'Colore base';
 	@override String get font_color => 'Colore carattere';
+	@override String get background_color => 'Background Color';
+	@override String get selection_color => 'Selection Highlight';
 	@override String get apply_theme => 'Applica tema';
 	@override String get preview => 'Anteprima';
 	@override String get share_theme => 'Condividi tema';
@@ -5321,6 +5359,10 @@ class _StringsIt implements _StringsEn {
 	@override String get import_theme_hint => 'Incolla il codice del tema';
 	@override String get import_theme_invalid => 'Codice tema non valido';
 	@override String get import_theme_success => 'Tema importato';
+	@override String get color_primary => 'Primary';
+	@override String get color_secondary => 'Secondary';
+	@override String get color_tertiary => 'Tertiary';
+	@override String get color_container => 'Container';
 	@override String get auto_add_book_name_to_tags => 'Aggiungi automaticamente il titolo del libro alle etichette';
 	@override String get collapse_dictionaries => 'Collapse dictionaries';
 	@override String get deduplicate_pitch_accents => 'Deduplica accenti tonali';
@@ -6073,6 +6115,8 @@ class _StringsJa implements _StringsEn {
 	@override String get dark_mode => 'ダークモード';
 	@override String get seed_color => 'シードカラー';
 	@override String get font_color => '文字色';
+	@override String get background_color => 'Background Color';
+	@override String get selection_color => 'Selection Highlight';
 	@override String get apply_theme => 'テーマを適用';
 	@override String get preview => 'プレビュー';
 	@override String get share_theme => 'テーマを共有';
@@ -6081,6 +6125,10 @@ class _StringsJa implements _StringsEn {
 	@override String get import_theme_hint => 'テーマコードを貼り付け';
 	@override String get import_theme_invalid => '無効なテーマコード';
 	@override String get import_theme_success => 'テーマをインポートしました';
+	@override String get color_primary => 'Primary';
+	@override String get color_secondary => 'Secondary';
+	@override String get color_tertiary => 'Tertiary';
+	@override String get color_container => 'Container';
 	@override String get auto_add_book_name_to_tags => 'タグに本のタイトルを自動追加';
 	@override String get collapse_dictionaries => 'Collapse dictionaries';
 	@override String get deduplicate_pitch_accents => 'アクセント重複除外';
@@ -6820,6 +6868,8 @@ class _StringsKo implements _StringsEn {
 	@override String get dark_mode => '?? ??';
 	@override String get seed_color => '?? ??';
 	@override String get font_color => '?? ??';
+	@override String get background_color => 'Background Color';
+	@override String get selection_color => 'Selection Highlight';
 	@override String get apply_theme => '?? ??';
 	@override String get preview => '????';
 	@override String get share_theme => '?? ??';
@@ -6828,6 +6878,10 @@ class _StringsKo implements _StringsEn {
 	@override String get import_theme_hint => '?? ?? ????';
 	@override String get import_theme_invalid => '??? ?? ??';
 	@override String get import_theme_success => '??? ??????';
+	@override String get color_primary => 'Primary';
+	@override String get color_secondary => 'Secondary';
+	@override String get color_tertiary => 'Tertiary';
+	@override String get color_container => 'Container';
 	@override String get auto_add_book_name_to_tags => '??? ? ?? ?? ??';
 	@override String get use_recommended_template => '??';
 	@override String get recommended_template_exists => '?? ???? ?? ?????.';
@@ -7584,6 +7638,8 @@ class _StringsNl implements _StringsEn {
 	@override String get dark_mode => 'Donkere modus';
 	@override String get seed_color => 'Basiskleur';
 	@override String get font_color => 'Letterkleur';
+	@override String get background_color => 'Background Color';
+	@override String get selection_color => 'Selection Highlight';
 	@override String get apply_theme => 'Thema toepassen';
 	@override String get preview => 'Voorbeeld';
 	@override String get share_theme => 'Thema delen';
@@ -7592,6 +7648,10 @@ class _StringsNl implements _StringsEn {
 	@override String get import_theme_hint => 'Plak themacode';
 	@override String get import_theme_invalid => 'Ongeldige themacode';
 	@override String get import_theme_success => 'Thema ge?mporteerd';
+	@override String get color_primary => 'Primary';
+	@override String get color_secondary => 'Secondary';
+	@override String get color_tertiary => 'Tertiary';
+	@override String get color_container => 'Container';
 	@override String get auto_add_book_name_to_tags => 'Boektitel automatisch aan labels toevoegen';
 	@override String get collapse_dictionaries => 'Collapse dictionaries';
 	@override String get deduplicate_pitch_accents => 'Toonhoogteaccenten dedupliceren';
@@ -8334,6 +8394,8 @@ class _StringsPtBr implements _StringsEn {
 	@override String get dark_mode => 'Modo Escuro';
 	@override String get seed_color => 'Cor Base';
 	@override String get font_color => 'Cor da Fonte';
+	@override String get background_color => 'Background Color';
+	@override String get selection_color => 'Selection Highlight';
 	@override String get apply_theme => 'Aplicar Tema';
 	@override String get preview => 'Pré-visualiza??o';
 	@override String get share_theme => 'Compartilhar tema';
@@ -8342,6 +8404,10 @@ class _StringsPtBr implements _StringsEn {
 	@override String get import_theme_hint => 'Colar código do tema';
 	@override String get import_theme_invalid => 'Código de tema inválido';
 	@override String get import_theme_success => 'Tema importado';
+	@override String get color_primary => 'Primary';
+	@override String get color_secondary => 'Secondary';
+	@override String get color_tertiary => 'Tertiary';
+	@override String get color_container => 'Container';
 	@override String get auto_add_book_name_to_tags => 'Adicionar título do livro às tags automaticamente';
 	@override String get use_recommended_template => 'Recomendado';
 	@override String get recommended_template_exists => 'O perfil padr?o já existe.';
@@ -9091,6 +9157,8 @@ class _StringsRu implements _StringsEn {
 	@override String get dark_mode => 'Тёмный режим';
 	@override String get seed_color => 'Базовый цвет';
 	@override String get font_color => 'Цвет шрифта';
+	@override String get background_color => 'Background Color';
+	@override String get selection_color => 'Selection Highlight';
 	@override String get apply_theme => 'Применить тему';
 	@override String get preview => 'Предпросмотр';
 	@override String get share_theme => 'Поделиться темой';
@@ -9099,6 +9167,10 @@ class _StringsRu implements _StringsEn {
 	@override String get import_theme_hint => 'Вставьте код темы';
 	@override String get import_theme_invalid => 'Недействительный код темы';
 	@override String get import_theme_success => 'Тема импортирована';
+	@override String get color_primary => 'Primary';
+	@override String get color_secondary => 'Secondary';
+	@override String get color_tertiary => 'Tertiary';
+	@override String get color_container => 'Container';
 	@override String get auto_add_book_name_to_tags => 'Автодобавление названия книги в теги';
 	@override String get use_recommended_template => 'Рекомендуемый';
 	@override String get recommended_template_exists => 'Стандартный профиль уже существует.';
@@ -9848,6 +9920,8 @@ class _StringsTh implements _StringsEn {
 	@override String get dark_mode => '???????';
 	@override String get seed_color => '??????';
 	@override String get font_color => '??????????';
+	@override String get background_color => 'Background Color';
+	@override String get selection_color => 'Selection Highlight';
 	@override String get apply_theme => '??????';
 	@override String get preview => '??????????';
 	@override String get share_theme => '???????';
@@ -9856,6 +9930,10 @@ class _StringsTh implements _StringsEn {
 	@override String get import_theme_hint => '??????????';
 	@override String get import_theme_invalid => '?????????????????';
 	@override String get import_theme_success => '?????????????';
+	@override String get color_primary => 'Primary';
+	@override String get color_secondary => 'Secondary';
+	@override String get color_tertiary => 'Tertiary';
+	@override String get color_container => 'Container';
 	@override String get auto_add_book_name_to_tags => '???????????????????????????????';
 	@override String get use_recommended_template => '?????';
 	@override String get recommended_template_exists => '????????????????????????';
@@ -10612,6 +10690,8 @@ class _StringsTr implements _StringsEn {
 	@override String get dark_mode => 'Koyu mod';
 	@override String get seed_color => 'Ana renk';
 	@override String get font_color => 'Yaz? rengi';
+	@override String get background_color => 'Background Color';
+	@override String get selection_color => 'Selection Highlight';
 	@override String get apply_theme => 'Temay? uygula';
 	@override String get preview => '?nizleme';
 	@override String get share_theme => 'Temay? payla?';
@@ -10620,6 +10700,10 @@ class _StringsTr implements _StringsEn {
 	@override String get import_theme_hint => 'Tema kodunu yap??t?r?n';
 	@override String get import_theme_invalid => 'Ge?ersiz tema kodu';
 	@override String get import_theme_success => 'Tema i?e aktar?ld?';
+	@override String get color_primary => 'Primary';
+	@override String get color_secondary => 'Secondary';
+	@override String get color_tertiary => 'Tertiary';
+	@override String get color_container => 'Container';
 	@override String get auto_add_book_name_to_tags => 'Kitap ba?l???n? otomatik olarak etiketlere ekle';
 	@override String get collapse_dictionaries => 'Collapse dictionaries';
 	@override String get deduplicate_pitch_accents => 'Ton vurgular?n? tekrars?zla?t?r';
@@ -11362,6 +11446,8 @@ class _StringsVi implements _StringsEn {
 	@override String get dark_mode => 'Ch? ?? t?i';
 	@override String get seed_color => 'Màu ch? ??o';
 	@override String get font_color => 'Màu ch?';
+	@override String get background_color => 'Background Color';
+	@override String get selection_color => 'Selection Highlight';
 	@override String get apply_theme => 'áp d?ng giao di?n';
 	@override String get preview => 'Xem tr??c';
 	@override String get share_theme => 'Chia s? giao di?n';
@@ -11370,6 +11456,10 @@ class _StringsVi implements _StringsEn {
 	@override String get import_theme_hint => 'Dán m? giao di?n';
 	@override String get import_theme_invalid => 'M? giao di?n kh?ng h?p l?';
 	@override String get import_theme_success => '?? nh?p giao di?n';
+	@override String get color_primary => 'Primary';
+	@override String get color_secondary => 'Secondary';
+	@override String get color_tertiary => 'Tertiary';
+	@override String get color_container => 'Container';
 	@override String get auto_add_book_name_to_tags => 'T? thêm tên sách vào tag';
 	@override String get use_recommended_template => '???c ?? xu?t';
 	@override String get recommended_template_exists => 'H? s? m?c ??nh ?? t?n t?i.';
@@ -12142,6 +12232,8 @@ class _StringsZhCn implements _StringsEn {
 	@override String get dark_mode => '深色模式';
 	@override String get seed_color => '种子色';
 	@override String get font_color => '字体颜色';
+	@override String get background_color => '背景颜色';
+	@override String get selection_color => '选中高亮色';
 	@override String get apply_theme => '应用主题';
 	@override String get preview => '预览';
 	@override String get share_theme => '分享主题';
@@ -12150,6 +12242,10 @@ class _StringsZhCn implements _StringsEn {
 	@override String get import_theme_hint => '粘贴主题代码';
 	@override String get import_theme_invalid => '无效的主题代码';
 	@override String get import_theme_success => '主题已导入';
+	@override String get color_primary => '主色';
+	@override String get color_secondary => '辅色';
+	@override String get color_tertiary => '第三色';
+	@override String get color_container => '容器色';
 	@override String get auto_add_book_name_to_tags => '自动添加书名到标签';
 	@override String get collapse_dictionaries => '折叠词典显示';
 	@override String get deduplicate_pitch_accents => '音调去重';
@@ -12886,6 +12982,8 @@ class _StringsZhHk implements _StringsEn {
 	@override String get dark_mode => '深色模式';
 	@override String get seed_color => '種子色';
 	@override String get font_color => '字體顏色';
+	@override String get background_color => 'Background Color';
+	@override String get selection_color => 'Selection Highlight';
 	@override String get apply_theme => '套用主題';
 	@override String get preview => '預覽';
 	@override String get share_theme => '分享主題';
@@ -12894,6 +12992,10 @@ class _StringsZhHk implements _StringsEn {
 	@override String get import_theme_hint => '貼上主題代碼';
 	@override String get import_theme_invalid => '無效的主題代碼';
 	@override String get import_theme_success => '主題已匯入';
+	@override String get color_primary => 'Primary';
+	@override String get color_secondary => 'Secondary';
+	@override String get color_tertiary => 'Tertiary';
+	@override String get color_container => 'Container';
 	@override String get auto_add_book_name_to_tags => '自動將書名加入標籤';
 	@override String get use_recommended_template => '推薦範本';
 	@override String get recommended_template_exists => '標準設定檔已存在。';
@@ -13645,6 +13747,8 @@ extension on _StringsEn {
 			case 'dark_mode': return 'Dark Mode';
 			case 'seed_color': return 'Seed Color';
 			case 'font_color': return 'Font Color';
+			case 'background_color': return 'Background Color';
+			case 'selection_color': return 'Selection Highlight';
 			case 'apply_theme': return 'Apply Theme';
 			case 'preview': return 'Preview';
 			case 'share_theme': return 'Share Theme';
@@ -13653,6 +13757,10 @@ extension on _StringsEn {
 			case 'import_theme_hint': return 'Paste theme code';
 			case 'import_theme_invalid': return 'Invalid theme code';
 			case 'import_theme_success': return 'Theme imported';
+			case 'color_primary': return 'Primary';
+			case 'color_secondary': return 'Secondary';
+			case 'color_tertiary': return 'Tertiary';
+			case 'color_container': return 'Container';
 			case 'auto_add_book_name_to_tags': return 'Auto-add book title to tags';
 			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return 'Deduplicate pitch accents';
@@ -14357,6 +14465,8 @@ extension on _StringsAr {
 			case 'dark_mode': return 'الوضع الداكن';
 			case 'seed_color': return 'اللون الأساسي';
 			case 'font_color': return 'لون الخط';
+			case 'background_color': return 'Background Color';
+			case 'selection_color': return 'Selection Highlight';
 			case 'apply_theme': return 'تطبيق المظهر';
 			case 'preview': return 'معاينة';
 			case 'share_theme': return 'مشاركة المظهر';
@@ -14365,6 +14475,10 @@ extension on _StringsAr {
 			case 'import_theme_hint': return 'الصق رمز المظهر';
 			case 'import_theme_invalid': return 'رمز مظهر غير صالح';
 			case 'import_theme_success': return 'تم استيراد المظهر';
+			case 'color_primary': return 'Primary';
+			case 'color_secondary': return 'Secondary';
+			case 'color_tertiary': return 'Tertiary';
+			case 'color_container': return 'Container';
 			case 'auto_add_book_name_to_tags': return 'إضافة عنوان الكتاب تلقائياً إلى الوسوم';
 			case 'collapse_dictionaries': return 'طي القواميس';
 			case 'deduplicate_pitch_accents': return 'إزالة تكرار النبرات';
@@ -15056,6 +15170,8 @@ extension on _StringsDe {
 			case 'dark_mode': return 'Dunkler Modus';
 			case 'seed_color': return 'Grundfarbe';
 			case 'font_color': return 'Schriftfarbe';
+			case 'background_color': return 'Background Color';
+			case 'selection_color': return 'Selection Highlight';
 			case 'apply_theme': return 'Design anwenden';
 			case 'preview': return 'Vorschau';
 			case 'share_theme': return 'Theme teilen';
@@ -15064,6 +15180,10 @@ extension on _StringsDe {
 			case 'import_theme_hint': return 'Theme-Code einfügen';
 			case 'import_theme_invalid': return 'Ungültiger Theme-Code';
 			case 'import_theme_success': return 'Theme importiert';
+			case 'color_primary': return 'Primary';
+			case 'color_secondary': return 'Secondary';
+			case 'color_tertiary': return 'Tertiary';
+			case 'color_container': return 'Container';
 			case 'auto_add_book_name_to_tags': return 'Buchtitel automatisch zu Tags hinzufügen';
 			case 'use_recommended_template': return 'Empfohlen';
 			case 'recommended_template_exists': return 'Das Standardprofil existiert bereits.';
@@ -15774,6 +15894,8 @@ extension on _StringsEs {
 			case 'dark_mode': return 'Modo oscuro';
 			case 'seed_color': return 'Color base';
 			case 'font_color': return 'Color de fuente';
+			case 'background_color': return 'Background Color';
+			case 'selection_color': return 'Selection Highlight';
 			case 'apply_theme': return 'Aplicar tema';
 			case 'preview': return 'Vista previa';
 			case 'share_theme': return 'Compartir tema';
@@ -15782,6 +15904,10 @@ extension on _StringsEs {
 			case 'import_theme_hint': return 'Pegar código de tema';
 			case 'import_theme_invalid': return 'Código de tema no válido';
 			case 'import_theme_success': return 'Tema importado';
+			case 'color_primary': return 'Primary';
+			case 'color_secondary': return 'Secondary';
+			case 'color_tertiary': return 'Tertiary';
+			case 'color_container': return 'Container';
 			case 'auto_add_book_name_to_tags': return 'A?adir título del libro a las etiquetas automáticamente';
 			case 'use_recommended_template': return 'Recomendado';
 			case 'recommended_template_exists': return 'El perfil estándar ya existe.';
@@ -16492,6 +16618,8 @@ extension on _StringsFr {
 			case 'dark_mode': return 'Mode sombre';
 			case 'seed_color': return 'Couleur de base';
 			case 'font_color': return 'Couleur de police';
+			case 'background_color': return 'Background Color';
+			case 'selection_color': return 'Selection Highlight';
 			case 'apply_theme': return 'Appliquer le thème';
 			case 'preview': return 'Aper?u';
 			case 'share_theme': return 'Partager le thème';
@@ -16500,6 +16628,10 @@ extension on _StringsFr {
 			case 'import_theme_hint': return 'Coller le code du thème';
 			case 'import_theme_invalid': return 'Code de thème invalide';
 			case 'import_theme_success': return 'Thème importé';
+			case 'color_primary': return 'Primary';
+			case 'color_secondary': return 'Secondary';
+			case 'color_tertiary': return 'Tertiary';
+			case 'color_container': return 'Container';
 			case 'auto_add_book_name_to_tags': return 'Ajouter automatiquement le titre du livre aux étiquettes';
 			case 'use_recommended_template': return 'Recommandé';
 			case 'recommended_template_exists': return 'Le profil standard existe déjà.';
@@ -17210,6 +17342,8 @@ extension on _StringsId {
 			case 'dark_mode': return 'Mode Gelap';
 			case 'seed_color': return 'Warna Dasar';
 			case 'font_color': return 'Warna Font';
+			case 'background_color': return 'Background Color';
+			case 'selection_color': return 'Selection Highlight';
 			case 'apply_theme': return 'Terapkan Tema';
 			case 'preview': return 'Pratinjau';
 			case 'share_theme': return 'Bagikan Tema';
@@ -17218,6 +17352,10 @@ extension on _StringsId {
 			case 'import_theme_hint': return 'Tempel kode tema';
 			case 'import_theme_invalid': return 'Kode tema tidak valid';
 			case 'import_theme_success': return 'Tema berhasil diimpor';
+			case 'color_primary': return 'Primary';
+			case 'color_secondary': return 'Secondary';
+			case 'color_tertiary': return 'Tertiary';
+			case 'color_container': return 'Container';
 			case 'auto_add_book_name_to_tags': return 'Tambahkan judul buku ke tag secara otomatis';
 			case 'use_recommended_template': return 'Rekomendasi';
 			case 'recommended_template_exists': return 'Profil standar sudah ada.';
@@ -17935,6 +18073,8 @@ extension on _StringsIt {
 			case 'dark_mode': return 'Modalità scura';
 			case 'seed_color': return 'Colore base';
 			case 'font_color': return 'Colore carattere';
+			case 'background_color': return 'Background Color';
+			case 'selection_color': return 'Selection Highlight';
 			case 'apply_theme': return 'Applica tema';
 			case 'preview': return 'Anteprima';
 			case 'share_theme': return 'Condividi tema';
@@ -17943,6 +18083,10 @@ extension on _StringsIt {
 			case 'import_theme_hint': return 'Incolla il codice del tema';
 			case 'import_theme_invalid': return 'Codice tema non valido';
 			case 'import_theme_success': return 'Tema importato';
+			case 'color_primary': return 'Primary';
+			case 'color_secondary': return 'Secondary';
+			case 'color_tertiary': return 'Tertiary';
+			case 'color_container': return 'Container';
 			case 'auto_add_book_name_to_tags': return 'Aggiungi automaticamente il titolo del libro alle etichette';
 			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return 'Deduplica accenti tonali';
@@ -18656,6 +18800,8 @@ extension on _StringsJa {
 			case 'dark_mode': return 'ダークモード';
 			case 'seed_color': return 'シードカラー';
 			case 'font_color': return '文字色';
+			case 'background_color': return 'Background Color';
+			case 'selection_color': return 'Selection Highlight';
 			case 'apply_theme': return 'テーマを適用';
 			case 'preview': return 'プレビュー';
 			case 'share_theme': return 'テーマを共有';
@@ -18664,6 +18810,10 @@ extension on _StringsJa {
 			case 'import_theme_hint': return 'テーマコードを貼り付け';
 			case 'import_theme_invalid': return '無効なテーマコード';
 			case 'import_theme_success': return 'テーマをインポートしました';
+			case 'color_primary': return 'Primary';
+			case 'color_secondary': return 'Secondary';
+			case 'color_tertiary': return 'Tertiary';
+			case 'color_container': return 'Container';
 			case 'auto_add_book_name_to_tags': return 'タグに本のタイトルを自動追加';
 			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return 'アクセント重複除外';
@@ -19364,6 +19514,8 @@ extension on _StringsKo {
 			case 'dark_mode': return '?? ??';
 			case 'seed_color': return '?? ??';
 			case 'font_color': return '?? ??';
+			case 'background_color': return 'Background Color';
+			case 'selection_color': return 'Selection Highlight';
 			case 'apply_theme': return '?? ??';
 			case 'preview': return '????';
 			case 'share_theme': return '?? ??';
@@ -19372,6 +19524,10 @@ extension on _StringsKo {
 			case 'import_theme_hint': return '?? ?? ????';
 			case 'import_theme_invalid': return '??? ?? ??';
 			case 'import_theme_success': return '??? ??????';
+			case 'color_primary': return 'Primary';
+			case 'color_secondary': return 'Secondary';
+			case 'color_tertiary': return 'Tertiary';
+			case 'color_container': return 'Container';
 			case 'auto_add_book_name_to_tags': return '??? ? ?? ?? ??';
 			case 'use_recommended_template': return '??';
 			case 'recommended_template_exists': return '?? ???? ?? ?????.';
@@ -20089,6 +20245,8 @@ extension on _StringsNl {
 			case 'dark_mode': return 'Donkere modus';
 			case 'seed_color': return 'Basiskleur';
 			case 'font_color': return 'Letterkleur';
+			case 'background_color': return 'Background Color';
+			case 'selection_color': return 'Selection Highlight';
 			case 'apply_theme': return 'Thema toepassen';
 			case 'preview': return 'Voorbeeld';
 			case 'share_theme': return 'Thema delen';
@@ -20097,6 +20255,10 @@ extension on _StringsNl {
 			case 'import_theme_hint': return 'Plak themacode';
 			case 'import_theme_invalid': return 'Ongeldige themacode';
 			case 'import_theme_success': return 'Thema ge?mporteerd';
+			case 'color_primary': return 'Primary';
+			case 'color_secondary': return 'Secondary';
+			case 'color_tertiary': return 'Tertiary';
+			case 'color_container': return 'Container';
 			case 'auto_add_book_name_to_tags': return 'Boektitel automatisch aan labels toevoegen';
 			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return 'Toonhoogteaccenten dedupliceren';
@@ -20800,6 +20962,8 @@ extension on _StringsPtBr {
 			case 'dark_mode': return 'Modo Escuro';
 			case 'seed_color': return 'Cor Base';
 			case 'font_color': return 'Cor da Fonte';
+			case 'background_color': return 'Background Color';
+			case 'selection_color': return 'Selection Highlight';
 			case 'apply_theme': return 'Aplicar Tema';
 			case 'preview': return 'Pré-visualiza??o';
 			case 'share_theme': return 'Compartilhar tema';
@@ -20808,6 +20972,10 @@ extension on _StringsPtBr {
 			case 'import_theme_hint': return 'Colar código do tema';
 			case 'import_theme_invalid': return 'Código de tema inválido';
 			case 'import_theme_success': return 'Tema importado';
+			case 'color_primary': return 'Primary';
+			case 'color_secondary': return 'Secondary';
+			case 'color_tertiary': return 'Tertiary';
+			case 'color_container': return 'Container';
 			case 'auto_add_book_name_to_tags': return 'Adicionar título do livro às tags automaticamente';
 			case 'use_recommended_template': return 'Recomendado';
 			case 'recommended_template_exists': return 'O perfil padr?o já existe.';
@@ -21518,6 +21686,8 @@ extension on _StringsRu {
 			case 'dark_mode': return 'Тёмный режим';
 			case 'seed_color': return 'Базовый цвет';
 			case 'font_color': return 'Цвет шрифта';
+			case 'background_color': return 'Background Color';
+			case 'selection_color': return 'Selection Highlight';
 			case 'apply_theme': return 'Применить тему';
 			case 'preview': return 'Предпросмотр';
 			case 'share_theme': return 'Поделиться темой';
@@ -21526,6 +21696,10 @@ extension on _StringsRu {
 			case 'import_theme_hint': return 'Вставьте код темы';
 			case 'import_theme_invalid': return 'Недействительный код темы';
 			case 'import_theme_success': return 'Тема импортирована';
+			case 'color_primary': return 'Primary';
+			case 'color_secondary': return 'Secondary';
+			case 'color_tertiary': return 'Tertiary';
+			case 'color_container': return 'Container';
 			case 'auto_add_book_name_to_tags': return 'Автодобавление названия книги в теги';
 			case 'use_recommended_template': return 'Рекомендуемый';
 			case 'recommended_template_exists': return 'Стандартный профиль уже существует.';
@@ -22236,6 +22410,8 @@ extension on _StringsTh {
 			case 'dark_mode': return '???????';
 			case 'seed_color': return '??????';
 			case 'font_color': return '??????????';
+			case 'background_color': return 'Background Color';
+			case 'selection_color': return 'Selection Highlight';
 			case 'apply_theme': return '??????';
 			case 'preview': return '??????????';
 			case 'share_theme': return '???????';
@@ -22244,6 +22420,10 @@ extension on _StringsTh {
 			case 'import_theme_hint': return '??????????';
 			case 'import_theme_invalid': return '?????????????????';
 			case 'import_theme_success': return '?????????????';
+			case 'color_primary': return 'Primary';
+			case 'color_secondary': return 'Secondary';
+			case 'color_tertiary': return 'Tertiary';
+			case 'color_container': return 'Container';
 			case 'auto_add_book_name_to_tags': return '???????????????????????????????';
 			case 'use_recommended_template': return '?????';
 			case 'recommended_template_exists': return '????????????????????????';
@@ -22961,6 +23141,8 @@ extension on _StringsTr {
 			case 'dark_mode': return 'Koyu mod';
 			case 'seed_color': return 'Ana renk';
 			case 'font_color': return 'Yaz? rengi';
+			case 'background_color': return 'Background Color';
+			case 'selection_color': return 'Selection Highlight';
 			case 'apply_theme': return 'Temay? uygula';
 			case 'preview': return '?nizleme';
 			case 'share_theme': return 'Temay? payla?';
@@ -22969,6 +23151,10 @@ extension on _StringsTr {
 			case 'import_theme_hint': return 'Tema kodunu yap??t?r?n';
 			case 'import_theme_invalid': return 'Ge?ersiz tema kodu';
 			case 'import_theme_success': return 'Tema i?e aktar?ld?';
+			case 'color_primary': return 'Primary';
+			case 'color_secondary': return 'Secondary';
+			case 'color_tertiary': return 'Tertiary';
+			case 'color_container': return 'Container';
 			case 'auto_add_book_name_to_tags': return 'Kitap ba?l???n? otomatik olarak etiketlere ekle';
 			case 'collapse_dictionaries': return 'Collapse dictionaries';
 			case 'deduplicate_pitch_accents': return 'Ton vurgular?n? tekrars?zla?t?r';
@@ -23672,6 +23858,8 @@ extension on _StringsVi {
 			case 'dark_mode': return 'Ch? ?? t?i';
 			case 'seed_color': return 'Màu ch? ??o';
 			case 'font_color': return 'Màu ch?';
+			case 'background_color': return 'Background Color';
+			case 'selection_color': return 'Selection Highlight';
 			case 'apply_theme': return 'áp d?ng giao di?n';
 			case 'preview': return 'Xem tr??c';
 			case 'share_theme': return 'Chia s? giao di?n';
@@ -23680,6 +23868,10 @@ extension on _StringsVi {
 			case 'import_theme_hint': return 'Dán m? giao di?n';
 			case 'import_theme_invalid': return 'M? giao di?n kh?ng h?p l?';
 			case 'import_theme_success': return '?? nh?p giao di?n';
+			case 'color_primary': return 'Primary';
+			case 'color_secondary': return 'Secondary';
+			case 'color_tertiary': return 'Tertiary';
+			case 'color_container': return 'Container';
 			case 'auto_add_book_name_to_tags': return 'T? thêm tên sách vào tag';
 			case 'use_recommended_template': return '???c ?? xu?t';
 			case 'recommended_template_exists': return 'H? s? m?c ??nh ?? t?n t?i.';
@@ -24413,6 +24605,8 @@ extension on _StringsZhCn {
 			case 'dark_mode': return '深色模式';
 			case 'seed_color': return '种子色';
 			case 'font_color': return '字体颜色';
+			case 'background_color': return '背景颜色';
+			case 'selection_color': return '选中高亮色';
 			case 'apply_theme': return '应用主题';
 			case 'preview': return '预览';
 			case 'share_theme': return '分享主题';
@@ -24421,6 +24615,10 @@ extension on _StringsZhCn {
 			case 'import_theme_hint': return '粘贴主题代码';
 			case 'import_theme_invalid': return '无效的主题代码';
 			case 'import_theme_success': return '主题已导入';
+			case 'color_primary': return '主色';
+			case 'color_secondary': return '辅色';
+			case 'color_tertiary': return '第三色';
+			case 'color_container': return '容器色';
 			case 'auto_add_book_name_to_tags': return '自动添加书名到标签';
 			case 'collapse_dictionaries': return '折叠词典显示';
 			case 'deduplicate_pitch_accents': return '音调去重';
@@ -25118,6 +25316,8 @@ extension on _StringsZhHk {
 			case 'dark_mode': return '深色模式';
 			case 'seed_color': return '種子色';
 			case 'font_color': return '字體顏色';
+			case 'background_color': return 'Background Color';
+			case 'selection_color': return 'Selection Highlight';
 			case 'apply_theme': return '套用主題';
 			case 'preview': return '預覽';
 			case 'share_theme': return '分享主題';
@@ -25126,6 +25326,10 @@ extension on _StringsZhHk {
 			case 'import_theme_hint': return '貼上主題代碼';
 			case 'import_theme_invalid': return '無效的主題代碼';
 			case 'import_theme_success': return '主題已匯入';
+			case 'color_primary': return 'Primary';
+			case 'color_secondary': return 'Secondary';
+			case 'color_tertiary': return 'Tertiary';
+			case 'color_container': return 'Container';
 			case 'auto_add_book_name_to_tags': return '自動將書名加入標籤';
 			case 'use_recommended_template': return '推薦範本';
 			case 'recommended_template_exists': return '標準設定檔已存在。';
