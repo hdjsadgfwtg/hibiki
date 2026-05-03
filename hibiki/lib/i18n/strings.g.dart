@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 11968 (704 per locale)
+/// Strings: 12002 (706 per locale)
 ///
-/// Built on 2026-05-02 at 19:01 UTC
+/// Built on 2026-05-03 at 05:54 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -708,6 +708,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String page_progress({required Object current, required Object total}) => 'Page ${current} / ${total}';
 	String cue_progress({required Object current, required Object total}) => 'Sentence ${current} / ${total}';
 	String get cue_navigation => 'Sentence Navigation';
+	String get repeat_cue => 'Repeat sentence';
+	String get play_from_cue => 'Play from sentence';
 	String get jump_to_cue => 'Jump to';
 	String get jump_to_current_page => 'Current page';
 	String get cue_unit => ' sent.';
@@ -1463,6 +1465,8 @@ class _StringsAr implements _StringsEn {
 	@override String page_progress({required Object current, required Object total}) => 'صفحة ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'جملة ${current} / ${total}';
 	@override String get cue_navigation => 'التنقل بين الجمل';
+	@override String get repeat_cue => 'إعادة الجملة';
+	@override String get play_from_cue => 'تشغيل من الجملة';
 	@override String get jump_to_cue => 'انتقل إلى';
 	@override String get jump_to_current_page => 'الصفحة الحالية';
 	@override String get cue_unit => ' جملة';
@@ -2196,6 +2200,8 @@ class _StringsDe implements _StringsEn {
 	@override String page_progress({required Object current, required Object total}) => 'Seite ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'Satz ${current} / ${total}';
 	@override String get cue_navigation => 'Satznavigation';
+	@override String get repeat_cue => 'Repeat sentence';
+	@override String get play_from_cue => 'Play from sentence';
 	@override String get jump_to_cue => 'Springe zu';
 	@override String get jump_to_current_page => 'Aktuelle Seite';
 	@override String get cue_unit => ' Satz';
@@ -2951,6 +2957,8 @@ class _StringsEs implements _StringsEn {
 	@override String page_progress({required Object current, required Object total}) => 'Página ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'Oración ${current} / ${total}';
 	@override String get cue_navigation => 'Navegación de oraciones';
+	@override String get repeat_cue => 'Repeat sentence';
+	@override String get play_from_cue => 'Play from sentence';
 	@override String get jump_to_cue => 'Ir a';
 	@override String get jump_to_current_page => 'Página actual';
 	@override String get cue_unit => ' frase';
@@ -3706,6 +3714,8 @@ class _StringsFr implements _StringsEn {
 	@override String page_progress({required Object current, required Object total}) => 'Page ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'Phrase ${current} / ${total}';
 	@override String get cue_navigation => 'Navigation par phrase';
+	@override String get repeat_cue => 'Repeat sentence';
+	@override String get play_from_cue => 'Play from sentence';
 	@override String get jump_to_cue => 'Aller à';
 	@override String get jump_to_current_page => 'Page actuelle';
 	@override String get cue_unit => ' phrase';
@@ -4461,6 +4471,8 @@ class _StringsId implements _StringsEn {
 	@override String page_progress({required Object current, required Object total}) => 'Halaman ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'Kalimat ${current} / ${total}';
 	@override String get cue_navigation => 'Navigasi Kalimat';
+	@override String get repeat_cue => 'Repeat sentence';
+	@override String get play_from_cue => 'Play from sentence';
 	@override String get jump_to_cue => 'Lompat ke';
 	@override String get jump_to_current_page => 'Halaman saat ini';
 	@override String get cue_unit => ' kalimat';
@@ -5241,6 +5253,8 @@ class _StringsIt implements _StringsEn {
 	@override String page_progress({required Object current, required Object total}) => 'Pagina ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'Frase ${current} / ${total}';
 	@override String get cue_navigation => 'Navigazione per frase';
+	@override String get repeat_cue => 'Repeat sentence';
+	@override String get play_from_cue => 'Play from sentence';
 	@override String get jump_to_cue => 'Vai a';
 	@override String get jump_to_current_page => 'Pagina corrente';
 	@override String get cue_unit => ' frase';
@@ -5981,6 +5995,8 @@ class _StringsJa implements _StringsEn {
 	@override String page_progress({required Object current, required Object total}) => 'ページ ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => '文 ${current} / ${total}';
 	@override String get cue_navigation => '文ナビゲーション';
+	@override String get repeat_cue => 'この文をリピート';
+	@override String get play_from_cue => 'この文から再生';
 	@override String get jump_to_cue => 'ジャンプ先';
 	@override String get jump_to_current_page => '現在のページ';
 	@override String get cue_unit => '文目';
@@ -6726,6 +6742,8 @@ class _StringsKo implements _StringsEn {
 	@override String page_progress({required Object current, required Object total}) => '??? ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => '?? ${current} / ${total}';
 	@override String get cue_navigation => '?? ??';
+	@override String get repeat_cue => 'Repeat sentence';
+	@override String get play_from_cue => 'Play from sentence';
 	@override String get jump_to_cue => '??';
 	@override String get jump_to_current_page => '?? ???';
 	@override String get cue_unit => '?? ??';
@@ -7506,6 +7524,8 @@ class _StringsNl implements _StringsEn {
 	@override String page_progress({required Object current, required Object total}) => 'Pagina ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'Zin ${current} / ${total}';
 	@override String get cue_navigation => 'Zinsnavigatie';
+	@override String get repeat_cue => 'Repeat sentence';
+	@override String get play_from_cue => 'Play from sentence';
 	@override String get jump_to_cue => 'Ga naar';
 	@override String get jump_to_current_page => 'Huidige pagina';
 	@override String get cue_unit => ' zin';
@@ -8236,6 +8256,8 @@ class _StringsPtBr implements _StringsEn {
 	@override String page_progress({required Object current, required Object total}) => 'Página ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'Frase ${current} / ${total}';
 	@override String get cue_navigation => 'Navega??o de frases';
+	@override String get repeat_cue => 'Repeat sentence';
+	@override String get play_from_cue => 'Play from sentence';
 	@override String get jump_to_cue => 'Ir para';
 	@override String get jump_to_current_page => 'Página atual';
 	@override String get cue_unit => ' frase';
@@ -8991,6 +9013,8 @@ class _StringsRu implements _StringsEn {
 	@override String page_progress({required Object current, required Object total}) => 'Страница ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'Предложение ${current} / ${total}';
 	@override String get cue_navigation => 'Навигация по предложениям';
+	@override String get repeat_cue => 'Repeat sentence';
+	@override String get play_from_cue => 'Play from sentence';
 	@override String get jump_to_cue => 'Перейти к';
 	@override String get jump_to_current_page => 'Текущая страница';
 	@override String get cue_unit => ' предл.';
@@ -9746,6 +9770,8 @@ class _StringsTh implements _StringsEn {
 	@override String page_progress({required Object current, required Object total}) => '???? ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => '?????? ${current} / ${total}';
 	@override String get cue_navigation => '???????????';
+	@override String get repeat_cue => 'Repeat sentence';
+	@override String get play_from_cue => 'Play from sentence';
 	@override String get jump_to_cue => '?????????';
 	@override String get jump_to_current_page => '????????????';
 	@override String get cue_unit => ' ??????';
@@ -10526,6 +10552,8 @@ class _StringsTr implements _StringsEn {
 	@override String page_progress({required Object current, required Object total}) => 'Sayfa ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'Cümle ${current} / ${total}';
 	@override String get cue_navigation => 'Cümle gezinme';
+	@override String get repeat_cue => 'Repeat sentence';
+	@override String get play_from_cue => 'Play from sentence';
 	@override String get jump_to_cue => 'Git';
 	@override String get jump_to_current_page => 'Ge?erli sayfa';
 	@override String get cue_unit => ' cümle';
@@ -11256,6 +11284,8 @@ class _StringsVi implements _StringsEn {
 	@override String page_progress({required Object current, required Object total}) => 'Trang ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => 'Cau ${current} / ${total}';
 	@override String get cue_navigation => '?i?u h??ng cau';
+	@override String get repeat_cue => 'Repeat sentence';
+	@override String get play_from_cue => 'Play from sentence';
 	@override String get jump_to_cue => 'Nh?y ??n';
 	@override String get jump_to_current_page => 'Trang hi?n t?i';
 	@override String get cue_unit => ' cau';
@@ -12031,6 +12061,8 @@ class _StringsZhCn implements _StringsEn {
 	@override String page_progress({required Object current, required Object total}) => '第 ${current} / ${total} 页';
 	@override String cue_progress({required Object current, required Object total}) => '第 ${current} / ${total} 句';
 	@override String get cue_navigation => '字幕跳转';
+	@override String get repeat_cue => '重复本句';
+	@override String get play_from_cue => '从本句播放';
 	@override String get jump_to_cue => '跳转到第';
 	@override String get jump_to_current_page => '当前页';
 	@override String get cue_unit => '句';
@@ -12776,6 +12808,8 @@ class _StringsZhHk implements _StringsEn {
 	@override String page_progress({required Object current, required Object total}) => '第 ${current} / ${total} 頁';
 	@override String cue_progress({required Object current, required Object total}) => '第 ${current} / ${total} 句';
 	@override String get cue_navigation => '字幕跳轉';
+	@override String get repeat_cue => '重複本句';
+	@override String get play_from_cue => '從本句播放';
 	@override String get jump_to_cue => '跳轉到第';
 	@override String get jump_to_current_page => '當前頁';
 	@override String get cue_unit => '句';
@@ -13530,6 +13564,8 @@ extension on _StringsEn {
 			case 'page_progress': return ({required Object current, required Object total}) => 'Page ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Sentence ${current} / ${total}';
 			case 'cue_navigation': return 'Sentence Navigation';
+			case 'repeat_cue': return 'Repeat sentence';
+			case 'play_from_cue': return 'Play from sentence';
 			case 'jump_to_cue': return 'Jump to';
 			case 'jump_to_current_page': return 'Current page';
 			case 'cue_unit': return ' sent.';
@@ -14246,6 +14282,8 @@ extension on _StringsAr {
 			case 'page_progress': return ({required Object current, required Object total}) => 'صفحة ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'جملة ${current} / ${total}';
 			case 'cue_navigation': return 'التنقل بين الجمل';
+			case 'repeat_cue': return 'إعادة الجملة';
+			case 'play_from_cue': return 'تشغيل من الجملة';
 			case 'jump_to_cue': return 'انتقل إلى';
 			case 'jump_to_current_page': return 'الصفحة الحالية';
 			case 'cue_unit': return ' جملة';
@@ -14940,6 +14978,8 @@ extension on _StringsDe {
 			case 'page_progress': return ({required Object current, required Object total}) => 'Seite ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Satz ${current} / ${total}';
 			case 'cue_navigation': return 'Satznavigation';
+			case 'repeat_cue': return 'Repeat sentence';
+			case 'play_from_cue': return 'Play from sentence';
 			case 'jump_to_cue': return 'Springe zu';
 			case 'jump_to_current_page': return 'Aktuelle Seite';
 			case 'cue_unit': return ' Satz';
@@ -15656,6 +15696,8 @@ extension on _StringsEs {
 			case 'page_progress': return ({required Object current, required Object total}) => 'Página ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Oración ${current} / ${total}';
 			case 'cue_navigation': return 'Navegación de oraciones';
+			case 'repeat_cue': return 'Repeat sentence';
+			case 'play_from_cue': return 'Play from sentence';
 			case 'jump_to_cue': return 'Ir a';
 			case 'jump_to_current_page': return 'Página actual';
 			case 'cue_unit': return ' frase';
@@ -16372,6 +16414,8 @@ extension on _StringsFr {
 			case 'page_progress': return ({required Object current, required Object total}) => 'Page ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Phrase ${current} / ${total}';
 			case 'cue_navigation': return 'Navigation par phrase';
+			case 'repeat_cue': return 'Repeat sentence';
+			case 'play_from_cue': return 'Play from sentence';
 			case 'jump_to_cue': return 'Aller à';
 			case 'jump_to_current_page': return 'Page actuelle';
 			case 'cue_unit': return ' phrase';
@@ -17088,6 +17132,8 @@ extension on _StringsId {
 			case 'page_progress': return ({required Object current, required Object total}) => 'Halaman ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Kalimat ${current} / ${total}';
 			case 'cue_navigation': return 'Navigasi Kalimat';
+			case 'repeat_cue': return 'Repeat sentence';
+			case 'play_from_cue': return 'Play from sentence';
 			case 'jump_to_cue': return 'Lompat ke';
 			case 'jump_to_current_page': return 'Halaman saat ini';
 			case 'cue_unit': return ' kalimat';
@@ -17829,6 +17875,8 @@ extension on _StringsIt {
 			case 'page_progress': return ({required Object current, required Object total}) => 'Pagina ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Frase ${current} / ${total}';
 			case 'cue_navigation': return 'Navigazione per frase';
+			case 'repeat_cue': return 'Repeat sentence';
+			case 'play_from_cue': return 'Play from sentence';
 			case 'jump_to_cue': return 'Vai a';
 			case 'jump_to_current_page': return 'Pagina corrente';
 			case 'cue_unit': return ' frase';
@@ -18530,6 +18578,8 @@ extension on _StringsJa {
 			case 'page_progress': return ({required Object current, required Object total}) => 'ページ ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => '文 ${current} / ${total}';
 			case 'cue_navigation': return '文ナビゲーション';
+			case 'repeat_cue': return 'この文をリピート';
+			case 'play_from_cue': return 'この文から再生';
 			case 'jump_to_cue': return 'ジャンプ先';
 			case 'jump_to_current_page': return '現在のページ';
 			case 'cue_unit': return '文目';
@@ -19236,6 +19286,8 @@ extension on _StringsKo {
 			case 'page_progress': return ({required Object current, required Object total}) => '??? ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => '?? ${current} / ${total}';
 			case 'cue_navigation': return '?? ??';
+			case 'repeat_cue': return 'Repeat sentence';
+			case 'play_from_cue': return 'Play from sentence';
 			case 'jump_to_cue': return '??';
 			case 'jump_to_current_page': return '?? ???';
 			case 'cue_unit': return '?? ??';
@@ -19977,6 +20029,8 @@ extension on _StringsNl {
 			case 'page_progress': return ({required Object current, required Object total}) => 'Pagina ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Zin ${current} / ${total}';
 			case 'cue_navigation': return 'Zinsnavigatie';
+			case 'repeat_cue': return 'Repeat sentence';
+			case 'play_from_cue': return 'Play from sentence';
 			case 'jump_to_cue': return 'Ga naar';
 			case 'jump_to_current_page': return 'Huidige pagina';
 			case 'cue_unit': return ' zin';
@@ -20668,6 +20722,8 @@ extension on _StringsPtBr {
 			case 'page_progress': return ({required Object current, required Object total}) => 'Página ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Frase ${current} / ${total}';
 			case 'cue_navigation': return 'Navega??o de frases';
+			case 'repeat_cue': return 'Repeat sentence';
+			case 'play_from_cue': return 'Play from sentence';
 			case 'jump_to_cue': return 'Ir para';
 			case 'jump_to_current_page': return 'Página atual';
 			case 'cue_unit': return ' frase';
@@ -21384,6 +21440,8 @@ extension on _StringsRu {
 			case 'page_progress': return ({required Object current, required Object total}) => 'Страница ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Предложение ${current} / ${total}';
 			case 'cue_navigation': return 'Навигация по предложениям';
+			case 'repeat_cue': return 'Repeat sentence';
+			case 'play_from_cue': return 'Play from sentence';
 			case 'jump_to_cue': return 'Перейти к';
 			case 'jump_to_current_page': return 'Текущая страница';
 			case 'cue_unit': return ' предл.';
@@ -22100,6 +22158,8 @@ extension on _StringsTh {
 			case 'page_progress': return ({required Object current, required Object total}) => '???? ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => '?????? ${current} / ${total}';
 			case 'cue_navigation': return '???????????';
+			case 'repeat_cue': return 'Repeat sentence';
+			case 'play_from_cue': return 'Play from sentence';
 			case 'jump_to_cue': return '?????????';
 			case 'jump_to_current_page': return '????????????';
 			case 'cue_unit': return ' ??????';
@@ -22841,6 +22901,8 @@ extension on _StringsTr {
 			case 'page_progress': return ({required Object current, required Object total}) => 'Sayfa ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Cümle ${current} / ${total}';
 			case 'cue_navigation': return 'Cümle gezinme';
+			case 'repeat_cue': return 'Repeat sentence';
+			case 'play_from_cue': return 'Play from sentence';
 			case 'jump_to_cue': return 'Git';
 			case 'jump_to_current_page': return 'Ge?erli sayfa';
 			case 'cue_unit': return ' cümle';
@@ -23532,6 +23594,8 @@ extension on _StringsVi {
 			case 'page_progress': return ({required Object current, required Object total}) => 'Trang ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => 'Cau ${current} / ${total}';
 			case 'cue_navigation': return '?i?u h??ng cau';
+			case 'repeat_cue': return 'Repeat sentence';
+			case 'play_from_cue': return 'Play from sentence';
 			case 'jump_to_cue': return 'Nh?y ??n';
 			case 'jump_to_current_page': return 'Trang hi?n t?i';
 			case 'cue_unit': return ' cau';
@@ -24268,6 +24332,8 @@ extension on _StringsZhCn {
 			case 'page_progress': return ({required Object current, required Object total}) => '第 ${current} / ${total} 页';
 			case 'cue_progress': return ({required Object current, required Object total}) => '第 ${current} / ${total} 句';
 			case 'cue_navigation': return '字幕跳转';
+			case 'repeat_cue': return '重复本句';
+			case 'play_from_cue': return '从本句播放';
 			case 'jump_to_cue': return '跳转到第';
 			case 'jump_to_current_page': return '当前页';
 			case 'cue_unit': return '句';
@@ -24974,6 +25040,8 @@ extension on _StringsZhHk {
 			case 'page_progress': return ({required Object current, required Object total}) => '第 ${current} / ${total} 頁';
 			case 'cue_progress': return ({required Object current, required Object total}) => '第 ${current} / ${total} 句';
 			case 'cue_navigation': return '字幕跳轉';
+			case 'repeat_cue': return '重複本句';
+			case 'play_from_cue': return '從本句播放';
 			case 'jump_to_cue': return '跳轉到第';
 			case 'jump_to_current_page': return '當前頁';
 			case 'cue_unit': return '句';
