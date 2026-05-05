@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 12104 (712 per locale)
 ///
-/// Built on 2026-05-05 at 06:48 UTC
+/// Built on 2026-05-05 at 06:53 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -11941,9 +11941,9 @@ class _StringsZhCn implements _StringsEn {
 	@override String get handlebar_image => '图片';
 	@override String get handlebar_audio_sentence => '音频（例句）';
 	@override String get handlebar_tags => '标签';
-	@override String get silent_export => '导出不提醒';
-	@override String get silent_export_on => '导出提醒已关闭。';
-	@override String get silent_export_off => '导出提醒已开启。';
+	@override String get silent_export => '快速导出';
+	@override String get silent_export_on => '将直接导出卡片，不打开制卡界面。';
+	@override String get silent_export_off => '导出前将打开制卡界面。';
 	@override String get export_profile_empty => '当前导出配置没有设置任何字段，需要先进行配置。';
 	@override String get error_export_media_ankidroid => '导出媒体至 AnkiDroid 时出错。';
 	@override String get error_add_note => '向 AnkiDroid 添加卡片时出错。';
@@ -12279,7 +12279,7 @@ class _StringsZhCn implements _StringsEn {
 	@override String get anki_default_deck_hint => '制卡时默认将卡片添加到此牌组。\n如需新建牌组，请先在 AnkiDroid 中创建。';
 	@override String get anki_default_profile => '导出配置';
 	@override String get anki_default_profile_hint => '决定导出卡片时使用的卡片类型和字段映射。\n可在制卡工具中管理导出配置。';
-	@override String get anki_silent_export_hint => '点击制卡时直接导出，不打开制卡界面；成功后不显示提醒。';
+	@override String get anki_silent_export_hint => '直接导出卡片，不打开制卡界面。';
 	@override String get anki_auto_tag_hint => '制卡时自动将当前书名添加为标签。';
 	@override String get anki_duplicate_check_hint => '选择导出前检查哪些卡片类型中是否已有重复。';
 	@override String get anki_retry => '重试';
@@ -24308,9 +24308,9 @@ extension on _StringsZhCn {
 			case 'handlebar_image': return '图片';
 			case 'handlebar_audio_sentence': return '音频（例句）';
 			case 'handlebar_tags': return '标签';
-			case 'silent_export': return '导出不提醒';
-			case 'silent_export_on': return '导出提醒已关闭。';
-			case 'silent_export_off': return '导出提醒已开启。';
+			case 'silent_export': return '快速导出';
+			case 'silent_export_on': return '将直接导出卡片，不打开制卡界面。';
+			case 'silent_export_off': return '导出前将打开制卡界面。';
 			case 'export_profile_empty': return '当前导出配置没有设置任何字段，需要先进行配置。';
 			case 'error_export_media_ankidroid': return '导出媒体至 AnkiDroid 时出错。';
 			case 'error_add_note': return '向 AnkiDroid 添加卡片时出错。';
@@ -24652,7 +24652,7 @@ extension on _StringsZhCn {
 			case 'anki_default_deck_hint': return '制卡时默认将卡片添加到此牌组。\n如需新建牌组，请先在 AnkiDroid 中创建。';
 			case 'anki_default_profile': return '导出配置';
 			case 'anki_default_profile_hint': return '决定导出卡片时使用的卡片类型和字段映射。\n可在制卡工具中管理导出配置。';
-			case 'anki_silent_export_hint': return '点击制卡时直接导出，不打开制卡界面；成功后不显示提醒。';
+			case 'anki_silent_export_hint': return '直接导出卡片，不打开制卡界面。';
 			case 'anki_auto_tag_hint': return '制卡时自动将当前书名添加为标签。';
 			case 'anki_duplicate_check_hint': return '选择导出前检查哪些卡片类型中是否已有重复。';
 			case 'anki_retry': return '重试';
