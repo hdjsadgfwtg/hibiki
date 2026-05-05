@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 12104 (712 per locale)
 ///
-/// Built on 2026-05-05 at 05:51 UTC
+/// Built on 2026-05-05 at 06:48 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -496,9 +496,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get handlebar_image => 'Image';
 	String get handlebar_audio_sentence => 'Audio (Sentence)';
 	String get handlebar_tags => 'Tags';
-	String get silent_export => 'Silent Export';
-	String get silent_export_on => 'Export notifications are now disabled.';
-	String get silent_export_off => 'Export notifications are now enabled.';
+	String get silent_export => 'Quick Export';
+	String get silent_export_on => 'Cards will be exported directly without opening the editor.';
+	String get silent_export_off => 'The card editor will open before exporting.';
 	String get export_profile_empty => 'Your export profile has no set fields and requires configuration.';
 	String get error_export_media_ankidroid => 'There was an error in exporting media to AnkiDroid.';
 	String get error_add_note => 'There was an error in adding a note to AnkiDroid.';
@@ -836,7 +836,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get anki_default_deck_hint => 'Cards will be added to this deck by default when exporting from the card creator.\nTo create a new deck, please create it in AnkiDroid first.';
 	String get anki_default_profile => 'Export Profile';
 	String get anki_default_profile_hint => 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.\nYou can manage export profiles in the card creator.';
-	String get anki_silent_export_hint => 'Do not show a notification after successfully exporting a card.';
+	String get anki_silent_export_hint => 'Export cards directly without opening the card editor.';
 	String get anki_auto_tag_hint => 'Automatically add the current book title as a tag when creating cards.';
 	String get anki_duplicate_check_hint => 'Select which Anki card types to check for duplicates before adding a new card.';
 	String get anki_retry => 'Retry';
@@ -13448,9 +13448,9 @@ extension on _StringsEn {
 			case 'handlebar_image': return 'Image';
 			case 'handlebar_audio_sentence': return 'Audio (Sentence)';
 			case 'handlebar_tags': return 'Tags';
-			case 'silent_export': return 'Silent Export';
-			case 'silent_export_on': return 'Export notifications are now disabled.';
-			case 'silent_export_off': return 'Export notifications are now enabled.';
+			case 'silent_export': return 'Quick Export';
+			case 'silent_export_on': return 'Cards will be exported directly without opening the editor.';
+			case 'silent_export_off': return 'The card editor will open before exporting.';
 			case 'export_profile_empty': return 'Your export profile has no set fields and requires configuration.';
 			case 'error_export_media_ankidroid': return 'There was an error in exporting media to AnkiDroid.';
 			case 'error_add_note': return 'There was an error in adding a note to AnkiDroid.';
@@ -13794,7 +13794,7 @@ extension on _StringsEn {
 			case 'anki_default_deck_hint': return 'Cards will be added to this deck by default when exporting from the card creator.\nTo create a new deck, please create it in AnkiDroid first.';
 			case 'anki_default_profile': return 'Export Profile';
 			case 'anki_default_profile_hint': return 'Determines which card type and field mapping to use when exporting cards to AnkiDroid.\nYou can manage export profiles in the card creator.';
-			case 'anki_silent_export_hint': return 'Do not show a notification after successfully exporting a card.';
+			case 'anki_silent_export_hint': return 'Export cards directly without opening the card editor.';
 			case 'anki_auto_tag_hint': return 'Automatically add the current book title as a tag when creating cards.';
 			case 'anki_duplicate_check_hint': return 'Select which Anki card types to check for duplicates before adding a new card.';
 			case 'anki_retry': return 'Retry';
