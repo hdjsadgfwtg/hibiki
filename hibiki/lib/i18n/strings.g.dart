@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 12104 (712 per locale)
+/// Strings: 12138 (714 per locale)
 ///
-/// Built on 2026-05-05 at 06:53 UTC
+/// Built on 2026-05-05 at 13:55 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1235,8 +1235,6 @@ class _StringsAr implements _StringsEn {
 	@override String get auto_search => 'بحث تلقائي';
 	@override String get auto_search_debounce_delay => 'تأخير البحث التلقائي';
 	@override String get dictionary_font_size => 'حجم خط القاموس';
-	@override String get popup_max_width => 'Popup max width';
-	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'التعبير';
 	@override String get handlebar_reading => 'القراءة';
 	@override String get handlebar_furigana_plain => 'فوريغانا';
@@ -1639,6 +1637,8 @@ class _StringsAr implements _StringsEn {
 	@override String get color_secondary => 'ثانوي';
 	@override String get color_tertiary => 'ثالثي';
 	@override String get color_container => 'حاوية';
+	@override String get popup_max_width => 'أقصى عرض للنافذة المنبثقة';
+	@override String get unit_dp => 'dp';
 }
 
 // Path: retrying_in
@@ -1993,8 +1993,6 @@ class _StringsDe implements _StringsEn {
 	@override String get auto_search => 'Automatische Suche';
 	@override String get auto_search_debounce_delay => 'Verz?gerung der automatischen Suche';
 	@override String get dictionary_font_size => 'W?rterbuch-Schriftgr??e';
-	@override String get popup_max_width => 'Popup max width';
-	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'Ausdruck';
 	@override String get handlebar_reading => 'Lesung';
 	@override String get handlebar_furigana_plain => 'Furigana';
@@ -2404,6 +2402,8 @@ class _StringsDe implements _StringsEn {
 	@override String get color_secondary => 'Sekundär';
 	@override String get color_tertiary => 'Tertiär';
 	@override String get color_container => 'Container';
+	@override String get popup_max_width => 'Maximale Popup-Breite';
+	@override String get unit_dp => 'dp';
 }
 
 // Path: retrying_in
@@ -2758,8 +2758,6 @@ class _StringsEs implements _StringsEn {
 	@override String get auto_search => 'Búsqueda automática';
 	@override String get auto_search_debounce_delay => 'Retardo de búsqueda automática';
 	@override String get dictionary_font_size => 'Tama?o de fuente del diccionario';
-	@override String get popup_max_width => 'Popup max width';
-	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'Expresión';
 	@override String get handlebar_reading => 'Lectura';
 	@override String get handlebar_furigana_plain => 'Furigana';
@@ -3169,6 +3167,8 @@ class _StringsEs implements _StringsEn {
 	@override String get color_secondary => 'Secundario';
 	@override String get color_tertiary => 'Terciario';
 	@override String get color_container => 'Contenedor';
+	@override String get popup_max_width => 'Ancho máximo del popup';
+	@override String get unit_dp => 'dp';
 }
 
 // Path: retrying_in
@@ -3523,8 +3523,6 @@ class _StringsFr implements _StringsEn {
 	@override String get auto_search => 'Recherche automatique';
 	@override String get auto_search_debounce_delay => 'Délai de la recherche automatique';
 	@override String get dictionary_font_size => 'Taille de police du dictionnaire';
-	@override String get popup_max_width => 'Popup max width';
-	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'Expression';
 	@override String get handlebar_reading => 'Lecture';
 	@override String get handlebar_furigana_plain => 'Furigana';
@@ -3934,6 +3932,8 @@ class _StringsFr implements _StringsEn {
 	@override String get color_secondary => 'Secondaire';
 	@override String get color_tertiary => 'Tertiaire';
 	@override String get color_container => 'Conteneur';
+	@override String get popup_max_width => 'Largeur max du popup';
+	@override String get unit_dp => 'dp';
 }
 
 // Path: retrying_in
@@ -4288,8 +4288,6 @@ class _StringsId implements _StringsEn {
 	@override String get auto_search => 'Pencarian otomatis';
 	@override String get auto_search_debounce_delay => 'Delay debounce pencarian otomatis';
 	@override String get dictionary_font_size => 'Ukuran font kamus';
-	@override String get popup_max_width => 'Popup max width';
-	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'Ekspresi';
 	@override String get handlebar_reading => 'Bacaan';
 	@override String get handlebar_furigana_plain => 'Furigana';
@@ -4699,6 +4697,8 @@ class _StringsId implements _StringsEn {
 	@override String get color_secondary => 'Sekunder';
 	@override String get color_tertiary => 'Tersier';
 	@override String get color_container => 'Kontainer';
+	@override String get popup_max_width => 'Lebar maks popup';
+	@override String get unit_dp => 'dp';
 }
 
 // Path: retrying_in
@@ -5060,8 +5060,6 @@ class _StringsIt implements _StringsEn {
 	@override String get auto_search => 'Ricerca automatica';
 	@override String get auto_search_debounce_delay => 'Ritardo ricerca automatica';
 	@override String get dictionary_font_size => 'Dimensione carattere dizionario';
-	@override String get popup_max_width => 'Popup max width';
-	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'Espressione';
 	@override String get handlebar_reading => 'Lettura';
 	@override String get handlebar_furigana_plain => 'Furigana';
@@ -5464,6 +5462,8 @@ class _StringsIt implements _StringsEn {
 	@override String get color_secondary => 'Secondario';
 	@override String get color_tertiary => 'Terziario';
 	@override String get color_container => 'Contenitore';
+	@override String get popup_max_width => 'Larghezza massima popup';
+	@override String get unit_dp => 'dp';
 }
 
 // Path: retrying_in
@@ -5818,8 +5818,6 @@ class _StringsJa implements _StringsEn {
 	@override String get auto_search => '自動検索';
 	@override String get auto_search_debounce_delay => '自動検索のデバウンス遅延';
 	@override String get dictionary_font_size => '辞書のフォントサイズ';
-	@override String get popup_max_width => 'Popup max width';
-	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => '表現';
 	@override String get handlebar_reading => '読み';
 	@override String get handlebar_furigana_plain => '振り仮名';
@@ -6067,21 +6065,21 @@ class _StringsJa implements _StringsEn {
 	@override String get image_pause => '画像で一時停止';
 	@override String get image_pause_hint => '再生中に画像が表示されたら自動で一時停止します。';
 	@override String get image_pause_off => 'オフ';
-	@override String get tap_seek => 'Tap to Seek';
-	@override String get tap_seek_hint => 'Tap a sentence to jump audio to that position.';
+	@override String get tap_seek => 'タップでシーク';
+	@override String get tap_seek_hint => '文をタップして音声をその位置にジャンプします。';
 	@override String get ttu_furigana_mode_hint => '';
-	@override String get ttu_text_justify_hint => 'Stretch lines to fill the full width of the column.';
-	@override String get ttu_vert_kerning_hint => 'Adjust spacing between CJK characters for vertical text.';
-	@override String get ttu_font_vpal_hint => 'Use proportional alternates for punctuation in vertical layout.';
-	@override String get ttu_reader_styles_hint => 'Use the book\'s built-in CSS instead of reader defaults.';
-	@override String get ttu_vert_text_orient_hint => 'Mixed: rotate Latin; Upright: keep all characters upright.';
-	@override String get custom_fonts_archive_error => 'Failed to extract archive';
-	@override String get custom_fonts_import_url => 'Import from URL';
-	@override String get custom_fonts_downloading => 'Downloading...';
-	@override String get custom_fonts_download_failed => 'Download failed';
-	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
-	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
-	@override String get custom_fonts_recommended => 'Recommended Fonts';
+	@override String get ttu_text_justify_hint => '行を列幅いっぱいに引き伸ばします。';
+	@override String get ttu_vert_kerning_hint => '縦書きテキストのCJK文字間隔を調整します。';
+	@override String get ttu_font_vpal_hint => '縦書き時に約物のプロポーショナル代替字形を使用します。';
+	@override String get ttu_reader_styles_hint => 'リーダーのデフォルトではなく、書籍に組み込まれたCSSを使用します。';
+	@override String get ttu_vert_text_orient_hint => 'Mixed：ラテン文字を回転。Upright：全文字を正立に保持。';
+	@override String get custom_fonts_archive_error => 'アーカイブの展開に失敗しました';
+	@override String get custom_fonts_import_url => 'URLからインポート';
+	@override String get custom_fonts_downloading => 'ダウンロード中…';
+	@override String get custom_fonts_download_failed => 'ダウンロード失敗';
+	@override String custom_fonts_imported_count({required Object count}) => '${count} 個のフォントをインポートしました';
+	@override String get custom_fonts_no_fonts_in_archive => 'アーカイブにフォントファイルが見つかりません';
+	@override String get custom_fonts_recommended => 'おすすめフォント';
 	@override String get audio_volume => '音量';
 	@override String get reader_settings_section => 'リーダー設定';
 	@override String get section_navigation => 'ナビゲーション';
@@ -6229,6 +6227,8 @@ class _StringsJa implements _StringsEn {
 	@override String get color_secondary => 'セカンダリ';
 	@override String get color_tertiary => 'ターシャリ';
 	@override String get color_container => 'コンテナ';
+	@override String get popup_max_width => 'ポップアップの最大幅';
+	@override String get unit_dp => 'dp';
 }
 
 // Path: retrying_in
@@ -6583,8 +6583,6 @@ class _StringsKo implements _StringsEn {
 	@override String get auto_search => '?? ??';
 	@override String get auto_search_debounce_delay => '?? ?? ?? ??';
 	@override String get dictionary_font_size => '?? ?? ??';
-	@override String get popup_max_width => 'Popup max width';
-	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => '??';
 	@override String get handlebar_reading => '??';
 	@override String get handlebar_furigana_plain => '????';
@@ -6799,8 +6797,8 @@ class _StringsKo implements _StringsEn {
 	@override String get prev_sentence => '?? ??';
 	@override String get next_sentence => '?? ??';
 	@override String get audiobook_settings => '???? ??';
-	@override String get show_play_bar => 'Show playback bar';
-	@override String get show_media_notification => 'Show media notification';
+	@override String get show_play_bar => '재생 바 표시';
+	@override String get show_media_notification => '미디어 알림 표시';
 	@override String get follow_audio_on_tooltip => '??? ????: ?? (?? ?? ??)';
 	@override String get follow_audio_off_tooltip => '??? ????: ??';
 	@override String get reading_progress => '?? ???';
@@ -6808,8 +6806,8 @@ class _StringsKo implements _StringsEn {
 	@override String page_progress({required Object current, required Object total}) => '??? ${current} / ${total}';
 	@override String cue_progress({required Object current, required Object total}) => '?? ${current} / ${total}';
 	@override String get cue_navigation => '?? ??';
-	@override String get repeat_cue => 'Repeat sentence';
-	@override String get play_from_cue => 'Play from sentence';
+	@override String get repeat_cue => '문장 반복';
+	@override String get play_from_cue => '이 문장부터 재생';
 	@override String get jump_to_cue => '??';
 	@override String get jump_to_current_page => '?? ???';
 	@override String get cue_unit => '?? ??';
@@ -6822,29 +6820,29 @@ class _StringsKo implements _StringsEn {
 	@override String get image_pause => '????? ????';
 	@override String get image_pause_hint => '?? ? ???? ???? ???? ???????.';
 	@override String get image_pause_off => '??';
-	@override String get tap_seek => 'Tap to Seek';
-	@override String get tap_seek_hint => 'Tap a sentence to jump audio to that position.';
+	@override String get tap_seek => '탭하여 이동';
+	@override String get tap_seek_hint => '문장을 탭하여 해당 위치로 오디오를 이동합니다.';
 	@override String get ttu_furigana_mode_hint => '';
-	@override String get ttu_text_justify_hint => 'Stretch lines to fill the full width of the column.';
-	@override String get ttu_vert_kerning_hint => 'Adjust spacing between CJK characters for vertical text.';
-	@override String get ttu_font_vpal_hint => 'Use proportional alternates for punctuation in vertical layout.';
-	@override String get ttu_reader_styles_hint => 'Use the book\'s built-in CSS instead of reader defaults.';
-	@override String get ttu_vert_text_orient_hint => 'Mixed: rotate Latin; Upright: keep all characters upright.';
-	@override String get custom_fonts_archive_error => 'Failed to extract archive';
-	@override String get custom_fonts_import_url => 'Import from URL';
-	@override String get custom_fonts_downloading => 'Downloading...';
-	@override String get custom_fonts_download_failed => 'Download failed';
-	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
-	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
-	@override String get custom_fonts_recommended => 'Recommended Fonts';
+	@override String get ttu_text_justify_hint => '줄을 열 너비에 맞게 늘립니다.';
+	@override String get ttu_vert_kerning_hint => '세로 텍스트의 CJK 문자 간격을 조정합니다.';
+	@override String get ttu_font_vpal_hint => '세로 레이아웃에서 구두점에 비례 대체 글리프를 사용합니다.';
+	@override String get ttu_reader_styles_hint => '리더 기본값 대신 책에 내장된 CSS를 사용합니다.';
+	@override String get ttu_vert_text_orient_hint => 'Mixed: 라틴 문자를 회전. Upright: 모든 문자를 세로로 유지.';
+	@override String get custom_fonts_archive_error => '아카이브 추출 실패';
+	@override String get custom_fonts_import_url => 'URL에서 가져오기';
+	@override String get custom_fonts_downloading => '다운로드 중…';
+	@override String get custom_fonts_download_failed => '다운로드 실패';
+	@override String custom_fonts_imported_count({required Object count}) => '${count}개 글꼴 가져옴';
+	@override String get custom_fonts_no_fonts_in_archive => '아카이브에서 글꼴 파일을 찾을 수 없습니다';
+	@override String get custom_fonts_recommended => '추천 글꼴';
 	@override String get audio_volume => '??';
 	@override String get reader_settings_section => '?? ??';
-	@override String get section_navigation => 'Navigation';
-	@override String get section_audiobook => 'Audiobook';
-	@override String get section_typography => 'Typography';
-	@override String get section_layout => 'Layout & Display';
-	@override String get section_interface => 'Interface';
-	@override String get section_update => 'Update Settings';
+	@override String get section_navigation => '탐색';
+	@override String get section_audiobook => '오디오북';
+	@override String get section_typography => '타이포그래피';
+	@override String get section_layout => '레이아웃 및 표시';
+	@override String get section_interface => '인터페이스';
+	@override String get section_update => '업데이트 설정';
 	@override String get action_bookmark => '???';
 	@override String get action_fullscreen_toggle => '?? ?? ??';
 	@override String get action_exit => '??';
@@ -6967,13 +6965,13 @@ class _StringsKo implements _StringsEn {
 	@override String get floating_lyric_unlock => 'Unlock';
 	@override String get floating_lyric_close => 'Close';
 	@override String get floating_lyric_font_size => 'Floating subtitle font size';
-	@override String get audio_panel_title => 'Audio Files';
-	@override String get audio_panel_auto => 'Auto';
-	@override String get audio_panel_unpaired => 'Unpaired';
-	@override String get audio_panel_pick_new_subtitle => 'Pick new subtitle file';
-	@override String get audio_panel_remove_subtitle => 'Remove subtitle';
-	@override String get audio_panel_add_audio => 'Add Audio';
-	@override String get audio_panel_add_subtitle => 'Add Subtitles';
+	@override String get audio_panel_title => '오디오 파일';
+	@override String get audio_panel_auto => '자동';
+	@override String get audio_panel_unpaired => '미매칭';
+	@override String get audio_panel_pick_new_subtitle => '새 자막 파일 선택';
+	@override String get audio_panel_remove_subtitle => '자막 제거';
+	@override String get audio_panel_add_audio => '오디오 추가';
+	@override String get audio_panel_add_subtitle => '자막 추가';
 	@override String get srt_import_pick_subtitle_dir => 'Pick subtitle directory';
 	@override String get srt_import_pick_subtitle_files => 'Pick subtitle files';
 	@override String srt_import_unpaired_subtitles({required Object n}) => '${n} unmatched subtitle(s)';
@@ -6994,6 +6992,8 @@ class _StringsKo implements _StringsEn {
 	@override String get color_secondary => '보조색';
 	@override String get color_tertiary => '3차색';
 	@override String get color_container => '컨테이너';
+	@override String get popup_max_width => '팝업 최대 너비';
+	@override String get unit_dp => 'dp';
 }
 
 // Path: retrying_in
@@ -7355,8 +7355,6 @@ class _StringsNl implements _StringsEn {
 	@override String get auto_search => 'Automatisch zoeken';
 	@override String get auto_search_debounce_delay => 'Vertraging automatisch zoeken';
 	@override String get dictionary_font_size => 'Lettergrootte woordenboek';
-	@override String get popup_max_width => 'Popup max width';
-	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'Uitdrukking';
 	@override String get handlebar_reading => 'Lezing';
 	@override String get handlebar_furigana_plain => 'Furigana';
@@ -7759,6 +7757,8 @@ class _StringsNl implements _StringsEn {
 	@override String get color_secondary => 'Secundair';
 	@override String get color_tertiary => 'Tertiair';
 	@override String get color_container => 'Container';
+	@override String get popup_max_width => 'Maximale popup-breedte';
+	@override String get unit_dp => 'dp';
 }
 
 // Path: retrying_in
@@ -8113,8 +8113,6 @@ class _StringsPtBr implements _StringsEn {
 	@override String get auto_search => 'Busca automática';
 	@override String get auto_search_debounce_delay => 'Atraso da busca automática';
 	@override String get dictionary_font_size => 'Tamanho da fonte do dicionário';
-	@override String get popup_max_width => 'Popup max width';
-	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'Express?o';
 	@override String get handlebar_reading => 'Leitura';
 	@override String get handlebar_furigana_plain => 'Furigana';
@@ -8524,6 +8522,8 @@ class _StringsPtBr implements _StringsEn {
 	@override String get color_secondary => 'Secundária';
 	@override String get color_tertiary => 'Terciária';
 	@override String get color_container => 'Contêiner';
+	@override String get popup_max_width => 'Largura máxima do popup';
+	@override String get unit_dp => 'dp';
 }
 
 // Path: retrying_in
@@ -8878,8 +8878,6 @@ class _StringsRu implements _StringsEn {
 	@override String get auto_search => 'Автопоиск';
 	@override String get auto_search_debounce_delay => 'Задержка автопоиска';
 	@override String get dictionary_font_size => 'Размер шрифта словаря';
-	@override String get popup_max_width => 'Popup max width';
-	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'Выражение';
 	@override String get handlebar_reading => 'Чтение';
 	@override String get handlebar_furigana_plain => 'Фуригана';
@@ -9289,6 +9287,8 @@ class _StringsRu implements _StringsEn {
 	@override String get color_secondary => 'Вторичный';
 	@override String get color_tertiary => 'Третичный';
 	@override String get color_container => 'Контейнер';
+	@override String get popup_max_width => 'Макс. ширина всплывающего окна';
+	@override String get unit_dp => 'dp';
 }
 
 // Path: retrying_in
@@ -9643,8 +9643,6 @@ class _StringsTh implements _StringsEn {
 	@override String get auto_search => '??????????????';
 	@override String get auto_search_debounce_delay => '???????????????????????';
 	@override String get dictionary_font_size => '??????????????????';
-	@override String get popup_max_width => 'Popup max width';
-	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => '???????';
 	@override String get handlebar_reading => '???????';
 	@override String get handlebar_furigana_plain => '????????';
@@ -10054,6 +10052,8 @@ class _StringsTh implements _StringsEn {
 	@override String get color_secondary => 'สีรอง';
 	@override String get color_tertiary => 'สีที่สาม';
 	@override String get color_container => 'คอนเทนเนอร์';
+	@override String get popup_max_width => 'ความกว้างสูงสุดของป๊อปอัป';
+	@override String get unit_dp => 'dp';
 }
 
 // Path: retrying_in
@@ -10415,8 +10415,6 @@ class _StringsTr implements _StringsEn {
 	@override String get auto_search => 'Otomatik arama';
 	@override String get auto_search_debounce_delay => 'Otomatik arama gecikmesi';
 	@override String get dictionary_font_size => 'S?zlük yaz? tipi boyutu';
-	@override String get popup_max_width => 'Popup max width';
-	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => '?fade';
 	@override String get handlebar_reading => 'Okuma';
 	@override String get handlebar_furigana_plain => 'Furigana';
@@ -10819,6 +10817,8 @@ class _StringsTr implements _StringsEn {
 	@override String get color_secondary => 'İkincil';
 	@override String get color_tertiary => 'Üçüncül';
 	@override String get color_container => 'Kapsayıcı';
+	@override String get popup_max_width => 'Açılır pencere maks. genişlik';
+	@override String get unit_dp => 'dp';
 }
 
 // Path: retrying_in
@@ -11173,8 +11173,6 @@ class _StringsVi implements _StringsEn {
 	@override String get auto_search => 'T? ??ng tìm ki?m';
 	@override String get auto_search_debounce_delay => '?? tr? tìm ki?m t? ??ng';
 	@override String get dictionary_font_size => 'C? ch? t? ?i?n';
-	@override String get popup_max_width => 'Popup max width';
-	@override String get unit_dp => 'dp';
 	@override String get handlebar_expression => 'Bi?u th?c';
 	@override String get handlebar_reading => 'Phiên am';
 	@override String get handlebar_furigana_plain => 'Furigana';
@@ -11584,6 +11582,8 @@ class _StringsVi implements _StringsEn {
 	@override String get color_secondary => 'Phụ';
 	@override String get color_tertiary => 'Cấp ba';
 	@override String get color_container => 'Vùng chứa';
+	@override String get popup_max_width => 'Chiều rộng tối đa popup';
+	@override String get unit_dp => 'dp';
 }
 
 // Path: retrying_in
@@ -12703,8 +12703,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String get auto_search => '自動搜尋';
 	@override String get auto_search_debounce_delay => '自動搜尋防抖延遲';
 	@override String get dictionary_font_size => '辭典字級';
-	@override String get popup_max_width => 'Popup max width';
-	@override String get unit_dp => 'dp';
+	@override String get popup_max_width => '查詞視窗最大寬度';
 	@override String get handlebar_expression => '詞條';
 	@override String get handlebar_reading => '讀音';
 	@override String get handlebar_furigana_plain => '振假名';
@@ -12720,7 +12719,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String get handlebar_book_cover => '書籍封面';
 	@override String get handlebar_audio => '音訊';
 	@override String get handlebar_sasayaki_audio => 'Sasayaki 音訊';
-	@override String get handlebar_popup_selection_text => 'Popup Selection Text';
+	@override String get handlebar_popup_selection_text => '彈窗選中文字';
 	@override String get handlebar_cloze_before => '克漏字前文';
 	@override String get handlebar_cloze_inside => '克漏字內容';
 	@override String get handlebar_cloze_after => '克漏字後文';
@@ -12859,16 +12858,16 @@ class _StringsZhHk implements _StringsEn {
 	@override String get srt_import_missing_audio_dir => '請選擇音訊目錄';
 	@override String get srt_import_missing_title => '請輸入書名';
 	@override String get srt_import_error => '匯入失敗';
-	@override String get audio_panel_title => 'Audio Files';
-	@override String get audio_panel_auto => 'Auto';
-	@override String get audio_panel_unpaired => 'Unpaired';
-	@override String get audio_panel_pick_new_subtitle => 'Pick new subtitle file';
-	@override String get audio_panel_remove_subtitle => 'Remove subtitle';
-	@override String get audio_panel_add_audio => 'Add Audio';
-	@override String get audio_panel_add_subtitle => 'Add Subtitles';
-	@override String get srt_import_pick_subtitle_files => 'Pick subtitle files';
-	@override String get srt_import_pick_subtitle_dir => 'Pick subtitle directory';
-	@override String srt_import_unpaired_subtitles({required Object n}) => '${n} unmatched subtitle(s)';
+	@override String get audio_panel_title => '音訊檔案';
+	@override String get audio_panel_auto => '自動';
+	@override String get audio_panel_unpaired => '未配對';
+	@override String get audio_panel_pick_new_subtitle => '選擇新字幕檔';
+	@override String get audio_panel_remove_subtitle => '移除字幕';
+	@override String get audio_panel_add_audio => '新增音訊';
+	@override String get audio_panel_add_subtitle => '新增字幕';
+	@override String get srt_import_pick_subtitle_files => '選擇字幕檔';
+	@override String get srt_import_pick_subtitle_dir => '選擇字幕目錄';
+	@override String srt_import_unpaired_subtitles({required Object n}) => '${n} 個未配對的字幕';
 	@override String get srt_no_cues => '未找到字幕';
 	@override String get srt_no_audio_files => '所選目錄中沒有音訊檔案';
 	@override String get srt_books_section => '字幕有聲書';
@@ -12899,14 +12898,14 @@ class _StringsZhHk implements _StringsEn {
 	@override String get ttu_view_mode_label => '檢視模式';
 	@override String get ttu_paginated => '翻頁';
 	@override String get ttu_scroll => '捲動';
-	@override String get ttu_furigana_mode => 'Furigana';
-	@override String get ttu_furigana_show => 'Show';
-	@override String get ttu_furigana_hide => 'Hide';
-	@override String get ttu_furigana_partial => 'Partial';
-	@override String get ttu_furigana_toggle => 'Toggle';
+	@override String get ttu_furigana_mode => '振假名';
+	@override String get ttu_furigana_show => '顯示';
+	@override String get ttu_furigana_hide => '隱藏';
+	@override String get ttu_furigana_partial => '部分';
+	@override String get ttu_furigana_toggle => '切換';
 	@override String get ttu_text_indentation => '段落縮排';
 	@override String get ttu_first_dimension_margin => '邊距';
-	@override String get ttu_second_dimension_margin => 'Cross-axis Margin';
+	@override String get ttu_second_dimension_margin => '交叉軸邊距';
 	@override String get ttu_second_dimension_max => '最大寬/高';
 	@override String get ttu_page_columns => '分欄';
 	@override String get ttu_page_columns_auto => '自動';
@@ -12952,29 +12951,29 @@ class _StringsZhHk implements _StringsEn {
 	@override String get image_pause => '圖片暫停';
 	@override String get image_pause_hint => '播放時遇到圖片自動暫停。';
 	@override String get image_pause_off => '關閉';
-	@override String get tap_seek => 'Tap to Seek';
-	@override String get tap_seek_hint => 'Tap a sentence to jump audio to that position.';
+	@override String get tap_seek => '點擊跳轉';
+	@override String get tap_seek_hint => '點擊句子跳轉音訊到對應位置。';
 	@override String get ttu_furigana_mode_hint => '';
-	@override String get ttu_text_justify_hint => 'Stretch lines to fill the full width of the column.';
-	@override String get ttu_vert_kerning_hint => 'Adjust spacing between CJK characters for vertical text.';
-	@override String get ttu_font_vpal_hint => 'Use proportional alternates for punctuation in vertical layout.';
-	@override String get ttu_reader_styles_hint => 'Use the book\'s built-in CSS instead of reader defaults.';
-	@override String get ttu_vert_text_orient_hint => 'Mixed: rotate Latin; Upright: keep all characters upright.';
-	@override String get custom_fonts_archive_error => 'Failed to extract archive';
-	@override String get custom_fonts_import_url => 'Import from URL';
-	@override String get custom_fonts_downloading => 'Downloading...';
-	@override String get custom_fonts_download_failed => 'Download failed';
-	@override String custom_fonts_imported_count({required Object count}) => '${count} font(s) imported';
-	@override String get custom_fonts_no_fonts_in_archive => 'No font files found in archive';
-	@override String get custom_fonts_recommended => 'Recommended Fonts';
+	@override String get ttu_text_justify_hint => '拉伸文字填滿欄寬。';
+	@override String get ttu_vert_kerning_hint => '調整直排 CJK 字元間距。';
+	@override String get ttu_font_vpal_hint => '直排時使用比例標點替代字形。';
+	@override String get ttu_reader_styles_hint => '優先使用書籍自帶的 CSS 樣式，而非閱讀器預設樣式。';
+	@override String get ttu_vert_text_orient_hint => '混合：旋轉西文；直立：所有字元保持直立。';
+	@override String get custom_fonts_archive_error => '解壓失敗';
+	@override String get custom_fonts_import_url => '從 URL 匯入';
+	@override String get custom_fonts_downloading => '正在下載…';
+	@override String get custom_fonts_download_failed => '下載失敗';
+	@override String custom_fonts_imported_count({required Object count}) => '已匯入 ${count} 個字型';
+	@override String get custom_fonts_no_fonts_in_archive => '壓縮檔中未找到字型檔案';
+	@override String get custom_fonts_recommended => '推薦字型';
 	@override String get audio_volume => '音量';
 	@override String get reader_settings_section => '閱讀設定';
-	@override String get section_navigation => 'Navigation';
-	@override String get section_audiobook => 'Audiobook';
-	@override String get section_typography => 'Typography';
-	@override String get section_layout => 'Layout & Display';
-	@override String get section_interface => 'Interface';
-	@override String get section_update => 'Update Settings';
+	@override String get section_navigation => '導覽';
+	@override String get section_audiobook => '有聲書';
+	@override String get section_typography => '排版';
+	@override String get section_layout => '版面與顯示';
+	@override String get section_interface => '介面';
+	@override String get section_update => '更新設定';
 	@override String get action_bookmark => '書籤';
 	@override String get action_fullscreen_toggle => '全螢幕切換';
 	@override String get action_exit => '結束';
@@ -13071,11 +13070,11 @@ class _StringsZhHk implements _StringsEn {
 	@override String get harmonic_frequency => '詞頻聚合';
 	@override String get manage_audio_sources => '管理音訊來源';
 	@override String get local_audio => '本地音頻';
-	@override String get local_audio_not_set => '未選擇數據庫';
-	@override String get dialog_select_dictionary_type => '選擇詞典類型';
-	@override String get dictionary_section_frequency => '詞頻詞典';
-	@override String get dictionary_section_pitch => '音調詞典';
-	@override String get dictionary_section_term => '釋義詞典';
+	@override String get local_audio_not_set => '未選擇資料庫';
+	@override String get dialog_select_dictionary_type => '選擇辭典類型';
+	@override String get dictionary_section_frequency => '詞頻辭典';
+	@override String get dictionary_section_pitch => '音調辭典';
+	@override String get dictionary_section_term => '釋義辭典';
 	@override String get dictionary_type_frequency => '詞頻';
 	@override String get dictionary_type_pitch => '音調';
 	@override String get dictionary_type_term => '釋義';
@@ -13114,6 +13113,7 @@ class _StringsZhHk implements _StringsEn {
 	@override String get color_secondary => '輔色';
 	@override String get color_tertiary => '第三色';
 	@override String get color_container => '容器色';
+	@override String get unit_dp => 'dp';
 }
 
 // Path: retrying_in
@@ -14182,8 +14182,6 @@ extension on _StringsAr {
 			case 'auto_search': return 'بحث تلقائي';
 			case 'auto_search_debounce_delay': return 'تأخير البحث التلقائي';
 			case 'dictionary_font_size': return 'حجم خط القاموس';
-			case 'popup_max_width': return 'Popup max width';
-			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'التعبير';
 			case 'handlebar_reading': return 'القراءة';
 			case 'handlebar_furigana_plain': return 'فوريغانا';
@@ -14592,6 +14590,8 @@ extension on _StringsAr {
 			case 'color_secondary': return 'ثانوي';
 			case 'color_tertiary': return 'ثالثي';
 			case 'color_container': return 'حاوية';
+			case 'popup_max_width': return 'أقصى عرض للنافذة المنبثقة';
+			case 'unit_dp': return 'dp';
 			default: return null;
 		}
 	}
@@ -14901,8 +14901,6 @@ extension on _StringsDe {
 			case 'auto_search': return 'Automatische Suche';
 			case 'auto_search_debounce_delay': return 'Verz?gerung der automatischen Suche';
 			case 'dictionary_font_size': return 'W?rterbuch-Schriftgr??e';
-			case 'popup_max_width': return 'Popup max width';
-			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'Ausdruck';
 			case 'handlebar_reading': return 'Lesung';
 			case 'handlebar_furigana_plain': return 'Furigana';
@@ -15318,6 +15316,8 @@ extension on _StringsDe {
 			case 'color_secondary': return 'Sekundär';
 			case 'color_tertiary': return 'Tertiär';
 			case 'color_container': return 'Container';
+			case 'popup_max_width': return 'Maximale Popup-Breite';
+			case 'unit_dp': return 'dp';
 			default: return null;
 		}
 	}
@@ -15627,8 +15627,6 @@ extension on _StringsEs {
 			case 'auto_search': return 'Búsqueda automática';
 			case 'auto_search_debounce_delay': return 'Retardo de búsqueda automática';
 			case 'dictionary_font_size': return 'Tama?o de fuente del diccionario';
-			case 'popup_max_width': return 'Popup max width';
-			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'Expresión';
 			case 'handlebar_reading': return 'Lectura';
 			case 'handlebar_furigana_plain': return 'Furigana';
@@ -16044,6 +16042,8 @@ extension on _StringsEs {
 			case 'color_secondary': return 'Secundario';
 			case 'color_tertiary': return 'Terciario';
 			case 'color_container': return 'Contenedor';
+			case 'popup_max_width': return 'Ancho máximo del popup';
+			case 'unit_dp': return 'dp';
 			default: return null;
 		}
 	}
@@ -16353,8 +16353,6 @@ extension on _StringsFr {
 			case 'auto_search': return 'Recherche automatique';
 			case 'auto_search_debounce_delay': return 'Délai de la recherche automatique';
 			case 'dictionary_font_size': return 'Taille de police du dictionnaire';
-			case 'popup_max_width': return 'Popup max width';
-			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'Expression';
 			case 'handlebar_reading': return 'Lecture';
 			case 'handlebar_furigana_plain': return 'Furigana';
@@ -16770,6 +16768,8 @@ extension on _StringsFr {
 			case 'color_secondary': return 'Secondaire';
 			case 'color_tertiary': return 'Tertiaire';
 			case 'color_container': return 'Conteneur';
+			case 'popup_max_width': return 'Largeur max du popup';
+			case 'unit_dp': return 'dp';
 			default: return null;
 		}
 	}
@@ -17079,8 +17079,6 @@ extension on _StringsId {
 			case 'auto_search': return 'Pencarian otomatis';
 			case 'auto_search_debounce_delay': return 'Delay debounce pencarian otomatis';
 			case 'dictionary_font_size': return 'Ukuran font kamus';
-			case 'popup_max_width': return 'Popup max width';
-			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'Ekspresi';
 			case 'handlebar_reading': return 'Bacaan';
 			case 'handlebar_furigana_plain': return 'Furigana';
@@ -17496,6 +17494,8 @@ extension on _StringsId {
 			case 'color_secondary': return 'Sekunder';
 			case 'color_tertiary': return 'Tersier';
 			case 'color_container': return 'Kontainer';
+			case 'popup_max_width': return 'Lebar maks popup';
+			case 'unit_dp': return 'dp';
 			default: return null;
 		}
 	}
@@ -17812,8 +17812,6 @@ extension on _StringsIt {
 			case 'auto_search': return 'Ricerca automatica';
 			case 'auto_search_debounce_delay': return 'Ritardo ricerca automatica';
 			case 'dictionary_font_size': return 'Dimensione carattere dizionario';
-			case 'popup_max_width': return 'Popup max width';
-			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'Espressione';
 			case 'handlebar_reading': return 'Lettura';
 			case 'handlebar_furigana_plain': return 'Furigana';
@@ -18222,6 +18220,8 @@ extension on _StringsIt {
 			case 'color_secondary': return 'Secondario';
 			case 'color_tertiary': return 'Terziario';
 			case 'color_container': return 'Contenitore';
+			case 'popup_max_width': return 'Larghezza massima popup';
+			case 'unit_dp': return 'dp';
 			default: return null;
 		}
 	}
@@ -18531,8 +18531,6 @@ extension on _StringsJa {
 			case 'auto_search': return '自動検索';
 			case 'auto_search_debounce_delay': return '自動検索のデバウンス遅延';
 			case 'dictionary_font_size': return '辞書のフォントサイズ';
-			case 'popup_max_width': return 'Popup max width';
-			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return '表現';
 			case 'handlebar_reading': return '読み';
 			case 'handlebar_furigana_plain': return '振り仮名';
@@ -18786,21 +18784,21 @@ extension on _StringsJa {
 			case 'image_pause': return '画像で一時停止';
 			case 'image_pause_hint': return '再生中に画像が表示されたら自動で一時停止します。';
 			case 'image_pause_off': return 'オフ';
-			case 'tap_seek': return 'Tap to Seek';
-			case 'tap_seek_hint': return 'Tap a sentence to jump audio to that position.';
+			case 'tap_seek': return 'タップでシーク';
+			case 'tap_seek_hint': return '文をタップして音声をその位置にジャンプします。';
 			case 'ttu_furigana_mode_hint': return '';
-			case 'ttu_text_justify_hint': return 'Stretch lines to fill the full width of the column.';
-			case 'ttu_vert_kerning_hint': return 'Adjust spacing between CJK characters for vertical text.';
-			case 'ttu_font_vpal_hint': return 'Use proportional alternates for punctuation in vertical layout.';
-			case 'ttu_reader_styles_hint': return 'Use the book\'s built-in CSS instead of reader defaults.';
-			case 'ttu_vert_text_orient_hint': return 'Mixed: rotate Latin; Upright: keep all characters upright.';
-			case 'custom_fonts_archive_error': return 'Failed to extract archive';
-			case 'custom_fonts_import_url': return 'Import from URL';
-			case 'custom_fonts_downloading': return 'Downloading...';
-			case 'custom_fonts_download_failed': return 'Download failed';
-			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} font(s) imported';
-			case 'custom_fonts_no_fonts_in_archive': return 'No font files found in archive';
-			case 'custom_fonts_recommended': return 'Recommended Fonts';
+			case 'ttu_text_justify_hint': return '行を列幅いっぱいに引き伸ばします。';
+			case 'ttu_vert_kerning_hint': return '縦書きテキストのCJK文字間隔を調整します。';
+			case 'ttu_font_vpal_hint': return '縦書き時に約物のプロポーショナル代替字形を使用します。';
+			case 'ttu_reader_styles_hint': return 'リーダーのデフォルトではなく、書籍に組み込まれたCSSを使用します。';
+			case 'ttu_vert_text_orient_hint': return 'Mixed：ラテン文字を回転。Upright：全文字を正立に保持。';
+			case 'custom_fonts_archive_error': return 'アーカイブの展開に失敗しました';
+			case 'custom_fonts_import_url': return 'URLからインポート';
+			case 'custom_fonts_downloading': return 'ダウンロード中…';
+			case 'custom_fonts_download_failed': return 'ダウンロード失敗';
+			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} 個のフォントをインポートしました';
+			case 'custom_fonts_no_fonts_in_archive': return 'アーカイブにフォントファイルが見つかりません';
+			case 'custom_fonts_recommended': return 'おすすめフォント';
 			case 'audio_volume': return '音量';
 			case 'reader_settings_section': return 'リーダー設定';
 			case 'section_navigation': return 'ナビゲーション';
@@ -18948,6 +18946,8 @@ extension on _StringsJa {
 			case 'color_secondary': return 'セカンダリ';
 			case 'color_tertiary': return 'ターシャリ';
 			case 'color_container': return 'コンテナ';
+			case 'popup_max_width': return 'ポップアップの最大幅';
+			case 'unit_dp': return 'dp';
 			default: return null;
 		}
 	}
@@ -19257,8 +19257,6 @@ extension on _StringsKo {
 			case 'auto_search': return '?? ??';
 			case 'auto_search_debounce_delay': return '?? ?? ?? ??';
 			case 'dictionary_font_size': return '?? ?? ??';
-			case 'popup_max_width': return 'Popup max width';
-			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return '??';
 			case 'handlebar_reading': return '??';
 			case 'handlebar_furigana_plain': return '????';
@@ -19479,8 +19477,8 @@ extension on _StringsKo {
 			case 'prev_sentence': return '?? ??';
 			case 'next_sentence': return '?? ??';
 			case 'audiobook_settings': return '???? ??';
-			case 'show_play_bar': return 'Show playback bar';
-			case 'show_media_notification': return 'Show media notification';
+			case 'show_play_bar': return '재생 바 표시';
+			case 'show_media_notification': return '미디어 알림 표시';
 			case 'follow_audio_on_tooltip': return '??? ????: ?? (?? ?? ??)';
 			case 'follow_audio_off_tooltip': return '??? ????: ??';
 			case 'reading_progress': return '?? ???';
@@ -19488,8 +19486,8 @@ extension on _StringsKo {
 			case 'page_progress': return ({required Object current, required Object total}) => '??? ${current} / ${total}';
 			case 'cue_progress': return ({required Object current, required Object total}) => '?? ${current} / ${total}';
 			case 'cue_navigation': return '?? ??';
-			case 'repeat_cue': return 'Repeat sentence';
-			case 'play_from_cue': return 'Play from sentence';
+			case 'repeat_cue': return '문장 반복';
+			case 'play_from_cue': return '이 문장부터 재생';
 			case 'jump_to_cue': return '??';
 			case 'jump_to_current_page': return '?? ???';
 			case 'cue_unit': return '?? ??';
@@ -19502,29 +19500,29 @@ extension on _StringsKo {
 			case 'image_pause': return '????? ????';
 			case 'image_pause_hint': return '?? ? ???? ???? ???? ???????.';
 			case 'image_pause_off': return '??';
-			case 'tap_seek': return 'Tap to Seek';
-			case 'tap_seek_hint': return 'Tap a sentence to jump audio to that position.';
+			case 'tap_seek': return '탭하여 이동';
+			case 'tap_seek_hint': return '문장을 탭하여 해당 위치로 오디오를 이동합니다.';
 			case 'ttu_furigana_mode_hint': return '';
-			case 'ttu_text_justify_hint': return 'Stretch lines to fill the full width of the column.';
-			case 'ttu_vert_kerning_hint': return 'Adjust spacing between CJK characters for vertical text.';
-			case 'ttu_font_vpal_hint': return 'Use proportional alternates for punctuation in vertical layout.';
-			case 'ttu_reader_styles_hint': return 'Use the book\'s built-in CSS instead of reader defaults.';
-			case 'ttu_vert_text_orient_hint': return 'Mixed: rotate Latin; Upright: keep all characters upright.';
-			case 'custom_fonts_archive_error': return 'Failed to extract archive';
-			case 'custom_fonts_import_url': return 'Import from URL';
-			case 'custom_fonts_downloading': return 'Downloading...';
-			case 'custom_fonts_download_failed': return 'Download failed';
-			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} font(s) imported';
-			case 'custom_fonts_no_fonts_in_archive': return 'No font files found in archive';
-			case 'custom_fonts_recommended': return 'Recommended Fonts';
+			case 'ttu_text_justify_hint': return '줄을 열 너비에 맞게 늘립니다.';
+			case 'ttu_vert_kerning_hint': return '세로 텍스트의 CJK 문자 간격을 조정합니다.';
+			case 'ttu_font_vpal_hint': return '세로 레이아웃에서 구두점에 비례 대체 글리프를 사용합니다.';
+			case 'ttu_reader_styles_hint': return '리더 기본값 대신 책에 내장된 CSS를 사용합니다.';
+			case 'ttu_vert_text_orient_hint': return 'Mixed: 라틴 문자를 회전. Upright: 모든 문자를 세로로 유지.';
+			case 'custom_fonts_archive_error': return '아카이브 추출 실패';
+			case 'custom_fonts_import_url': return 'URL에서 가져오기';
+			case 'custom_fonts_downloading': return '다운로드 중…';
+			case 'custom_fonts_download_failed': return '다운로드 실패';
+			case 'custom_fonts_imported_count': return ({required Object count}) => '${count}개 글꼴 가져옴';
+			case 'custom_fonts_no_fonts_in_archive': return '아카이브에서 글꼴 파일을 찾을 수 없습니다';
+			case 'custom_fonts_recommended': return '추천 글꼴';
 			case 'audio_volume': return '??';
 			case 'reader_settings_section': return '?? ??';
-			case 'section_navigation': return 'Navigation';
-			case 'section_audiobook': return 'Audiobook';
-			case 'section_typography': return 'Typography';
-			case 'section_layout': return 'Layout & Display';
-			case 'section_interface': return 'Interface';
-			case 'section_update': return 'Update Settings';
+			case 'section_navigation': return '탐색';
+			case 'section_audiobook': return '오디오북';
+			case 'section_typography': return '타이포그래피';
+			case 'section_layout': return '레이아웃 및 표시';
+			case 'section_interface': return '인터페이스';
+			case 'section_update': return '업데이트 설정';
 			case 'action_bookmark': return '???';
 			case 'action_fullscreen_toggle': return '?? ?? ??';
 			case 'action_exit': return '??';
@@ -19647,13 +19645,13 @@ extension on _StringsKo {
 			case 'floating_lyric_unlock': return 'Unlock';
 			case 'floating_lyric_close': return 'Close';
 			case 'floating_lyric_font_size': return 'Floating subtitle font size';
-			case 'audio_panel_title': return 'Audio Files';
-			case 'audio_panel_auto': return 'Auto';
-			case 'audio_panel_unpaired': return 'Unpaired';
-			case 'audio_panel_pick_new_subtitle': return 'Pick new subtitle file';
-			case 'audio_panel_remove_subtitle': return 'Remove subtitle';
-			case 'audio_panel_add_audio': return 'Add Audio';
-			case 'audio_panel_add_subtitle': return 'Add Subtitles';
+			case 'audio_panel_title': return '오디오 파일';
+			case 'audio_panel_auto': return '자동';
+			case 'audio_panel_unpaired': return '미매칭';
+			case 'audio_panel_pick_new_subtitle': return '새 자막 파일 선택';
+			case 'audio_panel_remove_subtitle': return '자막 제거';
+			case 'audio_panel_add_audio': return '오디오 추가';
+			case 'audio_panel_add_subtitle': return '자막 추가';
 			case 'srt_import_pick_subtitle_dir': return 'Pick subtitle directory';
 			case 'srt_import_pick_subtitle_files': return 'Pick subtitle files';
 			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} unmatched subtitle(s)';
@@ -19674,6 +19672,8 @@ extension on _StringsKo {
 			case 'color_secondary': return '보조색';
 			case 'color_tertiary': return '3차색';
 			case 'color_container': return '컨테이너';
+			case 'popup_max_width': return '팝업 최대 너비';
+			case 'unit_dp': return 'dp';
 			default: return null;
 		}
 	}
@@ -19990,8 +19990,6 @@ extension on _StringsNl {
 			case 'auto_search': return 'Automatisch zoeken';
 			case 'auto_search_debounce_delay': return 'Vertraging automatisch zoeken';
 			case 'dictionary_font_size': return 'Lettergrootte woordenboek';
-			case 'popup_max_width': return 'Popup max width';
-			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'Uitdrukking';
 			case 'handlebar_reading': return 'Lezing';
 			case 'handlebar_furigana_plain': return 'Furigana';
@@ -20400,6 +20398,8 @@ extension on _StringsNl {
 			case 'color_secondary': return 'Secundair';
 			case 'color_tertiary': return 'Tertiair';
 			case 'color_container': return 'Container';
+			case 'popup_max_width': return 'Maximale popup-breedte';
+			case 'unit_dp': return 'dp';
 			default: return null;
 		}
 	}
@@ -20709,8 +20709,6 @@ extension on _StringsPtBr {
 			case 'auto_search': return 'Busca automática';
 			case 'auto_search_debounce_delay': return 'Atraso da busca automática';
 			case 'dictionary_font_size': return 'Tamanho da fonte do dicionário';
-			case 'popup_max_width': return 'Popup max width';
-			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'Express?o';
 			case 'handlebar_reading': return 'Leitura';
 			case 'handlebar_furigana_plain': return 'Furigana';
@@ -21126,6 +21124,8 @@ extension on _StringsPtBr {
 			case 'color_secondary': return 'Secundária';
 			case 'color_tertiary': return 'Terciária';
 			case 'color_container': return 'Contêiner';
+			case 'popup_max_width': return 'Largura máxima do popup';
+			case 'unit_dp': return 'dp';
 			default: return null;
 		}
 	}
@@ -21435,8 +21435,6 @@ extension on _StringsRu {
 			case 'auto_search': return 'Автопоиск';
 			case 'auto_search_debounce_delay': return 'Задержка автопоиска';
 			case 'dictionary_font_size': return 'Размер шрифта словаря';
-			case 'popup_max_width': return 'Popup max width';
-			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'Выражение';
 			case 'handlebar_reading': return 'Чтение';
 			case 'handlebar_furigana_plain': return 'Фуригана';
@@ -21852,6 +21850,8 @@ extension on _StringsRu {
 			case 'color_secondary': return 'Вторичный';
 			case 'color_tertiary': return 'Третичный';
 			case 'color_container': return 'Контейнер';
+			case 'popup_max_width': return 'Макс. ширина всплывающего окна';
+			case 'unit_dp': return 'dp';
 			default: return null;
 		}
 	}
@@ -22161,8 +22161,6 @@ extension on _StringsTh {
 			case 'auto_search': return '??????????????';
 			case 'auto_search_debounce_delay': return '???????????????????????';
 			case 'dictionary_font_size': return '??????????????????';
-			case 'popup_max_width': return 'Popup max width';
-			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return '???????';
 			case 'handlebar_reading': return '???????';
 			case 'handlebar_furigana_plain': return '????????';
@@ -22578,6 +22576,8 @@ extension on _StringsTh {
 			case 'color_secondary': return 'สีรอง';
 			case 'color_tertiary': return 'สีที่สาม';
 			case 'color_container': return 'คอนเทนเนอร์';
+			case 'popup_max_width': return 'ความกว้างสูงสุดของป๊อปอัป';
+			case 'unit_dp': return 'dp';
 			default: return null;
 		}
 	}
@@ -22894,8 +22894,6 @@ extension on _StringsTr {
 			case 'auto_search': return 'Otomatik arama';
 			case 'auto_search_debounce_delay': return 'Otomatik arama gecikmesi';
 			case 'dictionary_font_size': return 'S?zlük yaz? tipi boyutu';
-			case 'popup_max_width': return 'Popup max width';
-			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return '?fade';
 			case 'handlebar_reading': return 'Okuma';
 			case 'handlebar_furigana_plain': return 'Furigana';
@@ -23304,6 +23302,8 @@ extension on _StringsTr {
 			case 'color_secondary': return 'İkincil';
 			case 'color_tertiary': return 'Üçüncül';
 			case 'color_container': return 'Kapsayıcı';
+			case 'popup_max_width': return 'Açılır pencere maks. genişlik';
+			case 'unit_dp': return 'dp';
 			default: return null;
 		}
 	}
@@ -23613,8 +23613,6 @@ extension on _StringsVi {
 			case 'auto_search': return 'T? ??ng tìm ki?m';
 			case 'auto_search_debounce_delay': return '?? tr? tìm ki?m t? ??ng';
 			case 'dictionary_font_size': return 'C? ch? t? ?i?n';
-			case 'popup_max_width': return 'Popup max width';
-			case 'unit_dp': return 'dp';
 			case 'handlebar_expression': return 'Bi?u th?c';
 			case 'handlebar_reading': return 'Phiên am';
 			case 'handlebar_furigana_plain': return 'Furigana';
@@ -24030,6 +24028,8 @@ extension on _StringsVi {
 			case 'color_secondary': return 'Phụ';
 			case 'color_tertiary': return 'Cấp ba';
 			case 'color_container': return 'Vùng chứa';
+			case 'popup_max_width': return 'Chiều rộng tối đa popup';
+			case 'unit_dp': return 'dp';
 			default: return null;
 		}
 	}
@@ -25065,8 +25065,7 @@ extension on _StringsZhHk {
 			case 'auto_search': return '自動搜尋';
 			case 'auto_search_debounce_delay': return '自動搜尋防抖延遲';
 			case 'dictionary_font_size': return '辭典字級';
-			case 'popup_max_width': return 'Popup max width';
-			case 'unit_dp': return 'dp';
+			case 'popup_max_width': return '查詞視窗最大寬度';
 			case 'handlebar_expression': return '詞條';
 			case 'handlebar_reading': return '讀音';
 			case 'handlebar_furigana_plain': return '振假名';
@@ -25082,7 +25081,7 @@ extension on _StringsZhHk {
 			case 'handlebar_book_cover': return '書籍封面';
 			case 'handlebar_audio': return '音訊';
 			case 'handlebar_sasayaki_audio': return 'Sasayaki 音訊';
-			case 'handlebar_popup_selection_text': return 'Popup Selection Text';
+			case 'handlebar_popup_selection_text': return '彈窗選中文字';
 			case 'handlebar_cloze_before': return '克漏字前文';
 			case 'handlebar_cloze_inside': return '克漏字內容';
 			case 'handlebar_cloze_after': return '克漏字後文';
@@ -25227,16 +25226,16 @@ extension on _StringsZhHk {
 			case 'srt_import_missing_audio_dir': return '請選擇音訊目錄';
 			case 'srt_import_missing_title': return '請輸入書名';
 			case 'srt_import_error': return '匯入失敗';
-			case 'audio_panel_title': return 'Audio Files';
-			case 'audio_panel_auto': return 'Auto';
-			case 'audio_panel_unpaired': return 'Unpaired';
-			case 'audio_panel_pick_new_subtitle': return 'Pick new subtitle file';
-			case 'audio_panel_remove_subtitle': return 'Remove subtitle';
-			case 'audio_panel_add_audio': return 'Add Audio';
-			case 'audio_panel_add_subtitle': return 'Add Subtitles';
-			case 'srt_import_pick_subtitle_files': return 'Pick subtitle files';
-			case 'srt_import_pick_subtitle_dir': return 'Pick subtitle directory';
-			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} unmatched subtitle(s)';
+			case 'audio_panel_title': return '音訊檔案';
+			case 'audio_panel_auto': return '自動';
+			case 'audio_panel_unpaired': return '未配對';
+			case 'audio_panel_pick_new_subtitle': return '選擇新字幕檔';
+			case 'audio_panel_remove_subtitle': return '移除字幕';
+			case 'audio_panel_add_audio': return '新增音訊';
+			case 'audio_panel_add_subtitle': return '新增字幕';
+			case 'srt_import_pick_subtitle_files': return '選擇字幕檔';
+			case 'srt_import_pick_subtitle_dir': return '選擇字幕目錄';
+			case 'srt_import_unpaired_subtitles': return ({required Object n}) => '${n} 個未配對的字幕';
 			case 'srt_no_cues': return '未找到字幕';
 			case 'srt_no_audio_files': return '所選目錄中沒有音訊檔案';
 			case 'srt_books_section': return '字幕有聲書';
@@ -25267,14 +25266,14 @@ extension on _StringsZhHk {
 			case 'ttu_view_mode_label': return '檢視模式';
 			case 'ttu_paginated': return '翻頁';
 			case 'ttu_scroll': return '捲動';
-			case 'ttu_furigana_mode': return 'Furigana';
-			case 'ttu_furigana_show': return 'Show';
-			case 'ttu_furigana_hide': return 'Hide';
-			case 'ttu_furigana_partial': return 'Partial';
-			case 'ttu_furigana_toggle': return 'Toggle';
+			case 'ttu_furigana_mode': return '振假名';
+			case 'ttu_furigana_show': return '顯示';
+			case 'ttu_furigana_hide': return '隱藏';
+			case 'ttu_furigana_partial': return '部分';
+			case 'ttu_furigana_toggle': return '切換';
 			case 'ttu_text_indentation': return '段落縮排';
 			case 'ttu_first_dimension_margin': return '邊距';
-			case 'ttu_second_dimension_margin': return 'Cross-axis Margin';
+			case 'ttu_second_dimension_margin': return '交叉軸邊距';
 			case 'ttu_second_dimension_max': return '最大寬/高';
 			case 'ttu_page_columns': return '分欄';
 			case 'ttu_page_columns_auto': return '自動';
@@ -25320,29 +25319,29 @@ extension on _StringsZhHk {
 			case 'image_pause': return '圖片暫停';
 			case 'image_pause_hint': return '播放時遇到圖片自動暫停。';
 			case 'image_pause_off': return '關閉';
-			case 'tap_seek': return 'Tap to Seek';
-			case 'tap_seek_hint': return 'Tap a sentence to jump audio to that position.';
+			case 'tap_seek': return '點擊跳轉';
+			case 'tap_seek_hint': return '點擊句子跳轉音訊到對應位置。';
 			case 'ttu_furigana_mode_hint': return '';
-			case 'ttu_text_justify_hint': return 'Stretch lines to fill the full width of the column.';
-			case 'ttu_vert_kerning_hint': return 'Adjust spacing between CJK characters for vertical text.';
-			case 'ttu_font_vpal_hint': return 'Use proportional alternates for punctuation in vertical layout.';
-			case 'ttu_reader_styles_hint': return 'Use the book\'s built-in CSS instead of reader defaults.';
-			case 'ttu_vert_text_orient_hint': return 'Mixed: rotate Latin; Upright: keep all characters upright.';
-			case 'custom_fonts_archive_error': return 'Failed to extract archive';
-			case 'custom_fonts_import_url': return 'Import from URL';
-			case 'custom_fonts_downloading': return 'Downloading...';
-			case 'custom_fonts_download_failed': return 'Download failed';
-			case 'custom_fonts_imported_count': return ({required Object count}) => '${count} font(s) imported';
-			case 'custom_fonts_no_fonts_in_archive': return 'No font files found in archive';
-			case 'custom_fonts_recommended': return 'Recommended Fonts';
+			case 'ttu_text_justify_hint': return '拉伸文字填滿欄寬。';
+			case 'ttu_vert_kerning_hint': return '調整直排 CJK 字元間距。';
+			case 'ttu_font_vpal_hint': return '直排時使用比例標點替代字形。';
+			case 'ttu_reader_styles_hint': return '優先使用書籍自帶的 CSS 樣式，而非閱讀器預設樣式。';
+			case 'ttu_vert_text_orient_hint': return '混合：旋轉西文；直立：所有字元保持直立。';
+			case 'custom_fonts_archive_error': return '解壓失敗';
+			case 'custom_fonts_import_url': return '從 URL 匯入';
+			case 'custom_fonts_downloading': return '正在下載…';
+			case 'custom_fonts_download_failed': return '下載失敗';
+			case 'custom_fonts_imported_count': return ({required Object count}) => '已匯入 ${count} 個字型';
+			case 'custom_fonts_no_fonts_in_archive': return '壓縮檔中未找到字型檔案';
+			case 'custom_fonts_recommended': return '推薦字型';
 			case 'audio_volume': return '音量';
 			case 'reader_settings_section': return '閱讀設定';
-			case 'section_navigation': return 'Navigation';
-			case 'section_audiobook': return 'Audiobook';
-			case 'section_typography': return 'Typography';
-			case 'section_layout': return 'Layout & Display';
-			case 'section_interface': return 'Interface';
-			case 'section_update': return 'Update Settings';
+			case 'section_navigation': return '導覽';
+			case 'section_audiobook': return '有聲書';
+			case 'section_typography': return '排版';
+			case 'section_layout': return '版面與顯示';
+			case 'section_interface': return '介面';
+			case 'section_update': return '更新設定';
 			case 'action_bookmark': return '書籤';
 			case 'action_fullscreen_toggle': return '全螢幕切換';
 			case 'action_exit': return '結束';
@@ -25439,11 +25438,11 @@ extension on _StringsZhHk {
 			case 'harmonic_frequency': return '詞頻聚合';
 			case 'manage_audio_sources': return '管理音訊來源';
 			case 'local_audio': return '本地音頻';
-			case 'local_audio_not_set': return '未選擇數據庫';
-			case 'dialog_select_dictionary_type': return '選擇詞典類型';
-			case 'dictionary_section_frequency': return '詞頻詞典';
-			case 'dictionary_section_pitch': return '音調詞典';
-			case 'dictionary_section_term': return '釋義詞典';
+			case 'local_audio_not_set': return '未選擇資料庫';
+			case 'dialog_select_dictionary_type': return '選擇辭典類型';
+			case 'dictionary_section_frequency': return '詞頻辭典';
+			case 'dictionary_section_pitch': return '音調辭典';
+			case 'dictionary_section_term': return '釋義辭典';
 			case 'dictionary_type_frequency': return '詞頻';
 			case 'dictionary_type_pitch': return '音調';
 			case 'dictionary_type_term': return '釋義';
@@ -25482,6 +25481,7 @@ extension on _StringsZhHk {
 			case 'color_secondary': return '輔色';
 			case 'color_tertiary': return '第三色';
 			case 'color_container': return '容器色';
+			case 'unit_dp': return 'dp';
 			default: return null;
 		}
 	}
