@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 12172 (716 per locale)
+/// Strings: 12173 (716 per locale)
 ///
-/// Built on 2026-05-05 at 17:15 UTC
+/// Built on 2026-05-06 at 04:38 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -821,6 +821,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get stat_refresh => 'Refresh';
 	String get stat_no_data => 'No reading data yet';
 	String get stat_by_book => 'By Book';
+	String get stat_today_hourly => 'Today by Hour';
 	String get stat_last_30_days => 'Last 30 Days';
 	String get stat_today => 'Today';
 	String get stat_this_week => 'This Week';
@@ -12341,6 +12342,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get stat_refresh => '刷新';
 	@override String get stat_no_data => '暂无阅读数据';
 	@override String get stat_by_book => '按书统计';
+	@override String get stat_today_hourly => '今日按小时';
 	@override String get stat_last_30_days => '近 30 天';
 	@override String get stat_today => '今日';
 	@override String get stat_this_week => '本周';
@@ -13879,6 +13881,7 @@ extension on _StringsEn {
 			case 'stat_refresh': return 'Refresh';
 			case 'stat_no_data': return 'No reading data yet';
 			case 'stat_by_book': return 'By Book';
+			case 'stat_today_hourly': return 'Today by Hour';
 			case 'stat_last_30_days': return 'Last 30 Days';
 			case 'stat_today': return 'Today';
 			case 'stat_this_week': return 'This Week';
@@ -24784,6 +24787,7 @@ extension on _StringsZhCn {
 			case 'stat_refresh': return '刷新';
 			case 'stat_no_data': return '暂无阅读数据';
 			case 'stat_by_book': return '按书统计';
+			case 'stat_today_hourly': return '今日按小时';
 			case 'stat_last_30_days': return '近 30 天';
 			case 'stat_today': return '今日';
 			case 'stat_this_week': return '本周';
