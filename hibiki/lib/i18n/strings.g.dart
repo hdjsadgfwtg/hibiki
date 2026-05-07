@@ -202,6 +202,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get dictionary_type_frequency => 'Frequency';
 	String get dictionary_type_pitch => 'Pitch';
 	String get dictionary_section_term => 'Term Dictionaries';
+	String get dictionary_section_kanji => 'Kanji Dictionaries';
 	String get dictionary_section_frequency => 'Frequency Dictionaries';
 	String get dictionary_section_pitch => 'Pitch Dictionaries';
 	String get dialog_close => 'CLOSE';
@@ -1068,6 +1069,7 @@ class _StringsAr extends _StringsEn {
 	@override String get dictionary_type_frequency => 'تكرار';
 	@override String get dictionary_type_pitch => 'نبرة';
 	@override String get dictionary_section_term => 'قواميس المعاني';
+	@override String get dictionary_section_kanji => 'قواميس الكانجي';
 	@override String get dictionary_section_frequency => 'قواميس التكرار';
 	@override String get dictionary_section_pitch => 'قواميس النبرة';
 	@override String get dialog_close => 'إغلاق';
@@ -2518,6 +2520,7 @@ class _StringsDe extends _StringsEn {
 	@override String get dictionary_section_frequency => 'H?ufigkeitsw?rterbücher';
 	@override String get dictionary_section_pitch => 'Tonh?henw?rterbücher';
 	@override String get dictionary_section_term => 'Begriffsw?rterbücher';
+	@override String get dictionary_section_kanji => 'Kanji-Wörterbücher';
 	@override String get dictionary_type_frequency => 'H?ufigkeit';
 	@override String get dictionary_type_pitch => 'Tonh?he';
 	@override String get dictionary_type_term => 'Begriff';
@@ -3345,6 +3348,7 @@ class _StringsEs extends _StringsEn {
 	@override String get dictionary_section_frequency => 'Diccionarios de frecuencia';
 	@override String get dictionary_section_pitch => 'Diccionarios de tono';
 	@override String get dictionary_section_term => 'Diccionarios de términos';
+	@override String get dictionary_section_kanji => 'Diccionarios de kanji';
 	@override String get dictionary_type_frequency => 'Frecuencia';
 	@override String get dictionary_type_pitch => 'Tono';
 	@override String get dictionary_type_term => 'Término';
@@ -4172,6 +4176,7 @@ class _StringsFr extends _StringsEn {
 	@override String get dictionary_section_frequency => 'Dictionnaires de fréquence';
 	@override String get dictionary_section_pitch => 'Dictionnaires d\'accent tonal';
 	@override String get dictionary_section_term => 'Dictionnaires de termes';
+	@override String get dictionary_section_kanji => 'Dictionnaires de kanji';
 	@override String get dictionary_type_frequency => 'Fréquence';
 	@override String get dictionary_type_pitch => 'Accent tonal';
 	@override String get dictionary_type_term => 'Terme';
@@ -4999,6 +5004,7 @@ class _StringsId extends _StringsEn {
 	@override String get dictionary_section_frequency => 'Kamus Frekuensi';
 	@override String get dictionary_section_pitch => 'Kamus Nada';
 	@override String get dictionary_section_term => 'Kamus Istilah';
+	@override String get dictionary_section_kanji => 'Kamus Kanji';
 	@override String get dictionary_type_frequency => 'Frekuensi';
 	@override String get dictionary_type_pitch => 'Nada';
 	@override String get dictionary_type_term => 'Istilah';
@@ -5203,6 +5209,7 @@ class _StringsIt extends _StringsEn {
 	@override String get dictionary_type_frequency => 'Frequenza';
 	@override String get dictionary_type_pitch => 'Intonazione';
 	@override String get dictionary_section_term => 'Dizionari di termini';
+	@override String get dictionary_section_kanji => 'Dizionari di kanji';
 	@override String get dictionary_section_frequency => 'Dizionari di frequenza';
 	@override String get dictionary_section_pitch => 'Dizionari di intonazione';
 	@override String get dialog_close => 'CHIUDI';
@@ -6663,6 +6670,7 @@ class _StringsJa extends _StringsEn {
 	@override String get dictionary_section_frequency => '頻度辞書';
 	@override String get dictionary_section_pitch => 'ピッチ辞書';
 	@override String get dictionary_section_term => '用語辞書';
+	@override String get dictionary_section_kanji => '漢字辞書';
 	@override String get dictionary_type_frequency => '頻度';
 	@override String get dictionary_type_pitch => 'ピッチ';
 	@override String get dictionary_type_term => '用語';
@@ -7480,6 +7488,7 @@ class _StringsKo extends _StringsEn {
 	@override String get dictionary_section_frequency => '?? ??';
 	@override String get dictionary_section_pitch => '?? ??';
 	@override String get dictionary_section_term => '?? ??';
+	@override String get dictionary_section_kanji => '한자 사전';
 	@override String get dictionary_type_frequency => '??';
 	@override String get dictionary_type_pitch => '??';
 	@override String get dictionary_type_term => '??';
@@ -7684,6 +7693,7 @@ class _StringsNl extends _StringsEn {
 	@override String get dictionary_type_frequency => 'Frequentie';
 	@override String get dictionary_type_pitch => 'Toonhoogte';
 	@override String get dictionary_section_term => 'Termwoordenboeken';
+	@override String get dictionary_section_kanji => 'Kanjiwoordenboeken';
 	@override String get dictionary_section_frequency => 'Frequentiewoordenboeken';
 	@override String get dictionary_section_pitch => 'Toonhoogtewoordenboeken';
 	@override String get dialog_close => 'SLUITEN';
@@ -9134,6 +9144,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get dictionary_section_frequency => 'Dicionários de frequência';
 	@override String get dictionary_section_pitch => 'Dicionários de tom';
 	@override String get dictionary_section_term => 'Dicionários de termos';
+	@override String get dictionary_section_kanji => 'Dicionários de kanji';
 	@override String get dictionary_type_frequency => 'Frequência';
 	@override String get dictionary_type_pitch => 'Tom';
 	@override String get dictionary_type_term => 'Termo';
@@ -9961,6 +9972,7 @@ class _StringsRu extends _StringsEn {
 	@override String get dictionary_section_frequency => 'Словари частотности';
 	@override String get dictionary_section_pitch => 'Словари высоты тона';
 	@override String get dictionary_section_term => 'Словари терминов';
+	@override String get dictionary_section_kanji => 'Словари кандзи';
 	@override String get dictionary_type_frequency => 'Частотность';
 	@override String get dictionary_type_pitch => 'Высота тона';
 	@override String get dictionary_type_term => 'Термин';
@@ -10788,6 +10800,7 @@ class _StringsTh extends _StringsEn {
 	@override String get dictionary_section_frequency => '????????????????';
 	@override String get dictionary_section_pitch => '???????????????????';
 	@override String get dictionary_section_term => '????????????????';
+	@override String get dictionary_section_kanji => 'พจนานุกรมคันจิ';
 	@override String get dictionary_type_frequency => '???????';
 	@override String get dictionary_type_pitch => '??????????';
 	@override String get dictionary_type_term => '???????';
@@ -10992,6 +11005,7 @@ class _StringsTr extends _StringsEn {
 	@override String get dictionary_type_frequency => 'S?kl?k';
 	@override String get dictionary_type_pitch => 'Ton';
 	@override String get dictionary_section_term => 'Terim S?zlükleri';
+	@override String get dictionary_section_kanji => 'Kanji Sözlükleri';
 	@override String get dictionary_section_frequency => 'S?kl?k S?zlükleri';
 	@override String get dictionary_section_pitch => 'Ton S?zlükleri';
 	@override String get dialog_close => 'KAPAT';
@@ -12442,6 +12456,7 @@ class _StringsVi extends _StringsEn {
 	@override String get dictionary_section_frequency => 'T? ?i?n t?n su?t';
 	@override String get dictionary_section_pitch => 'T? ?i?n thanh ?i?u';
 	@override String get dictionary_section_term => 'T? ?i?n thu?t ng?';
+	@override String get dictionary_section_kanji => 'Từ điển Kanji';
 	@override String get dictionary_type_frequency => 'T?n su?t';
 	@override String get dictionary_type_pitch => 'Thanh ?i?u';
 	@override String get dictionary_type_term => 'Thu?t ng?';
@@ -12646,6 +12661,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get dictionary_type_frequency => '词频';
 	@override String get dictionary_type_pitch => '音调';
 	@override String get dictionary_section_term => '释义词典';
+	@override String get dictionary_section_kanji => '汉字词典';
 	@override String get dictionary_section_frequency => '词频词典';
 	@override String get dictionary_section_pitch => '音调词典';
 	@override String get dialog_close => '关闭';
@@ -14146,6 +14162,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get dictionary_section_frequency => '詞頻辭典';
 	@override String get dictionary_section_pitch => '音調辭典';
 	@override String get dictionary_section_term => '釋義辭典';
+	@override String get dictionary_section_kanji => '漢字辭典';
 	@override String get dictionary_type_frequency => '詞頻';
 	@override String get dictionary_type_pitch => '音調';
 	@override String get dictionary_type_term => '釋義';
@@ -14318,6 +14335,7 @@ extension on _StringsEn {
 			case 'dictionary_type_frequency': return 'Frequency';
 			case 'dictionary_type_pitch': return 'Pitch';
 			case 'dictionary_section_term': return 'Term Dictionaries';
+			case 'dictionary_section_kanji': return 'Kanji Dictionaries';
 			case 'dictionary_section_frequency': return 'Frequency Dictionaries';
 			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
 			case 'dialog_close': return 'CLOSE';
@@ -15143,6 +15161,7 @@ extension on _StringsAr {
 			case 'dictionary_type_frequency': return 'تكرار';
 			case 'dictionary_type_pitch': return 'نبرة';
 			case 'dictionary_section_term': return 'قواميس المعاني';
+			case 'dictionary_section_kanji': return 'قواميس الكانجي';
 			case 'dictionary_section_frequency': return 'قواميس التكرار';
 			case 'dictionary_section_pitch': return 'قواميس النبرة';
 			case 'dialog_close': return 'إغلاق';
@@ -16558,6 +16577,7 @@ extension on _StringsDe {
 			case 'dictionary_section_frequency': return 'H?ufigkeitsw?rterbücher';
 			case 'dictionary_section_pitch': return 'Tonh?henw?rterbücher';
 			case 'dictionary_section_term': return 'Begriffsw?rterbücher';
+			case 'dictionary_section_kanji': return 'Kanji-Wörterbücher';
 			case 'dictionary_type_frequency': return 'H?ufigkeit';
 			case 'dictionary_type_pitch': return 'Tonh?he';
 			case 'dictionary_type_term': return 'Begriff';
@@ -17344,6 +17364,7 @@ extension on _StringsEs {
 			case 'dictionary_section_frequency': return 'Diccionarios de frecuencia';
 			case 'dictionary_section_pitch': return 'Diccionarios de tono';
 			case 'dictionary_section_term': return 'Diccionarios de términos';
+			case 'dictionary_section_kanji': return 'Diccionarios de kanji';
 			case 'dictionary_type_frequency': return 'Frecuencia';
 			case 'dictionary_type_pitch': return 'Tono';
 			case 'dictionary_type_term': return 'Término';
@@ -18130,6 +18151,7 @@ extension on _StringsFr {
 			case 'dictionary_section_frequency': return 'Dictionnaires de fréquence';
 			case 'dictionary_section_pitch': return 'Dictionnaires d\'accent tonal';
 			case 'dictionary_section_term': return 'Dictionnaires de termes';
+			case 'dictionary_section_kanji': return 'Dictionnaires de kanji';
 			case 'dictionary_type_frequency': return 'Fréquence';
 			case 'dictionary_type_pitch': return 'Accent tonal';
 			case 'dictionary_type_term': return 'Terme';
@@ -18916,6 +18938,7 @@ extension on _StringsId {
 			case 'dictionary_section_frequency': return 'Kamus Frekuensi';
 			case 'dictionary_section_pitch': return 'Kamus Nada';
 			case 'dictionary_section_term': return 'Kamus Istilah';
+			case 'dictionary_section_kanji': return 'Kamus Kanji';
 			case 'dictionary_type_frequency': return 'Frekuensi';
 			case 'dictionary_type_pitch': return 'Nada';
 			case 'dictionary_type_term': return 'Istilah';
@@ -19073,6 +19096,7 @@ extension on _StringsIt {
 			case 'dictionary_type_frequency': return 'Frequenza';
 			case 'dictionary_type_pitch': return 'Intonazione';
 			case 'dictionary_section_term': return 'Dizionari di termini';
+			case 'dictionary_section_kanji': return 'Dizionari di kanji';
 			case 'dictionary_section_frequency': return 'Dizionari di frequenza';
 			case 'dictionary_section_pitch': return 'Dizionari di intonazione';
 			case 'dialog_close': return 'CHIUDI';
@@ -20498,6 +20522,7 @@ extension on _StringsJa {
 			case 'dictionary_section_frequency': return '頻度辞書';
 			case 'dictionary_section_pitch': return 'ピッチ辞書';
 			case 'dictionary_section_term': return '用語辞書';
+			case 'dictionary_section_kanji': return '漢字辞書';
 			case 'dictionary_type_frequency': return '頻度';
 			case 'dictionary_type_pitch': return 'ピッチ';
 			case 'dictionary_type_term': return '用語';
@@ -21274,6 +21299,7 @@ extension on _StringsKo {
 			case 'dictionary_section_frequency': return '?? ??';
 			case 'dictionary_section_pitch': return '?? ??';
 			case 'dictionary_section_term': return '?? ??';
+			case 'dictionary_section_kanji': return '한자 사전';
 			case 'dictionary_type_frequency': return '??';
 			case 'dictionary_type_pitch': return '??';
 			case 'dictionary_type_term': return '??';
@@ -21431,6 +21457,7 @@ extension on _StringsNl {
 			case 'dictionary_type_frequency': return 'Frequentie';
 			case 'dictionary_type_pitch': return 'Toonhoogte';
 			case 'dictionary_section_term': return 'Termwoordenboeken';
+			case 'dictionary_section_kanji': return 'Kanjiwoordenboeken';
 			case 'dictionary_section_frequency': return 'Frequentiewoordenboeken';
 			case 'dictionary_section_pitch': return 'Toonhoogtewoordenboeken';
 			case 'dialog_close': return 'SLUITEN';
@@ -22846,6 +22873,7 @@ extension on _StringsPtBr {
 			case 'dictionary_section_frequency': return 'Dicionários de frequência';
 			case 'dictionary_section_pitch': return 'Dicionários de tom';
 			case 'dictionary_section_term': return 'Dicionários de termos';
+			case 'dictionary_section_kanji': return 'Dicionários de kanji';
 			case 'dictionary_type_frequency': return 'Frequência';
 			case 'dictionary_type_pitch': return 'Tom';
 			case 'dictionary_type_term': return 'Termo';
@@ -23632,6 +23660,7 @@ extension on _StringsRu {
 			case 'dictionary_section_frequency': return 'Словари частотности';
 			case 'dictionary_section_pitch': return 'Словари высоты тона';
 			case 'dictionary_section_term': return 'Словари терминов';
+			case 'dictionary_section_kanji': return 'Словари кандзи';
 			case 'dictionary_type_frequency': return 'Частотность';
 			case 'dictionary_type_pitch': return 'Высота тона';
 			case 'dictionary_type_term': return 'Термин';
@@ -24418,6 +24447,7 @@ extension on _StringsTh {
 			case 'dictionary_section_frequency': return '????????????????';
 			case 'dictionary_section_pitch': return '???????????????????';
 			case 'dictionary_section_term': return '????????????????';
+			case 'dictionary_section_kanji': return 'พจนานุกรมคันจิ';
 			case 'dictionary_type_frequency': return '???????';
 			case 'dictionary_type_pitch': return '??????????';
 			case 'dictionary_type_term': return '???????';
@@ -24575,6 +24605,7 @@ extension on _StringsTr {
 			case 'dictionary_type_frequency': return 'S?kl?k';
 			case 'dictionary_type_pitch': return 'Ton';
 			case 'dictionary_section_term': return 'Terim S?zlükleri';
+			case 'dictionary_section_kanji': return 'Kanji Sözlükleri';
 			case 'dictionary_section_frequency': return 'S?kl?k S?zlükleri';
 			case 'dictionary_section_pitch': return 'Ton S?zlükleri';
 			case 'dialog_close': return 'KAPAT';
@@ -25990,6 +26021,7 @@ extension on _StringsVi {
 			case 'dictionary_section_frequency': return 'T? ?i?n t?n su?t';
 			case 'dictionary_section_pitch': return 'T? ?i?n thanh ?i?u';
 			case 'dictionary_section_term': return 'T? ?i?n thu?t ng?';
+			case 'dictionary_section_kanji': return 'Từ điển Kanji';
 			case 'dictionary_type_frequency': return 'T?n su?t';
 			case 'dictionary_type_pitch': return 'Thanh ?i?u';
 			case 'dictionary_type_term': return 'Thu?t ng?';
@@ -26147,6 +26179,7 @@ extension on _StringsZhCn {
 			case 'dictionary_type_frequency': return '词频';
 			case 'dictionary_type_pitch': return '音调';
 			case 'dictionary_section_term': return '释义词典';
+			case 'dictionary_section_kanji': return '汉字词典';
 			case 'dictionary_section_frequency': return '词频词典';
 			case 'dictionary_section_pitch': return '音调词典';
 			case 'dialog_close': return '关闭';
@@ -27612,6 +27645,7 @@ extension on _StringsZhHk {
 			case 'dictionary_section_frequency': return '詞頻辭典';
 			case 'dictionary_section_pitch': return '音調辭典';
 			case 'dictionary_section_term': return '釋義辭典';
+			case 'dictionary_section_kanji': return '漢字辭典';
 			case 'dictionary_type_frequency': return '詞頻';
 			case 'dictionary_type_pitch': return '音調';
 			case 'dictionary_type_term': return '釋義';
