@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 13236 (778 per locale)
+/// Strings: 13269 (780 per locale)
 ///
-/// Built on 2026-05-06 at 20:27 UTC
+/// Built on 2026-05-08 at 03:54 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -915,6 +915,10 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get book_search_hint => 'Enter search text…';
 	String book_search_results({required Object n}) => '${n} result(s)';
 	String get book_search_no_results => 'No results found';
+	String get jump_to_char => 'Jump to Character';
+	String get jump_to_char_hint => 'Enter character position…';
+	String jump_to_char_current({required Object current, required Object total}) => 'Current: ${current} / ${total}';
+	String jump_to_char_out_of_range({required Object max}) => 'Out of range (max ${max})';
 	String get error_log_empty => 'No error logs';
 	String get error_log_previous_run => 'Historical logs (before last run)';
 	String import_unsupported_file_format({required Object ext}) => 'Unsupported file format: ${ext}';
@@ -6696,6 +6700,10 @@ class _StringsJa extends _StringsEn {
 	@override String get book_search_hint => '検索テキストを入力…';
 	@override String book_search_results({required Object n}) => '${n} 件の結果';
 	@override String get book_search_no_results => '結果が見つかりません';
+	@override String get jump_to_char => '文字数でジャンプ';
+	@override String get jump_to_char_hint => '文字位置を入力…';
+	@override String jump_to_char_current({required Object current, required Object total}) => '現在: ${current} / ${total}';
+	@override String jump_to_char_out_of_range({required Object max}) => '範囲外 (最大 ${max})';
 	@override String get initialization_failed => '初期化に失敗しました';
 	@override String get theme_light => 'ホワイト';
 	@override String get theme_ecru => '生成り';
@@ -13373,6 +13381,10 @@ class _StringsZhCn extends _StringsEn {
 	@override String get book_search_hint => '输入搜索内容…';
 	@override String book_search_results({required Object n}) => '${n} 条结果';
 	@override String get book_search_no_results => '未找到结果';
+	@override String get jump_to_char => '按字数跳转';
+	@override String get jump_to_char_hint => '输入字符位置…';
+	@override String jump_to_char_current({required Object current, required Object total}) => '当前: ${current} / ${total}';
+	@override String jump_to_char_out_of_range({required Object max}) => '超出范围 (最大 ${max})';
 	@override String get initialization_failed => '初始化失败';
 	@override String get error_log_empty => '暂无错误日志';
 	@override String get error_log_previous_run => '历史日志（上次运行前）';
@@ -14188,6 +14200,10 @@ class _StringsZhHk extends _StringsEn {
 	@override String get book_search_hint => '輸入搜尋內容…';
 	@override String book_search_results({required Object n}) => '${n} 項結果';
 	@override String get book_search_no_results => '未找到結果';
+	@override String get jump_to_char => '按字數跳轉';
+	@override String get jump_to_char_hint => '輸入字符位置…';
+	@override String jump_to_char_current({required Object current, required Object total}) => '當前: ${current} / ${total}';
+	@override String jump_to_char_out_of_range({required Object max}) => '超出範圍 (最大 ${max})';
 	@override String get initialization_failed => '初始化失敗';
 	@override String get theme_light => '白色';
 	@override String get theme_ecru => '米黃';
@@ -15054,6 +15070,10 @@ extension on _StringsEn {
 			case 'book_search_hint': return 'Enter search text…';
 			case 'book_search_results': return ({required Object n}) => '${n} result(s)';
 			case 'book_search_no_results': return 'No results found';
+			case 'jump_to_char': return 'Jump to Character';
+			case 'jump_to_char_hint': return 'Enter character position…';
+			case 'jump_to_char_current': return ({required Object current, required Object total}) => 'Current: ${current} / ${total}';
+			case 'jump_to_char_out_of_range': return ({required Object max}) => 'Out of range (max ${max})';
 			case 'error_log_empty': return 'No error logs';
 			case 'error_log_previous_run': return 'Historical logs (before last run)';
 			case 'import_unsupported_file_format': return ({required Object ext}) => 'Unsupported file format: ${ext}';
@@ -20548,6 +20568,10 @@ extension on _StringsJa {
 			case 'book_search_hint': return '検索テキストを入力…';
 			case 'book_search_results': return ({required Object n}) => '${n} 件の結果';
 			case 'book_search_no_results': return '結果が見つかりません';
+			case 'jump_to_char': return '文字数でジャンプ';
+			case 'jump_to_char_hint': return '文字位置を入力…';
+			case 'jump_to_char_current': return ({required Object current, required Object total}) => '現在: ${current} / ${total}';
+			case 'jump_to_char_out_of_range': return ({required Object max}) => '範囲外 (最大 ${max})';
 			case 'initialization_failed': return '初期化に失敗しました';
 			case 'theme_light': return 'ホワイト';
 			case 'theme_ecru': return '生成り';
@@ -26897,6 +26921,10 @@ extension on _StringsZhCn {
 			case 'book_search_hint': return '输入搜索内容…';
 			case 'book_search_results': return ({required Object n}) => '${n} 条结果';
 			case 'book_search_no_results': return '未找到结果';
+			case 'jump_to_char': return '按字数跳转';
+			case 'jump_to_char_hint': return '输入字符位置…';
+			case 'jump_to_char_current': return ({required Object current, required Object total}) => '当前: ${current} / ${total}';
+			case 'jump_to_char_out_of_range': return ({required Object max}) => '超出范围 (最大 ${max})';
 			case 'initialization_failed': return '初始化失败';
 			case 'error_log_empty': return '暂无错误日志';
 			case 'error_log_previous_run': return '历史日志（上次运行前）';
@@ -27671,6 +27699,10 @@ extension on _StringsZhHk {
 			case 'book_search_hint': return '輸入搜尋內容…';
 			case 'book_search_results': return ({required Object n}) => '${n} 項結果';
 			case 'book_search_no_results': return '未找到結果';
+			case 'jump_to_char': return '按字數跳轉';
+			case 'jump_to_char_hint': return '輸入字符位置…';
+			case 'jump_to_char_current': return ({required Object current, required Object total}) => '當前: ${current} / ${total}';
+			case 'jump_to_char_out_of_range': return ({required Object max}) => '超出範圍 (最大 ${max})';
 			case 'initialization_failed': return '初始化失敗';
 			case 'theme_light': return '白色';
 			case 'theme_ecru': return '米黃';
