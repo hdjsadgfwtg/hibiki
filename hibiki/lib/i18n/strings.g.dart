@@ -370,7 +370,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get unimplemented_source => 'Unimplemented source';
 	String get clear_browser_title => 'Clear Browser Data';
 	String get clear_browser_description => 'This will clear all browsing data used in media sources that use web content. Are you sure?';
-	String get ttu_no_books_added => 'No books added to ッツ Ebook Reader';
+	String get ttu_no_books_added => 'No books in library';
 	String get local_media_directory_empty => 'Directory has no folders or video';
 	String get pick_video_file => 'Pick Video File';
 	String get navigate_up_one_directory_level => 'Navigate Up One Directory Level';
@@ -1238,7 +1238,7 @@ class _StringsAr extends _StringsEn {
 	@override String get unimplemented_source => 'مصدر غير مُنفّذ';
 	@override String get clear_browser_title => 'مسح بيانات المتصفح';
 	@override String get clear_browser_description => 'سيتم مسح جميع بيانات التصفح المستخدمة في مصادر الوسائط التي تستخدم محتوى الويب. هل أنت متأكد؟';
-	@override String get ttu_no_books_added => 'لم تتم إضافة كتب إلى ッツ Ebook Reader';
+	@override String get ttu_no_books_added => 'لا توجد كتب في المكتبة';
 	@override String get local_media_directory_empty => 'الدليل لا يحتوي على مجلدات أو فيديو';
 	@override String get pick_video_file => 'اختيار ملف فيديو';
 	@override String get navigate_up_one_directory_level => 'الانتقال لأعلى مستوى واحد';
@@ -2058,7 +2058,7 @@ class _StringsDe extends _StringsEn {
 	@override String get unimplemented_source => 'Nicht implementierte Quelle';
 	@override String get clear_browser_title => 'Browserdaten l?schen';
 	@override String get clear_browser_description => 'Alle Browserdaten von Medienquellen mit Webinhalten werden gel?scht. Sind Sie sicher?';
-	@override String get ttu_no_books_added => 'Keine Bücher zum ッツ Ebook Reader hinzugefügt';
+	@override String get ttu_no_books_added => 'Keine Bücher in der Bibliothek';
 	@override String get local_media_directory_empty => 'Verzeichnis enth?lt keine Ordner oder Videos';
 	@override String get pick_video_file => 'Videodatei ausw?hlen';
 	@override String get navigate_up_one_directory_level => 'Eine Verzeichnisebene nach oben';
@@ -2886,7 +2886,7 @@ class _StringsEs extends _StringsEn {
 	@override String get unimplemented_source => 'Fuente no implementada';
 	@override String get clear_browser_title => 'Borrar datos del navegador';
 	@override String get clear_browser_description => 'Esto eliminará todos los datos de navegación usados en fuentes de contenido web. ?Estás seguro?';
-	@override String get ttu_no_books_added => 'No se han a?adido libros al lector ッツ';
+	@override String get ttu_no_books_added => 'No hay libros en la biblioteca';
 	@override String get local_media_directory_empty => 'El directorio no tiene carpetas ni vídeos';
 	@override String get pick_video_file => 'Elegir archivo de vídeo';
 	@override String get navigate_up_one_directory_level => 'Subir un nivel de directorio';
@@ -3714,7 +3714,7 @@ class _StringsFr extends _StringsEn {
 	@override String get unimplemented_source => 'Source non implémentée';
 	@override String get clear_browser_title => 'Effacer les données du navigateur';
 	@override String get clear_browser_description => 'Cela effacera toutes les données de navigation utilisées dans les sources de médias web. êtes-vous s?r ?';
-	@override String get ttu_no_books_added => 'Aucun livre ajouté à ッツ Ebook Reader';
+	@override String get ttu_no_books_added => 'Aucun livre dans la bibliothèque';
 	@override String get local_media_directory_empty => 'Le répertoire ne contient ni dossiers ni vidéos';
 	@override String get pick_video_file => 'Choisir un fichier vidéo';
 	@override String get navigate_up_one_directory_level => 'Remonter d\'un niveau';
@@ -4542,7 +4542,7 @@ class _StringsId extends _StringsEn {
 	@override String get unimplemented_source => 'Sumber belum diimplementasikan';
 	@override String get clear_browser_title => 'Hapus Data Browser';
 	@override String get clear_browser_description => 'Ini akan menghapus semua data penjelajahan yang digunakan di sumber media berbasis web. Apakah Anda yakin?';
-	@override String get ttu_no_books_added => 'Belum ada buku di ッツ Ebook Reader';
+	@override String get ttu_no_books_added => 'Belum ada buku di perpustakaan';
 	@override String get local_media_directory_empty => 'Direktori tidak memiliki folder atau video';
 	@override String get pick_video_file => 'Pilih File Video';
 	@override String get navigate_up_one_directory_level => 'Naik Satu Tingkat Direktori';
@@ -5378,7 +5378,7 @@ class _StringsIt extends _StringsEn {
 	@override String get unimplemented_source => 'Sorgente non implementata';
 	@override String get clear_browser_title => 'Cancella dati del browser';
 	@override String get clear_browser_description => 'Verranno cancellati tutti i dati di navigazione utilizzati nelle sorgenti media web. Sei sicuro?';
-	@override String get ttu_no_books_added => 'Nessun libro aggiunto a ッツ Ebook Reader';
+	@override String get ttu_no_books_added => 'Nessun libro nella libreria';
 	@override String get local_media_directory_empty => 'La cartella non contiene cartelle o video';
 	@override String get pick_video_file => 'Scegli file video';
 	@override String get navigate_up_one_directory_level => 'Sali di un livello';
@@ -6198,7 +6198,7 @@ class _StringsJa extends _StringsEn {
 	@override String get unimplemented_source => '未実装のソース';
 	@override String get clear_browser_title => 'ブラウザデータを消去';
 	@override String get clear_browser_description => 'Webコンテンツを使用するメディアソースのブラウザデータがすべて消去されます。よろしいですか？';
-	@override String get ttu_no_books_added => 'ッツ Ebook Readerに本が追加されていません';
+	@override String get ttu_no_books_added => '書庫に本がありません';
 	@override String get local_media_directory_empty => 'ディレクトリにフォルダや動画がありません';
 	@override String get pick_video_file => '動画ファイルを選択';
 	@override String get navigate_up_one_directory_level => '上のディレクトリに移動';
@@ -7030,7 +7030,7 @@ class _StringsKo extends _StringsEn {
 	@override String get unimplemented_source => '??? ??';
 	@override String get clear_browser_title => '???? ??? ??';
 	@override String get clear_browser_description => '? ???? ???? ??? ??? ?? ???? ???? ?????. ?????????';
-	@override String get ttu_no_books_added => 'ッツ Ebook Reader? ??? ?? ????';
+	@override String get ttu_no_books_added => '서재에 책이 없습니다';
 	@override String get local_media_directory_empty => '????? ?? ?? ???? ????';
 	@override String get pick_video_file => '??? ?? ??';
 	@override String get navigate_up_one_directory_level => '?? ????? ??';
@@ -7866,7 +7866,7 @@ class _StringsNl extends _StringsEn {
 	@override String get unimplemented_source => 'Niet-ge?mplementeerde bron';
 	@override String get clear_browser_title => 'Browsergegevens wissen';
 	@override String get clear_browser_description => 'Dit wist alle browsegegevens van webbronnen. Weet je het zeker?';
-	@override String get ttu_no_books_added => 'Geen boeken toegevoegd aan ッツ Ebook Reader';
+	@override String get ttu_no_books_added => 'Geen boeken in de bibliotheek';
 	@override String get local_media_directory_empty => 'Map bevat geen mappen of video\'s';
 	@override String get pick_video_file => 'Kies videobestand';
 	@override String get navigate_up_one_directory_level => 'Eén niveau omhoog';
@@ -8686,7 +8686,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get unimplemented_source => 'Fonte n?o implementada';
 	@override String get clear_browser_title => 'Limpar Dados do Navegador';
 	@override String get clear_browser_description => 'Isso limpará todos os dados de navega??o usados em fontes de mídia com conteúdo web. Tem certeza?';
-	@override String get ttu_no_books_added => 'Nenhum livro adicionado ao ッツ Ebook Reader';
+	@override String get ttu_no_books_added => 'Nenhum livro na biblioteca';
 	@override String get local_media_directory_empty => 'O diretório n?o contém pastas ou vídeos';
 	@override String get pick_video_file => 'Escolher Arquivo de Vídeo';
 	@override String get navigate_up_one_directory_level => 'Subir um Nível de Diretório';
@@ -9514,7 +9514,7 @@ class _StringsRu extends _StringsEn {
 	@override String get unimplemented_source => 'Источник не реализован';
 	@override String get clear_browser_title => 'Очистить данные браузера';
 	@override String get clear_browser_description => 'Все данные браузера, используемые в медиаисточниках с веб-контентом, будут удалены. Вы уверены?';
-	@override String get ttu_no_books_added => 'В ッツ Ebook Reader нет книг';
+	@override String get ttu_no_books_added => 'В библиотеке нет книг';
 	@override String get local_media_directory_empty => 'В каталоге нет папок или видео';
 	@override String get pick_video_file => 'Выбрать видеофайл';
 	@override String get navigate_up_one_directory_level => 'Перейти на уровень выше';
@@ -10342,7 +10342,7 @@ class _StringsTh extends _StringsEn {
 	@override String get unimplemented_source => '????????????????????????????';
 	@override String get clear_browser_title => '?????????????????????';
 	@override String get clear_browser_description => '?????????????????????????????????????????????????????????????? ????????????????';
-	@override String get ttu_no_books_added => '????????????????? ッツ Ebook Reader';
+	@override String get ttu_no_books_added => 'ไม่มีหนังสือในคลัง';
 	@override String get local_media_directory_empty => '????????????????????????????????';
 	@override String get pick_video_file => '???????????????';
 	@override String get navigate_up_one_directory_level => '?????????????????????????';
@@ -11178,7 +11178,7 @@ class _StringsTr extends _StringsEn {
 	@override String get unimplemented_source => 'Uygulanmam?? kaynak';
 	@override String get clear_browser_title => 'Taray?c? verilerini temizle';
 	@override String get clear_browser_description => 'Web kaynaklar?nda kullan?lan tüm tarama verileri temizlenecek. Emin misiniz?';
-	@override String get ttu_no_books_added => 'ッツ Ebook Reader\'a kitap eklenmemi?';
+	@override String get ttu_no_books_added => 'Kütüphanede kitap yok';
 	@override String get local_media_directory_empty => 'Klas?rde klas?r veya video yok';
 	@override String get pick_video_file => 'Video dosyas? se?';
 	@override String get navigate_up_one_directory_level => 'Bir seviye yukar? ??k';
@@ -11998,7 +11998,7 @@ class _StringsVi extends _StringsEn {
 	@override String get unimplemented_source => 'Ngu?n ch?a ???c tri?n khai';
 	@override String get clear_browser_title => 'Xóa d? li?u trình duy?t';
 	@override String get clear_browser_description => 'Thao tác này s? xóa t?t c? d? li?u duy?t web trong các ngu?n media s? d?ng n?i dung web. B?n có ch?c ch?n?';
-	@override String get ttu_no_books_added => 'Ch?a có sách nào trong ッツ Ebook Reader';
+	@override String get ttu_no_books_added => 'Chưa có sách nào trong thư viện';
 	@override String get local_media_directory_empty => 'Th? m?c kh?ng có th? m?c con ho?c video';
 	@override String get pick_video_file => 'Ch?n t?p video';
 	@override String get navigate_up_one_directory_level => 'Lên m?t c?p th? m?c';
@@ -13697,7 +13697,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get unimplemented_source => '未實作的來源';
 	@override String get clear_browser_title => '清除瀏覽器資料';
 	@override String get clear_browser_description => '此操作將清除所有使用網頁內容的媒體來源的瀏覽資料。確定嗎？';
-	@override String get ttu_no_books_added => 'ッツ 電子書閱讀器尚未新增任何書籍';
+	@override String get ttu_no_books_added => '書庫中尚未有任何書籍';
 	@override String get local_media_directory_empty => '目錄內沒有資料夾或影片';
 	@override String get pick_video_file => '選擇影片檔案';
 	@override String get navigate_up_one_directory_level => '向上一層目錄';
@@ -14519,7 +14519,7 @@ extension on _StringsEn {
 			case 'unimplemented_source': return 'Unimplemented source';
 			case 'clear_browser_title': return 'Clear Browser Data';
 			case 'clear_browser_description': return 'This will clear all browsing data used in media sources that use web content. Are you sure?';
-			case 'ttu_no_books_added': return 'No books added to ッツ Ebook Reader';
+			case 'ttu_no_books_added': return 'No books in library';
 			case 'local_media_directory_empty': return 'Directory has no folders or video';
 			case 'pick_video_file': return 'Pick Video File';
 			case 'navigate_up_one_directory_level': return 'Navigate Up One Directory Level';
@@ -15346,7 +15346,7 @@ extension on _StringsAr {
 			case 'unimplemented_source': return 'مصدر غير مُنفّذ';
 			case 'clear_browser_title': return 'مسح بيانات المتصفح';
 			case 'clear_browser_description': return 'سيتم مسح جميع بيانات التصفح المستخدمة في مصادر الوسائط التي تستخدم محتوى الويب. هل أنت متأكد؟';
-			case 'ttu_no_books_added': return 'لم تتم إضافة كتب إلى ッツ Ebook Reader';
+			case 'ttu_no_books_added': return 'لا توجد كتب في المكتبة';
 			case 'local_media_directory_empty': return 'الدليل لا يحتوي على مجلدات أو فيديو';
 			case 'pick_video_file': return 'اختيار ملف فيديو';
 			case 'navigate_up_one_directory_level': return 'الانتقال لأعلى مستوى واحد';
@@ -16125,7 +16125,7 @@ extension on _StringsDe {
 			case 'unimplemented_source': return 'Nicht implementierte Quelle';
 			case 'clear_browser_title': return 'Browserdaten l?schen';
 			case 'clear_browser_description': return 'Alle Browserdaten von Medienquellen mit Webinhalten werden gel?scht. Sind Sie sicher?';
-			case 'ttu_no_books_added': return 'Keine Bücher zum ッツ Ebook Reader hinzugefügt';
+			case 'ttu_no_books_added': return 'Keine Bücher in der Bibliothek';
 			case 'local_media_directory_empty': return 'Verzeichnis enth?lt keine Ordner oder Videos';
 			case 'pick_video_file': return 'Videodatei ausw?hlen';
 			case 'navigate_up_one_directory_level': return 'Eine Verzeichnisebene nach oben';
@@ -16912,7 +16912,7 @@ extension on _StringsEs {
 			case 'unimplemented_source': return 'Fuente no implementada';
 			case 'clear_browser_title': return 'Borrar datos del navegador';
 			case 'clear_browser_description': return 'Esto eliminará todos los datos de navegación usados en fuentes de contenido web. ?Estás seguro?';
-			case 'ttu_no_books_added': return 'No se han a?adido libros al lector ッツ';
+			case 'ttu_no_books_added': return 'No hay libros en la biblioteca';
 			case 'local_media_directory_empty': return 'El directorio no tiene carpetas ni vídeos';
 			case 'pick_video_file': return 'Elegir archivo de vídeo';
 			case 'navigate_up_one_directory_level': return 'Subir un nivel de directorio';
@@ -17699,7 +17699,7 @@ extension on _StringsFr {
 			case 'unimplemented_source': return 'Source non implémentée';
 			case 'clear_browser_title': return 'Effacer les données du navigateur';
 			case 'clear_browser_description': return 'Cela effacera toutes les données de navigation utilisées dans les sources de médias web. êtes-vous s?r ?';
-			case 'ttu_no_books_added': return 'Aucun livre ajouté à ッツ Ebook Reader';
+			case 'ttu_no_books_added': return 'Aucun livre dans la bibliothèque';
 			case 'local_media_directory_empty': return 'Le répertoire ne contient ni dossiers ni vidéos';
 			case 'pick_video_file': return 'Choisir un fichier vidéo';
 			case 'navigate_up_one_directory_level': return 'Remonter d\'un niveau';
@@ -18486,7 +18486,7 @@ extension on _StringsId {
 			case 'unimplemented_source': return 'Sumber belum diimplementasikan';
 			case 'clear_browser_title': return 'Hapus Data Browser';
 			case 'clear_browser_description': return 'Ini akan menghapus semua data penjelajahan yang digunakan di sumber media berbasis web. Apakah Anda yakin?';
-			case 'ttu_no_books_added': return 'Belum ada buku di ッツ Ebook Reader';
+			case 'ttu_no_books_added': return 'Belum ada buku di perpustakaan';
 			case 'local_media_directory_empty': return 'Direktori tidak memiliki folder atau video';
 			case 'pick_video_file': return 'Pilih File Video';
 			case 'navigate_up_one_directory_level': return 'Naik Satu Tingkat Direktori';
@@ -19281,7 +19281,7 @@ extension on _StringsIt {
 			case 'unimplemented_source': return 'Sorgente non implementata';
 			case 'clear_browser_title': return 'Cancella dati del browser';
 			case 'clear_browser_description': return 'Verranno cancellati tutti i dati di navigazione utilizzati nelle sorgenti media web. Sei sicuro?';
-			case 'ttu_no_books_added': return 'Nessun libro aggiunto a ッツ Ebook Reader';
+			case 'ttu_no_books_added': return 'Nessun libro nella libreria';
 			case 'local_media_directory_empty': return 'La cartella non contiene cartelle o video';
 			case 'pick_video_file': return 'Scegli file video';
 			case 'navigate_up_one_directory_level': return 'Sali di un livello';
@@ -20060,7 +20060,7 @@ extension on _StringsJa {
 			case 'unimplemented_source': return '未実装のソース';
 			case 'clear_browser_title': return 'ブラウザデータを消去';
 			case 'clear_browser_description': return 'Webコンテンツを使用するメディアソースのブラウザデータがすべて消去されます。よろしいですか？';
-			case 'ttu_no_books_added': return 'ッツ Ebook Readerに本が追加されていません';
+			case 'ttu_no_books_added': return '書庫に本がありません';
 			case 'local_media_directory_empty': return 'ディレクトリにフォルダや動画がありません';
 			case 'pick_video_file': return '動画ファイルを選択';
 			case 'navigate_up_one_directory_level': return '上のディレクトリに移動';
@@ -20851,7 +20851,7 @@ extension on _StringsKo {
 			case 'unimplemented_source': return '??? ??';
 			case 'clear_browser_title': return '???? ??? ??';
 			case 'clear_browser_description': return '? ???? ???? ??? ??? ?? ???? ???? ?????. ?????????';
-			case 'ttu_no_books_added': return 'ッツ Ebook Reader? ??? ?? ????';
+			case 'ttu_no_books_added': return '서재에 책이 없습니다';
 			case 'local_media_directory_empty': return '????? ?? ?? ???? ????';
 			case 'pick_video_file': return '??? ?? ??';
 			case 'navigate_up_one_directory_level': return '?? ????? ??';
@@ -21646,7 +21646,7 @@ extension on _StringsNl {
 			case 'unimplemented_source': return 'Niet-ge?mplementeerde bron';
 			case 'clear_browser_title': return 'Browsergegevens wissen';
 			case 'clear_browser_description': return 'Dit wist alle browsegegevens van webbronnen. Weet je het zeker?';
-			case 'ttu_no_books_added': return 'Geen boeken toegevoegd aan ッツ Ebook Reader';
+			case 'ttu_no_books_added': return 'Geen boeken in de bibliotheek';
 			case 'local_media_directory_empty': return 'Map bevat geen mappen of video\'s';
 			case 'pick_video_file': return 'Kies videobestand';
 			case 'navigate_up_one_directory_level': return 'Eén niveau omhoog';
@@ -22425,7 +22425,7 @@ extension on _StringsPtBr {
 			case 'unimplemented_source': return 'Fonte n?o implementada';
 			case 'clear_browser_title': return 'Limpar Dados do Navegador';
 			case 'clear_browser_description': return 'Isso limpará todos os dados de navega??o usados em fontes de mídia com conteúdo web. Tem certeza?';
-			case 'ttu_no_books_added': return 'Nenhum livro adicionado ao ッツ Ebook Reader';
+			case 'ttu_no_books_added': return 'Nenhum livro na biblioteca';
 			case 'local_media_directory_empty': return 'O diretório n?o contém pastas ou vídeos';
 			case 'pick_video_file': return 'Escolher Arquivo de Vídeo';
 			case 'navigate_up_one_directory_level': return 'Subir um Nível de Diretório';
@@ -23212,7 +23212,7 @@ extension on _StringsRu {
 			case 'unimplemented_source': return 'Источник не реализован';
 			case 'clear_browser_title': return 'Очистить данные браузера';
 			case 'clear_browser_description': return 'Все данные браузера, используемые в медиаисточниках с веб-контентом, будут удалены. Вы уверены?';
-			case 'ttu_no_books_added': return 'В ッツ Ebook Reader нет книг';
+			case 'ttu_no_books_added': return 'В библиотеке нет книг';
 			case 'local_media_directory_empty': return 'В каталоге нет папок или видео';
 			case 'pick_video_file': return 'Выбрать видеофайл';
 			case 'navigate_up_one_directory_level': return 'Перейти на уровень выше';
@@ -23999,7 +23999,7 @@ extension on _StringsTh {
 			case 'unimplemented_source': return '????????????????????????????';
 			case 'clear_browser_title': return '?????????????????????';
 			case 'clear_browser_description': return '?????????????????????????????????????????????????????????????? ????????????????';
-			case 'ttu_no_books_added': return '????????????????? ッツ Ebook Reader';
+			case 'ttu_no_books_added': return 'ไม่มีหนังสือในคลัง';
 			case 'local_media_directory_empty': return '????????????????????????????????';
 			case 'pick_video_file': return '???????????????';
 			case 'navigate_up_one_directory_level': return '?????????????????????????';
@@ -24794,7 +24794,7 @@ extension on _StringsTr {
 			case 'unimplemented_source': return 'Uygulanmam?? kaynak';
 			case 'clear_browser_title': return 'Taray?c? verilerini temizle';
 			case 'clear_browser_description': return 'Web kaynaklar?nda kullan?lan tüm tarama verileri temizlenecek. Emin misiniz?';
-			case 'ttu_no_books_added': return 'ッツ Ebook Reader\'a kitap eklenmemi?';
+			case 'ttu_no_books_added': return 'Kütüphanede kitap yok';
 			case 'local_media_directory_empty': return 'Klas?rde klas?r veya video yok';
 			case 'pick_video_file': return 'Video dosyas? se?';
 			case 'navigate_up_one_directory_level': return 'Bir seviye yukar? ??k';
@@ -25573,7 +25573,7 @@ extension on _StringsVi {
 			case 'unimplemented_source': return 'Ngu?n ch?a ???c tri?n khai';
 			case 'clear_browser_title': return 'Xóa d? li?u trình duy?t';
 			case 'clear_browser_description': return 'Thao tác này s? xóa t?t c? d? li?u duy?t web trong các ngu?n media s? d?ng n?i dung web. B?n có ch?c ch?n?';
-			case 'ttu_no_books_added': return 'Ch?a có sách nào trong ッツ Ebook Reader';
+			case 'ttu_no_books_added': return 'Chưa có sách nào trong thư viện';
 			case 'local_media_directory_empty': return 'Th? m?c kh?ng có th? m?c con ho?c video';
 			case 'pick_video_file': return 'Ch?n t?p video';
 			case 'navigate_up_one_directory_level': return 'Lên m?t c?p th? m?c';
@@ -27190,7 +27190,7 @@ extension on _StringsZhHk {
 			case 'unimplemented_source': return '未實作的來源';
 			case 'clear_browser_title': return '清除瀏覽器資料';
 			case 'clear_browser_description': return '此操作將清除所有使用網頁內容的媒體來源的瀏覽資料。確定嗎？';
-			case 'ttu_no_books_added': return 'ッツ 電子書閱讀器尚未新增任何書籍';
+			case 'ttu_no_books_added': return '書庫中尚未有任何書籍';
 			case 'local_media_directory_empty': return '目錄內沒有資料夾或影片';
 			case 'pick_video_file': return '選擇影片檔案';
 			case 'navigate_up_one_directory_level': return '向上一層目錄';
