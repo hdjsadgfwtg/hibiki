@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 13940 (820 per locale)
+/// Strings: 13941 (820 per locale)
 ///
-/// Built on 2026-05-10 at 03:44 UTC
+/// Built on 2026-05-10 at 07:02 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -898,6 +898,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get anki_manage_profiles_hint => 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 	String get action_favorite => 'Favorite';
 	String get favorite_added => 'Sentence saved to favorites';
+	String get no_sentence_selected => 'No sentence selected';
 	String favorites({required Object n}) => 'Favorites (${n})';
 	String get no_favorites => 'No saved sentences';
 	String get favorites_title => 'Favorite Sentences';
@@ -15724,6 +15725,7 @@ extension on _StringsEn {
 			case 'anki_manage_profiles_hint': return 'Configure how card fields are mapped when exporting to AnkiDroid. Each profile binds to an Anki note type and defines which hibiki field fills each Anki field.';
 			case 'action_favorite': return 'Favorite';
 			case 'favorite_added': return 'Sentence saved to favorites';
+			case 'no_sentence_selected': return 'No sentence selected';
 			case 'favorites': return ({required Object n}) => 'Favorites (${n})';
 			case 'no_favorites': return 'No saved sentences';
 			case 'favorites_title': return 'Favorite Sentences';
