@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 13941 (820 per locale)
+/// Strings: 13944 (820 per locale)
 ///
-/// Built on 2026-05-10 at 07:02 UTC
+/// Built on 2026-05-10 at 11:57 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -516,6 +516,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get use_br_tags => 'Use line break tag instead of newline on export';
 	String get prepend_dictionary_names => 'Prepend dictionary name in meaning';
 	String get highlight_on_tap => 'Highlight text on tap';
+	String get tap_empty_hide_chrome => 'Tap empty area to hide controls';
 	String get no_audio_file => 'No audio file to save.';
 	String get storage_permissions => 'Please grant the following permissions for exporting to AnkiDroid.';
 	String get stream => 'Stream';
@@ -6615,6 +6616,7 @@ class _StringsJa extends _StringsEn {
 	@override String get use_br_tags => 'エクスポート時に改行タグを使用';
 	@override String get prepend_dictionary_names => '意味に辞書名を付加';
 	@override String get highlight_on_tap => 'タップでテキストをハイライト';
+	@override String get tap_empty_hide_chrome => '空白タップでコントロールを非表示';
 	@override String get no_audio_file => '保存する音声ファイルがありません。';
 	@override String get storage_permissions => 'AnkiDroidへのエクスポートに必要な権限を許可してください。';
 	@override String get stream => 'ストリーム';
@@ -13612,6 +13614,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get use_br_tags => '导出时以换行标签代替换行符';
 	@override String get prepend_dictionary_names => '在释义前显示词典名称';
 	@override String get highlight_on_tap => '点击时高亮文本';
+	@override String get tap_empty_hide_chrome => '点击空白处隐藏控制栏';
 	@override String get no_audio_file => '没有可保存的音频。';
 	@override String get storage_permissions => '请授予以下权限以便导出到 AnkiDroid。';
 	@override String get stream => '流媒体';
@@ -15337,6 +15340,7 @@ extension on _StringsEn {
 			case 'use_br_tags': return 'Use line break tag instead of newline on export';
 			case 'prepend_dictionary_names': return 'Prepend dictionary name in meaning';
 			case 'highlight_on_tap': return 'Highlight text on tap';
+			case 'tap_empty_hide_chrome': return 'Tap empty area to hide controls';
 			case 'no_audio_file': return 'No audio file to save.';
 			case 'storage_permissions': return 'Please grant the following permissions for exporting to AnkiDroid.';
 			case 'stream': return 'Stream';
@@ -21149,6 +21153,7 @@ extension on _StringsJa {
 			case 'use_br_tags': return 'エクスポート時に改行タグを使用';
 			case 'prepend_dictionary_names': return '意味に辞書名を付加';
 			case 'highlight_on_tap': return 'タップでテキストをハイライト';
+			case 'tap_empty_hide_chrome': return '空白タップでコントロールを非表示';
 			case 'no_audio_file': return '保存する音声ファイルがありません。';
 			case 'storage_permissions': return 'AnkiDroidへのエクスポートに必要な権限を許可してください。';
 			case 'stream': return 'ストリーム';
@@ -27818,6 +27823,7 @@ extension on _StringsZhCn {
 			case 'use_br_tags': return '导出时以换行标签代替换行符';
 			case 'prepend_dictionary_names': return '在释义前显示词典名称';
 			case 'highlight_on_tap': return '点击时高亮文本';
+			case 'tap_empty_hide_chrome': return '点击空白处隐藏控制栏';
 			case 'no_audio_file': return '没有可保存的音频。';
 			case 'storage_permissions': return '请授予以下权限以便导出到 AnkiDroid。';
 			case 'stream': return '流媒体';
