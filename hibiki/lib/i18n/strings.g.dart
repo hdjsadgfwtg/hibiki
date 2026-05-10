@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 13944 (820 per locale)
 ///
-/// Built on 2026-05-10 at 11:57 UTC
+/// Built on 2026-05-10 at 16:54 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -720,7 +720,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get show_media_notification => 'Show media notification';
 	String get show_floating_lyric => 'Floating lyric overlay';
 	String get floating_lyric_hint => 'Show current sentence over other apps.';
-	String get follow_audio_on_tooltip => 'Follow audio: ON (auto-jump across chapters)';
+	String get follow_audio_on_tooltip => 'Follow audio: ON';
 	String get follow_audio_off_tooltip => 'Follow audio: OFF';
 	String get reading_progress => 'Reading Progress';
 	String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Chapter ${idx} / ${total}${suffix} · ${pct}%';
@@ -1578,7 +1578,7 @@ class _StringsAr extends _StringsEn {
 	@override String get show_media_notification => 'عرض إشعار الوسائط';
 	@override String get show_floating_lyric => 'ترجمة عائمة';
 	@override String get floating_lyric_hint => 'عرض الجملة الحالية فوق التطبيقات الأخرى.';
-	@override String get follow_audio_on_tooltip => 'تتبع الصوت: مفعّل (انتقال تلقائي بين الفصول)';
+	@override String get follow_audio_on_tooltip => 'تتبع الصوت: مفعّل';
 	@override String get follow_audio_off_tooltip => 'تتبع الصوت: معطّل';
 	@override String get reading_progress => 'تقدّم القراءة';
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'الفصل ${idx} / ${total}${suffix} · ${pct}%';
@@ -2428,7 +2428,7 @@ class _StringsDe extends _StringsEn {
 	@override String get audiobook_settings => 'H?rbuch-Einstellungen';
 	@override String get show_play_bar => 'Wiedergabeleiste anzeigen';
 	@override String get show_media_notification => 'Medienbenachrichtigung anzeigen';
-	@override String get follow_audio_on_tooltip => 'Audio-Verfolgung: AN (automatischer Kapitelsprung)';
+	@override String get follow_audio_on_tooltip => 'Audio-Verfolgung: AN';
 	@override String get follow_audio_off_tooltip => 'Audio-Verfolgung: AUS';
 	@override String get reading_progress => 'Lesefortschritt';
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Kapitel ${idx} / ${total}${suffix} · ${pct}%';
@@ -3301,7 +3301,7 @@ class _StringsEs extends _StringsEn {
 	@override String get audiobook_settings => 'Configuración del audiolibro';
 	@override String get show_play_bar => 'Mostrar barra de reproducción';
 	@override String get show_media_notification => 'Mostrar notificación multimedia';
-	@override String get follow_audio_on_tooltip => 'Seguir audio: ACTIVADO (salto automático entre capítulos)';
+	@override String get follow_audio_on_tooltip => 'Seguir audio: ACTIVADO';
 	@override String get follow_audio_off_tooltip => 'Seguir audio: DESACTIVADO';
 	@override String get reading_progress => 'Progreso de lectura';
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Capítulo ${idx} / ${total}${suffix} · ${pct}%';
@@ -4174,7 +4174,7 @@ class _StringsFr extends _StringsEn {
 	@override String get audiobook_settings => 'Paramètres du livre audio';
 	@override String get show_play_bar => 'Barre de lecture';
 	@override String get show_media_notification => 'Notification multimédia';
-	@override String get follow_audio_on_tooltip => 'Suivi audio : ACTIVé (saut automatique entre chapitres)';
+	@override String get follow_audio_on_tooltip => 'Suivi audio : ACTIVé';
 	@override String get follow_audio_off_tooltip => 'Suivi audio : DéSACTIVé';
 	@override String get reading_progress => 'Progression de lecture';
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Chapitre ${idx} / ${total}${suffix} · ${pct}%';
@@ -5047,7 +5047,7 @@ class _StringsId extends _StringsEn {
 	@override String get audiobook_settings => 'Pengaturan Buku Audio';
 	@override String get show_play_bar => 'Tampilkan bilah pemutaran';
 	@override String get show_media_notification => 'Tampilkan notifikasi media';
-	@override String get follow_audio_on_tooltip => 'Ikuti audio: AKTIF (lompat bab otomatis)';
+	@override String get follow_audio_on_tooltip => 'Ikuti audio: AKTIF';
 	@override String get follow_audio_off_tooltip => 'Ikuti audio: NONAKTIF';
 	@override String get reading_progress => 'Progres Membaca';
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Bab ${idx} / ${total}${suffix} · ${pct}%';
@@ -5946,7 +5946,7 @@ class _StringsIt extends _StringsEn {
 	@override String get audiobook_settings => 'Impostazioni audiolibro';
 	@override String get show_play_bar => 'Mostra barra di riproduzione';
 	@override String get show_media_notification => 'Mostra notifica multimediale';
-	@override String get follow_audio_on_tooltip => 'Segui audio: ATTIVO (salto automatico tra capitoli)';
+	@override String get follow_audio_on_tooltip => 'Segui audio: ATTIVO';
 	@override String get follow_audio_off_tooltip => 'Segui audio: DISATTIVO';
 	@override String get reading_progress => 'Progresso di lettura';
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Capitolo ${idx} / ${total}${suffix} · ${pct}%';
@@ -6804,7 +6804,7 @@ class _StringsJa extends _StringsEn {
 	@override String get audiobook_settings => 'オーディオブック設定';
 	@override String get show_play_bar => '再生バーを表示';
 	@override String get show_media_notification => 'メディア通知を表示';
-	@override String get follow_audio_on_tooltip => '音声追従：ON（チャプター間を自動ジャンプ）';
+	@override String get follow_audio_on_tooltip => '音声追従：ON';
 	@override String get follow_audio_off_tooltip => '音声追従：OFF';
 	@override String get reading_progress => '読書進捗';
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'チャプター ${idx} / ${total}${suffix} · ${pct}%';
@@ -7667,7 +7667,7 @@ class _StringsKo extends _StringsEn {
 	@override String get audiobook_settings => '???? ??';
 	@override String get show_play_bar => '재생 바 표시';
 	@override String get show_media_notification => '미디어 알림 표시';
-	@override String get follow_audio_on_tooltip => '??? ????: ?? (?? ?? ??)';
+	@override String get follow_audio_on_tooltip => '??? ????: ??';
 	@override String get follow_audio_off_tooltip => '??? ????: ??';
 	@override String get reading_progress => '?? ???';
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => '?? ${idx} / ${total}${suffix} · ${pct}%';
@@ -8566,7 +8566,7 @@ class _StringsNl extends _StringsEn {
 	@override String get audiobook_settings => 'Audioboekinstellingen';
 	@override String get show_play_bar => 'Afspeelbalk tonen';
 	@override String get show_media_notification => 'Mediamelding tonen';
-	@override String get follow_audio_on_tooltip => 'Audio volgen: AAN (automatisch springen tussen hoofdstukken)';
+	@override String get follow_audio_on_tooltip => 'Audio volgen: AAN';
 	@override String get follow_audio_off_tooltip => 'Audio volgen: UIT';
 	@override String get reading_progress => 'Leesvoortgang';
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Hoofdstuk ${idx} / ${total}${suffix} · ${pct}%';
@@ -9413,7 +9413,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String get audiobook_settings => 'Configura??es do Audiolivro';
 	@override String get show_play_bar => 'Mostrar barra de reprodução';
 	@override String get show_media_notification => 'Mostrar notificação de mídia';
-	@override String get follow_audio_on_tooltip => 'Acompanhar áudio: LIGADO (pular entre capítulos automaticamente)';
+	@override String get follow_audio_on_tooltip => 'Acompanhar áudio: LIGADO';
 	@override String get follow_audio_off_tooltip => 'Acompanhar áudio: DESLIGADO';
 	@override String get reading_progress => 'Progresso da Leitura';
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Capítulo ${idx} / ${total}${suffix} · ${pct}%';
@@ -10286,7 +10286,7 @@ class _StringsRu extends _StringsEn {
 	@override String get audiobook_settings => 'Настройки аудиокниги';
 	@override String get show_play_bar => 'Показать панель воспроизведения';
 	@override String get show_media_notification => 'Показать уведомление о медиа';
-	@override String get follow_audio_on_tooltip => 'Следование за аудио: ВКЛ (автопереход между главами)';
+	@override String get follow_audio_on_tooltip => 'Следование за аудио: ВКЛ';
 	@override String get follow_audio_off_tooltip => 'Следование за аудио: ВЫКЛ';
 	@override String get reading_progress => 'Прогресс чтения';
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Глава ${idx} / ${total}${suffix} · ${pct}%';
@@ -11159,7 +11159,7 @@ class _StringsTh extends _StringsEn {
 	@override String get audiobook_settings => '???????????????????';
 	@override String get show_play_bar => 'แสดงแถบเล่น';
 	@override String get show_media_notification => 'แสดงการแจ้งเตือนสื่อ';
-	@override String get follow_audio_on_tooltip => '???????????: ???? (???????????????)';
+	@override String get follow_audio_on_tooltip => '???????????: ????';
 	@override String get follow_audio_off_tooltip => '???????????: ???';
 	@override String get reading_progress => '??????????????????';
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => '????? ${idx} / ${total}${suffix} · ${pct}%';
@@ -12058,7 +12058,7 @@ class _StringsTr extends _StringsEn {
 	@override String get audiobook_settings => 'Sesli kitap ayarlar?';
 	@override String get show_play_bar => 'Oynatma çubuğunu göster';
 	@override String get show_media_notification => 'Medya bildirimini göster';
-	@override String get follow_audio_on_tooltip => 'Ses takibi: A?IK (b?lümler aras? otomatik atlama)';
+	@override String get follow_audio_on_tooltip => 'Ses takibi: A?IK';
 	@override String get follow_audio_off_tooltip => 'Ses takibi: KAPALI';
 	@override String get reading_progress => 'Okuma ilerlemesi';
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'B?lüm ${idx} / ${total}${suffix} · ${pct}%';
@@ -12905,7 +12905,7 @@ class _StringsVi extends _StringsEn {
 	@override String get audiobook_settings => 'Cài ??t sách nói';
 	@override String get show_play_bar => 'Hiện thanh phát';
 	@override String get show_media_notification => 'Hiện thông báo media';
-	@override String get follow_audio_on_tooltip => 'Theo d?i am thanh: B?T (t? chuy?n ch??ng)';
+	@override String get follow_audio_on_tooltip => 'Theo d?i am thanh: B?T';
 	@override String get follow_audio_off_tooltip => 'Theo d?i am thanh: T?T';
 	@override String get reading_progress => 'Ti?n ?? ??c';
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Ch??ng ${idx} / ${total}${suffix} · ${pct}%';
@@ -13816,7 +13816,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String get audiobook_settings => '有声书设置';
 	@override String get show_play_bar => '显示播放栏';
 	@override String get show_media_notification => '显示媒体通知';
-	@override String get follow_audio_on_tooltip => '音频跟随：开启（跨章自动跳转）';
+	@override String get follow_audio_on_tooltip => '音频跟随：开启';
 	@override String get follow_audio_off_tooltip => '音频跟随：关闭';
 	@override String get reading_progress => '阅读进度';
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => '第 ${idx} / ${total} 章${suffix} · ${pct}%';
@@ -14663,7 +14663,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String get audiobook_settings => '有聲書設定';
 	@override String get show_play_bar => '顯示播放欄';
 	@override String get show_media_notification => '顯示媒體通知';
-	@override String get follow_audio_on_tooltip => '音頻跟隨：開啟（跨章自動跳轉）';
+	@override String get follow_audio_on_tooltip => '音頻跟隨：開啟';
 	@override String get follow_audio_off_tooltip => '音頻跟隨：關閉';
 	@override String get reading_progress => '閱讀進度';
 	@override String chapter_progress({required Object idx, required Object total, required Object suffix, required Object pct}) => '第 ${idx} / ${total} 章${suffix} · ${pct}%';
@@ -15550,7 +15550,7 @@ extension on _StringsEn {
 			case 'show_media_notification': return 'Show media notification';
 			case 'show_floating_lyric': return 'Floating lyric overlay';
 			case 'floating_lyric_hint': return 'Show current sentence over other apps.';
-			case 'follow_audio_on_tooltip': return 'Follow audio: ON (auto-jump across chapters)';
+			case 'follow_audio_on_tooltip': return 'Follow audio: ON';
 			case 'follow_audio_off_tooltip': return 'Follow audio: OFF';
 			case 'reading_progress': return 'Reading Progress';
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Chapter ${idx} / ${total}${suffix} · ${pct}%';
@@ -16367,7 +16367,7 @@ extension on _StringsAr {
 			case 'show_media_notification': return 'عرض إشعار الوسائط';
 			case 'show_floating_lyric': return 'ترجمة عائمة';
 			case 'floating_lyric_hint': return 'عرض الجملة الحالية فوق التطبيقات الأخرى.';
-			case 'follow_audio_on_tooltip': return 'تتبع الصوت: مفعّل (انتقال تلقائي بين الفصول)';
+			case 'follow_audio_on_tooltip': return 'تتبع الصوت: مفعّل';
 			case 'follow_audio_off_tooltip': return 'تتبع الصوت: معطّل';
 			case 'reading_progress': return 'تقدّم القراءة';
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'الفصل ${idx} / ${total}${suffix} · ${pct}%';
@@ -17176,7 +17176,7 @@ extension on _StringsDe {
 			case 'audiobook_settings': return 'H?rbuch-Einstellungen';
 			case 'show_play_bar': return 'Wiedergabeleiste anzeigen';
 			case 'show_media_notification': return 'Medienbenachrichtigung anzeigen';
-			case 'follow_audio_on_tooltip': return 'Audio-Verfolgung: AN (automatischer Kapitelsprung)';
+			case 'follow_audio_on_tooltip': return 'Audio-Verfolgung: AN';
 			case 'follow_audio_off_tooltip': return 'Audio-Verfolgung: AUS';
 			case 'reading_progress': return 'Lesefortschritt';
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Kapitel ${idx} / ${total}${suffix} · ${pct}%';
@@ -18008,7 +18008,7 @@ extension on _StringsEs {
 			case 'audiobook_settings': return 'Configuración del audiolibro';
 			case 'show_play_bar': return 'Mostrar barra de reproducción';
 			case 'show_media_notification': return 'Mostrar notificación multimedia';
-			case 'follow_audio_on_tooltip': return 'Seguir audio: ACTIVADO (salto automático entre capítulos)';
+			case 'follow_audio_on_tooltip': return 'Seguir audio: ACTIVADO';
 			case 'follow_audio_off_tooltip': return 'Seguir audio: DESACTIVADO';
 			case 'reading_progress': return 'Progreso de lectura';
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Capítulo ${idx} / ${total}${suffix} · ${pct}%';
@@ -18840,7 +18840,7 @@ extension on _StringsFr {
 			case 'audiobook_settings': return 'Paramètres du livre audio';
 			case 'show_play_bar': return 'Barre de lecture';
 			case 'show_media_notification': return 'Notification multimédia';
-			case 'follow_audio_on_tooltip': return 'Suivi audio : ACTIVé (saut automatique entre chapitres)';
+			case 'follow_audio_on_tooltip': return 'Suivi audio : ACTIVé';
 			case 'follow_audio_off_tooltip': return 'Suivi audio : DéSACTIVé';
 			case 'reading_progress': return 'Progression de lecture';
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Chapitre ${idx} / ${total}${suffix} · ${pct}%';
@@ -19672,7 +19672,7 @@ extension on _StringsId {
 			case 'audiobook_settings': return 'Pengaturan Buku Audio';
 			case 'show_play_bar': return 'Tampilkan bilah pemutaran';
 			case 'show_media_notification': return 'Tampilkan notifikasi media';
-			case 'follow_audio_on_tooltip': return 'Ikuti audio: AKTIF (lompat bab otomatis)';
+			case 'follow_audio_on_tooltip': return 'Ikuti audio: AKTIF';
 			case 'follow_audio_off_tooltip': return 'Ikuti audio: NONAKTIF';
 			case 'reading_progress': return 'Progres Membaca';
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Bab ${idx} / ${total}${suffix} · ${pct}%';
@@ -20530,7 +20530,7 @@ extension on _StringsIt {
 			case 'audiobook_settings': return 'Impostazioni audiolibro';
 			case 'show_play_bar': return 'Mostra barra di riproduzione';
 			case 'show_media_notification': return 'Mostra notifica multimediale';
-			case 'follow_audio_on_tooltip': return 'Segui audio: ATTIVO (salto automatico tra capitoli)';
+			case 'follow_audio_on_tooltip': return 'Segui audio: ATTIVO';
 			case 'follow_audio_off_tooltip': return 'Segui audio: DISATTIVO';
 			case 'reading_progress': return 'Progresso di lettura';
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Capitolo ${idx} / ${total}${suffix} · ${pct}%';
@@ -21347,7 +21347,7 @@ extension on _StringsJa {
 			case 'audiobook_settings': return 'オーディオブック設定';
 			case 'show_play_bar': return '再生バーを表示';
 			case 'show_media_notification': return 'メディア通知を表示';
-			case 'follow_audio_on_tooltip': return '音声追従：ON（チャプター間を自動ジャンプ）';
+			case 'follow_audio_on_tooltip': return '音声追従：ON';
 			case 'follow_audio_off_tooltip': return '音声追従：OFF';
 			case 'reading_progress': return '読書進捗';
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'チャプター ${idx} / ${total}${suffix} · ${pct}%';
@@ -22169,7 +22169,7 @@ extension on _StringsKo {
 			case 'audiobook_settings': return '???? ??';
 			case 'show_play_bar': return '재생 바 표시';
 			case 'show_media_notification': return '미디어 알림 표시';
-			case 'follow_audio_on_tooltip': return '??? ????: ?? (?? ?? ??)';
+			case 'follow_audio_on_tooltip': return '??? ????: ??';
 			case 'follow_audio_off_tooltip': return '??? ????: ??';
 			case 'reading_progress': return '?? ???';
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => '?? ${idx} / ${total}${suffix} · ${pct}%';
@@ -23027,7 +23027,7 @@ extension on _StringsNl {
 			case 'audiobook_settings': return 'Audioboekinstellingen';
 			case 'show_play_bar': return 'Afspeelbalk tonen';
 			case 'show_media_notification': return 'Mediamelding tonen';
-			case 'follow_audio_on_tooltip': return 'Audio volgen: AAN (automatisch springen tussen hoofdstukken)';
+			case 'follow_audio_on_tooltip': return 'Audio volgen: AAN';
 			case 'follow_audio_off_tooltip': return 'Audio volgen: UIT';
 			case 'reading_progress': return 'Leesvoortgang';
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Hoofdstuk ${idx} / ${total}${suffix} · ${pct}%';
@@ -23833,7 +23833,7 @@ extension on _StringsPtBr {
 			case 'audiobook_settings': return 'Configura??es do Audiolivro';
 			case 'show_play_bar': return 'Mostrar barra de reprodução';
 			case 'show_media_notification': return 'Mostrar notificação de mídia';
-			case 'follow_audio_on_tooltip': return 'Acompanhar áudio: LIGADO (pular entre capítulos automaticamente)';
+			case 'follow_audio_on_tooltip': return 'Acompanhar áudio: LIGADO';
 			case 'follow_audio_off_tooltip': return 'Acompanhar áudio: DESLIGADO';
 			case 'reading_progress': return 'Progresso da Leitura';
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Capítulo ${idx} / ${total}${suffix} · ${pct}%';
@@ -24665,7 +24665,7 @@ extension on _StringsRu {
 			case 'audiobook_settings': return 'Настройки аудиокниги';
 			case 'show_play_bar': return 'Показать панель воспроизведения';
 			case 'show_media_notification': return 'Показать уведомление о медиа';
-			case 'follow_audio_on_tooltip': return 'Следование за аудио: ВКЛ (автопереход между главами)';
+			case 'follow_audio_on_tooltip': return 'Следование за аудио: ВКЛ';
 			case 'follow_audio_off_tooltip': return 'Следование за аудио: ВЫКЛ';
 			case 'reading_progress': return 'Прогресс чтения';
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Глава ${idx} / ${total}${suffix} · ${pct}%';
@@ -25497,7 +25497,7 @@ extension on _StringsTh {
 			case 'audiobook_settings': return '???????????????????';
 			case 'show_play_bar': return 'แสดงแถบเล่น';
 			case 'show_media_notification': return 'แสดงการแจ้งเตือนสื่อ';
-			case 'follow_audio_on_tooltip': return '???????????: ???? (???????????????)';
+			case 'follow_audio_on_tooltip': return '???????????: ????';
 			case 'follow_audio_off_tooltip': return '???????????: ???';
 			case 'reading_progress': return '??????????????????';
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => '????? ${idx} / ${total}${suffix} · ${pct}%';
@@ -26355,7 +26355,7 @@ extension on _StringsTr {
 			case 'audiobook_settings': return 'Sesli kitap ayarlar?';
 			case 'show_play_bar': return 'Oynatma çubuğunu göster';
 			case 'show_media_notification': return 'Medya bildirimini göster';
-			case 'follow_audio_on_tooltip': return 'Ses takibi: A?IK (b?lümler aras? otomatik atlama)';
+			case 'follow_audio_on_tooltip': return 'Ses takibi: A?IK';
 			case 'follow_audio_off_tooltip': return 'Ses takibi: KAPALI';
 			case 'reading_progress': return 'Okuma ilerlemesi';
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'B?lüm ${idx} / ${total}${suffix} · ${pct}%';
@@ -27161,7 +27161,7 @@ extension on _StringsVi {
 			case 'audiobook_settings': return 'Cài ??t sách nói';
 			case 'show_play_bar': return 'Hiện thanh phát';
 			case 'show_media_notification': return 'Hiện thông báo media';
-			case 'follow_audio_on_tooltip': return 'Theo d?i am thanh: B?T (t? chuy?n ch??ng)';
+			case 'follow_audio_on_tooltip': return 'Theo d?i am thanh: B?T';
 			case 'follow_audio_off_tooltip': return 'Theo d?i am thanh: T?T';
 			case 'reading_progress': return 'Ti?n ?? ??c';
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => 'Ch??ng ${idx} / ${total}${suffix} · ${pct}%';
@@ -28031,7 +28031,7 @@ extension on _StringsZhCn {
 			case 'audiobook_settings': return '有声书设置';
 			case 'show_play_bar': return '显示播放栏';
 			case 'show_media_notification': return '显示媒体通知';
-			case 'follow_audio_on_tooltip': return '音频跟随：开启（跨章自动跳转）';
+			case 'follow_audio_on_tooltip': return '音频跟随：开启';
 			case 'follow_audio_off_tooltip': return '音频跟随：关闭';
 			case 'reading_progress': return '阅读进度';
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => '第 ${idx} / ${total} 章${suffix} · ${pct}%';
@@ -28837,7 +28837,7 @@ extension on _StringsZhHk {
 			case 'audiobook_settings': return '有聲書設定';
 			case 'show_play_bar': return '顯示播放欄';
 			case 'show_media_notification': return '顯示媒體通知';
-			case 'follow_audio_on_tooltip': return '音頻跟隨：開啟（跨章自動跳轉）';
+			case 'follow_audio_on_tooltip': return '音頻跟隨：開啟';
 			case 'follow_audio_off_tooltip': return '音頻跟隨：關閉';
 			case 'reading_progress': return '閱讀進度';
 			case 'chapter_progress': return ({required Object idx, required Object total, required Object suffix, required Object pct}) => '第 ${idx} / ${total} 章${suffix} · ${pct}%';
