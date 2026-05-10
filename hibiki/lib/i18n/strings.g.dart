@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 13940 (820 per locale)
 ///
-/// Built on 2026-05-10 at 03:18 UTC
+/// Built on 2026-05-10 at 03:44 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -765,7 +765,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String sasayaki_auto_picked({required Object window, required Object pct}) => 'Auto-selected ${window} (hit ${pct}%)';
 	String sasayaki_auto_failed({required Object error}) => 'Auto-match failed: ${error}';
 	String get sasayaki_no_stored_cues => 'No stored cues, cannot re-run';
-	String get sasayaki_no_idb_sections => 'ttu IDB has no chapter text';
+	String get sasayaki_no_chapters => 'EPUB has no chapter text';
 	String sasayaki_rematch_failed({required Object error}) => 'Re-match failed: ${error}';
 	String get sasayaki_search_window => 'Search Window';
 	String get sasayaki_window_hint => 'Number of characters to search forward per cue in the text. Adjust if hit rate is low; too large may skew cursor with short noisy cues.';
@@ -1622,7 +1622,7 @@ class _StringsAr extends _StringsEn {
 	@override String sasayaki_auto_picked({required Object window, required Object pct}) => 'تم اختيار ${window} تلقائياً (نسبة ${pct}%)';
 	@override String sasayaki_auto_failed({required Object error}) => 'فشلت المطابقة التلقائية: ${error}';
 	@override String get sasayaki_no_stored_cues => 'لا توجد ترجمات مخزّنة، لا يمكن إعادة التشغيل';
-	@override String get sasayaki_no_idb_sections => 'ttu IDB لا يحتوي على نص فصول';
+	@override String get sasayaki_no_chapters => 'EPUB لا يحتوي على نص فصول';
 	@override String sasayaki_rematch_failed({required Object error}) => 'فشلت إعادة المطابقة: ${error}';
 	@override String get sasayaki_search_window => 'نافذة البحث';
 	@override String get sasayaki_window_hint => 'عدد الأحرف للبحث للأمام لكل ترجمة في النص. اضبط إذا كانت نسبة الإصابة منخفضة؛ قيمة كبيرة جداً قد تُنحرف المؤشر مع الترجمات القصيرة.';
@@ -2482,7 +2482,7 @@ class _StringsDe extends _StringsEn {
 	@override String sasayaki_auto_picked({required Object window, required Object pct}) => 'Automatisch ${window} ausgew?hlt (Treffer ${pct}%)';
 	@override String sasayaki_auto_failed({required Object error}) => 'Automatischer Abgleich fehlgeschlagen: ${error}';
 	@override String get sasayaki_no_stored_cues => 'Keine gespeicherten Cues, erneuter Abgleich nicht m?glich';
-	@override String get sasayaki_no_idb_sections => 'ttu IDB hat keinen Kapiteltext';
+	@override String get sasayaki_no_chapters => 'EPUB hat keinen Kapiteltext';
 	@override String sasayaki_rematch_failed({required Object error}) => 'Neuabgleich fehlgeschlagen: ${error}';
 	@override String get sasayaki_search_window => 'Suchfenster';
 	@override String get sasayaki_window_hint => 'Anzahl der Zeichen, die pro Cue im Text vorw?rts durchsucht werden. Anpassen, wenn die Trefferquote niedrig ist; zu gro? kann den Cursor bei kurzen verrauschten Cues verzerren.';
@@ -3355,7 +3355,7 @@ class _StringsEs extends _StringsEn {
 	@override String sasayaki_auto_picked({required Object window, required Object pct}) => 'Selección automática ${window} (acierto ${pct}%)';
 	@override String sasayaki_auto_failed({required Object error}) => 'Emparejamiento automático fallido: ${error}';
 	@override String get sasayaki_no_stored_cues => 'No hay marcas almacenadas, no se puede re-ejecutar';
-	@override String get sasayaki_no_idb_sections => 'ttu IDB no tiene texto de capítulos';
+	@override String get sasayaki_no_chapters => 'EPUB no tiene texto de capítulos';
 	@override String sasayaki_rematch_failed({required Object error}) => 'Re-emparejamiento fallido: ${error}';
 	@override String get sasayaki_search_window => 'Ventana de búsqueda';
 	@override String get sasayaki_window_hint => 'Número de caracteres a buscar hacia adelante por marca en el texto. Ajusta si la tasa de aciertos es baja; demasiado grande puede desviar el cursor con marcas cortas y ruidosas.';
@@ -4228,7 +4228,7 @@ class _StringsFr extends _StringsEn {
 	@override String sasayaki_auto_picked({required Object window, required Object pct}) => 'Sélection automatique de ${window} (taux ${pct}%)';
 	@override String sasayaki_auto_failed({required Object error}) => 'échec de la correspondance automatique : ${error}';
 	@override String get sasayaki_no_stored_cues => 'Aucun repère enregistré, impossible de relancer';
-	@override String get sasayaki_no_idb_sections => 'ttu IDB ne contient aucun texte de chapitre';
+	@override String get sasayaki_no_chapters => 'EPUB ne contient aucun texte de chapitre';
 	@override String sasayaki_rematch_failed({required Object error}) => 'échec de la correspondance : ${error}';
 	@override String get sasayaki_search_window => 'Fenêtre de recherche';
 	@override String get sasayaki_window_hint => 'Nombre de caractères à rechercher en avant par repère dans le texte. Ajustez si le taux de correspondance est faible ; une valeur trop élevée peut fausser le curseur avec des repères courts et bruités.';
@@ -5101,7 +5101,7 @@ class _StringsId extends _StringsEn {
 	@override String sasayaki_auto_picked({required Object window, required Object pct}) => 'Otomatis memilih ${window} (cocok ${pct}%)';
 	@override String sasayaki_auto_failed({required Object error}) => 'Pencocokan otomatis gagal: ${error}';
 	@override String get sasayaki_no_stored_cues => 'Tidak ada cue tersimpan, tidak dapat menjalankan ulang';
-	@override String get sasayaki_no_idb_sections => 'ttu IDB tidak memiliki teks bab';
+	@override String get sasayaki_no_chapters => 'EPUB tidak memiliki teks bab';
 	@override String sasayaki_rematch_failed({required Object error}) => 'Pencocokan ulang gagal: ${error}';
 	@override String get sasayaki_search_window => 'Jendela Pencarian';
 	@override String get sasayaki_window_hint => 'Jumlah karakter untuk dicari ke depan per cue dalam teks. Sesuaikan jika tingkat kecocokan rendah; terlalu besar dapat menggeser kursor dengan cue pendek yang berisik.';
@@ -5982,7 +5982,7 @@ class _StringsIt extends _StringsEn {
 	@override String sasayaki_auto_picked({required Object window, required Object pct}) => 'Selezione automatica di ${window} (tasso ${pct}%)';
 	@override String sasayaki_auto_failed({required Object error}) => 'Corrispondenza automatica fallita: ${error}';
 	@override String get sasayaki_no_stored_cues => 'Nessun riferimento memorizzato, impossibile riavviare';
-	@override String get sasayaki_no_idb_sections => 'ttu IDB non contiene testo di capitolo';
+	@override String get sasayaki_no_chapters => 'EPUB non contiene testo di capitolo';
 	@override String sasayaki_rematch_failed({required Object error}) => 'Corrispondenza fallita: ${error}';
 	@override String get sasayaki_search_window => 'Finestra di ricerca';
 	@override String get sasayaki_window_hint => 'Numero di caratteri da cercare in avanti per riferimento nel testo. Regola se il tasso di corrispondenza è basso; un valore troppo alto può falsare il cursore con riferimenti brevi e rumorosi.';
@@ -6857,7 +6857,7 @@ class _StringsJa extends _StringsEn {
 	@override String sasayaki_auto_picked({required Object window, required Object pct}) => '${window} を自動選択しました（ヒット率 ${pct}%）';
 	@override String sasayaki_auto_failed({required Object error}) => '自動マッチングに失敗しました：${error}';
 	@override String get sasayaki_no_stored_cues => '保存されたキューがないため、再実行できません';
-	@override String get sasayaki_no_idb_sections => 'ttu IDBにチャプターテキストがありません';
+	@override String get sasayaki_no_chapters => 'EPUBにチャプターテキストがありません';
 	@override String sasayaki_rematch_failed({required Object error}) => '再マッチングに失敗しました：${error}';
 	@override String get sasayaki_search_window => '検索ウィンドウ';
 	@override String get sasayaki_window_hint => 'テキスト内で各キューごとに前方検索する文字数。ヒット率が低い場合は調整してください。大きすぎると短い/ノイズの多いキューでカーソルがずれる場合があります。';
@@ -7720,7 +7720,7 @@ class _StringsKo extends _StringsEn {
 	@override String sasayaki_auto_picked({required Object window, required Object pct}) => '${window} ?? ??? (??? ${pct}%)';
 	@override String sasayaki_auto_failed({required Object error}) => '?? ?? ??: ${error}';
 	@override String get sasayaki_no_stored_cues => '??? ?? ?? ?? ??? ? ????';
-	@override String get sasayaki_no_idb_sections => 'ttu IDB? ?? ???? ????';
+	@override String get sasayaki_no_chapters => 'EPUB? ?? ???? ????';
 	@override String sasayaki_rematch_failed({required Object error}) => '??? ??: ${error}';
 	@override String get sasayaki_search_window => '?? ??';
 	@override String get sasayaki_window_hint => '????? ?? ??? ??? ?? ????. ???? ??? ?????. ?? ?? ?? ???? ?? ??? ??? ??? ? ????.';
@@ -8601,7 +8601,7 @@ class _StringsNl extends _StringsEn {
 	@override String sasayaki_auto_picked({required Object window, required Object pct}) => 'Automatisch geselecteerd ${window} (treffers ${pct}%)';
 	@override String sasayaki_auto_failed({required Object error}) => 'Automatisch matchen mislukt: ${error}';
 	@override String get sasayaki_no_stored_cues => 'Geen opgeslagen referenties, kan niet opnieuw uitvoeren';
-	@override String get sasayaki_no_idb_sections => 'ttu IDB bevat geen hoofdstuktekst';
+	@override String get sasayaki_no_chapters => 'EPUB bevat geen hoofdstuktekst';
 	@override String sasayaki_rematch_failed({required Object error}) => 'Opnieuw matchen mislukt: ${error}';
 	@override String get sasayaki_search_window => 'Zoekvenster';
 	@override String get sasayaki_window_hint => 'Aantal tekens om vooruit te zoeken per referentie in de tekst. Pas aan als het trefpercentage laag is; te hoog kan de cursor verschuiven bij korte, ruizige referenties.';
@@ -9466,7 +9466,7 @@ class _StringsPtBr extends _StringsEn {
 	@override String sasayaki_auto_picked({required Object window, required Object pct}) => 'Selecionado automaticamente ${window} (acerto ${pct}%)';
 	@override String sasayaki_auto_failed({required Object error}) => 'Correspondência automática falhou: ${error}';
 	@override String get sasayaki_no_stored_cues => 'Nenhuma frase armazenada, n?o é possível reexecutar';
-	@override String get sasayaki_no_idb_sections => 'ttu IDB n?o tem texto de capítulo';
+	@override String get sasayaki_no_chapters => 'EPUB n?o tem texto de capítulo';
 	@override String sasayaki_rematch_failed({required Object error}) => 'Falha na correspondência: ${error}';
 	@override String get sasayaki_search_window => 'Janela de Busca';
 	@override String get sasayaki_window_hint => 'Número de caracteres a buscar à frente por frase no texto. Ajuste se a taxa de acerto estiver baixa; valores muito altos podem deslocar o cursor com frases curtas e ruidosas.';
@@ -10339,7 +10339,7 @@ class _StringsRu extends _StringsEn {
 	@override String sasayaki_auto_picked({required Object window, required Object pct}) => 'Автоматически выбрано ${window} (совпадение ${pct}%)';
 	@override String sasayaki_auto_failed({required Object error}) => 'Автосопоставление не удалось: ${error}';
 	@override String get sasayaki_no_stored_cues => 'Нет сохранённых меток, перезапуск невозможен';
-	@override String get sasayaki_no_idb_sections => 'В ttu IDB нет текста глав';
+	@override String get sasayaki_no_chapters => 'В EPUB нет текста глав';
 	@override String sasayaki_rematch_failed({required Object error}) => 'Пересопоставление не удалось: ${error}';
 	@override String get sasayaki_search_window => 'Окно поиска';
 	@override String get sasayaki_window_hint => 'Количество символов для поиска вперёд на каждую метку. Увеличьте, если процент совпадений низкий; слишком большое значение может сместить курсор при коротких шумных метках.';
@@ -11212,7 +11212,7 @@ class _StringsTh extends _StringsEn {
 	@override String sasayaki_auto_picked({required Object window, required Object pct}) => '?????????????? ${window} (??? ${pct}%)';
 	@override String sasayaki_auto_failed({required Object error}) => '?????????????????????????: ${error}';
 	@override String get sasayaki_no_stored_cues => '???????????????????? ????????????????????????';
-	@override String get sasayaki_no_idb_sections => 'ttu IDB ??????????????';
+	@override String get sasayaki_no_chapters => 'EPUB ??????????????';
 	@override String sasayaki_rematch_failed({required Object error}) => '????????????????????: ${error}';
 	@override String get sasayaki_search_window => '?????????????';
 	@override String get sasayaki_window_hint => '???????????????????????????????????????????????? ????????????????????? ?????????????????????????????????????????????????????????????????';
@@ -12093,7 +12093,7 @@ class _StringsTr extends _StringsEn {
 	@override String sasayaki_auto_picked({required Object window, required Object pct}) => '${window} otomatik se?ildi (isabet ${pct}%)';
 	@override String sasayaki_auto_failed({required Object error}) => 'Otomatik e?le?tirme ba?ar?s?z: ${error}';
 	@override String get sasayaki_no_stored_cues => 'Kay?tl? referans yok, yeniden ?al??t?r?lamaz';
-	@override String get sasayaki_no_idb_sections => 'ttu IDB\'de b?lüm metni yok';
+	@override String get sasayaki_no_chapters => 'EPUB\'de b?lüm metni yok';
 	@override String sasayaki_rematch_failed({required Object error}) => 'Yeniden e?le?tirme ba?ar?s?z: ${error}';
 	@override String get sasayaki_search_window => 'Arama penceresi';
 	@override String get sasayaki_window_hint => 'Metinde referans ba??na ileri aranacak karakter say?s?. ?sabet oran? dü?ükse ayarlay?n; ?ok büyük de?er k?sa ve gürültülü referanslarda imleci kayd?rabilir.';
@@ -12958,7 +12958,7 @@ class _StringsVi extends _StringsEn {
 	@override String sasayaki_auto_picked({required Object window, required Object pct}) => '?? t? ??ng ch?n ${window} (kh?p ${pct}%)';
 	@override String sasayaki_auto_failed({required Object error}) => 'T? ??ng kh?p th?t b?i: ${error}';
 	@override String get sasayaki_no_stored_cues => 'Kh?ng có cue ?? l?u, kh?ng th? ch?y l?i';
-	@override String get sasayaki_no_idb_sections => 'ttu IDB kh?ng có v?n b?n ch??ng';
+	@override String get sasayaki_no_chapters => 'EPUB kh?ng có v?n b?n ch??ng';
 	@override String sasayaki_rematch_failed({required Object error}) => 'Kh?p l?i th?t b?i: ${error}';
 	@override String get sasayaki_search_window => 'C?a s? tìm ki?m';
 	@override String get sasayaki_window_hint => 'S? ky t? tìm ki?m phía tr??c m?i cue trong v?n b?n. ?i?u ch?nh n?u t? l? kh?p th?p; quá l?n có th? l?ch con tr? v?i cue ng?n nhi?u.';
@@ -13858,7 +13858,7 @@ class _StringsZhCn extends _StringsEn {
 	@override String sasayaki_auto_picked({required Object window, required Object pct}) => '自动选定 ${window}（命中 ${pct}%）';
 	@override String sasayaki_auto_failed({required Object error}) => '自动匹配失败：${error}';
 	@override String get sasayaki_no_stored_cues => '没有已存字幕条目，无法重跑';
-	@override String get sasayaki_no_idb_sections => 'ttu IDB 没有章节文本';
+	@override String get sasayaki_no_chapters => 'EPUB 没有章节文本';
 	@override String sasayaki_rematch_failed({required Object error}) => '重跑失败：${error}';
 	@override String get sasayaki_search_window => '搜索窗口';
 	@override String get sasayaki_window_hint => '每条字幕在正文里向前找的字符数。命中率低时可左右调整，过大容易被短噪声字幕拉偏光标。';
@@ -14715,7 +14715,7 @@ class _StringsZhHk extends _StringsEn {
 	@override String sasayaki_auto_picked({required Object window, required Object pct}) => '自動選定 ${window}（命中 ${pct}%）';
 	@override String sasayaki_auto_failed({required Object error}) => '自動比對失敗：${error}';
 	@override String get sasayaki_no_stored_cues => '沒有已存字幕條目，無法重跑';
-	@override String get sasayaki_no_idb_sections => 'ttu IDB 沒有章節文字';
+	@override String get sasayaki_no_chapters => 'EPUB 沒有章節文字';
 	@override String sasayaki_rematch_failed({required Object error}) => '重跑失敗：${error}';
 	@override String get sasayaki_search_window => '搜尋視窗';
 	@override String get sasayaki_window_hint => '每條字幕在正文裡向前找的字元數。命中率低時可左右調整，過大容易被短雜訊字幕拉偏游標。';
@@ -15591,7 +15591,7 @@ extension on _StringsEn {
 			case 'sasayaki_auto_picked': return ({required Object window, required Object pct}) => 'Auto-selected ${window} (hit ${pct}%)';
 			case 'sasayaki_auto_failed': return ({required Object error}) => 'Auto-match failed: ${error}';
 			case 'sasayaki_no_stored_cues': return 'No stored cues, cannot re-run';
-			case 'sasayaki_no_idb_sections': return 'ttu IDB has no chapter text';
+			case 'sasayaki_no_chapters': return 'EPUB has no chapter text';
 			case 'sasayaki_rematch_failed': return ({required Object error}) => 'Re-match failed: ${error}';
 			case 'sasayaki_search_window': return 'Search Window';
 			case 'sasayaki_window_hint': return 'Number of characters to search forward per cue in the text. Adjust if hit rate is low; too large may skew cursor with short noisy cues.';
@@ -16407,7 +16407,7 @@ extension on _StringsAr {
 			case 'sasayaki_auto_picked': return ({required Object window, required Object pct}) => 'تم اختيار ${window} تلقائياً (نسبة ${pct}%)';
 			case 'sasayaki_auto_failed': return ({required Object error}) => 'فشلت المطابقة التلقائية: ${error}';
 			case 'sasayaki_no_stored_cues': return 'لا توجد ترجمات مخزّنة، لا يمكن إعادة التشغيل';
-			case 'sasayaki_no_idb_sections': return 'ttu IDB لا يحتوي على نص فصول';
+			case 'sasayaki_no_chapters': return 'EPUB لا يحتوي على نص فصول';
 			case 'sasayaki_rematch_failed': return ({required Object error}) => 'فشلت إعادة المطابقة: ${error}';
 			case 'sasayaki_search_window': return 'نافذة البحث';
 			case 'sasayaki_window_hint': return 'عدد الأحرف للبحث للأمام لكل ترجمة في النص. اضبط إذا كانت نسبة الإصابة منخفضة؛ قيمة كبيرة جداً قد تُنحرف المؤشر مع الترجمات القصيرة.';
@@ -17226,7 +17226,7 @@ extension on _StringsDe {
 			case 'sasayaki_auto_picked': return ({required Object window, required Object pct}) => 'Automatisch ${window} ausgew?hlt (Treffer ${pct}%)';
 			case 'sasayaki_auto_failed': return ({required Object error}) => 'Automatischer Abgleich fehlgeschlagen: ${error}';
 			case 'sasayaki_no_stored_cues': return 'Keine gespeicherten Cues, erneuter Abgleich nicht m?glich';
-			case 'sasayaki_no_idb_sections': return 'ttu IDB hat keinen Kapiteltext';
+			case 'sasayaki_no_chapters': return 'EPUB hat keinen Kapiteltext';
 			case 'sasayaki_rematch_failed': return ({required Object error}) => 'Neuabgleich fehlgeschlagen: ${error}';
 			case 'sasayaki_search_window': return 'Suchfenster';
 			case 'sasayaki_window_hint': return 'Anzahl der Zeichen, die pro Cue im Text vorw?rts durchsucht werden. Anpassen, wenn die Trefferquote niedrig ist; zu gro? kann den Cursor bei kurzen verrauschten Cues verzerren.';
@@ -18058,7 +18058,7 @@ extension on _StringsEs {
 			case 'sasayaki_auto_picked': return ({required Object window, required Object pct}) => 'Selección automática ${window} (acierto ${pct}%)';
 			case 'sasayaki_auto_failed': return ({required Object error}) => 'Emparejamiento automático fallido: ${error}';
 			case 'sasayaki_no_stored_cues': return 'No hay marcas almacenadas, no se puede re-ejecutar';
-			case 'sasayaki_no_idb_sections': return 'ttu IDB no tiene texto de capítulos';
+			case 'sasayaki_no_chapters': return 'EPUB no tiene texto de capítulos';
 			case 'sasayaki_rematch_failed': return ({required Object error}) => 'Re-emparejamiento fallido: ${error}';
 			case 'sasayaki_search_window': return 'Ventana de búsqueda';
 			case 'sasayaki_window_hint': return 'Número de caracteres a buscar hacia adelante por marca en el texto. Ajusta si la tasa de aciertos es baja; demasiado grande puede desviar el cursor con marcas cortas y ruidosas.';
@@ -18890,7 +18890,7 @@ extension on _StringsFr {
 			case 'sasayaki_auto_picked': return ({required Object window, required Object pct}) => 'Sélection automatique de ${window} (taux ${pct}%)';
 			case 'sasayaki_auto_failed': return ({required Object error}) => 'échec de la correspondance automatique : ${error}';
 			case 'sasayaki_no_stored_cues': return 'Aucun repère enregistré, impossible de relancer';
-			case 'sasayaki_no_idb_sections': return 'ttu IDB ne contient aucun texte de chapitre';
+			case 'sasayaki_no_chapters': return 'EPUB ne contient aucun texte de chapitre';
 			case 'sasayaki_rematch_failed': return ({required Object error}) => 'échec de la correspondance : ${error}';
 			case 'sasayaki_search_window': return 'Fenêtre de recherche';
 			case 'sasayaki_window_hint': return 'Nombre de caractères à rechercher en avant par repère dans le texte. Ajustez si le taux de correspondance est faible ; une valeur trop élevée peut fausser le curseur avec des repères courts et bruités.';
@@ -19722,7 +19722,7 @@ extension on _StringsId {
 			case 'sasayaki_auto_picked': return ({required Object window, required Object pct}) => 'Otomatis memilih ${window} (cocok ${pct}%)';
 			case 'sasayaki_auto_failed': return ({required Object error}) => 'Pencocokan otomatis gagal: ${error}';
 			case 'sasayaki_no_stored_cues': return 'Tidak ada cue tersimpan, tidak dapat menjalankan ulang';
-			case 'sasayaki_no_idb_sections': return 'ttu IDB tidak memiliki teks bab';
+			case 'sasayaki_no_chapters': return 'EPUB tidak memiliki teks bab';
 			case 'sasayaki_rematch_failed': return ({required Object error}) => 'Pencocokan ulang gagal: ${error}';
 			case 'sasayaki_search_window': return 'Jendela Pencarian';
 			case 'sasayaki_window_hint': return 'Jumlah karakter untuk dicari ke depan per cue dalam teks. Sesuaikan jika tingkat kecocokan rendah; terlalu besar dapat menggeser kursor dengan cue pendek yang berisik.';
@@ -20562,7 +20562,7 @@ extension on _StringsIt {
 			case 'sasayaki_auto_picked': return ({required Object window, required Object pct}) => 'Selezione automatica di ${window} (tasso ${pct}%)';
 			case 'sasayaki_auto_failed': return ({required Object error}) => 'Corrispondenza automatica fallita: ${error}';
 			case 'sasayaki_no_stored_cues': return 'Nessun riferimento memorizzato, impossibile riavviare';
-			case 'sasayaki_no_idb_sections': return 'ttu IDB non contiene testo di capitolo';
+			case 'sasayaki_no_chapters': return 'EPUB non contiene testo di capitolo';
 			case 'sasayaki_rematch_failed': return ({required Object error}) => 'Corrispondenza fallita: ${error}';
 			case 'sasayaki_search_window': return 'Finestra di ricerca';
 			case 'sasayaki_window_hint': return 'Numero di caratteri da cercare in avanti per riferimento nel testo. Regola se il tasso di corrispondenza è basso; un valore troppo alto può falsare il cursore con riferimenti brevi e rumorosi.';
@@ -21396,7 +21396,7 @@ extension on _StringsJa {
 			case 'sasayaki_auto_picked': return ({required Object window, required Object pct}) => '${window} を自動選択しました（ヒット率 ${pct}%）';
 			case 'sasayaki_auto_failed': return ({required Object error}) => '自動マッチングに失敗しました：${error}';
 			case 'sasayaki_no_stored_cues': return '保存されたキューがないため、再実行できません';
-			case 'sasayaki_no_idb_sections': return 'ttu IDBにチャプターテキストがありません';
+			case 'sasayaki_no_chapters': return 'EPUBにチャプターテキストがありません';
 			case 'sasayaki_rematch_failed': return ({required Object error}) => '再マッチングに失敗しました：${error}';
 			case 'sasayaki_search_window': return '検索ウィンドウ';
 			case 'sasayaki_window_hint': return 'テキスト内で各キューごとに前方検索する文字数。ヒット率が低い場合は調整してください。大きすぎると短い/ノイズの多いキューでカーソルがずれる場合があります。';
@@ -22218,7 +22218,7 @@ extension on _StringsKo {
 			case 'sasayaki_auto_picked': return ({required Object window, required Object pct}) => '${window} ?? ??? (??? ${pct}%)';
 			case 'sasayaki_auto_failed': return ({required Object error}) => '?? ?? ??: ${error}';
 			case 'sasayaki_no_stored_cues': return '??? ?? ?? ?? ??? ? ????';
-			case 'sasayaki_no_idb_sections': return 'ttu IDB? ?? ???? ????';
+			case 'sasayaki_no_chapters': return 'EPUB? ?? ???? ????';
 			case 'sasayaki_rematch_failed': return ({required Object error}) => '??? ??: ${error}';
 			case 'sasayaki_search_window': return '?? ??';
 			case 'sasayaki_window_hint': return '????? ?? ??? ??? ?? ????. ???? ??? ?????. ?? ?? ?? ???? ?? ??? ??? ??? ? ????.';
@@ -23058,7 +23058,7 @@ extension on _StringsNl {
 			case 'sasayaki_auto_picked': return ({required Object window, required Object pct}) => 'Automatisch geselecteerd ${window} (treffers ${pct}%)';
 			case 'sasayaki_auto_failed': return ({required Object error}) => 'Automatisch matchen mislukt: ${error}';
 			case 'sasayaki_no_stored_cues': return 'Geen opgeslagen referenties, kan niet opnieuw uitvoeren';
-			case 'sasayaki_no_idb_sections': return 'ttu IDB bevat geen hoofdstuktekst';
+			case 'sasayaki_no_chapters': return 'EPUB bevat geen hoofdstuktekst';
 			case 'sasayaki_rematch_failed': return ({required Object error}) => 'Opnieuw matchen mislukt: ${error}';
 			case 'sasayaki_search_window': return 'Zoekvenster';
 			case 'sasayaki_window_hint': return 'Aantal tekens om vooruit te zoeken per referentie in de tekst. Pas aan als het trefpercentage laag is; te hoog kan de cursor verschuiven bij korte, ruizige referenties.';
@@ -23882,7 +23882,7 @@ extension on _StringsPtBr {
 			case 'sasayaki_auto_picked': return ({required Object window, required Object pct}) => 'Selecionado automaticamente ${window} (acerto ${pct}%)';
 			case 'sasayaki_auto_failed': return ({required Object error}) => 'Correspondência automática falhou: ${error}';
 			case 'sasayaki_no_stored_cues': return 'Nenhuma frase armazenada, n?o é possível reexecutar';
-			case 'sasayaki_no_idb_sections': return 'ttu IDB n?o tem texto de capítulo';
+			case 'sasayaki_no_chapters': return 'EPUB n?o tem texto de capítulo';
 			case 'sasayaki_rematch_failed': return ({required Object error}) => 'Falha na correspondência: ${error}';
 			case 'sasayaki_search_window': return 'Janela de Busca';
 			case 'sasayaki_window_hint': return 'Número de caracteres a buscar à frente por frase no texto. Ajuste se a taxa de acerto estiver baixa; valores muito altos podem deslocar o cursor com frases curtas e ruidosas.';
@@ -24714,7 +24714,7 @@ extension on _StringsRu {
 			case 'sasayaki_auto_picked': return ({required Object window, required Object pct}) => 'Автоматически выбрано ${window} (совпадение ${pct}%)';
 			case 'sasayaki_auto_failed': return ({required Object error}) => 'Автосопоставление не удалось: ${error}';
 			case 'sasayaki_no_stored_cues': return 'Нет сохранённых меток, перезапуск невозможен';
-			case 'sasayaki_no_idb_sections': return 'В ttu IDB нет текста глав';
+			case 'sasayaki_no_chapters': return 'В EPUB нет текста глав';
 			case 'sasayaki_rematch_failed': return ({required Object error}) => 'Пересопоставление не удалось: ${error}';
 			case 'sasayaki_search_window': return 'Окно поиска';
 			case 'sasayaki_window_hint': return 'Количество символов для поиска вперёд на каждую метку. Увеличьте, если процент совпадений низкий; слишком большое значение может сместить курсор при коротких шумных метках.';
@@ -25546,7 +25546,7 @@ extension on _StringsTh {
 			case 'sasayaki_auto_picked': return ({required Object window, required Object pct}) => '?????????????? ${window} (??? ${pct}%)';
 			case 'sasayaki_auto_failed': return ({required Object error}) => '?????????????????????????: ${error}';
 			case 'sasayaki_no_stored_cues': return '???????????????????? ????????????????????????';
-			case 'sasayaki_no_idb_sections': return 'ttu IDB ??????????????';
+			case 'sasayaki_no_chapters': return 'EPUB ??????????????';
 			case 'sasayaki_rematch_failed': return ({required Object error}) => '????????????????????: ${error}';
 			case 'sasayaki_search_window': return '?????????????';
 			case 'sasayaki_window_hint': return '???????????????????????????????????????????????? ????????????????????? ?????????????????????????????????????????????????????????????????';
@@ -26386,7 +26386,7 @@ extension on _StringsTr {
 			case 'sasayaki_auto_picked': return ({required Object window, required Object pct}) => '${window} otomatik se?ildi (isabet ${pct}%)';
 			case 'sasayaki_auto_failed': return ({required Object error}) => 'Otomatik e?le?tirme ba?ar?s?z: ${error}';
 			case 'sasayaki_no_stored_cues': return 'Kay?tl? referans yok, yeniden ?al??t?r?lamaz';
-			case 'sasayaki_no_idb_sections': return 'ttu IDB\'de b?lüm metni yok';
+			case 'sasayaki_no_chapters': return 'EPUB\'de b?lüm metni yok';
 			case 'sasayaki_rematch_failed': return ({required Object error}) => 'Yeniden e?le?tirme ba?ar?s?z: ${error}';
 			case 'sasayaki_search_window': return 'Arama penceresi';
 			case 'sasayaki_window_hint': return 'Metinde referans ba??na ileri aranacak karakter say?s?. ?sabet oran? dü?ükse ayarlay?n; ?ok büyük de?er k?sa ve gürültülü referanslarda imleci kayd?rabilir.';
@@ -27210,7 +27210,7 @@ extension on _StringsVi {
 			case 'sasayaki_auto_picked': return ({required Object window, required Object pct}) => '?? t? ??ng ch?n ${window} (kh?p ${pct}%)';
 			case 'sasayaki_auto_failed': return ({required Object error}) => 'T? ??ng kh?p th?t b?i: ${error}';
 			case 'sasayaki_no_stored_cues': return 'Kh?ng có cue ?? l?u, kh?ng th? ch?y l?i';
-			case 'sasayaki_no_idb_sections': return 'ttu IDB kh?ng có v?n b?n ch??ng';
+			case 'sasayaki_no_chapters': return 'EPUB kh?ng có v?n b?n ch??ng';
 			case 'sasayaki_rematch_failed': return ({required Object error}) => 'Kh?p l?i th?t b?i: ${error}';
 			case 'sasayaki_search_window': return 'C?a s? tìm ki?m';
 			case 'sasayaki_window_hint': return 'S? ky t? tìm ki?m phía tr??c m?i cue trong v?n b?n. ?i?u ch?nh n?u t? l? kh?p th?p; quá l?n có th? l?ch con tr? v?i cue ng?n nhi?u.';
@@ -28069,7 +28069,7 @@ extension on _StringsZhCn {
 			case 'sasayaki_auto_picked': return ({required Object window, required Object pct}) => '自动选定 ${window}（命中 ${pct}%）';
 			case 'sasayaki_auto_failed': return ({required Object error}) => '自动匹配失败：${error}';
 			case 'sasayaki_no_stored_cues': return '没有已存字幕条目，无法重跑';
-			case 'sasayaki_no_idb_sections': return 'ttu IDB 没有章节文本';
+			case 'sasayaki_no_chapters': return 'EPUB 没有章节文本';
 			case 'sasayaki_rematch_failed': return ({required Object error}) => '重跑失败：${error}';
 			case 'sasayaki_search_window': return '搜索窗口';
 			case 'sasayaki_window_hint': return '每条字幕在正文里向前找的字符数。命中率低时可左右调整，过大容易被短噪声字幕拉偏光标。';
@@ -28885,7 +28885,7 @@ extension on _StringsZhHk {
 			case 'sasayaki_auto_picked': return ({required Object window, required Object pct}) => '自動選定 ${window}（命中 ${pct}%）';
 			case 'sasayaki_auto_failed': return ({required Object error}) => '自動比對失敗：${error}';
 			case 'sasayaki_no_stored_cues': return '沒有已存字幕條目，無法重跑';
-			case 'sasayaki_no_idb_sections': return 'ttu IDB 沒有章節文字';
+			case 'sasayaki_no_chapters': return 'EPUB 沒有章節文字';
 			case 'sasayaki_rematch_failed': return ({required Object error}) => '重跑失敗：${error}';
 			case 'sasayaki_search_window': return '搜尋視窗';
 			case 'sasayaki_window_hint': return '每條字幕在正文裡向前找的字元數。命中率低時可左右調整，過大容易被短雜訊字幕拉偏游標。';
