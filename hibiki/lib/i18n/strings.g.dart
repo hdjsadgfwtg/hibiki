@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 14076 (828 per locale)
+/// Strings: 14078 (828 per locale)
 ///
-/// Built on 2026-05-11 at 14:02 UTC
+/// Built on 2026-05-11 at 15:27 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -693,10 +693,11 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get ttu_furigana_partial => 'Partial';
 	String get ttu_furigana_toggle => 'Toggle';
 	String get ttu_text_indentation => 'Paragraph Indent';
-	String get ttu_first_dimension_margin => 'Margin';
-	String get ttu_second_dimension_margin => 'Cross-axis Margin';
-	String get ttu_second_dimension_max => 'Max Width/Height';
-	String get ttu_page_columns => 'Page Columns';
+	String get margin_top => 'Top Margin';
+	String get margin_bottom => 'Bottom Margin';
+	String get margin_left => 'Left Margin';
+	String get margin_right => 'Right Margin';
+	String get columns_per_page => 'Columns per Page';
 	String get ttu_page_columns_auto => 'Auto';
 	String get ttu_vert_kerning => 'Font Kerning (Vertical)';
 	String get ttu_font_vpal => 'VPAL (Vertical Alt)';
@@ -13908,10 +13909,11 @@ class _StringsZhCn extends _StringsEn {
 	@override String get ttu_furigana_partial => '部分';
 	@override String get ttu_furigana_toggle => '切换';
 	@override String get ttu_text_indentation => '段落缩进';
-	@override String get ttu_first_dimension_margin => '边距';
-	@override String get ttu_second_dimension_margin => '交叉轴边距';
-	@override String get ttu_second_dimension_max => '最大宽/高';
-	@override String get ttu_page_columns => '分栏';
+	@override String get margin_top => '上边距';
+	@override String get margin_bottom => '下边距';
+	@override String get margin_left => '左边距';
+	@override String get margin_right => '右边距';
+	@override String get columns_per_page => '每页列数';
 	@override String get ttu_page_columns_auto => '自动';
 	@override String get ttu_vert_kerning => '字偶间距（纵排）';
 	@override String get ttu_font_vpal => 'VPAL 纵排替代';
@@ -15655,10 +15657,11 @@ extension on _StringsEn {
 			case 'ttu_furigana_partial': return 'Partial';
 			case 'ttu_furigana_toggle': return 'Toggle';
 			case 'ttu_text_indentation': return 'Paragraph Indent';
-			case 'ttu_first_dimension_margin': return 'Margin';
-			case 'ttu_second_dimension_margin': return 'Cross-axis Margin';
-			case 'ttu_second_dimension_max': return 'Max Width/Height';
-			case 'ttu_page_columns': return 'Page Columns';
+			case 'margin_top': return 'Top Margin';
+			case 'margin_bottom': return 'Bottom Margin';
+			case 'margin_left': return 'Left Margin';
+			case 'margin_right': return 'Right Margin';
+			case 'columns_per_page': return 'Columns per Page';
 			case 'ttu_page_columns_auto': return 'Auto';
 			case 'ttu_vert_kerning': return 'Font Kerning (Vertical)';
 			case 'ttu_font_vpal': return 'VPAL (Vertical Alt)';
@@ -28255,10 +28258,11 @@ extension on _StringsZhCn {
 			case 'ttu_furigana_partial': return '部分';
 			case 'ttu_furigana_toggle': return '切换';
 			case 'ttu_text_indentation': return '段落缩进';
-			case 'ttu_first_dimension_margin': return '边距';
-			case 'ttu_second_dimension_margin': return '交叉轴边距';
-			case 'ttu_second_dimension_max': return '最大宽/高';
-			case 'ttu_page_columns': return '分栏';
+			case 'margin_top': return '上边距';
+			case 'margin_bottom': return '下边距';
+			case 'margin_left': return '左边距';
+			case 'margin_right': return '右边距';
+			case 'columns_per_page': return '每页列数';
 			case 'ttu_page_columns_auto': return '自动';
 			case 'ttu_vert_kerning': return '字偶间距（纵排）';
 			case 'ttu_font_vpal': return 'VPAL 纵排替代';
