@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 14178 (834 per locale)
+/// Strings: 14179 (834 per locale)
 ///
-/// Built on 2026-05-12 at 17:58 UTC
+/// Built on 2026-05-12 at 18:03 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -461,9 +461,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get use_slow_import => 'Slow import (use if failing)';
 	String get settings => 'Settings';
 	String get manager => 'Manager';
+	String get volume_key_sentence_nav => 'Volume keys navigate sentences (audiobook)';
 	String get volume_button_page_turning => 'Volume button page turning';
 	String get invert_volume_buttons => 'Invert volume buttons';
-	String get volume_key_sentence_nav => 'Volume keys navigate sentences (audiobook)';
 	String get invert_swipe_direction => 'Invert swipe page turn direction';
 	String get volume_button_turning_speed => 'Volume key page turning speed';
 	String get extend_page_beyond_navbar => 'Extend page beyond navigation bar';
@@ -1382,7 +1382,6 @@ class _StringsAr extends _StringsEn {
 	@override String get manager => 'المدير';
 	@override String get volume_button_page_turning => 'تقليب الصفحات بأزرار الصوت';
 	@override String get invert_volume_buttons => 'عكس أزرار الصوت';
-	@override String get volume_key_sentence_nav => 'مفاتيح الصوت للتنقل بين الجمل (الكتاب الصوتي)';
 	@override String get volume_button_turning_speed => 'سرعة تقليب الصفحات';
 	@override String get extend_page_beyond_navbar => 'تمديد الصفحة خلف شريط التنقل';
 	@override String get keep_screen_awake => 'إبقاء الشاشة مستيقظة';
@@ -2259,7 +2258,6 @@ class _StringsDe extends _StringsEn {
 	@override String get manager => 'Verwalter';
 	@override String get volume_button_page_turning => 'Seitenbl?ttern mit Lautst?rketasten';
 	@override String get invert_volume_buttons => 'Lautst?rketasten invertieren';
-	@override String get volume_key_sentence_nav => 'Lautstärketasten navigieren Sätze (Hörbuch)';
 	@override String get volume_button_turning_speed => 'Kontinuierliche Scrollgeschwindigkeit';
 	@override String get extend_page_beyond_navbar => 'Seite über Navigationsleiste hinaus erweitern';
 	@override String get keep_screen_awake => 'Bildschirm eingeschaltet lassen';
@@ -3144,7 +3142,6 @@ class _StringsEs extends _StringsEn {
 	@override String get manager => 'Gestor';
 	@override String get volume_button_page_turning => 'Pasar página con botones de volumen';
 	@override String get invert_volume_buttons => 'Invertir botones de volumen';
-	@override String get volume_key_sentence_nav => 'Teclas de volumen navegan oraciones (audiolibro)';
 	@override String get volume_button_turning_speed => 'Velocidad de desplazamiento continuo';
 	@override String get extend_page_beyond_navbar => 'Extender página más allá de la barra de navegación';
 	@override String get keep_screen_awake => 'Mantener pantalla encendida';
@@ -4029,7 +4026,6 @@ class _StringsFr extends _StringsEn {
 	@override String get manager => 'Gestionnaire';
 	@override String get volume_button_page_turning => 'Tourner les pages avec les boutons de volume';
 	@override String get invert_volume_buttons => 'Inverser les boutons de volume';
-	@override String get volume_key_sentence_nav => 'Touches de volume pour naviguer les phrases (livre audio)';
 	@override String get volume_button_turning_speed => 'Vitesse de défilement continu';
 	@override String get extend_page_beyond_navbar => 'étendre la page au-delà de la barre de navigation';
 	@override String get keep_screen_awake => 'Garder l\'écran allumé';
@@ -4914,7 +4910,6 @@ class _StringsId extends _StringsEn {
 	@override String get manager => 'Manajer';
 	@override String get volume_button_page_turning => 'Tombol volume untuk ganti halaman';
 	@override String get invert_volume_buttons => 'Balik tombol volume';
-	@override String get volume_key_sentence_nav => 'Tombol volume navigasi kalimat (buku audio)';
 	@override String get volume_button_turning_speed => 'Kecepatan scroll berkelanjutan';
 	@override String get extend_page_beyond_navbar => 'Perluas halaman melewati navigation bar';
 	@override String get keep_screen_awake => 'Layar selalu menyala';
@@ -5807,7 +5802,6 @@ class _StringsIt extends _StringsEn {
 	@override String get manager => 'Gestore';
 	@override String get volume_button_page_turning => 'Cambia pagina con i tasti volume';
 	@override String get invert_volume_buttons => 'Inverti tasti volume';
-	@override String get volume_key_sentence_nav => 'Tasti volume per navigare le frasi (audiolibro)';
 	@override String get volume_button_turning_speed => 'Velocità di scorrimento continuo';
 	@override String get extend_page_beyond_navbar => 'Estendi pagina oltre la barra di navigazione';
 	@override String get keep_screen_awake => 'Mantieni lo schermo acceso';
@@ -6684,7 +6678,6 @@ class _StringsJa extends _StringsEn {
 	@override String get manager => '管理';
 	@override String get volume_button_page_turning => '音量ボタンでページ送り';
 	@override String get invert_volume_buttons => '音量ボタンの方向を反転';
-	@override String get volume_key_sentence_nav => 'オーディオブック再生時に音量キーで文を移動';
 	@override String get invert_swipe_direction => 'スワイプページ送り方向を反転';
 	@override String get volume_button_turning_speed => '音量キーページ送り速度';
 	@override String get extend_page_beyond_navbar => 'ナビゲーションバーの先までページを拡張';
@@ -7569,7 +7562,6 @@ class _StringsKo extends _StringsEn {
 	@override String get manager => '??';
 	@override String get volume_button_page_turning => '?? ???? ??? ???';
 	@override String get invert_volume_buttons => '?? ?? ??';
-	@override String get volume_key_sentence_nav => '오디오북 재생 시 볼륨 키로 문장 이동';
 	@override String get volume_button_turning_speed => '?? ??? ??';
 	@override String get extend_page_beyond_navbar => '????? ? ??? ??? ??';
 	@override String get keep_screen_awake => '?? ?? ??';
@@ -15528,6 +15520,7 @@ extension on _StringsEn {
 			case 'use_slow_import': return 'Slow import (use if failing)';
 			case 'settings': return 'Settings';
 			case 'manager': return 'Manager';
+			case 'volume_key_sentence_nav': return 'Volume keys navigate sentences (audiobook)';
 			case 'volume_button_page_turning': return 'Volume button page turning';
 			case 'invert_volume_buttons': return 'Invert volume buttons';
 			case 'invert_swipe_direction': return 'Invert swipe page turn direction';
