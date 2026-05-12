@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 14144 (832 per locale)
+/// Strings: 14178 (834 per locale)
 ///
-/// Built on 2026-05-12 at 17:36 UTC
+/// Built on 2026-05-12 at 17:58 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -463,6 +463,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get manager => 'Manager';
 	String get volume_button_page_turning => 'Volume button page turning';
 	String get invert_volume_buttons => 'Invert volume buttons';
+	String get volume_key_sentence_nav => 'Volume keys navigate sentences (audiobook)';
 	String get invert_swipe_direction => 'Invert swipe page turn direction';
 	String get volume_button_turning_speed => 'Volume key page turning speed';
 	String get extend_page_beyond_navbar => 'Extend page beyond navigation bar';
@@ -854,6 +855,8 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get manage_audio_sources => 'Manage audio sources';
 	String get local_audio => 'Local audio';
 	String get local_audio_not_set => 'No database selected';
+	String get local_audio_add_db => 'Add database';
+	String get local_audio_priority => 'Priority';
 	String get use_recommended_template => 'Recommended';
 	String get recommended_template_exists => 'The standard profile already exists.';
 	String get recommended_template_created => 'Recommended profile has been created.';
@@ -1379,6 +1382,7 @@ class _StringsAr extends _StringsEn {
 	@override String get manager => 'المدير';
 	@override String get volume_button_page_turning => 'تقليب الصفحات بأزرار الصوت';
 	@override String get invert_volume_buttons => 'عكس أزرار الصوت';
+	@override String get volume_key_sentence_nav => 'مفاتيح الصوت للتنقل بين الجمل (الكتاب الصوتي)';
 	@override String get volume_button_turning_speed => 'سرعة تقليب الصفحات';
 	@override String get extend_page_beyond_navbar => 'تمديد الصفحة خلف شريط التنقل';
 	@override String get keep_screen_awake => 'إبقاء الشاشة مستيقظة';
@@ -1722,6 +1726,8 @@ class _StringsAr extends _StringsEn {
 	@override String get manage_audio_sources => 'إدارة مصادر الصوت';
 	@override String get local_audio => 'صوت محلي';
 	@override String get local_audio_not_set => 'لم يتم اختيار قاعدة بيانات';
+	@override String get local_audio_add_db => 'Add database';
+	@override String get local_audio_priority => 'Priority';
 	@override String get use_recommended_template => 'موصى به';
 	@override String get recommended_template_exists => 'الملف الشخصي القياسي موجود بالفعل.';
 	@override String get recommended_template_created => 'تم إنشاء الملف الشخصي الموصى به.';
@@ -2253,6 +2259,7 @@ class _StringsDe extends _StringsEn {
 	@override String get manager => 'Verwalter';
 	@override String get volume_button_page_turning => 'Seitenbl?ttern mit Lautst?rketasten';
 	@override String get invert_volume_buttons => 'Lautst?rketasten invertieren';
+	@override String get volume_key_sentence_nav => 'Lautstärketasten navigieren Sätze (Hörbuch)';
 	@override String get volume_button_turning_speed => 'Kontinuierliche Scrollgeschwindigkeit';
 	@override String get extend_page_beyond_navbar => 'Seite über Navigationsleiste hinaus erweitern';
 	@override String get keep_screen_awake => 'Bildschirm eingeschaltet lassen';
@@ -2627,6 +2634,8 @@ class _StringsDe extends _StringsEn {
 	@override String get manage_audio_sources => 'Audioquellen verwalten';
 	@override String get local_audio => 'Lokales Audio';
 	@override String get local_audio_not_set => 'Keine Datenbank ausgew?hlt';
+	@override String get local_audio_add_db => 'Add database';
+	@override String get local_audio_priority => 'Priority';
 	@override String get dialog_select_dictionary_type => 'W?rterbuchtyp ausw?hlen';
 	@override String get dictionary_section_frequency => 'H?ufigkeitsw?rterbücher';
 	@override String get dictionary_section_pitch => 'Tonh?henw?rterbücher';
@@ -3135,6 +3144,7 @@ class _StringsEs extends _StringsEn {
 	@override String get manager => 'Gestor';
 	@override String get volume_button_page_turning => 'Pasar página con botones de volumen';
 	@override String get invert_volume_buttons => 'Invertir botones de volumen';
+	@override String get volume_key_sentence_nav => 'Teclas de volumen navegan oraciones (audiolibro)';
 	@override String get volume_button_turning_speed => 'Velocidad de desplazamiento continuo';
 	@override String get extend_page_beyond_navbar => 'Extender página más allá de la barra de navegación';
 	@override String get keep_screen_awake => 'Mantener pantalla encendida';
@@ -3509,6 +3519,8 @@ class _StringsEs extends _StringsEn {
 	@override String get manage_audio_sources => 'Gestionar fuentes de audio';
 	@override String get local_audio => 'Audio local';
 	@override String get local_audio_not_set => 'No se seleccionó base de datos';
+	@override String get local_audio_add_db => 'Add database';
+	@override String get local_audio_priority => 'Priority';
 	@override String get dialog_select_dictionary_type => 'Seleccionar tipo de diccionario';
 	@override String get dictionary_section_frequency => 'Diccionarios de frecuencia';
 	@override String get dictionary_section_pitch => 'Diccionarios de tono';
@@ -4017,6 +4029,7 @@ class _StringsFr extends _StringsEn {
 	@override String get manager => 'Gestionnaire';
 	@override String get volume_button_page_turning => 'Tourner les pages avec les boutons de volume';
 	@override String get invert_volume_buttons => 'Inverser les boutons de volume';
+	@override String get volume_key_sentence_nav => 'Touches de volume pour naviguer les phrases (livre audio)';
 	@override String get volume_button_turning_speed => 'Vitesse de défilement continu';
 	@override String get extend_page_beyond_navbar => 'étendre la page au-delà de la barre de navigation';
 	@override String get keep_screen_awake => 'Garder l\'écran allumé';
@@ -4391,6 +4404,8 @@ class _StringsFr extends _StringsEn {
 	@override String get manage_audio_sources => 'Gérer les sources audio';
 	@override String get local_audio => 'Audio local';
 	@override String get local_audio_not_set => 'Aucune base de données sélectionnée';
+	@override String get local_audio_add_db => 'Add database';
+	@override String get local_audio_priority => 'Priority';
 	@override String get dialog_select_dictionary_type => 'Sélectionner le type de dictionnaire';
 	@override String get dictionary_section_frequency => 'Dictionnaires de fréquence';
 	@override String get dictionary_section_pitch => 'Dictionnaires d\'accent tonal';
@@ -4899,6 +4914,7 @@ class _StringsId extends _StringsEn {
 	@override String get manager => 'Manajer';
 	@override String get volume_button_page_turning => 'Tombol volume untuk ganti halaman';
 	@override String get invert_volume_buttons => 'Balik tombol volume';
+	@override String get volume_key_sentence_nav => 'Tombol volume navigasi kalimat (buku audio)';
 	@override String get volume_button_turning_speed => 'Kecepatan scroll berkelanjutan';
 	@override String get extend_page_beyond_navbar => 'Perluas halaman melewati navigation bar';
 	@override String get keep_screen_awake => 'Layar selalu menyala';
@@ -5273,6 +5289,8 @@ class _StringsId extends _StringsEn {
 	@override String get manage_audio_sources => 'Kelola sumber audio';
 	@override String get local_audio => 'Audio lokal';
 	@override String get local_audio_not_set => 'Tidak ada database yang dipilih';
+	@override String get local_audio_add_db => 'Add database';
+	@override String get local_audio_priority => 'Priority';
 	@override String get dialog_select_dictionary_type => 'Pilih jenis kamus';
 	@override String get dictionary_section_frequency => 'Kamus Frekuensi';
 	@override String get dictionary_section_pitch => 'Kamus Nada';
@@ -5789,6 +5807,7 @@ class _StringsIt extends _StringsEn {
 	@override String get manager => 'Gestore';
 	@override String get volume_button_page_turning => 'Cambia pagina con i tasti volume';
 	@override String get invert_volume_buttons => 'Inverti tasti volume';
+	@override String get volume_key_sentence_nav => 'Tasti volume per navigare le frasi (audiolibro)';
 	@override String get volume_button_turning_speed => 'Velocità di scorrimento continuo';
 	@override String get extend_page_beyond_navbar => 'Estendi pagina oltre la barra di navigazione';
 	@override String get keep_screen_awake => 'Mantieni lo schermo acceso';
@@ -6120,6 +6139,8 @@ class _StringsIt extends _StringsEn {
 	@override String get manage_audio_sources => 'Gestisci sorgenti audio';
 	@override String get local_audio => 'Audio locale';
 	@override String get local_audio_not_set => 'Nessun database selezionato';
+	@override String get local_audio_add_db => 'Add database';
+	@override String get local_audio_priority => 'Priority';
 	@override String get use_recommended_template => 'Raccomandato';
 	@override String get recommended_template_exists => 'Il profilo standard esiste già.';
 	@override String get recommended_template_created => 'Il profilo raccomandato è stato creato.';
@@ -6663,6 +6684,7 @@ class _StringsJa extends _StringsEn {
 	@override String get manager => '管理';
 	@override String get volume_button_page_turning => '音量ボタンでページ送り';
 	@override String get invert_volume_buttons => '音量ボタンの方向を反転';
+	@override String get volume_key_sentence_nav => 'オーディオブック再生時に音量キーで文を移動';
 	@override String get invert_swipe_direction => 'スワイプページ送り方向を反転';
 	@override String get volume_button_turning_speed => '音量キーページ送り速度';
 	@override String get extend_page_beyond_navbar => 'ナビゲーションバーの先までページを拡張';
@@ -7006,6 +7028,8 @@ class _StringsJa extends _StringsEn {
 	@override String get manage_audio_sources => '音声ソースの管理';
 	@override String get local_audio => 'ローカル音声';
 	@override String get local_audio_not_set => 'データベース未選択';
+	@override String get local_audio_add_db => 'Add database';
+	@override String get local_audio_priority => 'Priority';
 	@override String get use_recommended_template => '推奨';
 	@override String get recommended_template_exists => '標準プロファイルは既に存在します。';
 	@override String get recommended_template_created => '推奨プロファイルを作成しました。';
@@ -7545,6 +7569,7 @@ class _StringsKo extends _StringsEn {
 	@override String get manager => '??';
 	@override String get volume_button_page_turning => '?? ???? ??? ???';
 	@override String get invert_volume_buttons => '?? ?? ??';
+	@override String get volume_key_sentence_nav => '오디오북 재생 시 볼륨 키로 문장 이동';
 	@override String get volume_button_turning_speed => '?? ??? ??';
 	@override String get extend_page_beyond_navbar => '????? ? ??? ??? ??';
 	@override String get keep_screen_awake => '?? ?? ??';
@@ -7919,6 +7944,8 @@ class _StringsKo extends _StringsEn {
 	@override String get manage_audio_sources => '??? ?? ??';
 	@override String get local_audio => '?? ???';
 	@override String get local_audio_not_set => '??????? ???? ?????';
+	@override String get local_audio_add_db => 'Add database';
+	@override String get local_audio_priority => 'Priority';
 	@override String get dialog_select_dictionary_type => '?? ?? ??';
 	@override String get dictionary_section_frequency => '?? ??';
 	@override String get dictionary_section_pitch => '?? ??';
@@ -8766,6 +8793,8 @@ class _StringsNl extends _StringsEn {
 	@override String get manage_audio_sources => 'Audiobronnen beheren';
 	@override String get local_audio => 'Lokale audio';
 	@override String get local_audio_not_set => 'Geen database geselecteerd';
+	@override String get local_audio_add_db => 'Add database';
+	@override String get local_audio_priority => 'Priority';
 	@override String get use_recommended_template => 'Aanbevolen';
 	@override String get recommended_template_exists => 'Het standaardprofiel bestaat al.';
 	@override String get recommended_template_created => 'Aanbevolen profiel is aangemaakt.';
@@ -9683,6 +9712,8 @@ class _StringsPtBr extends _StringsEn {
 	@override String get manage_audio_sources => 'Gerenciar fontes de áudio';
 	@override String get local_audio => 'áudio local';
 	@override String get local_audio_not_set => 'Nenhum banco de dados selecionado';
+	@override String get local_audio_add_db => 'Add database';
+	@override String get local_audio_priority => 'Priority';
 	@override String get dialog_select_dictionary_type => 'Selecionar tipo de dicionário';
 	@override String get dictionary_section_frequency => 'Dicionários de frequência';
 	@override String get dictionary_section_pitch => 'Dicionários de tom';
@@ -10565,6 +10596,8 @@ class _StringsRu extends _StringsEn {
 	@override String get manage_audio_sources => 'Управление аудиоисточниками';
 	@override String get local_audio => 'Локальное аудио';
 	@override String get local_audio_not_set => 'База данных не выбрана';
+	@override String get local_audio_add_db => 'Add database';
+	@override String get local_audio_priority => 'Priority';
 	@override String get dialog_select_dictionary_type => 'Выберите тип словаря';
 	@override String get dictionary_section_frequency => 'Словари частотности';
 	@override String get dictionary_section_pitch => 'Словари высоты тона';
@@ -11447,6 +11480,8 @@ class _StringsTh extends _StringsEn {
 	@override String get manage_audio_sources => '????????????????';
 	@override String get local_audio => '??????????????';
 	@override String get local_audio_not_set => '???????????????????????';
+	@override String get local_audio_add_db => 'Add database';
+	@override String get local_audio_priority => 'Priority';
 	@override String get dialog_select_dictionary_type => '????????????????????';
 	@override String get dictionary_section_frequency => '????????????????';
 	@override String get dictionary_section_pitch => '???????????????????';
@@ -12294,6 +12329,8 @@ class _StringsTr extends _StringsEn {
 	@override String get manage_audio_sources => 'Ses kaynaklar?n? y?net';
 	@override String get local_audio => 'Yerel ses';
 	@override String get local_audio_not_set => 'Veritaban? se?ilmedi';
+	@override String get local_audio_add_db => 'Add database';
+	@override String get local_audio_priority => 'Priority';
 	@override String get use_recommended_template => '?nerilen';
 	@override String get recommended_template_exists => 'Standart profil zaten mevcut.';
 	@override String get recommended_template_created => '?nerilen profil olu?turuldu.';
@@ -13211,6 +13248,8 @@ class _StringsVi extends _StringsEn {
 	@override String get manage_audio_sources => 'Qu?n ly ngu?n am thanh';
 	@override String get local_audio => '?m thanh c?c b?';
 	@override String get local_audio_not_set => 'Ch?a ch?n c? s? d? li?u';
+	@override String get local_audio_add_db => 'Add database';
+	@override String get local_audio_priority => 'Priority';
 	@override String get dialog_select_dictionary_type => 'Ch?n lo?i t? ?i?n';
 	@override String get dictionary_section_frequency => 'T? ?i?n t?n su?t';
 	@override String get dictionary_section_pitch => 'T? ?i?n thanh ?i?u';
@@ -14112,6 +14151,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get manage_audio_sources => '管理音频来源';
 	@override String get local_audio => '本地音频';
 	@override String get local_audio_not_set => '未选择数据库';
+	@override String get local_audio_add_db => 'Add database';
+	@override String get local_audio_priority => 'Priority';
 	@override String get use_recommended_template => '推荐模板';
 	@override String get recommended_template_exists => '标准配置已存在。';
 	@override String get recommended_template_created => '已创建推荐配置。';
@@ -14999,6 +15040,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get manage_audio_sources => '管理音訊來源';
 	@override String get local_audio => '本地音頻';
 	@override String get local_audio_not_set => '未選擇資料庫';
+	@override String get local_audio_add_db => 'Add database';
+	@override String get local_audio_priority => 'Priority';
 	@override String get dialog_select_dictionary_type => '選擇辭典類型';
 	@override String get dictionary_section_frequency => '詞頻辭典';
 	@override String get dictionary_section_pitch => '音調辭典';
@@ -15884,6 +15927,8 @@ extension on _StringsEn {
 			case 'manage_audio_sources': return 'Manage audio sources';
 			case 'local_audio': return 'Local audio';
 			case 'local_audio_not_set': return 'No database selected';
+			case 'local_audio_add_db': return 'Add database';
+			case 'local_audio_priority': return 'Priority';
 			case 'use_recommended_template': return 'Recommended';
 			case 'recommended_template_exists': return 'The standard profile already exists.';
 			case 'recommended_template_created': return 'Recommended profile has been created.';
@@ -16711,6 +16756,8 @@ extension on _StringsAr {
 			case 'manage_audio_sources': return 'إدارة مصادر الصوت';
 			case 'local_audio': return 'صوت محلي';
 			case 'local_audio_not_set': return 'لم يتم اختيار قاعدة بيانات';
+			case 'local_audio_add_db': return 'Add database';
+			case 'local_audio_priority': return 'Priority';
 			case 'use_recommended_template': return 'موصى به';
 			case 'recommended_template_exists': return 'الملف الشخصي القياسي موجود بالفعل.';
 			case 'recommended_template_created': return 'تم إنشاء الملف الشخصي الموصى به.';
@@ -17575,6 +17622,8 @@ extension on _StringsDe {
 			case 'manage_audio_sources': return 'Audioquellen verwalten';
 			case 'local_audio': return 'Lokales Audio';
 			case 'local_audio_not_set': return 'Keine Datenbank ausgew?hlt';
+			case 'local_audio_add_db': return 'Add database';
+			case 'local_audio_priority': return 'Priority';
 			case 'dialog_select_dictionary_type': return 'W?rterbuchtyp ausw?hlen';
 			case 'dictionary_section_frequency': return 'H?ufigkeitsw?rterbücher';
 			case 'dictionary_section_pitch': return 'Tonh?henw?rterbücher';
@@ -18416,6 +18465,8 @@ extension on _StringsEs {
 			case 'manage_audio_sources': return 'Gestionar fuentes de audio';
 			case 'local_audio': return 'Audio local';
 			case 'local_audio_not_set': return 'No se seleccionó base de datos';
+			case 'local_audio_add_db': return 'Add database';
+			case 'local_audio_priority': return 'Priority';
 			case 'dialog_select_dictionary_type': return 'Seleccionar tipo de diccionario';
 			case 'dictionary_section_frequency': return 'Diccionarios de frecuencia';
 			case 'dictionary_section_pitch': return 'Diccionarios de tono';
@@ -19257,6 +19308,8 @@ extension on _StringsFr {
 			case 'manage_audio_sources': return 'Gérer les sources audio';
 			case 'local_audio': return 'Audio local';
 			case 'local_audio_not_set': return 'Aucune base de données sélectionnée';
+			case 'local_audio_add_db': return 'Add database';
+			case 'local_audio_priority': return 'Priority';
 			case 'dialog_select_dictionary_type': return 'Sélectionner le type de dictionnaire';
 			case 'dictionary_section_frequency': return 'Dictionnaires de fréquence';
 			case 'dictionary_section_pitch': return 'Dictionnaires d\'accent tonal';
@@ -20098,6 +20151,8 @@ extension on _StringsId {
 			case 'manage_audio_sources': return 'Kelola sumber audio';
 			case 'local_audio': return 'Audio lokal';
 			case 'local_audio_not_set': return 'Tidak ada database yang dipilih';
+			case 'local_audio_add_db': return 'Add database';
+			case 'local_audio_priority': return 'Priority';
 			case 'dialog_select_dictionary_type': return 'Pilih jenis kamus';
 			case 'dictionary_section_frequency': return 'Kamus Frekuensi';
 			case 'dictionary_section_pitch': return 'Kamus Nada';
@@ -20904,6 +20959,8 @@ extension on _StringsIt {
 			case 'manage_audio_sources': return 'Gestisci sorgenti audio';
 			case 'local_audio': return 'Audio locale';
 			case 'local_audio_not_set': return 'Nessun database selezionato';
+			case 'local_audio_add_db': return 'Add database';
+			case 'local_audio_priority': return 'Priority';
 			case 'use_recommended_template': return 'Raccomandato';
 			case 'recommended_template_exists': return 'Il profilo standard esiste già.';
 			case 'recommended_template_created': return 'Il profilo raccomandato è stato creato.';
@@ -21749,6 +21806,8 @@ extension on _StringsJa {
 			case 'manage_audio_sources': return '音声ソースの管理';
 			case 'local_audio': return 'ローカル音声';
 			case 'local_audio_not_set': return 'データベース未選択';
+			case 'local_audio_add_db': return 'Add database';
+			case 'local_audio_priority': return 'Priority';
 			case 'use_recommended_template': return '推奨';
 			case 'recommended_template_exists': return '標準プロファイルは既に存在します。';
 			case 'recommended_template_created': return '推奨プロファイルを作成しました。';
@@ -22621,6 +22680,8 @@ extension on _StringsKo {
 			case 'manage_audio_sources': return '??? ?? ??';
 			case 'local_audio': return '?? ???';
 			case 'local_audio_not_set': return '??????? ???? ?????';
+			case 'local_audio_add_db': return 'Add database';
+			case 'local_audio_priority': return 'Priority';
 			case 'dialog_select_dictionary_type': return '?? ?? ??';
 			case 'dictionary_section_frequency': return '?? ??';
 			case 'dictionary_section_pitch': return '?? ??';
@@ -23427,6 +23488,8 @@ extension on _StringsNl {
 			case 'manage_audio_sources': return 'Audiobronnen beheren';
 			case 'local_audio': return 'Lokale audio';
 			case 'local_audio_not_set': return 'Geen database geselecteerd';
+			case 'local_audio_add_db': return 'Add database';
+			case 'local_audio_priority': return 'Priority';
 			case 'use_recommended_template': return 'Aanbevolen';
 			case 'recommended_template_exists': return 'Het standaardprofiel bestaat al.';
 			case 'recommended_template_created': return 'Aanbevolen profiel is aangemaakt.';
@@ -24303,6 +24366,8 @@ extension on _StringsPtBr {
 			case 'manage_audio_sources': return 'Gerenciar fontes de áudio';
 			case 'local_audio': return 'áudio local';
 			case 'local_audio_not_set': return 'Nenhum banco de dados selecionado';
+			case 'local_audio_add_db': return 'Add database';
+			case 'local_audio_priority': return 'Priority';
 			case 'dialog_select_dictionary_type': return 'Selecionar tipo de dicionário';
 			case 'dictionary_section_frequency': return 'Dicionários de frequência';
 			case 'dictionary_section_pitch': return 'Dicionários de tom';
@@ -25144,6 +25209,8 @@ extension on _StringsRu {
 			case 'manage_audio_sources': return 'Управление аудиоисточниками';
 			case 'local_audio': return 'Локальное аудио';
 			case 'local_audio_not_set': return 'База данных не выбрана';
+			case 'local_audio_add_db': return 'Add database';
+			case 'local_audio_priority': return 'Priority';
 			case 'dialog_select_dictionary_type': return 'Выберите тип словаря';
 			case 'dictionary_section_frequency': return 'Словари частотности';
 			case 'dictionary_section_pitch': return 'Словари высоты тона';
@@ -25985,6 +26052,8 @@ extension on _StringsTh {
 			case 'manage_audio_sources': return '????????????????';
 			case 'local_audio': return '??????????????';
 			case 'local_audio_not_set': return '???????????????????????';
+			case 'local_audio_add_db': return 'Add database';
+			case 'local_audio_priority': return 'Priority';
 			case 'dialog_select_dictionary_type': return '????????????????????';
 			case 'dictionary_section_frequency': return '????????????????';
 			case 'dictionary_section_pitch': return '???????????????????';
@@ -26791,6 +26860,8 @@ extension on _StringsTr {
 			case 'manage_audio_sources': return 'Ses kaynaklar?n? y?net';
 			case 'local_audio': return 'Yerel ses';
 			case 'local_audio_not_set': return 'Veritaban? se?ilmedi';
+			case 'local_audio_add_db': return 'Add database';
+			case 'local_audio_priority': return 'Priority';
 			case 'use_recommended_template': return '?nerilen';
 			case 'recommended_template_exists': return 'Standart profil zaten mevcut.';
 			case 'recommended_template_created': return '?nerilen profil olu?turuldu.';
@@ -27667,6 +27738,8 @@ extension on _StringsVi {
 			case 'manage_audio_sources': return 'Qu?n ly ngu?n am thanh';
 			case 'local_audio': return '?m thanh c?c b?';
 			case 'local_audio_not_set': return 'Ch?a ch?n c? s? d? li?u';
+			case 'local_audio_add_db': return 'Add database';
+			case 'local_audio_priority': return 'Priority';
 			case 'dialog_select_dictionary_type': return 'Ch?n lo?i t? ?i?n';
 			case 'dictionary_section_frequency': return 'T? ?i?n t?n su?t';
 			case 'dictionary_section_pitch': return 'T? ?i?n thanh ?i?u';
@@ -28527,6 +28600,8 @@ extension on _StringsZhCn {
 			case 'manage_audio_sources': return '管理音频来源';
 			case 'local_audio': return '本地音频';
 			case 'local_audio_not_set': return '未选择数据库';
+			case 'local_audio_add_db': return 'Add database';
+			case 'local_audio_priority': return 'Priority';
 			case 'use_recommended_template': return '推荐模板';
 			case 'recommended_template_exists': return '标准配置已存在。';
 			case 'recommended_template_created': return '已创建推荐配置。';
@@ -29373,6 +29448,8 @@ extension on _StringsZhHk {
 			case 'manage_audio_sources': return '管理音訊來源';
 			case 'local_audio': return '本地音頻';
 			case 'local_audio_not_set': return '未選擇資料庫';
+			case 'local_audio_add_db': return 'Add database';
+			case 'local_audio_priority': return 'Priority';
 			case 'dialog_select_dictionary_type': return '選擇辭典類型';
 			case 'dictionary_section_frequency': return '詞頻辭典';
 			case 'dictionary_section_pitch': return '音調辭典';
