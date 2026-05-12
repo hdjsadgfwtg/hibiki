@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 14095 (829 per locale)
+/// Strings: 14096 (829 per locale)
 ///
-/// Built on 2026-05-12 at 15:30 UTC
+/// Built on 2026-05-12 at 15:46 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -208,6 +208,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get dictionary_section_pitch => 'Pitch Dictionaries';
 	String get custom_dict_css => 'Custom CSS';
 	String get custom_dict_css_global => 'Global (all dictionaries)';
+	String get custom_dict_css_saved => 'CSS saved';
 	String get dialog_close => 'CLOSE';
 	String get dialog_clear => 'CLEAR';
 	String get dialog_clear_all_dictionaries => 'Delete All Dictionaries';
@@ -15183,6 +15184,7 @@ extension on _StringsEn {
 			case 'dictionary_section_pitch': return 'Pitch Dictionaries';
 			case 'custom_dict_css': return 'Custom CSS';
 			case 'custom_dict_css_global': return 'Global (all dictionaries)';
+			case 'custom_dict_css_saved': return 'CSS saved';
 			case 'dialog_close': return 'CLOSE';
 			case 'dialog_clear': return 'CLEAR';
 			case 'dialog_clear_all_dictionaries': return 'Delete All Dictionaries';
