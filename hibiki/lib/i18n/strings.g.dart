@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 14179 (834 per locale)
+/// Strings: 14180 (834 per locale)
 ///
-/// Built on 2026-05-12 at 18:03 UTC
+/// Built on 2026-05-12 at 18:06 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1019,6 +1019,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String tag_delete_confirm({required Object name}) => 'Delete tag "${name}"? This will remove it from all books.';
 	String get tag_color => 'Color';
 	String tag_book_count({required Object count}) => '${count} books';
+	String tag_added_to_book({required Object name}) => 'Added tag "${name}"';
 	String get miscellaneous_settings => 'Miscellaneous';
 	String get app_icon_label => 'App Icon';
 	String get icon_default => 'Default';
@@ -16084,6 +16085,7 @@ extension on _StringsEn {
 			case 'tag_delete_confirm': return ({required Object name}) => 'Delete tag "${name}"? This will remove it from all books.';
 			case 'tag_color': return 'Color';
 			case 'tag_book_count': return ({required Object count}) => '${count} books';
+			case 'tag_added_to_book': return ({required Object name}) => 'Added tag "${name}"';
 			case 'miscellaneous_settings': return 'Miscellaneous';
 			case 'app_icon_label': return 'App Icon';
 			case 'icon_default': return 'Default';
