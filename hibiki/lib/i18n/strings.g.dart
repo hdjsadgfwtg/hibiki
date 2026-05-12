@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 14142 (831 per locale)
 ///
-/// Built on 2026-05-12 at 03:16 UTC
+/// Built on 2026-05-12 at 03:25 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1011,9 +1011,9 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get tag_name_hint => 'Tag name';
 	String get tag_name_empty => 'Tag name cannot be empty';
 	String get tag_name_duplicate => 'A tag with this name already exists';
-	String get tag_delete_confirm => 'Delete tag "{name}"? This will remove it from all books.';
+	String tag_delete_confirm({required Object name}) => 'Delete tag "${name}"? This will remove it from all books.';
 	String get tag_color => 'Color';
-	String get tag_book_count => '{count} books';
+	String tag_book_count({required Object count}) => '${count} books';
 	String get miscellaneous_settings => 'Miscellaneous';
 	String get app_icon_label => 'App Icon';
 	String get icon_default => 'Default';
@@ -16039,9 +16039,9 @@ extension on _StringsEn {
 			case 'tag_name_hint': return 'Tag name';
 			case 'tag_name_empty': return 'Tag name cannot be empty';
 			case 'tag_name_duplicate': return 'A tag with this name already exists';
-			case 'tag_delete_confirm': return 'Delete tag "{name}"? This will remove it from all books.';
+			case 'tag_delete_confirm': return ({required Object name}) => 'Delete tag "${name}"? This will remove it from all books.';
 			case 'tag_color': return 'Color';
-			case 'tag_book_count': return '{count} books';
+			case 'tag_book_count': return ({required Object count}) => '${count} books';
 			case 'miscellaneous_settings': return 'Miscellaneous';
 			case 'app_icon_label': return 'App Icon';
 			case 'icon_default': return 'Default';
