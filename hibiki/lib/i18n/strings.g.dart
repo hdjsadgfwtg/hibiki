@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 14197 (835 per locale)
+/// Strings: 14198 (835 per locale)
 ///
-/// Built on 2026-05-12 at 18:46 UTC
+/// Built on 2026-05-12 at 18:57 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -893,6 +893,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get profile_default_name => 'Default';
 	String get profile_follow_default => 'Follow Default';
 	String profile_follow_default_current({required Object name}) => 'Follow Default (current: ${name})';
+	String get profile_book_profile => 'Book Profile';
 	String get profile_cannot_delete_last => 'Cannot delete the last profile';
 	String profile_confirm_delete({required Object name}) => 'Delete profile "${name}"?';
 	String get profile_media_type_bindings => 'Media Type Defaults';
@@ -15976,6 +15977,7 @@ extension on _StringsEn {
 			case 'profile_default_name': return 'Default';
 			case 'profile_follow_default': return 'Follow Default';
 			case 'profile_follow_default_current': return ({required Object name}) => 'Follow Default (current: ${name})';
+			case 'profile_book_profile': return 'Book Profile';
 			case 'profile_cannot_delete_last': return 'Cannot delete the last profile';
 			case 'profile_confirm_delete': return ({required Object name}) => 'Delete profile "${name}"?';
 			case 'profile_media_type_bindings': return 'Media Type Defaults';
