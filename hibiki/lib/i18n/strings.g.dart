@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 14180 (834 per locale)
+/// Strings: 14197 (835 per locale)
 ///
-/// Built on 2026-05-12 at 18:06 UTC
+/// Built on 2026-05-12 at 18:46 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -883,6 +883,23 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
 	String get native_dictionary_popup => 'Native dictionary popup (e-ink)';
 	String get update_settings => 'Update Settings';
+	String get profile_label => 'Profile';
+	String get profile_management => 'Profile Management';
+	String get profile_create => 'Create Profile';
+	String get profile_rename => 'Rename Profile';
+	String get profile_delete => 'Delete Profile';
+	String get profile_copy => 'Copy Profile';
+	String get profile_name_hint => 'Profile name';
+	String get profile_default_name => 'Default';
+	String get profile_follow_default => 'Follow Default';
+	String profile_follow_default_current({required Object name}) => 'Follow Default (current: ${name})';
+	String get profile_cannot_delete_last => 'Cannot delete the last profile';
+	String profile_confirm_delete({required Object name}) => 'Delete profile "${name}"?';
+	String get profile_media_type_bindings => 'Media Type Defaults';
+	String get profile_media_epub => 'EPUB';
+	String get profile_media_audiobook => 'Audiobook';
+	String get profile_media_video => 'Video';
+	String get profile_media_none => 'None';
 	String get anki_settings_label => 'Anki Settings';
 	String get anki_default_deck => 'Default Deck';
 	String get anki_default_deck_hint => 'Cards will be added to this deck by default when exporting from the card creator.\nTo create a new deck, please create it in AnkiDroid first.';
@@ -1383,7 +1400,6 @@ class _StringsAr extends _StringsEn {
 	@override String get manager => 'المدير';
 	@override String get volume_button_page_turning => 'تقليب الصفحات بأزرار الصوت';
 	@override String get invert_volume_buttons => 'عكس أزرار الصوت';
-	@override String get volume_key_sentence_nav => 'مفاتيح الصوت للتنقل بين الجمل (الكتاب الصوتي)';
 	@override String get volume_button_turning_speed => 'سرعة تقليب الصفحات';
 	@override String get extend_page_beyond_navbar => 'تمديد الصفحة خلف شريط التنقل';
 	@override String get keep_screen_awake => 'إبقاء الشاشة مستيقظة';
@@ -2260,7 +2276,6 @@ class _StringsDe extends _StringsEn {
 	@override String get manager => 'Verwalter';
 	@override String get volume_button_page_turning => 'Seitenbl?ttern mit Lautst?rketasten';
 	@override String get invert_volume_buttons => 'Lautst?rketasten invertieren';
-	@override String get volume_key_sentence_nav => 'Lautstärketasten navigieren Sätze (Hörbuch)';
 	@override String get volume_button_turning_speed => 'Kontinuierliche Scrollgeschwindigkeit';
 	@override String get extend_page_beyond_navbar => 'Seite über Navigationsleiste hinaus erweitern';
 	@override String get keep_screen_awake => 'Bildschirm eingeschaltet lassen';
@@ -3145,7 +3160,6 @@ class _StringsEs extends _StringsEn {
 	@override String get manager => 'Gestor';
 	@override String get volume_button_page_turning => 'Pasar página con botones de volumen';
 	@override String get invert_volume_buttons => 'Invertir botones de volumen';
-	@override String get volume_key_sentence_nav => 'Teclas de volumen navegan oraciones (audiolibro)';
 	@override String get volume_button_turning_speed => 'Velocidad de desplazamiento continuo';
 	@override String get extend_page_beyond_navbar => 'Extender página más allá de la barra de navegación';
 	@override String get keep_screen_awake => 'Mantener pantalla encendida';
@@ -4030,7 +4044,6 @@ class _StringsFr extends _StringsEn {
 	@override String get manager => 'Gestionnaire';
 	@override String get volume_button_page_turning => 'Tourner les pages avec les boutons de volume';
 	@override String get invert_volume_buttons => 'Inverser les boutons de volume';
-	@override String get volume_key_sentence_nav => 'Touches de volume pour naviguer les phrases (livre audio)';
 	@override String get volume_button_turning_speed => 'Vitesse de défilement continu';
 	@override String get extend_page_beyond_navbar => 'étendre la page au-delà de la barre de navigation';
 	@override String get keep_screen_awake => 'Garder l\'écran allumé';
@@ -4915,7 +4928,6 @@ class _StringsId extends _StringsEn {
 	@override String get manager => 'Manajer';
 	@override String get volume_button_page_turning => 'Tombol volume untuk ganti halaman';
 	@override String get invert_volume_buttons => 'Balik tombol volume';
-	@override String get volume_key_sentence_nav => 'Tombol volume navigasi kalimat (buku audio)';
 	@override String get volume_button_turning_speed => 'Kecepatan scroll berkelanjutan';
 	@override String get extend_page_beyond_navbar => 'Perluas halaman melewati navigation bar';
 	@override String get keep_screen_awake => 'Layar selalu menyala';
@@ -5808,7 +5820,6 @@ class _StringsIt extends _StringsEn {
 	@override String get manager => 'Gestore';
 	@override String get volume_button_page_turning => 'Cambia pagina con i tasti volume';
 	@override String get invert_volume_buttons => 'Inverti tasti volume';
-	@override String get volume_key_sentence_nav => 'Tasti volume per navigare le frasi (audiolibro)';
 	@override String get volume_button_turning_speed => 'Velocità di scorrimento continuo';
 	@override String get extend_page_beyond_navbar => 'Estendi pagina oltre la barra di navigazione';
 	@override String get keep_screen_awake => 'Mantieni lo schermo acceso';
@@ -6685,7 +6696,6 @@ class _StringsJa extends _StringsEn {
 	@override String get manager => '管理';
 	@override String get volume_button_page_turning => '音量ボタンでページ送り';
 	@override String get invert_volume_buttons => '音量ボタンの方向を反転';
-	@override String get volume_key_sentence_nav => 'オーディオブック再生時に音量キーで文を移動';
 	@override String get invert_swipe_direction => 'スワイプページ送り方向を反転';
 	@override String get volume_button_turning_speed => '音量キーページ送り速度';
 	@override String get extend_page_beyond_navbar => 'ナビゲーションバーの先までページを拡張';
@@ -7570,7 +7580,6 @@ class _StringsKo extends _StringsEn {
 	@override String get manager => '??';
 	@override String get volume_button_page_turning => '?? ???? ??? ???';
 	@override String get invert_volume_buttons => '?? ?? ??';
-	@override String get volume_key_sentence_nav => '오디오북 재생 시 볼륨 키로 문장 이동';
 	@override String get volume_button_turning_speed => '?? ??? ??';
 	@override String get extend_page_beyond_navbar => '????? ? ??? ??? ??';
 	@override String get keep_screen_awake => '?? ?? ??';
@@ -8463,7 +8472,6 @@ class _StringsNl extends _StringsEn {
 	@override String get manager => 'Beheerder';
 	@override String get volume_button_page_turning => 'Pagina\'s omslaan met volumeknoppen';
 	@override String get invert_volume_buttons => 'Volumeknoppen omkeren';
-	@override String get volume_key_sentence_nav => 'Volumeknoppen navigeren zinnen (audioboek)';
 	@override String get volume_button_turning_speed => 'Continue scrollsnelheid';
 	@override String get extend_page_beyond_navbar => 'Pagina voorbij navigatiebalk uitbreiden';
 	@override String get keep_screen_awake => 'Scherm aan houden';
@@ -9340,7 +9348,6 @@ class _StringsPtBr extends _StringsEn {
 	@override String get manager => 'Gerenciador';
 	@override String get volume_button_page_turning => 'Virar página com bot?o de volume';
 	@override String get invert_volume_buttons => 'Inverter bot?es de volume';
-	@override String get volume_key_sentence_nav => 'Teclas de volume navegam frases (audiolivro)';
 	@override String get volume_button_turning_speed => 'Velocidade de rolagem contínua';
 	@override String get extend_page_beyond_navbar => 'Estender página além da barra de navega??o';
 	@override String get keep_screen_awake => 'Manter tela ligada';
@@ -10225,7 +10232,6 @@ class _StringsRu extends _StringsEn {
 	@override String get manager => 'Менеджер';
 	@override String get volume_button_page_turning => 'Перелистывание кнопками громкости';
 	@override String get invert_volume_buttons => 'Инвертировать кнопки громкости';
-	@override String get volume_key_sentence_nav => 'Кнопки громкости для навигации по предложениям (аудиокнига)';
 	@override String get volume_button_turning_speed => 'Скорость непрерывной прокрутки';
 	@override String get extend_page_beyond_navbar => 'Расширить страницу за навигационную панель';
 	@override String get keep_screen_awake => 'Не выключать экран';
@@ -11110,7 +11116,6 @@ class _StringsTh extends _StringsEn {
 	@override String get manager => '??????';
 	@override String get volume_button_page_turning => '???????????????????????';
 	@override String get invert_volume_buttons => '?????????????';
-	@override String get volume_key_sentence_nav => 'ปุ่มเสียงนำทางประโยค (หนังสือเสียง)';
 	@override String get volume_button_turning_speed => '???????????????????????';
 	@override String get extend_page_beyond_navbar => '????????????????????';
 	@override String get keep_screen_awake => '??????????????';
@@ -12003,7 +12008,6 @@ class _StringsTr extends _StringsEn {
 	@override String get manager => 'Y?netici';
 	@override String get volume_button_page_turning => 'Ses dü?meleriyle sayfa ?evirme';
 	@override String get invert_volume_buttons => 'Ses dü?melerini ters ?evir';
-	@override String get volume_key_sentence_nav => 'Ses düğmeleriyle cümle gezinme (sesli kitap)';
 	@override String get volume_button_turning_speed => 'Sürekli kayd?rma h?z?';
 	@override String get extend_page_beyond_navbar => 'Sayfay? gezinme ?ubu?unun ?tesine geni?let';
 	@override String get keep_screen_awake => 'Ekran? a??k tut';
@@ -12880,7 +12884,6 @@ class _StringsVi extends _StringsEn {
 	@override String get manager => 'Qu?n ly';
 	@override String get volume_button_page_turning => 'L?t trang b?ng nút am l??ng';
 	@override String get invert_volume_buttons => '??o ng??c nút am l??ng';
-	@override String get volume_key_sentence_nav => 'Phím âm lượng điều hướng câu (sách nói)';
 	@override String get volume_button_turning_speed => 'T?c ?? cu?n liên t?c';
 	@override String get extend_page_beyond_navbar => 'M? r?ng trang qua thanh ?i?u h??ng';
 	@override String get keep_screen_awake => 'Gi? màn hình sáng';
@@ -13776,7 +13779,6 @@ class _StringsZhCn extends _StringsEn {
 	@override String get manager => '管理器';
 	@override String get volume_button_page_turning => '音量键翻页';
 	@override String get invert_volume_buttons => '反转音量键方向';
-	@override String get volume_key_sentence_nav => '有声书时音量键跳转句子';
 	@override String get invert_swipe_direction => '反转滑动翻页方向';
 	@override String get volume_button_turning_speed => '音量键翻页速度';
 	@override String get extend_page_beyond_navbar => '页面延伸至导航栏之外';
@@ -14662,7 +14664,6 @@ class _StringsZhHk extends _StringsEn {
 	@override String get manager => '管理員';
 	@override String get volume_button_page_turning => '音量鍵翻頁';
 	@override String get invert_volume_buttons => '反轉音量鍵方向';
-	@override String get volume_key_sentence_nav => '有聲書時音量鍵跳轉句子';
 	@override String get invert_swipe_direction => '反轉滑動翻頁方向';
 	@override String get volume_button_turning_speed => '音量鍵翻頁速度';
 	@override String get extend_page_beyond_navbar => '頁面延伸至導覽列之外';
@@ -15965,6 +15966,23 @@ extension on _StringsEn {
 			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
 			case 'native_dictionary_popup': return 'Native dictionary popup (e-ink)';
 			case 'update_settings': return 'Update Settings';
+			case 'profile_label': return 'Profile';
+			case 'profile_management': return 'Profile Management';
+			case 'profile_create': return 'Create Profile';
+			case 'profile_rename': return 'Rename Profile';
+			case 'profile_delete': return 'Delete Profile';
+			case 'profile_copy': return 'Copy Profile';
+			case 'profile_name_hint': return 'Profile name';
+			case 'profile_default_name': return 'Default';
+			case 'profile_follow_default': return 'Follow Default';
+			case 'profile_follow_default_current': return ({required Object name}) => 'Follow Default (current: ${name})';
+			case 'profile_cannot_delete_last': return 'Cannot delete the last profile';
+			case 'profile_confirm_delete': return ({required Object name}) => 'Delete profile "${name}"?';
+			case 'profile_media_type_bindings': return 'Media Type Defaults';
+			case 'profile_media_epub': return 'EPUB';
+			case 'profile_media_audiobook': return 'Audiobook';
+			case 'profile_media_video': return 'Video';
+			case 'profile_media_none': return 'None';
 			case 'anki_settings_label': return 'Anki Settings';
 			case 'anki_default_deck': return 'Default Deck';
 			case 'anki_default_deck_hint': return 'Cards will be added to this deck by default when exporting from the card creator.\nTo create a new deck, please create it in AnkiDroid first.';
@@ -16418,7 +16436,6 @@ extension on _StringsAr {
 			case 'manager': return 'المدير';
 			case 'volume_button_page_turning': return 'تقليب الصفحات بأزرار الصوت';
 			case 'invert_volume_buttons': return 'عكس أزرار الصوت';
-			case 'volume_key_sentence_nav': return 'مفاتيح الصوت للتنقل بين الجمل (الكتاب الصوتي)';
 			case 'volume_button_turning_speed': return 'سرعة تقليب الصفحات';
 			case 'extend_page_beyond_navbar': return 'تمديد الصفحة خلف شريط التنقل';
 			case 'keep_screen_awake': return 'إبقاء الشاشة مستيقظة';
@@ -17254,7 +17271,6 @@ extension on _StringsDe {
 			case 'manager': return 'Verwalter';
 			case 'volume_button_page_turning': return 'Seitenbl?ttern mit Lautst?rketasten';
 			case 'invert_volume_buttons': return 'Lautst?rketasten invertieren';
-			case 'volume_key_sentence_nav': return 'Lautstärketasten navigieren Sätze (Hörbuch)';
 			case 'volume_button_turning_speed': return 'Kontinuierliche Scrollgeschwindigkeit';
 			case 'extend_page_beyond_navbar': return 'Seite über Navigationsleiste hinaus erweitern';
 			case 'keep_screen_awake': return 'Bildschirm eingeschaltet lassen';
@@ -18098,7 +18114,6 @@ extension on _StringsEs {
 			case 'manager': return 'Gestor';
 			case 'volume_button_page_turning': return 'Pasar página con botones de volumen';
 			case 'invert_volume_buttons': return 'Invertir botones de volumen';
-			case 'volume_key_sentence_nav': return 'Teclas de volumen navegan oraciones (audiolibro)';
 			case 'volume_button_turning_speed': return 'Velocidad de desplazamiento continuo';
 			case 'extend_page_beyond_navbar': return 'Extender página más allá de la barra de navegación';
 			case 'keep_screen_awake': return 'Mantener pantalla encendida';
@@ -18942,7 +18957,6 @@ extension on _StringsFr {
 			case 'manager': return 'Gestionnaire';
 			case 'volume_button_page_turning': return 'Tourner les pages avec les boutons de volume';
 			case 'invert_volume_buttons': return 'Inverser les boutons de volume';
-			case 'volume_key_sentence_nav': return 'Touches de volume pour naviguer les phrases (livre audio)';
 			case 'volume_button_turning_speed': return 'Vitesse de défilement continu';
 			case 'extend_page_beyond_navbar': return 'étendre la page au-delà de la barre de navigation';
 			case 'keep_screen_awake': return 'Garder l\'écran allumé';
@@ -19786,7 +19800,6 @@ extension on _StringsId {
 			case 'manager': return 'Manajer';
 			case 'volume_button_page_turning': return 'Tombol volume untuk ganti halaman';
 			case 'invert_volume_buttons': return 'Balik tombol volume';
-			case 'volume_key_sentence_nav': return 'Tombol volume navigasi kalimat (buku audio)';
 			case 'volume_button_turning_speed': return 'Kecepatan scroll berkelanjutan';
 			case 'extend_page_beyond_navbar': return 'Perluas halaman melewati navigation bar';
 			case 'keep_screen_awake': return 'Layar selalu menyala';
@@ -20638,7 +20651,6 @@ extension on _StringsIt {
 			case 'manager': return 'Gestore';
 			case 'volume_button_page_turning': return 'Cambia pagina con i tasti volume';
 			case 'invert_volume_buttons': return 'Inverti tasti volume';
-			case 'volume_key_sentence_nav': return 'Tasti volume per navigare le frasi (audiolibro)';
 			case 'volume_button_turning_speed': return 'Velocità di scorrimento continuo';
 			case 'extend_page_beyond_navbar': return 'Estendi pagina oltre la barra di navigazione';
 			case 'keep_screen_awake': return 'Mantieni lo schermo acceso';
@@ -21474,7 +21486,6 @@ extension on _StringsJa {
 			case 'manager': return '管理';
 			case 'volume_button_page_turning': return '音量ボタンでページ送り';
 			case 'invert_volume_buttons': return '音量ボタンの方向を反転';
-			case 'volume_key_sentence_nav': return 'オーディオブック再生時に音量キーで文を移動';
 			case 'invert_swipe_direction': return 'スワイプページ送り方向を反転';
 			case 'volume_button_turning_speed': return '音量キーページ送り速度';
 			case 'extend_page_beyond_navbar': return 'ナビゲーションバーの先までページを拡張';
@@ -22318,7 +22329,6 @@ extension on _StringsKo {
 			case 'manager': return '??';
 			case 'volume_button_page_turning': return '?? ???? ??? ???';
 			case 'invert_volume_buttons': return '?? ?? ??';
-			case 'volume_key_sentence_nav': return '오디오북 재생 시 볼륨 키로 문장 이동';
 			case 'volume_button_turning_speed': return '?? ??? ??';
 			case 'extend_page_beyond_navbar': return '????? ? ??? ??? ??';
 			case 'keep_screen_awake': return '?? ?? ??';
@@ -23170,7 +23180,6 @@ extension on _StringsNl {
 			case 'manager': return 'Beheerder';
 			case 'volume_button_page_turning': return 'Pagina\'s omslaan met volumeknoppen';
 			case 'invert_volume_buttons': return 'Volumeknoppen omkeren';
-			case 'volume_key_sentence_nav': return 'Volumeknoppen navigeren zinnen (audioboek)';
 			case 'volume_button_turning_speed': return 'Continue scrollsnelheid';
 			case 'extend_page_beyond_navbar': return 'Pagina voorbij navigatiebalk uitbreiden';
 			case 'keep_screen_awake': return 'Scherm aan houden';
@@ -24006,7 +24015,6 @@ extension on _StringsPtBr {
 			case 'manager': return 'Gerenciador';
 			case 'volume_button_page_turning': return 'Virar página com bot?o de volume';
 			case 'invert_volume_buttons': return 'Inverter bot?es de volume';
-			case 'volume_key_sentence_nav': return 'Teclas de volume navegam frases (audiolivro)';
 			case 'volume_button_turning_speed': return 'Velocidade de rolagem contínua';
 			case 'extend_page_beyond_navbar': return 'Estender página além da barra de navega??o';
 			case 'keep_screen_awake': return 'Manter tela ligada';
@@ -24850,7 +24858,6 @@ extension on _StringsRu {
 			case 'manager': return 'Менеджер';
 			case 'volume_button_page_turning': return 'Перелистывание кнопками громкости';
 			case 'invert_volume_buttons': return 'Инвертировать кнопки громкости';
-			case 'volume_key_sentence_nav': return 'Кнопки громкости для навигации по предложениям (аудиокнига)';
 			case 'volume_button_turning_speed': return 'Скорость непрерывной прокрутки';
 			case 'extend_page_beyond_navbar': return 'Расширить страницу за навигационную панель';
 			case 'keep_screen_awake': return 'Не выключать экран';
@@ -25694,7 +25701,6 @@ extension on _StringsTh {
 			case 'manager': return '??????';
 			case 'volume_button_page_turning': return '???????????????????????';
 			case 'invert_volume_buttons': return '?????????????';
-			case 'volume_key_sentence_nav': return 'ปุ่มเสียงนำทางประโยค (หนังสือเสียง)';
 			case 'volume_button_turning_speed': return '???????????????????????';
 			case 'extend_page_beyond_navbar': return '????????????????????';
 			case 'keep_screen_awake': return '??????????????';
@@ -26546,7 +26552,6 @@ extension on _StringsTr {
 			case 'manager': return 'Y?netici';
 			case 'volume_button_page_turning': return 'Ses dü?meleriyle sayfa ?evirme';
 			case 'invert_volume_buttons': return 'Ses dü?melerini ters ?evir';
-			case 'volume_key_sentence_nav': return 'Ses düğmeleriyle cümle gezinme (sesli kitap)';
 			case 'volume_button_turning_speed': return 'Sürekli kayd?rma h?z?';
 			case 'extend_page_beyond_navbar': return 'Sayfay? gezinme ?ubu?unun ?tesine geni?let';
 			case 'keep_screen_awake': return 'Ekran? a??k tut';
@@ -27382,7 +27387,6 @@ extension on _StringsVi {
 			case 'manager': return 'Qu?n ly';
 			case 'volume_button_page_turning': return 'L?t trang b?ng nút am l??ng';
 			case 'invert_volume_buttons': return '??o ng??c nút am l??ng';
-			case 'volume_key_sentence_nav': return 'Phím âm lượng điều hướng câu (sách nói)';
 			case 'volume_button_turning_speed': return 'T?c ?? cu?n liên t?c';
 			case 'extend_page_beyond_navbar': return 'M? r?ng trang qua thanh ?i?u h??ng';
 			case 'keep_screen_awake': return 'Gi? màn hình sáng';
@@ -28237,7 +28241,6 @@ extension on _StringsZhCn {
 			case 'manager': return '管理器';
 			case 'volume_button_page_turning': return '音量键翻页';
 			case 'invert_volume_buttons': return '反转音量键方向';
-			case 'volume_key_sentence_nav': return '有声书时音量键跳转句子';
 			case 'invert_swipe_direction': return '反转滑动翻页方向';
 			case 'volume_button_turning_speed': return '音量键翻页速度';
 			case 'extend_page_beyond_navbar': return '页面延伸至导航栏之外';
@@ -29082,7 +29085,6 @@ extension on _StringsZhHk {
 			case 'manager': return '管理員';
 			case 'volume_button_page_turning': return '音量鍵翻頁';
 			case 'invert_volume_buttons': return '反轉音量鍵方向';
-			case 'volume_key_sentence_nav': return '有聲書時音量鍵跳轉句子';
 			case 'invert_swipe_direction': return '反轉滑動翻頁方向';
 			case 'volume_button_turning_speed': return '音量鍵翻頁速度';
 			case 'extend_page_beyond_navbar': return '頁面延伸至導覽列之外';
