@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 14216 (836 per locale)
+/// Strings: 14356 (844 per locale)
 ///
-/// Built on 2026-05-13 at 02:24 UTC
+/// Built on 2026-05-13 at 07:48 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1052,6 +1052,14 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get icon_switch_success => 'Icon switched. Home screen will refresh shortly.';
 	String get icon_shortcut_created => 'Shortcut created';
 	String get icon_shortcut_unsupported => 'Custom shortcuts are not supported on this device';
+	String debug_log_title({required Object count}) => 'Debug Log (${count})';
+	String custom_css_title({required Object name}) => 'Custom CSS — ${name}';
+	String untitled_book({required Object id}) => 'Book ${id}';
+	String auto_chapter({required Object n}) => 'Chapter ${n}';
+	String get floating_dict_title => 'Dictionary';
+	String get no_results_found => 'No results found.';
+	String get preview_switch => 'Switch';
+	String get preview_badge => 'Badge';
 }
 
 // Path: retrying_in
@@ -1937,6 +1945,14 @@ class _StringsAr extends _StringsEn {
 	@override String get color_sasayaki_desc => 'تمييز مزامنة ترجمة الكتاب المسموع';
 	@override String get invert_swipe_direction => 'عكس اتجاه التمرير لقلب الصفحات';
 	@override String get tap_empty_hide_chrome => 'انقر على المنطقة الفارغة لإخفاء عناصر التحكم';
+	@override String debug_log_title({required Object count}) => 'سجل التصحيح (${count})';
+	@override String custom_css_title({required Object name}) => 'CSS مخصص — ${name}';
+	@override String untitled_book({required Object id}) => 'كتاب ${id}';
+	@override String auto_chapter({required Object n}) => 'الفصل ${n}';
+	@override String get floating_dict_title => 'القاموس';
+	@override String get no_results_found => 'لم يتم العثور على نتائج.';
+	@override String get preview_switch => 'مفتاح';
+	@override String get preview_badge => 'شارة';
 }
 
 // Path: retrying_in
@@ -2822,6 +2838,14 @@ class _StringsDe extends _StringsEn {
 	@override String get color_sasayaki_desc => 'Untertitel-Synchronisierung des Hörbuchs';
 	@override String get invert_swipe_direction => 'Wischrichtung zum Blättern umkehren';
 	@override String get tap_empty_hide_chrome => 'Auf leeren Bereich tippen, um Steuerung auszublenden';
+	@override String debug_log_title({required Object count}) => 'Debug-Protokoll (${count})';
+	@override String custom_css_title({required Object name}) => 'Benutzerdefiniertes CSS — ${name}';
+	@override String untitled_book({required Object id}) => 'Buch ${id}';
+	@override String auto_chapter({required Object n}) => 'Kapitel ${n}';
+	@override String get floating_dict_title => 'Wörterbuch';
+	@override String get no_results_found => 'Keine Ergebnisse gefunden.';
+	@override String get preview_switch => 'Schalter';
+	@override String get preview_badge => 'Abzeichen';
 }
 
 // Path: retrying_in
@@ -3707,6 +3731,14 @@ class _StringsEs extends _StringsEn {
 	@override String get color_sasayaki_desc => 'Resaltado de sincronización de subtítulos del audiolibro';
 	@override String get invert_swipe_direction => 'Invertir dirección de deslizamiento para pasar páginas';
 	@override String get tap_empty_hide_chrome => 'Toca un área vacía para ocultar los controles';
+	@override String debug_log_title({required Object count}) => 'Registro de depuración (${count})';
+	@override String custom_css_title({required Object name}) => 'CSS personalizado — ${name}';
+	@override String untitled_book({required Object id}) => 'Libro ${id}';
+	@override String auto_chapter({required Object n}) => 'Capítulo ${n}';
+	@override String get floating_dict_title => 'Diccionario';
+	@override String get no_results_found => 'No se encontraron resultados.';
+	@override String get preview_switch => 'Interruptor';
+	@override String get preview_badge => 'Insignia';
 }
 
 // Path: retrying_in
@@ -4592,6 +4624,14 @@ class _StringsFr extends _StringsEn {
 	@override String get color_sasayaki_desc => 'Surlignage de synchronisation des sous-titres du livre audio';
 	@override String get invert_swipe_direction => 'Inverser la direction du balayage pour tourner les pages';
 	@override String get tap_empty_hide_chrome => 'Appuyez sur une zone vide pour masquer les contrôles';
+	@override String debug_log_title({required Object count}) => 'Journal de débogage (${count})';
+	@override String custom_css_title({required Object name}) => 'CSS personnalisé — ${name}';
+	@override String untitled_book({required Object id}) => 'Livre ${id}';
+	@override String auto_chapter({required Object n}) => 'Chapitre ${n}';
+	@override String get floating_dict_title => 'Dictionnaire';
+	@override String get no_results_found => 'Aucun résultat trouvé.';
+	@override String get preview_switch => 'Interrupteur';
+	@override String get preview_badge => 'Badge';
 }
 
 // Path: retrying_in
@@ -5477,6 +5517,14 @@ class _StringsId extends _StringsEn {
 	@override String get color_sasayaki_desc => 'Sorotan sinkronisasi subtitle buku audio';
 	@override String get invert_swipe_direction => 'Balik arah geser untuk membalik halaman';
 	@override String get tap_empty_hide_chrome => 'Ketuk area kosong untuk menyembunyikan kontrol';
+	@override String debug_log_title({required Object count}) => 'Log debug (${count})';
+	@override String custom_css_title({required Object name}) => 'CSS kustom — ${name}';
+	@override String untitled_book({required Object id}) => 'Buku ${id}';
+	@override String auto_chapter({required Object n}) => 'Bab ${n}';
+	@override String get floating_dict_title => 'Kamus';
+	@override String get no_results_found => 'Tidak ditemukan hasil.';
+	@override String get preview_switch => 'Sakelar';
+	@override String get preview_badge => 'Lencana';
 }
 
 // Path: retrying_in
@@ -6362,6 +6410,14 @@ class _StringsIt extends _StringsEn {
 	@override String get color_sasayaki_desc => 'Evidenziazione sincronizzazione sottotitoli audiolibro';
 	@override String get invert_swipe_direction => 'Inverti direzione scorrimento per voltare pagina';
 	@override String get tap_empty_hide_chrome => 'Tocca un\'area vuota per nascondere i controlli';
+	@override String debug_log_title({required Object count}) => 'Registro di debug (${count})';
+	@override String custom_css_title({required Object name}) => 'CSS personalizzato — ${name}';
+	@override String untitled_book({required Object id}) => 'Libro ${id}';
+	@override String auto_chapter({required Object n}) => 'Capitolo ${n}';
+	@override String get floating_dict_title => 'Dizionario';
+	@override String get no_results_found => 'Nessun risultato trovato.';
+	@override String get preview_switch => 'Interruttore';
+	@override String get preview_badge => 'Distintivo';
 }
 
 // Path: retrying_in
@@ -7247,6 +7303,14 @@ class _StringsJa extends _StringsEn {
 	@override String get color_link_desc => 'リーダーのハイパーリンク色';
 	@override String get color_sasayaki => 'ささやきハイライト';
 	@override String get color_sasayaki_desc => 'オーディオブック字幕同期ハイライト';
+	@override String debug_log_title({required Object count}) => 'デバッグログ (${count})';
+	@override String custom_css_title({required Object name}) => 'カスタム CSS — ${name}';
+	@override String untitled_book({required Object id}) => 'ブック ${id}';
+	@override String auto_chapter({required Object n}) => '第${n}章';
+	@override String get floating_dict_title => '辞書';
+	@override String get no_results_found => '結果が見つかりません。';
+	@override String get preview_switch => 'スイッチ';
+	@override String get preview_badge => 'バッジ';
 }
 
 // Path: retrying_in
@@ -8132,6 +8196,14 @@ class _StringsKo extends _StringsEn {
 	@override String get color_sasayaki_desc => '오디오북 자막 동기화 하이라이트';
 	@override String get invert_swipe_direction => '스와이프 페이지 넘김 방향 반전';
 	@override String get tap_empty_hide_chrome => '빈 영역을 탭하여 컨트롤 숨기기';
+	@override String debug_log_title({required Object count}) => '디버그 로그 (${count})';
+	@override String custom_css_title({required Object name}) => '사용자 CSS — ${name}';
+	@override String untitled_book({required Object id}) => '도서 ${id}';
+	@override String auto_chapter({required Object n}) => '${n}장';
+	@override String get floating_dict_title => '사전';
+	@override String get no_results_found => '결과를 찾을 수 없습니다.';
+	@override String get preview_switch => '스위치';
+	@override String get preview_badge => '배지';
 }
 
 // Path: retrying_in
@@ -9017,6 +9089,14 @@ class _StringsNl extends _StringsEn {
 	@override String get color_sasayaki_desc => 'Markering van ondertitelsynchronisatie van het luisterboek';
 	@override String get invert_swipe_direction => 'Veegrichting voor bladeren omdraaien';
 	@override String get tap_empty_hide_chrome => 'Tik op een leeg gebied om bedieningselementen te verbergen';
+	@override String debug_log_title({required Object count}) => 'Debug-log (${count})';
+	@override String custom_css_title({required Object name}) => 'Aangepaste CSS — ${name}';
+	@override String untitled_book({required Object id}) => 'Boek ${id}';
+	@override String auto_chapter({required Object n}) => 'Hoofdstuk ${n}';
+	@override String get floating_dict_title => 'Woordenboek';
+	@override String get no_results_found => 'Geen resultaten gevonden.';
+	@override String get preview_switch => 'Schakelaar';
+	@override String get preview_badge => 'Badge';
 }
 
 // Path: retrying_in
@@ -9902,6 +9982,14 @@ class _StringsPtBr extends _StringsEn {
 	@override String get color_sasayaki_desc => 'Destaque de sincronização de legendas do audiolivro';
 	@override String get invert_swipe_direction => 'Inverter direção do deslizar para virar páginas';
 	@override String get tap_empty_hide_chrome => 'Toque em uma área vazia para ocultar os controles';
+	@override String debug_log_title({required Object count}) => 'Log de depuração (${count})';
+	@override String custom_css_title({required Object name}) => 'CSS personalizado — ${name}';
+	@override String untitled_book({required Object id}) => 'Livro ${id}';
+	@override String auto_chapter({required Object n}) => 'Capítulo ${n}';
+	@override String get floating_dict_title => 'Dicionário';
+	@override String get no_results_found => 'Nenhum resultado encontrado.';
+	@override String get preview_switch => 'Interruptor';
+	@override String get preview_badge => 'Emblema';
 }
 
 // Path: retrying_in
@@ -10787,6 +10875,14 @@ class _StringsRu extends _StringsEn {
 	@override String get color_sasayaki_desc => 'Подсветка синхронизации субтитров аудиокниги';
 	@override String get invert_swipe_direction => 'Инвертировать направление свайпа для перелистывания';
 	@override String get tap_empty_hide_chrome => 'Нажмите на пустую область, чтобы скрыть панели управления';
+	@override String debug_log_title({required Object count}) => 'Журнал отладки (${count})';
+	@override String custom_css_title({required Object name}) => 'Пользовательский CSS — ${name}';
+	@override String untitled_book({required Object id}) => 'Книга ${id}';
+	@override String auto_chapter({required Object n}) => 'Глава ${n}';
+	@override String get floating_dict_title => 'Словарь';
+	@override String get no_results_found => 'Ничего не найдено.';
+	@override String get preview_switch => 'Переключатель';
+	@override String get preview_badge => 'Значок';
 }
 
 // Path: retrying_in
@@ -11672,6 +11768,14 @@ class _StringsTh extends _StringsEn {
 	@override String get color_sasayaki_desc => 'ไฮไลท์การซิงค์คำบรรยายหนังสือเสียง';
 	@override String get invert_swipe_direction => 'กลับทิศทางการปัดเปลี่ยนหน้า';
 	@override String get tap_empty_hide_chrome => 'แตะพื้นที่ว่างเพื่อซ่อนแถบควบคุม';
+	@override String debug_log_title({required Object count}) => 'บันทึกการดีบัก (${count})';
+	@override String custom_css_title({required Object name}) => 'CSS กำหนดเอง — ${name}';
+	@override String untitled_book({required Object id}) => 'หนังสือ ${id}';
+	@override String auto_chapter({required Object n}) => 'บทที่ ${n}';
+	@override String get floating_dict_title => 'พจนานุกรม';
+	@override String get no_results_found => 'ไม่พบผลลัพธ์';
+	@override String get preview_switch => 'สวิตช์';
+	@override String get preview_badge => 'ป้าย';
 }
 
 // Path: retrying_in
@@ -12557,6 +12661,14 @@ class _StringsTr extends _StringsEn {
 	@override String get color_sasayaki_desc => 'Sesli kitap altyazı senkronizasyon vurgusu';
 	@override String get invert_swipe_direction => 'Kaydırma yönünü tersine çevir';
 	@override String get tap_empty_hide_chrome => 'Kontrolleri gizlemek için boş alana dokunun';
+	@override String debug_log_title({required Object count}) => 'Hata ayıklama günlüğü (${count})';
+	@override String custom_css_title({required Object name}) => 'Özel CSS — ${name}';
+	@override String untitled_book({required Object id}) => 'Kitap ${id}';
+	@override String auto_chapter({required Object n}) => 'Bölüm ${n}';
+	@override String get floating_dict_title => 'Sözlük';
+	@override String get no_results_found => 'Sonuç bulunamadı.';
+	@override String get preview_switch => 'Anahtar';
+	@override String get preview_badge => 'Rozet';
 }
 
 // Path: retrying_in
@@ -13442,6 +13554,14 @@ class _StringsVi extends _StringsEn {
 	@override String get color_sasayaki_desc => 'Tô sáng đồng bộ phụ đề sách nói';
 	@override String get invert_swipe_direction => 'Đảo ngược hướng vuốt lật trang';
 	@override String get tap_empty_hide_chrome => 'Chạm vùng trống để ẩn thanh điều khiển';
+	@override String debug_log_title({required Object count}) => 'Nhật ký gỡ lỗi (${count})';
+	@override String custom_css_title({required Object name}) => 'CSS tùy chỉnh — ${name}';
+	@override String untitled_book({required Object id}) => 'Sách ${id}';
+	@override String auto_chapter({required Object n}) => 'Chương ${n}';
+	@override String get floating_dict_title => 'Từ điển';
+	@override String get no_results_found => 'Không tìm thấy kết quả.';
+	@override String get preview_switch => 'Công tắc';
+	@override String get preview_badge => 'Huy hiệu';
 }
 
 // Path: retrying_in
@@ -14341,6 +14461,14 @@ class _StringsZhCn extends _StringsEn {
 	@override String get icon_switch_success => '图标已切换，桌面将在几秒后刷新';
 	@override String get icon_shortcut_created => '快捷方式已创建';
 	@override String get icon_shortcut_unsupported => '当前设备不支持创建自定义快捷方式';
+	@override String debug_log_title({required Object count}) => '调试日志 (${count})';
+	@override String custom_css_title({required Object name}) => '自定义 CSS — ${name}';
+	@override String untitled_book({required Object id}) => '书籍 ${id}';
+	@override String auto_chapter({required Object n}) => '第 ${n} 章';
+	@override String get floating_dict_title => '词典';
+	@override String get no_results_found => '未找到结果。';
+	@override String get preview_switch => '开关';
+	@override String get preview_badge => '标签';
 }
 
 // Path: retrying_in
@@ -15228,6 +15356,14 @@ class _StringsZhHk extends _StringsEn {
 	@override String get color_link_desc => '閱讀器超連結顏色';
 	@override String get color_sasayaki => 'Sasayaki 醒目標示';
 	@override String get color_sasayaki_desc => '有聲書字幕同步醒目標示';
+	@override String debug_log_title({required Object count}) => '除錯日誌 (${count})';
+	@override String custom_css_title({required Object name}) => '自訂 CSS — ${name}';
+	@override String untitled_book({required Object id}) => '書籍 ${id}';
+	@override String auto_chapter({required Object n}) => '第 ${n} 章';
+	@override String get floating_dict_title => '辭典';
+	@override String get no_results_found => '未找到結果。';
+	@override String get preview_switch => '開關';
+	@override String get preview_badge => '標籤';
 }
 
 // Path: retrying_in
@@ -16158,6 +16294,14 @@ extension on _StringsEn {
 			case 'icon_switch_success': return 'Icon switched. Home screen will refresh shortly.';
 			case 'icon_shortcut_created': return 'Shortcut created';
 			case 'icon_shortcut_unsupported': return 'Custom shortcuts are not supported on this device';
+			case 'debug_log_title': return ({required Object count}) => 'Debug Log (${count})';
+			case 'custom_css_title': return ({required Object name}) => 'Custom CSS — ${name}';
+			case 'untitled_book': return ({required Object id}) => 'Book ${id}';
+			case 'auto_chapter': return ({required Object n}) => 'Chapter ${n}';
+			case 'floating_dict_title': return 'Dictionary';
+			case 'no_results_found': return 'No results found.';
+			case 'preview_switch': return 'Switch';
+			case 'preview_badge': return 'Badge';
 			default: return null;
 		}
 	}
@@ -17002,6 +17146,14 @@ extension on _StringsAr {
 			case 'color_sasayaki_desc': return 'تمييز مزامنة ترجمة الكتاب المسموع';
 			case 'invert_swipe_direction': return 'عكس اتجاه التمرير لقلب الصفحات';
 			case 'tap_empty_hide_chrome': return 'انقر على المنطقة الفارغة لإخفاء عناصر التحكم';
+			case 'debug_log_title': return ({required Object count}) => 'سجل التصحيح (${count})';
+			case 'custom_css_title': return ({required Object name}) => 'CSS مخصص — ${name}';
+			case 'untitled_book': return ({required Object id}) => 'كتاب ${id}';
+			case 'auto_chapter': return ({required Object n}) => 'الفصل ${n}';
+			case 'floating_dict_title': return 'القاموس';
+			case 'no_results_found': return 'لم يتم العثور على نتائج.';
+			case 'preview_switch': return 'مفتاح';
+			case 'preview_badge': return 'شارة';
 			default: return null;
 		}
 	}
@@ -17846,6 +17998,14 @@ extension on _StringsDe {
 			case 'color_sasayaki_desc': return 'Untertitel-Synchronisierung des Hörbuchs';
 			case 'invert_swipe_direction': return 'Wischrichtung zum Blättern umkehren';
 			case 'tap_empty_hide_chrome': return 'Auf leeren Bereich tippen, um Steuerung auszublenden';
+			case 'debug_log_title': return ({required Object count}) => 'Debug-Protokoll (${count})';
+			case 'custom_css_title': return ({required Object name}) => 'Benutzerdefiniertes CSS — ${name}';
+			case 'untitled_book': return ({required Object id}) => 'Buch ${id}';
+			case 'auto_chapter': return ({required Object n}) => 'Kapitel ${n}';
+			case 'floating_dict_title': return 'Wörterbuch';
+			case 'no_results_found': return 'Keine Ergebnisse gefunden.';
+			case 'preview_switch': return 'Schalter';
+			case 'preview_badge': return 'Abzeichen';
 			default: return null;
 		}
 	}
@@ -18690,6 +18850,14 @@ extension on _StringsEs {
 			case 'color_sasayaki_desc': return 'Resaltado de sincronización de subtítulos del audiolibro';
 			case 'invert_swipe_direction': return 'Invertir dirección de deslizamiento para pasar páginas';
 			case 'tap_empty_hide_chrome': return 'Toca un área vacía para ocultar los controles';
+			case 'debug_log_title': return ({required Object count}) => 'Registro de depuración (${count})';
+			case 'custom_css_title': return ({required Object name}) => 'CSS personalizado — ${name}';
+			case 'untitled_book': return ({required Object id}) => 'Libro ${id}';
+			case 'auto_chapter': return ({required Object n}) => 'Capítulo ${n}';
+			case 'floating_dict_title': return 'Diccionario';
+			case 'no_results_found': return 'No se encontraron resultados.';
+			case 'preview_switch': return 'Interruptor';
+			case 'preview_badge': return 'Insignia';
 			default: return null;
 		}
 	}
@@ -19534,6 +19702,14 @@ extension on _StringsFr {
 			case 'color_sasayaki_desc': return 'Surlignage de synchronisation des sous-titres du livre audio';
 			case 'invert_swipe_direction': return 'Inverser la direction du balayage pour tourner les pages';
 			case 'tap_empty_hide_chrome': return 'Appuyez sur une zone vide pour masquer les contrôles';
+			case 'debug_log_title': return ({required Object count}) => 'Journal de débogage (${count})';
+			case 'custom_css_title': return ({required Object name}) => 'CSS personnalisé — ${name}';
+			case 'untitled_book': return ({required Object id}) => 'Livre ${id}';
+			case 'auto_chapter': return ({required Object n}) => 'Chapitre ${n}';
+			case 'floating_dict_title': return 'Dictionnaire';
+			case 'no_results_found': return 'Aucun résultat trouvé.';
+			case 'preview_switch': return 'Interrupteur';
+			case 'preview_badge': return 'Badge';
 			default: return null;
 		}
 	}
@@ -20378,6 +20554,14 @@ extension on _StringsId {
 			case 'color_sasayaki_desc': return 'Sorotan sinkronisasi subtitle buku audio';
 			case 'invert_swipe_direction': return 'Balik arah geser untuk membalik halaman';
 			case 'tap_empty_hide_chrome': return 'Ketuk area kosong untuk menyembunyikan kontrol';
+			case 'debug_log_title': return ({required Object count}) => 'Log debug (${count})';
+			case 'custom_css_title': return ({required Object name}) => 'CSS kustom — ${name}';
+			case 'untitled_book': return ({required Object id}) => 'Buku ${id}';
+			case 'auto_chapter': return ({required Object n}) => 'Bab ${n}';
+			case 'floating_dict_title': return 'Kamus';
+			case 'no_results_found': return 'Tidak ditemukan hasil.';
+			case 'preview_switch': return 'Sakelar';
+			case 'preview_badge': return 'Lencana';
 			default: return null;
 		}
 	}
@@ -21222,6 +21406,14 @@ extension on _StringsIt {
 			case 'color_sasayaki_desc': return 'Evidenziazione sincronizzazione sottotitoli audiolibro';
 			case 'invert_swipe_direction': return 'Inverti direzione scorrimento per voltare pagina';
 			case 'tap_empty_hide_chrome': return 'Tocca un\'area vuota per nascondere i controlli';
+			case 'debug_log_title': return ({required Object count}) => 'Registro di debug (${count})';
+			case 'custom_css_title': return ({required Object name}) => 'CSS personalizzato — ${name}';
+			case 'untitled_book': return ({required Object id}) => 'Libro ${id}';
+			case 'auto_chapter': return ({required Object n}) => 'Capitolo ${n}';
+			case 'floating_dict_title': return 'Dizionario';
+			case 'no_results_found': return 'Nessun risultato trovato.';
+			case 'preview_switch': return 'Interruttore';
+			case 'preview_badge': return 'Distintivo';
 			default: return null;
 		}
 	}
@@ -22066,6 +22258,14 @@ extension on _StringsJa {
 			case 'color_link_desc': return 'リーダーのハイパーリンク色';
 			case 'color_sasayaki': return 'ささやきハイライト';
 			case 'color_sasayaki_desc': return 'オーディオブック字幕同期ハイライト';
+			case 'debug_log_title': return ({required Object count}) => 'デバッグログ (${count})';
+			case 'custom_css_title': return ({required Object name}) => 'カスタム CSS — ${name}';
+			case 'untitled_book': return ({required Object id}) => 'ブック ${id}';
+			case 'auto_chapter': return ({required Object n}) => '第${n}章';
+			case 'floating_dict_title': return '辞書';
+			case 'no_results_found': return '結果が見つかりません。';
+			case 'preview_switch': return 'スイッチ';
+			case 'preview_badge': return 'バッジ';
 			default: return null;
 		}
 	}
@@ -22910,6 +23110,14 @@ extension on _StringsKo {
 			case 'color_sasayaki_desc': return '오디오북 자막 동기화 하이라이트';
 			case 'invert_swipe_direction': return '스와이프 페이지 넘김 방향 반전';
 			case 'tap_empty_hide_chrome': return '빈 영역을 탭하여 컨트롤 숨기기';
+			case 'debug_log_title': return ({required Object count}) => '디버그 로그 (${count})';
+			case 'custom_css_title': return ({required Object name}) => '사용자 CSS — ${name}';
+			case 'untitled_book': return ({required Object id}) => '도서 ${id}';
+			case 'auto_chapter': return ({required Object n}) => '${n}장';
+			case 'floating_dict_title': return '사전';
+			case 'no_results_found': return '결과를 찾을 수 없습니다.';
+			case 'preview_switch': return '스위치';
+			case 'preview_badge': return '배지';
 			default: return null;
 		}
 	}
@@ -23754,6 +23962,14 @@ extension on _StringsNl {
 			case 'color_sasayaki_desc': return 'Markering van ondertitelsynchronisatie van het luisterboek';
 			case 'invert_swipe_direction': return 'Veegrichting voor bladeren omdraaien';
 			case 'tap_empty_hide_chrome': return 'Tik op een leeg gebied om bedieningselementen te verbergen';
+			case 'debug_log_title': return ({required Object count}) => 'Debug-log (${count})';
+			case 'custom_css_title': return ({required Object name}) => 'Aangepaste CSS — ${name}';
+			case 'untitled_book': return ({required Object id}) => 'Boek ${id}';
+			case 'auto_chapter': return ({required Object n}) => 'Hoofdstuk ${n}';
+			case 'floating_dict_title': return 'Woordenboek';
+			case 'no_results_found': return 'Geen resultaten gevonden.';
+			case 'preview_switch': return 'Schakelaar';
+			case 'preview_badge': return 'Badge';
 			default: return null;
 		}
 	}
@@ -24598,6 +24814,14 @@ extension on _StringsPtBr {
 			case 'color_sasayaki_desc': return 'Destaque de sincronização de legendas do audiolivro';
 			case 'invert_swipe_direction': return 'Inverter direção do deslizar para virar páginas';
 			case 'tap_empty_hide_chrome': return 'Toque em uma área vazia para ocultar os controles';
+			case 'debug_log_title': return ({required Object count}) => 'Log de depuração (${count})';
+			case 'custom_css_title': return ({required Object name}) => 'CSS personalizado — ${name}';
+			case 'untitled_book': return ({required Object id}) => 'Livro ${id}';
+			case 'auto_chapter': return ({required Object n}) => 'Capítulo ${n}';
+			case 'floating_dict_title': return 'Dicionário';
+			case 'no_results_found': return 'Nenhum resultado encontrado.';
+			case 'preview_switch': return 'Interruptor';
+			case 'preview_badge': return 'Emblema';
 			default: return null;
 		}
 	}
@@ -25442,6 +25666,14 @@ extension on _StringsRu {
 			case 'color_sasayaki_desc': return 'Подсветка синхронизации субтитров аудиокниги';
 			case 'invert_swipe_direction': return 'Инвертировать направление свайпа для перелистывания';
 			case 'tap_empty_hide_chrome': return 'Нажмите на пустую область, чтобы скрыть панели управления';
+			case 'debug_log_title': return ({required Object count}) => 'Журнал отладки (${count})';
+			case 'custom_css_title': return ({required Object name}) => 'Пользовательский CSS — ${name}';
+			case 'untitled_book': return ({required Object id}) => 'Книга ${id}';
+			case 'auto_chapter': return ({required Object n}) => 'Глава ${n}';
+			case 'floating_dict_title': return 'Словарь';
+			case 'no_results_found': return 'Ничего не найдено.';
+			case 'preview_switch': return 'Переключатель';
+			case 'preview_badge': return 'Значок';
 			default: return null;
 		}
 	}
@@ -26286,6 +26518,14 @@ extension on _StringsTh {
 			case 'color_sasayaki_desc': return 'ไฮไลท์การซิงค์คำบรรยายหนังสือเสียง';
 			case 'invert_swipe_direction': return 'กลับทิศทางการปัดเปลี่ยนหน้า';
 			case 'tap_empty_hide_chrome': return 'แตะพื้นที่ว่างเพื่อซ่อนแถบควบคุม';
+			case 'debug_log_title': return ({required Object count}) => 'บันทึกการดีบัก (${count})';
+			case 'custom_css_title': return ({required Object name}) => 'CSS กำหนดเอง — ${name}';
+			case 'untitled_book': return ({required Object id}) => 'หนังสือ ${id}';
+			case 'auto_chapter': return ({required Object n}) => 'บทที่ ${n}';
+			case 'floating_dict_title': return 'พจนานุกรม';
+			case 'no_results_found': return 'ไม่พบผลลัพธ์';
+			case 'preview_switch': return 'สวิตช์';
+			case 'preview_badge': return 'ป้าย';
 			default: return null;
 		}
 	}
@@ -27130,6 +27370,14 @@ extension on _StringsTr {
 			case 'color_sasayaki_desc': return 'Sesli kitap altyazı senkronizasyon vurgusu';
 			case 'invert_swipe_direction': return 'Kaydırma yönünü tersine çevir';
 			case 'tap_empty_hide_chrome': return 'Kontrolleri gizlemek için boş alana dokunun';
+			case 'debug_log_title': return ({required Object count}) => 'Hata ayıklama günlüğü (${count})';
+			case 'custom_css_title': return ({required Object name}) => 'Özel CSS — ${name}';
+			case 'untitled_book': return ({required Object id}) => 'Kitap ${id}';
+			case 'auto_chapter': return ({required Object n}) => 'Bölüm ${n}';
+			case 'floating_dict_title': return 'Sözlük';
+			case 'no_results_found': return 'Sonuç bulunamadı.';
+			case 'preview_switch': return 'Anahtar';
+			case 'preview_badge': return 'Rozet';
 			default: return null;
 		}
 	}
@@ -27974,6 +28222,14 @@ extension on _StringsVi {
 			case 'color_sasayaki_desc': return 'Tô sáng đồng bộ phụ đề sách nói';
 			case 'invert_swipe_direction': return 'Đảo ngược hướng vuốt lật trang';
 			case 'tap_empty_hide_chrome': return 'Chạm vùng trống để ẩn thanh điều khiển';
+			case 'debug_log_title': return ({required Object count}) => 'Nhật ký gỡ lỗi (${count})';
+			case 'custom_css_title': return ({required Object name}) => 'CSS tùy chỉnh — ${name}';
+			case 'untitled_book': return ({required Object id}) => 'Sách ${id}';
+			case 'auto_chapter': return ({required Object n}) => 'Chương ${n}';
+			case 'floating_dict_title': return 'Từ điển';
+			case 'no_results_found': return 'Không tìm thấy kết quả.';
+			case 'preview_switch': return 'Công tắc';
+			case 'preview_badge': return 'Huy hiệu';
 			default: return null;
 		}
 	}
@@ -28832,6 +29088,14 @@ extension on _StringsZhCn {
 			case 'icon_switch_success': return '图标已切换，桌面将在几秒后刷新';
 			case 'icon_shortcut_created': return '快捷方式已创建';
 			case 'icon_shortcut_unsupported': return '当前设备不支持创建自定义快捷方式';
+			case 'debug_log_title': return ({required Object count}) => '调试日志 (${count})';
+			case 'custom_css_title': return ({required Object name}) => '自定义 CSS — ${name}';
+			case 'untitled_book': return ({required Object id}) => '书籍 ${id}';
+			case 'auto_chapter': return ({required Object n}) => '第 ${n} 章';
+			case 'floating_dict_title': return '词典';
+			case 'no_results_found': return '未找到结果。';
+			case 'preview_switch': return '开关';
+			case 'preview_badge': return '标签';
 			default: return null;
 		}
 	}
@@ -29678,6 +29942,14 @@ extension on _StringsZhHk {
 			case 'color_link_desc': return '閱讀器超連結顏色';
 			case 'color_sasayaki': return 'Sasayaki 醒目標示';
 			case 'color_sasayaki_desc': return '有聲書字幕同步醒目標示';
+			case 'debug_log_title': return ({required Object count}) => '除錯日誌 (${count})';
+			case 'custom_css_title': return ({required Object name}) => '自訂 CSS — ${name}';
+			case 'untitled_book': return ({required Object id}) => '書籍 ${id}';
+			case 'auto_chapter': return ({required Object n}) => '第 ${n} 章';
+			case 'floating_dict_title': return '辭典';
+			case 'no_results_found': return '未找到結果。';
+			case 'preview_switch': return '開關';
+			case 'preview_badge': return '標籤';
 			default: return null;
 		}
 	}
