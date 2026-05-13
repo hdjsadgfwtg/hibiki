@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 14356 (844 per locale)
+/// Strings: 14543 (855 per locale)
 ///
-/// Built on 2026-05-13 at 07:48 UTC
+/// Built on 2026-05-13 at 09:05 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -1060,6 +1060,17 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get no_results_found => 'No results found.';
 	String get preview_switch => 'Switch';
 	String get preview_badge => 'Badge';
+	String get font_source_file => 'Font File';
+	String get font_source_system => 'System Font';
+	String get book_directory_not_found => 'Book directory not found';
+	String image_page_counter({required Object current, required Object total}) => '${current} / ${total}';
+	String get no_debug_logs => 'No debug logs';
+	String init_error_message({required Object error}) => 'Init error: ${error}';
+	String get anki_export_not_implemented => 'Anki export not yet implemented';
+	String sasayaki_rematch_result({required Object pct, required Object window}) => 'Sasayaki ${pct}% (window=${window})';
+	String sasayaki_health_label({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+	String get untitled => 'Untitled';
+	String get section_epub => 'EPUB';
 }
 
 // Path: retrying_in
@@ -1953,6 +1964,17 @@ class _StringsAr extends _StringsEn {
 	@override String get no_results_found => 'لم يتم العثور على نتائج.';
 	@override String get preview_switch => 'مفتاح';
 	@override String get preview_badge => 'شارة';
+	@override String get font_source_file => 'ملف خط';
+	@override String get font_source_system => 'خط النظام';
+	@override String get book_directory_not_found => 'لم يتم العثور على دليل الكتاب';
+	@override String image_page_counter({required Object current, required Object total}) => '${current} / ${total}';
+	@override String get no_debug_logs => 'لا توجد سجلات تصحيح';
+	@override String init_error_message({required Object error}) => 'خطأ في التهيئة: ${error}';
+	@override String get anki_export_not_implemented => 'تصدير Anki غير مُنفَّذ بعد';
+	@override String sasayaki_rematch_result({required Object pct, required Object window}) => 'Sasayaki ${pct}% (نافذة=${window})';
+	@override String sasayaki_health_label({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+	@override String get untitled => 'بدون عنوان';
+	@override String get section_epub => 'EPUB';
 }
 
 // Path: retrying_in
@@ -2846,6 +2868,17 @@ class _StringsDe extends _StringsEn {
 	@override String get no_results_found => 'Keine Ergebnisse gefunden.';
 	@override String get preview_switch => 'Schalter';
 	@override String get preview_badge => 'Abzeichen';
+	@override String get font_source_file => 'Schriftdatei';
+	@override String get font_source_system => 'Systemschrift';
+	@override String get book_directory_not_found => 'Buchverzeichnis nicht gefunden';
+	@override String image_page_counter({required Object current, required Object total}) => '${current} / ${total}';
+	@override String get no_debug_logs => 'Keine Debug-Protokolle';
+	@override String init_error_message({required Object error}) => 'Initialisierungsfehler: ${error}';
+	@override String get anki_export_not_implemented => 'Anki-Export noch nicht implementiert';
+	@override String sasayaki_rematch_result({required Object pct, required Object window}) => 'Sasayaki ${pct}% (Fenster=${window})';
+	@override String sasayaki_health_label({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+	@override String get untitled => 'Ohne Titel';
+	@override String get section_epub => 'EPUB';
 }
 
 // Path: retrying_in
@@ -3739,6 +3772,17 @@ class _StringsEs extends _StringsEn {
 	@override String get no_results_found => 'No se encontraron resultados.';
 	@override String get preview_switch => 'Interruptor';
 	@override String get preview_badge => 'Insignia';
+	@override String get font_source_file => 'Archivo de fuente';
+	@override String get font_source_system => 'Fuente del sistema';
+	@override String get book_directory_not_found => 'Directorio del libro no encontrado';
+	@override String image_page_counter({required Object current, required Object total}) => '${current} / ${total}';
+	@override String get no_debug_logs => 'Sin registros de depuración';
+	@override String init_error_message({required Object error}) => 'Error de inicialización: ${error}';
+	@override String get anki_export_not_implemented => 'Exportación a Anki aún no implementada';
+	@override String sasayaki_rematch_result({required Object pct, required Object window}) => 'Sasayaki ${pct}% (ventana=${window})';
+	@override String sasayaki_health_label({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+	@override String get untitled => 'Sin título';
+	@override String get section_epub => 'EPUB';
 }
 
 // Path: retrying_in
@@ -4632,6 +4676,17 @@ class _StringsFr extends _StringsEn {
 	@override String get no_results_found => 'Aucun résultat trouvé.';
 	@override String get preview_switch => 'Interrupteur';
 	@override String get preview_badge => 'Badge';
+	@override String get font_source_file => 'Fichier de police';
+	@override String get font_source_system => 'Police système';
+	@override String get book_directory_not_found => 'Répertoire du livre introuvable';
+	@override String image_page_counter({required Object current, required Object total}) => '${current} / ${total}';
+	@override String get no_debug_logs => 'Aucun journal de débogage';
+	@override String init_error_message({required Object error}) => 'Erreur d\'initialisation : ${error}';
+	@override String get anki_export_not_implemented => 'Export Anki non encore implémenté';
+	@override String sasayaki_rematch_result({required Object pct, required Object window}) => 'Sasayaki ${pct}% (fenêtre=${window})';
+	@override String sasayaki_health_label({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+	@override String get untitled => 'Sans titre';
+	@override String get section_epub => 'EPUB';
 }
 
 // Path: retrying_in
@@ -5525,6 +5580,17 @@ class _StringsId extends _StringsEn {
 	@override String get no_results_found => 'Tidak ditemukan hasil.';
 	@override String get preview_switch => 'Sakelar';
 	@override String get preview_badge => 'Lencana';
+	@override String get font_source_file => 'Berkas font';
+	@override String get font_source_system => 'Font sistem';
+	@override String get book_directory_not_found => 'Direktori buku tidak ditemukan';
+	@override String image_page_counter({required Object current, required Object total}) => '${current} / ${total}';
+	@override String get no_debug_logs => 'Tidak ada log debug';
+	@override String init_error_message({required Object error}) => 'Kesalahan inisialisasi: ${error}';
+	@override String get anki_export_not_implemented => 'Ekspor Anki belum diimplementasikan';
+	@override String sasayaki_rematch_result({required Object pct, required Object window}) => 'Sasayaki ${pct}% (jendela=${window})';
+	@override String sasayaki_health_label({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+	@override String get untitled => 'Tanpa judul';
+	@override String get section_epub => 'EPUB';
 }
 
 // Path: retrying_in
@@ -6418,6 +6484,17 @@ class _StringsIt extends _StringsEn {
 	@override String get no_results_found => 'Nessun risultato trovato.';
 	@override String get preview_switch => 'Interruttore';
 	@override String get preview_badge => 'Distintivo';
+	@override String get font_source_file => 'File di font';
+	@override String get font_source_system => 'Font di sistema';
+	@override String get book_directory_not_found => 'Directory del libro non trovata';
+	@override String image_page_counter({required Object current, required Object total}) => '${current} / ${total}';
+	@override String get no_debug_logs => 'Nessun log di debug';
+	@override String init_error_message({required Object error}) => 'Errore di inizializzazione: ${error}';
+	@override String get anki_export_not_implemented => 'Esportazione Anki non ancora implementata';
+	@override String sasayaki_rematch_result({required Object pct, required Object window}) => 'Sasayaki ${pct}% (finestra=${window})';
+	@override String sasayaki_health_label({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+	@override String get untitled => 'Senza titolo';
+	@override String get section_epub => 'EPUB';
 }
 
 // Path: retrying_in
@@ -7311,6 +7388,17 @@ class _StringsJa extends _StringsEn {
 	@override String get no_results_found => '結果が見つかりません。';
 	@override String get preview_switch => 'スイッチ';
 	@override String get preview_badge => 'バッジ';
+	@override String get font_source_file => 'フォントファイル';
+	@override String get font_source_system => 'システムフォント';
+	@override String get book_directory_not_found => '書籍ディレクトリが見つかりません';
+	@override String image_page_counter({required Object current, required Object total}) => '${current} / ${total}';
+	@override String get no_debug_logs => 'デバッグログなし';
+	@override String init_error_message({required Object error}) => '初期化エラー: ${error}';
+	@override String get anki_export_not_implemented => 'Ankiエクスポートは未実装です';
+	@override String sasayaki_rematch_result({required Object pct, required Object window}) => 'Sasayaki ${pct}% (ウィンドウ=${window})';
+	@override String sasayaki_health_label({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+	@override String get untitled => '無題';
+	@override String get section_epub => 'EPUB';
 }
 
 // Path: retrying_in
@@ -8204,6 +8292,17 @@ class _StringsKo extends _StringsEn {
 	@override String get no_results_found => '결과를 찾을 수 없습니다.';
 	@override String get preview_switch => '스위치';
 	@override String get preview_badge => '배지';
+	@override String get font_source_file => '폰트 파일';
+	@override String get font_source_system => '시스템 폰트';
+	@override String get book_directory_not_found => '도서 디렉토리를 찾을 수 없습니다';
+	@override String image_page_counter({required Object current, required Object total}) => '${current} / ${total}';
+	@override String get no_debug_logs => '디버그 로그 없음';
+	@override String init_error_message({required Object error}) => '초기화 오류: ${error}';
+	@override String get anki_export_not_implemented => 'Anki 내보내기 미구현';
+	@override String sasayaki_rematch_result({required Object pct, required Object window}) => 'Sasayaki ${pct}% (윈도우=${window})';
+	@override String sasayaki_health_label({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+	@override String get untitled => '제목 없음';
+	@override String get section_epub => 'EPUB';
 }
 
 // Path: retrying_in
@@ -9097,6 +9196,17 @@ class _StringsNl extends _StringsEn {
 	@override String get no_results_found => 'Geen resultaten gevonden.';
 	@override String get preview_switch => 'Schakelaar';
 	@override String get preview_badge => 'Badge';
+	@override String get font_source_file => 'Lettertypebestand';
+	@override String get font_source_system => 'Systeemlettertype';
+	@override String get book_directory_not_found => 'Boekmap niet gevonden';
+	@override String image_page_counter({required Object current, required Object total}) => '${current} / ${total}';
+	@override String get no_debug_logs => 'Geen foutopsporingslogboeken';
+	@override String init_error_message({required Object error}) => 'Initialisatiefout: ${error}';
+	@override String get anki_export_not_implemented => 'Anki-export is nog niet geïmplementeerd';
+	@override String sasayaki_rematch_result({required Object pct, required Object window}) => 'Sasayaki ${pct}% (venster=${window})';
+	@override String sasayaki_health_label({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+	@override String get untitled => 'Naamloos';
+	@override String get section_epub => 'EPUB';
 }
 
 // Path: retrying_in
@@ -9990,6 +10100,17 @@ class _StringsPtBr extends _StringsEn {
 	@override String get no_results_found => 'Nenhum resultado encontrado.';
 	@override String get preview_switch => 'Interruptor';
 	@override String get preview_badge => 'Emblema';
+	@override String get font_source_file => 'Arquivo de fonte';
+	@override String get font_source_system => 'Fonte do sistema';
+	@override String get book_directory_not_found => 'Diretório do livro não encontrado';
+	@override String image_page_counter({required Object current, required Object total}) => '${current} / ${total}';
+	@override String get no_debug_logs => 'Sem registros de depuração';
+	@override String init_error_message({required Object error}) => 'Erro de inicialização: ${error}';
+	@override String get anki_export_not_implemented => 'Exportação para Anki ainda não implementada';
+	@override String sasayaki_rematch_result({required Object pct, required Object window}) => 'Sasayaki ${pct}% (janela=${window})';
+	@override String sasayaki_health_label({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+	@override String get untitled => 'Sem título';
+	@override String get section_epub => 'EPUB';
 }
 
 // Path: retrying_in
@@ -10883,6 +11004,17 @@ class _StringsRu extends _StringsEn {
 	@override String get no_results_found => 'Ничего не найдено.';
 	@override String get preview_switch => 'Переключатель';
 	@override String get preview_badge => 'Значок';
+	@override String get font_source_file => 'Файл шрифта';
+	@override String get font_source_system => 'Системный шрифт';
+	@override String get book_directory_not_found => 'Каталог книги не найден';
+	@override String image_page_counter({required Object current, required Object total}) => '${current} / ${total}';
+	@override String get no_debug_logs => 'Нет журналов отладки';
+	@override String init_error_message({required Object error}) => 'Ошибка инициализации: ${error}';
+	@override String get anki_export_not_implemented => 'Экспорт в Anki ещё не реализован';
+	@override String sasayaki_rematch_result({required Object pct, required Object window}) => 'Sasayaki ${pct}% (окно=${window})';
+	@override String sasayaki_health_label({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+	@override String get untitled => 'Без названия';
+	@override String get section_epub => 'EPUB';
 }
 
 // Path: retrying_in
@@ -11776,6 +11908,17 @@ class _StringsTh extends _StringsEn {
 	@override String get no_results_found => 'ไม่พบผลลัพธ์';
 	@override String get preview_switch => 'สวิตช์';
 	@override String get preview_badge => 'ป้าย';
+	@override String get font_source_file => 'ไฟล์ฟอนต์';
+	@override String get font_source_system => 'ฟอนต์ระบบ';
+	@override String get book_directory_not_found => 'ไม่พบไดเรกทอรีหนังสือ';
+	@override String image_page_counter({required Object current, required Object total}) => '${current} / ${total}';
+	@override String get no_debug_logs => 'ไม่มีบันทึกการดีบัก';
+	@override String init_error_message({required Object error}) => 'ข้อผิดพลาดในการเริ่มต้น: ${error}';
+	@override String get anki_export_not_implemented => 'ยังไม่ได้ใช้งานการส่งออก Anki';
+	@override String sasayaki_rematch_result({required Object pct, required Object window}) => 'Sasayaki ${pct}% (หน้าต่าง=${window})';
+	@override String sasayaki_health_label({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+	@override String get untitled => 'ไม่มีชื่อ';
+	@override String get section_epub => 'EPUB';
 }
 
 // Path: retrying_in
@@ -12669,6 +12812,17 @@ class _StringsTr extends _StringsEn {
 	@override String get no_results_found => 'Sonuç bulunamadı.';
 	@override String get preview_switch => 'Anahtar';
 	@override String get preview_badge => 'Rozet';
+	@override String get font_source_file => 'Yazı tipi dosyası';
+	@override String get font_source_system => 'Sistem yazı tipi';
+	@override String get book_directory_not_found => 'Kitap dizini bulunamadı';
+	@override String image_page_counter({required Object current, required Object total}) => '${current} / ${total}';
+	@override String get no_debug_logs => 'Hata ayıklama günlüğü yok';
+	@override String init_error_message({required Object error}) => 'Başlatma hatası: ${error}';
+	@override String get anki_export_not_implemented => 'Anki dışa aktarma henüz uygulanmadı';
+	@override String sasayaki_rematch_result({required Object pct, required Object window}) => 'Sasayaki ${pct}% (pencere=${window})';
+	@override String sasayaki_health_label({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+	@override String get untitled => 'Başlıksız';
+	@override String get section_epub => 'EPUB';
 }
 
 // Path: retrying_in
@@ -13562,6 +13716,17 @@ class _StringsVi extends _StringsEn {
 	@override String get no_results_found => 'Không tìm thấy kết quả.';
 	@override String get preview_switch => 'Công tắc';
 	@override String get preview_badge => 'Huy hiệu';
+	@override String get font_source_file => 'Tệp phông chữ';
+	@override String get font_source_system => 'Phông hệ thống';
+	@override String get book_directory_not_found => 'Không tìm thấy thư mục sách';
+	@override String image_page_counter({required Object current, required Object total}) => '${current} / ${total}';
+	@override String get no_debug_logs => 'Không có nhật ký gỡ lỗi';
+	@override String init_error_message({required Object error}) => 'Lỗi khởi tạo: ${error}';
+	@override String get anki_export_not_implemented => 'Xuất Anki chưa được triển khai';
+	@override String sasayaki_rematch_result({required Object pct, required Object window}) => 'Sasayaki ${pct}% (cửa sổ=${window})';
+	@override String sasayaki_health_label({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+	@override String get untitled => 'Chưa đặt tên';
+	@override String get section_epub => 'EPUB';
 }
 
 // Path: retrying_in
@@ -14469,6 +14634,17 @@ class _StringsZhCn extends _StringsEn {
 	@override String get no_results_found => '未找到结果。';
 	@override String get preview_switch => '开关';
 	@override String get preview_badge => '标签';
+	@override String get font_source_file => '字体文件';
+	@override String get font_source_system => '系统字体';
+	@override String get book_directory_not_found => '找不到书籍目录';
+	@override String image_page_counter({required Object current, required Object total}) => '${current} / ${total}';
+	@override String get no_debug_logs => '无调试日志';
+	@override String init_error_message({required Object error}) => '初始化错误: ${error}';
+	@override String get anki_export_not_implemented => 'Anki 导出尚未实现';
+	@override String sasayaki_rematch_result({required Object pct, required Object window}) => 'Sasayaki ${pct}% (窗口=${window})';
+	@override String sasayaki_health_label({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+	@override String get untitled => '无标题';
+	@override String get section_epub => 'EPUB';
 }
 
 // Path: retrying_in
@@ -15364,6 +15540,17 @@ class _StringsZhHk extends _StringsEn {
 	@override String get no_results_found => '未找到結果。';
 	@override String get preview_switch => '開關';
 	@override String get preview_badge => '標籤';
+	@override String get font_source_file => '字體檔案';
+	@override String get font_source_system => '系統字體';
+	@override String get book_directory_not_found => '找不到書籍目錄';
+	@override String image_page_counter({required Object current, required Object total}) => '${current} / ${total}';
+	@override String get no_debug_logs => '無除錯日誌';
+	@override String init_error_message({required Object error}) => '初始化錯誤: ${error}';
+	@override String get anki_export_not_implemented => 'Anki 匯出尚未實作';
+	@override String sasayaki_rematch_result({required Object pct, required Object window}) => 'Sasayaki ${pct}% (視窗=${window})';
+	@override String sasayaki_health_label({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+	@override String get untitled => '無標題';
+	@override String get section_epub => 'EPUB';
 }
 
 // Path: retrying_in
@@ -16302,6 +16489,17 @@ extension on _StringsEn {
 			case 'no_results_found': return 'No results found.';
 			case 'preview_switch': return 'Switch';
 			case 'preview_badge': return 'Badge';
+			case 'font_source_file': return 'Font File';
+			case 'font_source_system': return 'System Font';
+			case 'book_directory_not_found': return 'Book directory not found';
+			case 'image_page_counter': return ({required Object current, required Object total}) => '${current} / ${total}';
+			case 'no_debug_logs': return 'No debug logs';
+			case 'init_error_message': return ({required Object error}) => 'Init error: ${error}';
+			case 'anki_export_not_implemented': return 'Anki export not yet implemented';
+			case 'sasayaki_rematch_result': return ({required Object pct, required Object window}) => 'Sasayaki ${pct}% (window=${window})';
+			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+			case 'untitled': return 'Untitled';
+			case 'section_epub': return 'EPUB';
 			default: return null;
 		}
 	}
@@ -17154,6 +17352,17 @@ extension on _StringsAr {
 			case 'no_results_found': return 'لم يتم العثور على نتائج.';
 			case 'preview_switch': return 'مفتاح';
 			case 'preview_badge': return 'شارة';
+			case 'font_source_file': return 'ملف خط';
+			case 'font_source_system': return 'خط النظام';
+			case 'book_directory_not_found': return 'لم يتم العثور على دليل الكتاب';
+			case 'image_page_counter': return ({required Object current, required Object total}) => '${current} / ${total}';
+			case 'no_debug_logs': return 'لا توجد سجلات تصحيح';
+			case 'init_error_message': return ({required Object error}) => 'خطأ في التهيئة: ${error}';
+			case 'anki_export_not_implemented': return 'تصدير Anki غير مُنفَّذ بعد';
+			case 'sasayaki_rematch_result': return ({required Object pct, required Object window}) => 'Sasayaki ${pct}% (نافذة=${window})';
+			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+			case 'untitled': return 'بدون عنوان';
+			case 'section_epub': return 'EPUB';
 			default: return null;
 		}
 	}
@@ -18006,6 +18215,17 @@ extension on _StringsDe {
 			case 'no_results_found': return 'Keine Ergebnisse gefunden.';
 			case 'preview_switch': return 'Schalter';
 			case 'preview_badge': return 'Abzeichen';
+			case 'font_source_file': return 'Schriftdatei';
+			case 'font_source_system': return 'Systemschrift';
+			case 'book_directory_not_found': return 'Buchverzeichnis nicht gefunden';
+			case 'image_page_counter': return ({required Object current, required Object total}) => '${current} / ${total}';
+			case 'no_debug_logs': return 'Keine Debug-Protokolle';
+			case 'init_error_message': return ({required Object error}) => 'Initialisierungsfehler: ${error}';
+			case 'anki_export_not_implemented': return 'Anki-Export noch nicht implementiert';
+			case 'sasayaki_rematch_result': return ({required Object pct, required Object window}) => 'Sasayaki ${pct}% (Fenster=${window})';
+			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+			case 'untitled': return 'Ohne Titel';
+			case 'section_epub': return 'EPUB';
 			default: return null;
 		}
 	}
@@ -18858,6 +19078,17 @@ extension on _StringsEs {
 			case 'no_results_found': return 'No se encontraron resultados.';
 			case 'preview_switch': return 'Interruptor';
 			case 'preview_badge': return 'Insignia';
+			case 'font_source_file': return 'Archivo de fuente';
+			case 'font_source_system': return 'Fuente del sistema';
+			case 'book_directory_not_found': return 'Directorio del libro no encontrado';
+			case 'image_page_counter': return ({required Object current, required Object total}) => '${current} / ${total}';
+			case 'no_debug_logs': return 'Sin registros de depuración';
+			case 'init_error_message': return ({required Object error}) => 'Error de inicialización: ${error}';
+			case 'anki_export_not_implemented': return 'Exportación a Anki aún no implementada';
+			case 'sasayaki_rematch_result': return ({required Object pct, required Object window}) => 'Sasayaki ${pct}% (ventana=${window})';
+			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+			case 'untitled': return 'Sin título';
+			case 'section_epub': return 'EPUB';
 			default: return null;
 		}
 	}
@@ -19710,6 +19941,17 @@ extension on _StringsFr {
 			case 'no_results_found': return 'Aucun résultat trouvé.';
 			case 'preview_switch': return 'Interrupteur';
 			case 'preview_badge': return 'Badge';
+			case 'font_source_file': return 'Fichier de police';
+			case 'font_source_system': return 'Police système';
+			case 'book_directory_not_found': return 'Répertoire du livre introuvable';
+			case 'image_page_counter': return ({required Object current, required Object total}) => '${current} / ${total}';
+			case 'no_debug_logs': return 'Aucun journal de débogage';
+			case 'init_error_message': return ({required Object error}) => 'Erreur d\'initialisation : ${error}';
+			case 'anki_export_not_implemented': return 'Export Anki non encore implémenté';
+			case 'sasayaki_rematch_result': return ({required Object pct, required Object window}) => 'Sasayaki ${pct}% (fenêtre=${window})';
+			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+			case 'untitled': return 'Sans titre';
+			case 'section_epub': return 'EPUB';
 			default: return null;
 		}
 	}
@@ -20562,6 +20804,17 @@ extension on _StringsId {
 			case 'no_results_found': return 'Tidak ditemukan hasil.';
 			case 'preview_switch': return 'Sakelar';
 			case 'preview_badge': return 'Lencana';
+			case 'font_source_file': return 'Berkas font';
+			case 'font_source_system': return 'Font sistem';
+			case 'book_directory_not_found': return 'Direktori buku tidak ditemukan';
+			case 'image_page_counter': return ({required Object current, required Object total}) => '${current} / ${total}';
+			case 'no_debug_logs': return 'Tidak ada log debug';
+			case 'init_error_message': return ({required Object error}) => 'Kesalahan inisialisasi: ${error}';
+			case 'anki_export_not_implemented': return 'Ekspor Anki belum diimplementasikan';
+			case 'sasayaki_rematch_result': return ({required Object pct, required Object window}) => 'Sasayaki ${pct}% (jendela=${window})';
+			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+			case 'untitled': return 'Tanpa judul';
+			case 'section_epub': return 'EPUB';
 			default: return null;
 		}
 	}
@@ -21414,6 +21667,17 @@ extension on _StringsIt {
 			case 'no_results_found': return 'Nessun risultato trovato.';
 			case 'preview_switch': return 'Interruttore';
 			case 'preview_badge': return 'Distintivo';
+			case 'font_source_file': return 'File di font';
+			case 'font_source_system': return 'Font di sistema';
+			case 'book_directory_not_found': return 'Directory del libro non trovata';
+			case 'image_page_counter': return ({required Object current, required Object total}) => '${current} / ${total}';
+			case 'no_debug_logs': return 'Nessun log di debug';
+			case 'init_error_message': return ({required Object error}) => 'Errore di inizializzazione: ${error}';
+			case 'anki_export_not_implemented': return 'Esportazione Anki non ancora implementata';
+			case 'sasayaki_rematch_result': return ({required Object pct, required Object window}) => 'Sasayaki ${pct}% (finestra=${window})';
+			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+			case 'untitled': return 'Senza titolo';
+			case 'section_epub': return 'EPUB';
 			default: return null;
 		}
 	}
@@ -22266,6 +22530,17 @@ extension on _StringsJa {
 			case 'no_results_found': return '結果が見つかりません。';
 			case 'preview_switch': return 'スイッチ';
 			case 'preview_badge': return 'バッジ';
+			case 'font_source_file': return 'フォントファイル';
+			case 'font_source_system': return 'システムフォント';
+			case 'book_directory_not_found': return '書籍ディレクトリが見つかりません';
+			case 'image_page_counter': return ({required Object current, required Object total}) => '${current} / ${total}';
+			case 'no_debug_logs': return 'デバッグログなし';
+			case 'init_error_message': return ({required Object error}) => '初期化エラー: ${error}';
+			case 'anki_export_not_implemented': return 'Ankiエクスポートは未実装です';
+			case 'sasayaki_rematch_result': return ({required Object pct, required Object window}) => 'Sasayaki ${pct}% (ウィンドウ=${window})';
+			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+			case 'untitled': return '無題';
+			case 'section_epub': return 'EPUB';
 			default: return null;
 		}
 	}
@@ -23118,6 +23393,17 @@ extension on _StringsKo {
 			case 'no_results_found': return '결과를 찾을 수 없습니다.';
 			case 'preview_switch': return '스위치';
 			case 'preview_badge': return '배지';
+			case 'font_source_file': return '폰트 파일';
+			case 'font_source_system': return '시스템 폰트';
+			case 'book_directory_not_found': return '도서 디렉토리를 찾을 수 없습니다';
+			case 'image_page_counter': return ({required Object current, required Object total}) => '${current} / ${total}';
+			case 'no_debug_logs': return '디버그 로그 없음';
+			case 'init_error_message': return ({required Object error}) => '초기화 오류: ${error}';
+			case 'anki_export_not_implemented': return 'Anki 내보내기 미구현';
+			case 'sasayaki_rematch_result': return ({required Object pct, required Object window}) => 'Sasayaki ${pct}% (윈도우=${window})';
+			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+			case 'untitled': return '제목 없음';
+			case 'section_epub': return 'EPUB';
 			default: return null;
 		}
 	}
@@ -23970,6 +24256,17 @@ extension on _StringsNl {
 			case 'no_results_found': return 'Geen resultaten gevonden.';
 			case 'preview_switch': return 'Schakelaar';
 			case 'preview_badge': return 'Badge';
+			case 'font_source_file': return 'Lettertypebestand';
+			case 'font_source_system': return 'Systeemlettertype';
+			case 'book_directory_not_found': return 'Boekmap niet gevonden';
+			case 'image_page_counter': return ({required Object current, required Object total}) => '${current} / ${total}';
+			case 'no_debug_logs': return 'Geen foutopsporingslogboeken';
+			case 'init_error_message': return ({required Object error}) => 'Initialisatiefout: ${error}';
+			case 'anki_export_not_implemented': return 'Anki-export is nog niet geïmplementeerd';
+			case 'sasayaki_rematch_result': return ({required Object pct, required Object window}) => 'Sasayaki ${pct}% (venster=${window})';
+			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+			case 'untitled': return 'Naamloos';
+			case 'section_epub': return 'EPUB';
 			default: return null;
 		}
 	}
@@ -24822,6 +25119,17 @@ extension on _StringsPtBr {
 			case 'no_results_found': return 'Nenhum resultado encontrado.';
 			case 'preview_switch': return 'Interruptor';
 			case 'preview_badge': return 'Emblema';
+			case 'font_source_file': return 'Arquivo de fonte';
+			case 'font_source_system': return 'Fonte do sistema';
+			case 'book_directory_not_found': return 'Diretório do livro não encontrado';
+			case 'image_page_counter': return ({required Object current, required Object total}) => '${current} / ${total}';
+			case 'no_debug_logs': return 'Sem registros de depuração';
+			case 'init_error_message': return ({required Object error}) => 'Erro de inicialização: ${error}';
+			case 'anki_export_not_implemented': return 'Exportação para Anki ainda não implementada';
+			case 'sasayaki_rematch_result': return ({required Object pct, required Object window}) => 'Sasayaki ${pct}% (janela=${window})';
+			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+			case 'untitled': return 'Sem título';
+			case 'section_epub': return 'EPUB';
 			default: return null;
 		}
 	}
@@ -25674,6 +25982,17 @@ extension on _StringsRu {
 			case 'no_results_found': return 'Ничего не найдено.';
 			case 'preview_switch': return 'Переключатель';
 			case 'preview_badge': return 'Значок';
+			case 'font_source_file': return 'Файл шрифта';
+			case 'font_source_system': return 'Системный шрифт';
+			case 'book_directory_not_found': return 'Каталог книги не найден';
+			case 'image_page_counter': return ({required Object current, required Object total}) => '${current} / ${total}';
+			case 'no_debug_logs': return 'Нет журналов отладки';
+			case 'init_error_message': return ({required Object error}) => 'Ошибка инициализации: ${error}';
+			case 'anki_export_not_implemented': return 'Экспорт в Anki ещё не реализован';
+			case 'sasayaki_rematch_result': return ({required Object pct, required Object window}) => 'Sasayaki ${pct}% (окно=${window})';
+			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+			case 'untitled': return 'Без названия';
+			case 'section_epub': return 'EPUB';
 			default: return null;
 		}
 	}
@@ -26526,6 +26845,17 @@ extension on _StringsTh {
 			case 'no_results_found': return 'ไม่พบผลลัพธ์';
 			case 'preview_switch': return 'สวิตช์';
 			case 'preview_badge': return 'ป้าย';
+			case 'font_source_file': return 'ไฟล์ฟอนต์';
+			case 'font_source_system': return 'ฟอนต์ระบบ';
+			case 'book_directory_not_found': return 'ไม่พบไดเรกทอรีหนังสือ';
+			case 'image_page_counter': return ({required Object current, required Object total}) => '${current} / ${total}';
+			case 'no_debug_logs': return 'ไม่มีบันทึกการดีบัก';
+			case 'init_error_message': return ({required Object error}) => 'ข้อผิดพลาดในการเริ่มต้น: ${error}';
+			case 'anki_export_not_implemented': return 'ยังไม่ได้ใช้งานการส่งออก Anki';
+			case 'sasayaki_rematch_result': return ({required Object pct, required Object window}) => 'Sasayaki ${pct}% (หน้าต่าง=${window})';
+			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+			case 'untitled': return 'ไม่มีชื่อ';
+			case 'section_epub': return 'EPUB';
 			default: return null;
 		}
 	}
@@ -27378,6 +27708,17 @@ extension on _StringsTr {
 			case 'no_results_found': return 'Sonuç bulunamadı.';
 			case 'preview_switch': return 'Anahtar';
 			case 'preview_badge': return 'Rozet';
+			case 'font_source_file': return 'Yazı tipi dosyası';
+			case 'font_source_system': return 'Sistem yazı tipi';
+			case 'book_directory_not_found': return 'Kitap dizini bulunamadı';
+			case 'image_page_counter': return ({required Object current, required Object total}) => '${current} / ${total}';
+			case 'no_debug_logs': return 'Hata ayıklama günlüğü yok';
+			case 'init_error_message': return ({required Object error}) => 'Başlatma hatası: ${error}';
+			case 'anki_export_not_implemented': return 'Anki dışa aktarma henüz uygulanmadı';
+			case 'sasayaki_rematch_result': return ({required Object pct, required Object window}) => 'Sasayaki ${pct}% (pencere=${window})';
+			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+			case 'untitled': return 'Başlıksız';
+			case 'section_epub': return 'EPUB';
 			default: return null;
 		}
 	}
@@ -28230,6 +28571,17 @@ extension on _StringsVi {
 			case 'no_results_found': return 'Không tìm thấy kết quả.';
 			case 'preview_switch': return 'Công tắc';
 			case 'preview_badge': return 'Huy hiệu';
+			case 'font_source_file': return 'Tệp phông chữ';
+			case 'font_source_system': return 'Phông hệ thống';
+			case 'book_directory_not_found': return 'Không tìm thấy thư mục sách';
+			case 'image_page_counter': return ({required Object current, required Object total}) => '${current} / ${total}';
+			case 'no_debug_logs': return 'Không có nhật ký gỡ lỗi';
+			case 'init_error_message': return ({required Object error}) => 'Lỗi khởi tạo: ${error}';
+			case 'anki_export_not_implemented': return 'Xuất Anki chưa được triển khai';
+			case 'sasayaki_rematch_result': return ({required Object pct, required Object window}) => 'Sasayaki ${pct}% (cửa sổ=${window})';
+			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+			case 'untitled': return 'Chưa đặt tên';
+			case 'section_epub': return 'EPUB';
 			default: return null;
 		}
 	}
@@ -29096,6 +29448,17 @@ extension on _StringsZhCn {
 			case 'no_results_found': return '未找到结果。';
 			case 'preview_switch': return '开关';
 			case 'preview_badge': return '标签';
+			case 'font_source_file': return '字体文件';
+			case 'font_source_system': return '系统字体';
+			case 'book_directory_not_found': return '找不到书籍目录';
+			case 'image_page_counter': return ({required Object current, required Object total}) => '${current} / ${total}';
+			case 'no_debug_logs': return '无调试日志';
+			case 'init_error_message': return ({required Object error}) => '初始化错误: ${error}';
+			case 'anki_export_not_implemented': return 'Anki 导出尚未实现';
+			case 'sasayaki_rematch_result': return ({required Object pct, required Object window}) => 'Sasayaki ${pct}% (窗口=${window})';
+			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+			case 'untitled': return '无标题';
+			case 'section_epub': return 'EPUB';
 			default: return null;
 		}
 	}
@@ -29950,6 +30313,17 @@ extension on _StringsZhHk {
 			case 'no_results_found': return '未找到結果。';
 			case 'preview_switch': return '開關';
 			case 'preview_badge': return '標籤';
+			case 'font_source_file': return '字體檔案';
+			case 'font_source_system': return '系統字體';
+			case 'book_directory_not_found': return '找不到書籍目錄';
+			case 'image_page_counter': return ({required Object current, required Object total}) => '${current} / ${total}';
+			case 'no_debug_logs': return '無除錯日誌';
+			case 'init_error_message': return ({required Object error}) => '初始化錯誤: ${error}';
+			case 'anki_export_not_implemented': return 'Anki 匯出尚未實作';
+			case 'sasayaki_rematch_result': return ({required Object pct, required Object window}) => 'Sasayaki ${pct}% (視窗=${window})';
+			case 'sasayaki_health_label': return ({required Object pct, required Object detail}) => 'Sasayaki ${pct}${detail}';
+			case 'untitled': return '無標題';
+			case 'section_epub': return 'EPUB';
 			default: return null;
 		}
 	}
