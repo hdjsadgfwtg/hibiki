@@ -14200,6 +14200,8 @@ class _StringsZhCn extends _StringsEn {
 	@override String get update_never_remind => '不再提醒自动更新';
 	@override String get update_auto_install => '自动安装更新';
 	@override String get update_beta_channel => '接收测试版更新';
+	@override String get update_debug_channel => '接收调试版更新';
+	@override String get update_debug_channel_warning => '⚠ 调试版本不稳定，可能包含破坏性变更。普通用户请勿开启。';
 	@override String get debug_log_toggle => '启用调试日志';
 	@override String get disable_dialog_scrim => '关闭弹窗背景遮罩（墨水屏）';
 	@override String get native_dictionary_popup => '原生辞典弹窗（墨水屏）';
@@ -15038,6 +15040,8 @@ class _StringsZhHk extends _StringsEn {
 	@override String get update_never_remind => '不再提醒';
 	@override String get update_auto_install => '自動安裝更新';
 	@override String get update_beta_channel => '接收測試版更新';
+	@override String get update_debug_channel => '接收除錯版更新';
+	@override String get update_debug_channel_warning => '⚠ 除錯版本不穩定，可能包含破壞性變更。一般使用者請勿開啟。';
 	@override String get debug_log_toggle => '啟用偵錯日誌';
 	@override String get disable_dialog_scrim => '關閉彈窗背景遮罩（墨水屏）';
 	@override String get native_dictionary_popup => '原生辭典彈窗（墨水屏）';
@@ -28687,6 +28691,8 @@ extension on _StringsZhCn {
 			case 'update_never_remind': return '不再提醒自动更新';
 			case 'update_auto_install': return '自动安装更新';
 			case 'update_beta_channel': return '接收测试版更新';
+			case 'update_debug_channel': return '接收调试版更新';
+			case 'update_debug_channel_warning': return '⚠ 调试版本不稳定，可能包含破坏性变更。普通用户请勿开启。';
 			case 'debug_log_toggle': return '启用调试日志';
 			case 'disable_dialog_scrim': return '关闭弹窗背景遮罩（墨水屏）';
 			case 'native_dictionary_popup': return '原生辞典弹窗（墨水屏）';
@@ -29484,6 +29490,8 @@ extension on _StringsZhHk {
 			case 'update_never_remind': return '不再提醒';
 			case 'update_auto_install': return '自動安裝更新';
 			case 'update_beta_channel': return '接收測試版更新';
+			case 'update_debug_channel': return '接收除錯版更新';
+			case 'update_debug_channel_warning': return '⚠ 除錯版本不穩定，可能包含破壞性變更。一般使用者請勿開啟。';
 			case 'debug_log_toggle': return '啟用偵錯日誌';
 			case 'disable_dialog_scrim': return '關閉彈窗背景遮罩（墨水屏）';
 			case 'native_dictionary_popup': return '原生辭典彈窗（墨水屏）';
