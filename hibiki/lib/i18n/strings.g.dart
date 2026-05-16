@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 15508 (912 per locale)
+/// Strings: 15514 (912 per locale)
 ///
-/// Built on 2026-05-16 at 04:47 UTC
+/// Built on 2026-05-16 at 13:31 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -278,6 +278,12 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String import_write_pitch({required Object count, required Object total}) => 'Writing pitch accent entries:\n${count} / ${total}';
 	String get import_failed => 'Dictionary import failed.';
 	String get import_complete => 'Dictionary import complete.';
+	String get dict_download_recommended => 'Download Recommended';
+	String get dict_download_confirm_title => 'Download Dictionaries';
+	String dict_download_confirm_body({required Object names}) => 'This will download recommended dictionaries:\n\n${names}\n\nContinue?';
+	String dict_downloading({required Object name}) => 'Downloading ${name}...';
+	String get dict_download_complete => 'Download complete';
+	String dict_download_failed({required Object error}) => 'Download failed: ${error}';
 	String import_duplicate({required Object name}) => 'A dictionary with the name『${name}』is already imported.';
 	String get dialog_title_dictionary_clear => 'Clear all dictionaries?';
 	String get dialog_content_dictionary_clear => 'Wiping the dictionary database will also clear all search results in history.';
@@ -16666,6 +16672,12 @@ extension on _StringsEn {
 			case 'import_write_pitch': return ({required Object count, required Object total}) => 'Writing pitch accent entries:\n${count} / ${total}';
 			case 'import_failed': return 'Dictionary import failed.';
 			case 'import_complete': return 'Dictionary import complete.';
+			case 'dict_download_recommended': return 'Download Recommended';
+			case 'dict_download_confirm_title': return 'Download Dictionaries';
+			case 'dict_download_confirm_body': return ({required Object names}) => 'This will download recommended dictionaries:\n\n${names}\n\nContinue?';
+			case 'dict_downloading': return ({required Object name}) => 'Downloading ${name}...';
+			case 'dict_download_complete': return 'Download complete';
+			case 'dict_download_failed': return ({required Object error}) => 'Download failed: ${error}';
 			case 'import_duplicate': return ({required Object name}) => 'A dictionary with the name『${name}』is already imported.';
 			case 'dialog_title_dictionary_clear': return 'Clear all dictionaries?';
 			case 'dialog_content_dictionary_clear': return 'Wiping the dictionary database will also clear all search results in history.';
