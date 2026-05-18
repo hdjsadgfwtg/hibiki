@@ -3,7 +3,7 @@
 /// Locales: 17
 /// Strings: 15527 (913 per locale)
 ///
-/// Built on 2026-05-18 at 12:04 UTC
+/// Built on 2026-05-18 at 12:57 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -290,7 +290,7 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get dict_download_installed => 'Installed';
 	String dict_download_total_size({required Object size}) => 'Total: ${size}';
 	String get dict_category_ja_en => 'Japanese-English';
-	String get dict_category_ja_ja => '日本語 (Monolingual)';
+	String get dict_category_ja_ja => '日本語 (百科・補助, 非国語辞典)';
 	String get dict_category_ja_other => 'Other Languages';
 	String get dict_category_kanji => 'Kanji';
 	String get dict_category_frequency => 'Frequency';
@@ -16697,7 +16697,7 @@ extension on _StringsEn {
 			case 'dict_download_installed': return 'Installed';
 			case 'dict_download_total_size': return ({required Object size}) => 'Total: ${size}';
 			case 'dict_category_ja_en': return 'Japanese-English';
-			case 'dict_category_ja_ja': return '日本語 (Monolingual)';
+			case 'dict_category_ja_ja': return '日本語 (百科・補助, 非国語辞典)';
 			case 'dict_category_ja_other': return 'Other Languages';
 			case 'dict_category_kanji': return 'Kanji';
 			case 'dict_category_frequency': return 'Frequency';
