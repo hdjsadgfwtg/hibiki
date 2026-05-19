@@ -1,9 +1,9 @@
 /// Generated file. Do not edit.
 ///
 /// Locales: 17
-/// Strings: 15963 (939 per locale)
+/// Strings: 15946 (938 per locale)
 ///
-/// Built on 2026-05-18 at 17:22 UTC
+/// Built on 2026-05-19 at 11:13 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
@@ -868,7 +868,6 @@ class _StringsEn implements BaseTranslations<AppLocale, _StringsEn> {
 	String get update_auto_install => 'Auto-install updates';
 	String get update_beta_channel => 'Receive beta updates';
 	String get debug_log_toggle => 'Enable debug log';
-	String get disable_dialog_scrim => 'Disable popup overlay (e-ink)';
 	String get native_dictionary_popup => 'Native dictionary popup (e-ink)';
 	String get update_settings => 'Update Settings';
 	String get anki_settings_label => 'Anki Settings';
@@ -1813,7 +1812,6 @@ class _StringsAr extends _StringsEn {
 	@override String get update_auto_install => 'تثبيت التحديثات تلقائياً';
 	@override String get update_beta_channel => 'تلقي تحديثات تجريبية';
 	@override String get debug_log_toggle => 'تفعيل سجل التصحيح';
-	@override String get disable_dialog_scrim => 'تعطيل تراكب النافذة المنبثقة (حبر إلكتروني)';
 	@override String get native_dictionary_popup => 'نافذة قاموس أصلية (حبر إلكتروني)';
 	@override String get update_settings => 'إعدادات التحديث';
 	@override String get anki_settings_label => 'إعدادات Anki';
@@ -2852,7 +2850,6 @@ class _StringsDe extends _StringsEn {
 	@override String get update_auto_install => 'Updates automatisch installieren';
 	@override String get update_beta_channel => 'Beta-Updates erhalten';
 	@override String get debug_log_toggle => 'Debug-Log aktivieren';
-	@override String get disable_dialog_scrim => 'Popup-Overlay deaktivieren (E-Ink)';
 	@override String get native_dictionary_popup => 'Natives Wörterbuch-Popup (E-Ink)';
 	@override String get update_settings => 'Update-Einstellungen';
 	@override String get anki_settings_label => 'Anki-Einstellungen';
@@ -3771,7 +3768,6 @@ class _StringsEs extends _StringsEn {
 	@override String get update_auto_install => 'Instalar actualizaciones automáticamente';
 	@override String get update_beta_channel => 'Recibir actualizaciones beta';
 	@override String get debug_log_toggle => 'Activar registro de depuración';
-	@override String get disable_dialog_scrim => 'Desactivar superposición de popup (e-ink)';
 	@override String get native_dictionary_popup => 'Popup de diccionario nativo (e-ink)';
 	@override String get update_settings => 'Configuración de actualizaciones';
 	@override String get anki_settings_label => 'Configuración de Anki';
@@ -4763,7 +4759,6 @@ class _StringsFr extends _StringsEn {
 	@override String get update_auto_install => 'Installer automatiquement les mises à jour';
 	@override String get update_beta_channel => 'Recevoir les mises à jour bêta';
 	@override String get debug_log_toggle => 'Activer le journal de débogage';
-	@override String get disable_dialog_scrim => 'Désactiver le fond du popup (e-ink)';
 	@override String get native_dictionary_popup => 'Popup de dictionnaire natif (e-ink)';
 	@override String get update_settings => 'Paramètres de mise à jour';
 	@override String get anki_settings_label => 'Paramètres Anki';
@@ -5755,7 +5750,6 @@ class _StringsId extends _StringsEn {
 	@override String get update_auto_install => 'Pasang pembaruan otomatis';
 	@override String get update_beta_channel => 'Terima pembaruan beta';
 	@override String get debug_log_toggle => 'Aktifkan log debug';
-	@override String get disable_dialog_scrim => 'Nonaktifkan overlay popup (e-ink)';
 	@override String get native_dictionary_popup => 'Popup kamus bawaan (e-ink)';
 	@override String get update_settings => 'Pengaturan Pembaruan';
 	@override String get anki_settings_label => 'Pengaturan Anki';
@@ -6761,7 +6755,6 @@ class _StringsIt extends _StringsEn {
 	@override String get update_auto_install => 'Installa automaticamente gli aggiornamenti';
 	@override String get update_beta_channel => 'Ricevi aggiornamenti beta';
 	@override String get debug_log_toggle => 'Abilita log di debug';
-	@override String get disable_dialog_scrim => 'Disattiva overlay popup (e-ink)';
 	@override String get native_dictionary_popup => 'Popup dizionario nativo (e-ink)';
 	@override String get update_settings => 'Impostazioni aggiornamento';
 	@override String get anki_settings_label => 'Impostazioni Anki';
@@ -7757,7 +7750,6 @@ class _StringsJa extends _StringsEn {
 	@override String get update_auto_install => '自動インストール';
 	@override String get update_beta_channel => 'ベータ版アップデートを受信';
 	@override String get debug_log_toggle => 'デバッグログを有効にする';
-	@override String get disable_dialog_scrim => 'ポップアップの背景オーバーレイを無効にする（E Ink）';
 	@override String get native_dictionary_popup => 'ネイティブ辞書ポップアップ（電子ペーパー）';
 	@override String get update_settings => 'アップデート設定';
 	@override String get anki_settings_label => 'Anki 設定';
@@ -8804,7 +8796,6 @@ class _StringsKo extends _StringsEn {
 	@override String get update_auto_install => '자동 설치';
 	@override String get update_beta_channel => '베타 업데이트 받기';
 	@override String get debug_log_toggle => '디버그 로그 활성화';
-	@override String get disable_dialog_scrim => '팝업 오버레이 비활성화 (e-ink)';
 	@override String get native_dictionary_popup => '기본 사전 팝업 (e-ink)';
 	@override String get update_settings => '업데이트 설정';
 	@override String get anki_settings_label => 'Anki 설정';
@@ -9737,7 +9728,6 @@ class _StringsNl extends _StringsEn {
 	@override String get update_auto_install => 'Updates automatisch installeren';
 	@override String get update_beta_channel => 'Bèta-updates ontvangen';
 	@override String get debug_log_toggle => 'Debug-log inschakelen';
-	@override String get disable_dialog_scrim => 'Pop-up overlay uitschakelen (e-ink)';
 	@override String get native_dictionary_popup => 'Native woordenboek-popup (e-ink)';
 	@override String get update_settings => 'Update-instellingen';
 	@override String get anki_settings_label => 'Anki-instellingen';
@@ -10788,7 +10778,6 @@ class _StringsPtBr extends _StringsEn {
 	@override String get update_auto_install => 'Instalar atualizações automaticamente';
 	@override String get update_beta_channel => 'Receber atualizações beta';
 	@override String get debug_log_toggle => 'Ativar log de depuração';
-	@override String get disable_dialog_scrim => 'Desativar sobreposição do popup (e-ink)';
 	@override String get native_dictionary_popup => 'Popup de dicionário nativo (e-ink)';
 	@override String get update_settings => 'Configurações de Atualização';
 	@override String get anki_settings_label => 'Configurações do Anki';
@@ -11707,7 +11696,6 @@ class _StringsRu extends _StringsEn {
 	@override String get update_auto_install => 'Автоустановка обновлений';
 	@override String get update_beta_channel => 'Получать бета-обновления';
 	@override String get debug_log_toggle => 'Включить журнал отладки';
-	@override String get disable_dialog_scrim => 'Отключить затемнение (e-ink)';
 	@override String get native_dictionary_popup => 'Нативное всплывающее окно словаря (e-ink)';
 	@override String get update_settings => 'Настройки обновлений';
 	@override String get anki_settings_label => 'Настройки Anki';
@@ -12772,7 +12760,6 @@ class _StringsTh extends _StringsEn {
 	@override String get update_auto_install => 'ติดตั้งอัปเดตอัตโนมัติ';
 	@override String get update_beta_channel => 'รับการอัปเดตเบต้า';
 	@override String get debug_log_toggle => 'เปิดใช้งานบันทึกดีบัก';
-	@override String get disable_dialog_scrim => 'ปิดพื้นหลังป๊อปอัป (e-ink)';
 	@override String get native_dictionary_popup => 'ป๊อปอัปพจนานุกรมแบบดั้งเดิม (e-ink)';
 	@override String get update_settings => 'ตั้งค่าอัปเดต';
 	@override String get anki_settings_label => 'ตั้งค่า Anki';
@@ -13764,7 +13751,6 @@ class _StringsTr extends _StringsEn {
 	@override String get update_auto_install => 'Güncellemeleri otomatik yükle';
 	@override String get update_beta_channel => 'Beta güncellemelerini al';
 	@override String get debug_log_toggle => 'Hata ayıklama günlüğünü etkinleştir';
-	@override String get disable_dialog_scrim => 'Açılır pencere arka planını devre dışı bırak (e-ink)';
 	@override String get native_dictionary_popup => 'Yerel sözlük açılır penceresi (e-ink)';
 	@override String get update_settings => 'Güncelleme ayarları';
 	@override String get anki_settings_label => 'Anki ayarları';
@@ -14756,7 +14742,6 @@ class _StringsVi extends _StringsEn {
 	@override String get update_auto_install => 'Tự động cài đặt bản cập nhật';
 	@override String get update_beta_channel => 'Nhận bản cập nhật thử nghiệm';
 	@override String get debug_log_toggle => 'Bật nhật ký gỡ lỗi';
-	@override String get disable_dialog_scrim => 'Tắt lớp phủ popup (e-ink)';
 	@override String get native_dictionary_popup => 'Popup từ điển gốc (e-ink)';
 	@override String get update_settings => 'Cài đặt cập nhật';
 	@override String get anki_settings_label => 'Cài đặt Anki';
@@ -15744,7 +15729,6 @@ class _StringsZhCn extends _StringsEn {
 	@override String get update_auto_install => '自动安装更新';
 	@override String get update_beta_channel => '接收测试版更新';
 	@override String get debug_log_toggle => '启用调试日志';
-	@override String get disable_dialog_scrim => '关闭弹窗背景遮罩（墨水屏）';
 	@override String get native_dictionary_popup => '原生辞典弹窗（墨水屏）';
 	@override String get update_settings => '更新设置';
 	@override String get anki_settings_label => 'Anki 设置';
@@ -16679,7 +16663,6 @@ class _StringsZhHk extends _StringsEn {
 	@override String get update_auto_install => '自動安裝更新';
 	@override String get update_beta_channel => '接收測試版更新';
 	@override String get debug_log_toggle => '啟用偵錯日誌';
-	@override String get disable_dialog_scrim => '關閉彈窗背景遮罩（墨水屏）';
 	@override String get native_dictionary_popup => '原生辭典彈窗（墨水屏）';
 	@override String get update_settings => '更新設定';
 	@override String get anki_settings_label => 'Anki 設定';
@@ -17717,7 +17700,6 @@ extension on _StringsEn {
 			case 'update_auto_install': return 'Auto-install updates';
 			case 'update_beta_channel': return 'Receive beta updates';
 			case 'debug_log_toggle': return 'Enable debug log';
-			case 'disable_dialog_scrim': return 'Disable popup overlay (e-ink)';
 			case 'native_dictionary_popup': return 'Native dictionary popup (e-ink)';
 			case 'update_settings': return 'Update Settings';
 			case 'anki_settings_label': return 'Anki Settings';
@@ -18621,7 +18603,6 @@ extension on _StringsAr {
 			case 'update_auto_install': return 'تثبيت التحديثات تلقائياً';
 			case 'update_beta_channel': return 'تلقي تحديثات تجريبية';
 			case 'debug_log_toggle': return 'تفعيل سجل التصحيح';
-			case 'disable_dialog_scrim': return 'تعطيل تراكب النافذة المنبثقة (حبر إلكتروني)';
 			case 'native_dictionary_popup': return 'نافذة قاموس أصلية (حبر إلكتروني)';
 			case 'update_settings': return 'إعدادات التحديث';
 			case 'anki_settings_label': return 'إعدادات Anki';
@@ -19619,7 +19600,6 @@ extension on _StringsDe {
 			case 'update_auto_install': return 'Updates automatisch installieren';
 			case 'update_beta_channel': return 'Beta-Updates erhalten';
 			case 'debug_log_toggle': return 'Debug-Log aktivieren';
-			case 'disable_dialog_scrim': return 'Popup-Overlay deaktivieren (E-Ink)';
 			case 'native_dictionary_popup': return 'Natives Wörterbuch-Popup (E-Ink)';
 			case 'update_settings': return 'Update-Einstellungen';
 			case 'anki_settings_label': return 'Anki-Einstellungen';
@@ -20497,7 +20477,6 @@ extension on _StringsEs {
 			case 'update_auto_install': return 'Instalar actualizaciones automáticamente';
 			case 'update_beta_channel': return 'Recibir actualizaciones beta';
 			case 'debug_log_toggle': return 'Activar registro de depuración';
-			case 'disable_dialog_scrim': return 'Desactivar superposición de popup (e-ink)';
 			case 'native_dictionary_popup': return 'Popup de diccionario nativo (e-ink)';
 			case 'update_settings': return 'Configuración de actualizaciones';
 			case 'anki_settings_label': return 'Configuración de Anki';
@@ -21448,7 +21427,6 @@ extension on _StringsFr {
 			case 'update_auto_install': return 'Installer automatiquement les mises à jour';
 			case 'update_beta_channel': return 'Recevoir les mises à jour bêta';
 			case 'debug_log_toggle': return 'Activer le journal de débogage';
-			case 'disable_dialog_scrim': return 'Désactiver le fond du popup (e-ink)';
 			case 'native_dictionary_popup': return 'Popup de dictionnaire natif (e-ink)';
 			case 'update_settings': return 'Paramètres de mise à jour';
 			case 'anki_settings_label': return 'Paramètres Anki';
@@ -22399,7 +22377,6 @@ extension on _StringsId {
 			case 'update_auto_install': return 'Pasang pembaruan otomatis';
 			case 'update_beta_channel': return 'Terima pembaruan beta';
 			case 'debug_log_toggle': return 'Aktifkan log debug';
-			case 'disable_dialog_scrim': return 'Nonaktifkan overlay popup (e-ink)';
 			case 'native_dictionary_popup': return 'Popup kamus bawaan (e-ink)';
 			case 'update_settings': return 'Pengaturan Pembaruan';
 			case 'anki_settings_label': return 'Pengaturan Anki';
@@ -23364,7 +23341,6 @@ extension on _StringsIt {
 			case 'update_auto_install': return 'Installa automaticamente gli aggiornamenti';
 			case 'update_beta_channel': return 'Ricevi aggiornamenti beta';
 			case 'debug_log_toggle': return 'Abilita log di debug';
-			case 'disable_dialog_scrim': return 'Disattiva overlay popup (e-ink)';
 			case 'native_dictionary_popup': return 'Popup dizionario nativo (e-ink)';
 			case 'update_settings': return 'Impostazioni aggiornamento';
 			case 'anki_settings_label': return 'Impostazioni Anki';
@@ -24319,7 +24295,6 @@ extension on _StringsJa {
 			case 'update_auto_install': return '自動インストール';
 			case 'update_beta_channel': return 'ベータ版アップデートを受信';
 			case 'debug_log_toggle': return 'デバッグログを有効にする';
-			case 'disable_dialog_scrim': return 'ポップアップの背景オーバーレイを無効にする（E Ink）';
 			case 'native_dictionary_popup': return 'ネイティブ辞書ポップアップ（電子ペーパー）';
 			case 'update_settings': return 'アップデート設定';
 			case 'anki_settings_label': return 'Anki 設定';
@@ -25325,7 +25300,6 @@ extension on _StringsKo {
 			case 'update_auto_install': return '자동 설치';
 			case 'update_beta_channel': return '베타 업데이트 받기';
 			case 'debug_log_toggle': return '디버그 로그 활성화';
-			case 'disable_dialog_scrim': return '팝업 오버레이 비활성화 (e-ink)';
 			case 'native_dictionary_popup': return '기본 사전 팝업 (e-ink)';
 			case 'update_settings': return '업데이트 설정';
 			case 'anki_settings_label': return 'Anki 설정';
@@ -26217,7 +26191,6 @@ extension on _StringsNl {
 			case 'update_auto_install': return 'Updates automatisch installeren';
 			case 'update_beta_channel': return 'Bèta-updates ontvangen';
 			case 'debug_log_toggle': return 'Debug-log inschakelen';
-			case 'disable_dialog_scrim': return 'Pop-up overlay uitschakelen (e-ink)';
 			case 'native_dictionary_popup': return 'Native woordenboek-popup (e-ink)';
 			case 'update_settings': return 'Update-instellingen';
 			case 'anki_settings_label': return 'Anki-instellingen';
@@ -27227,7 +27200,6 @@ extension on _StringsPtBr {
 			case 'update_auto_install': return 'Instalar atualizações automaticamente';
 			case 'update_beta_channel': return 'Receber atualizações beta';
 			case 'debug_log_toggle': return 'Ativar log de depuração';
-			case 'disable_dialog_scrim': return 'Desativar sobreposição do popup (e-ink)';
 			case 'native_dictionary_popup': return 'Popup de dicionário nativo (e-ink)';
 			case 'update_settings': return 'Configurações de Atualização';
 			case 'anki_settings_label': return 'Configurações do Anki';
@@ -28105,7 +28077,6 @@ extension on _StringsRu {
 			case 'update_auto_install': return 'Автоустановка обновлений';
 			case 'update_beta_channel': return 'Получать бета-обновления';
 			case 'debug_log_toggle': return 'Включить журнал отладки';
-			case 'disable_dialog_scrim': return 'Отключить затемнение (e-ink)';
 			case 'native_dictionary_popup': return 'Нативное всплывающее окно словаря (e-ink)';
 			case 'update_settings': return 'Настройки обновлений';
 			case 'anki_settings_label': return 'Настройки Anki';
@@ -29129,7 +29100,6 @@ extension on _StringsTh {
 			case 'update_auto_install': return 'ติดตั้งอัปเดตอัตโนมัติ';
 			case 'update_beta_channel': return 'รับการอัปเดตเบต้า';
 			case 'debug_log_toggle': return 'เปิดใช้งานบันทึกดีบัก';
-			case 'disable_dialog_scrim': return 'ปิดพื้นหลังป๊อปอัป (e-ink)';
 			case 'native_dictionary_popup': return 'ป๊อปอัปพจนานุกรมแบบดั้งเดิม (e-ink)';
 			case 'update_settings': return 'ตั้งค่าอัปเดต';
 			case 'anki_settings_label': return 'ตั้งค่า Anki';
@@ -30080,7 +30050,6 @@ extension on _StringsTr {
 			case 'update_auto_install': return 'Güncellemeleri otomatik yükle';
 			case 'update_beta_channel': return 'Beta güncellemelerini al';
 			case 'debug_log_toggle': return 'Hata ayıklama günlüğünü etkinleştir';
-			case 'disable_dialog_scrim': return 'Açılır pencere arka planını devre dışı bırak (e-ink)';
 			case 'native_dictionary_popup': return 'Yerel sözlük açılır penceresi (e-ink)';
 			case 'update_settings': return 'Güncelleme ayarları';
 			case 'anki_settings_label': return 'Anki ayarları';
@@ -31031,7 +31000,6 @@ extension on _StringsVi {
 			case 'update_auto_install': return 'Tự động cài đặt bản cập nhật';
 			case 'update_beta_channel': return 'Nhận bản cập nhật thử nghiệm';
 			case 'debug_log_toggle': return 'Bật nhật ký gỡ lỗi';
-			case 'disable_dialog_scrim': return 'Tắt lớp phủ popup (e-ink)';
 			case 'native_dictionary_popup': return 'Popup từ điển gốc (e-ink)';
 			case 'update_settings': return 'Cài đặt cập nhật';
 			case 'anki_settings_label': return 'Cài đặt Anki';
@@ -31978,7 +31946,6 @@ extension on _StringsZhCn {
 			case 'update_auto_install': return '自动安装更新';
 			case 'update_beta_channel': return '接收测试版更新';
 			case 'debug_log_toggle': return '启用调试日志';
-			case 'disable_dialog_scrim': return '关闭弹窗背景遮罩（墨水屏）';
 			case 'native_dictionary_popup': return '原生辞典弹窗（墨水屏）';
 			case 'update_settings': return '更新设置';
 			case 'anki_settings_label': return 'Anki 设置';
@@ -32872,7 +32839,6 @@ extension on _StringsZhHk {
 			case 'update_auto_install': return '自動安裝更新';
 			case 'update_beta_channel': return '接收測試版更新';
 			case 'debug_log_toggle': return '啟用偵錯日誌';
-			case 'disable_dialog_scrim': return '關閉彈窗背景遮罩（墨水屏）';
 			case 'native_dictionary_popup': return '原生辭典彈窗（墨水屏）';
 			case 'update_settings': return '更新設定';
 			case 'anki_settings_label': return 'Anki 設定';
